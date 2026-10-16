@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.geo/reports/
+reports/
+*.tgz
+.env
+.env.*
+!.env.example
+.DS_Store
