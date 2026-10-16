@@ -13,6 +13,7 @@ Session: 2026-10-16. Actual execution host: Darwin arm64; Node.js v24.18.0. No m
 - Standards review: two findings, both resolved; [initial report](../reviews/standards-initial.md) and [final disposition](../reviews/standards-final.md).
 - Spec review: four findings, all resolved or reconciled; [initial report](../reviews/spec-initial.md) and [final disposition](../reviews/spec-final.md). The path contract now explicitly distinguishes YAML-relative and CLI-relative paths.
 - Additional regressions cover report-file and evidence-directory symlinks, export-root symlinks, installation ancestors/dot-dot segments, canonical versus crawl paths, and standard XML entity decoding. Raw red/green receipts are retained.
-- Remote CI remains pending until the implementation branch and PR are published. Raw transcripts retain original whitespace; source formatting is checked separately from those data files.
+- GitHub CI passed for implementation commit `b956d61305b9653a8e3863016a9fdeeb175db89a`: [actual run](https://github.com/tsm0420/geo-growth-engine/actions/runs/38956740077), [Code Review result](github-ci-source.json), and [untruncated job log](github-ci-source-logs.json). It ran the typecheck, 22 tests, build, and fictional-report generation/upload. This is CI evidence, not a real product visibility measurement.
+- Raw transcripts retain original whitespace; source formatting is checked separately from those data files.
 
 Red-phase logs document observed failing tests before their implementation or correction. The initial audit fixture failure was followed by a separate command-level red check, so a missing fixture is not presented as sufficient behavioral evidence.

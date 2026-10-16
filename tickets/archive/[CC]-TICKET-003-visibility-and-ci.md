@@ -1,6 +1,6 @@
 # TICKET-003: Import visibility evidence and automate verification
 
-Status: Implemented; awaiting remote CI
+Status: Completed implementation and CI
 Assignee: Codex
 Target Workspace: `/Users/tsm0420/geo`
 Blocked by: TICKET-001, TICKET-002
@@ -22,4 +22,4 @@ Follow `docs/spec.md`. Keep API and consumer surfaces distinguishable. Report fa
 
 ## 📄 Execution Report
 
-Implemented evidence import, duplicate/input validation, mention/citation/competitor statistics, coverage, sampling groups, and raw-byte/SHA-256 retention. The four visibility tests and final full `npm test` (22 tests) passed; typecheck and build passed. Added pinned PR/weekly workflows and explicit fixture labels. Review regressions fixed report/evidence symlink writes; both independent axes have no outstanding findings. Local receipts are in `docs/verification/`; remote CI is pending publication of the PR. Paid sampling, analytics, scraping, and publication are deferred. The weekly schedule requires merging the workflow into the default branch.
+Implemented evidence import, duplicate/input validation, mention/citation/competitor statistics, coverage, sampling groups, and raw-byte/SHA-256 retention. The four visibility tests and full `npm test` (22 tests) passed; typecheck and build passed. Review regressions fixed report/evidence symlink writes; both independent axes have no outstanding findings. GitHub run `38956740077`, job `117161383360`, passed for implementation commit `b956d61305b9653a8e3863016a9fdeeb175db89a`; the Code Review plugin result and untruncated job log are retained under `docs/verification/`. PR #5 contains the implementation for human merge. Paid sampling, analytics, scraping, and publication remain deferred. The weekly schedule starts after the workflow reaches the default branch; a scheduled run itself was not verified in this session.
