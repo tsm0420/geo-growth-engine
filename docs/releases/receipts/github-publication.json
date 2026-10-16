@@ -1,0 +1,47 @@
+{
+  "repository": {
+    "default_branch": "main",
+    "full_name": "tsm0420/geo-growth-engine",
+    "html_url": "https://github.com/tsm0420/geo-growth-engine",
+    "license": "MIT",
+    "private": false,
+    "visibility": "public"
+  },
+  "privateVulnerabilityReporting": {
+    "enabled": true,
+    "receipt": "private-reporting.json"
+  },
+  "release": {
+    "url": "https://github.com/tsm0420/geo-growth-engine/releases/tag/v0.1.0-alpha.1",
+    "id": 415347975,
+    "tag": "v0.1.0-alpha.1",
+    "prerelease": true,
+    "draft": false,
+    "publishedAt": "2026-10-16T20:20:54Z",
+    "targetCommit": "6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c",
+    "assets": [
+      {
+        "name": "geo-growth-engine-0.1.0-alpha.1.tgz",
+        "size": 18144,
+        "digest": "sha256:463a08272a44626eb961e863082ef87ca67802b7419e222445e9cb26dcf88552",
+        "url": "https://github.com/tsm0420/geo-growth-engine/releases/download/v0.1.0-alpha.1/geo-growth-engine-0.1.0-alpha.1.tgz"
+      },
+      {
+        "name": "SHA256SUMS",
+        "size": 102,
+        "digest": "sha256:f0765e058ee52ba99b9db065d70e6a2b86a73ce2cd7ed66ab93520ca2976d66a",
+        "url": "https://github.com/tsm0420/geo-growth-engine/releases/download/v0.1.0-alpha.1/SHA256SUMS"
+      }
+    ]
+  },
+  "tag": {
+    "ref": "refs/tags/v0.1.0-alpha.1",
+    "node_id": "REF_kwDOVMrF8rhyZWZzL3RhZ3MvdjAuMS4wLWFscGhhLjE",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/refs/tags/v0.1.0-alpha.1",
+    "object": {
+      "sha": "6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c",
+      "type": "commit",
+      "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c"
+    }
+  }
+}

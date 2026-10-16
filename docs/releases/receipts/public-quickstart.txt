@@ -1,0 +1,32 @@
+Cloning into '/private/tmp/geo-alpha-public.CkbWid'...
+Note: switching to '6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+
+added 37 packages in 458ms
+
+> geo-growth-engine@0.1.0-alpha.1 build
+> tsc
+
+GEO Growth Engine
+init|install --target <existing-project>
+audit|aso|plan --config <config.yaml> --output <report-directory>
+visibility --config <config.yaml> --input <responses.jsonl> --output <report-directory>
+Exit: 0 completed without failed checks; 1 failed checks; 2 operational error. Unknown findings stay visible.
+Local artifacts and imported records only; no paid APIs or deployment.
+{"output":"reports/yinthread-public","pass":16,"fail":0,"unknown":2}
