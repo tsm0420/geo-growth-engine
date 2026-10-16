@@ -1,6 +1,6 @@
 {
   "name": "geo-growth-engine",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "private": true,
   "description": "Evidence-based GEO tools and project-scoped agent skills",
   "type": "module",
@@ -33,5 +33,14 @@
   "devDependencies": {
     "@types/node": "24.19.2",
     "typescript": "7.0.2"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsm0420/geo-growth-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsm0420/geo-growth-engine/issues"
+  },
+  "homepage": "https://github.com/tsm0420/geo-growth-engine#readme"
 }

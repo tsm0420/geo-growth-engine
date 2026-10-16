@@ -1,0 +1,4 @@
+
+> geo-growth-engine@0.1.0-alpha.1 typecheck
+> tsc --noEmit
+

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "geo-growth-engine@0.1.0-alpha.1",
+    "name": "geo-growth-engine",
+    "version": "0.1.0-alpha.1",
+    "size": 18144,
+    "unpackedSize": 54303,
+    "shasum": "996fa3194d5a7cdbcbd96d844660cd1e8e0a6daf",
+    "integrity": "sha512-Ih7vTBQgguzpimv9Ri3/zBe56fVpTkiCYx4ytMIKK6EsUYUvpTaeJ+ezPKEK6GCAZWjbXUnKpA5Qwo12m6od7A==",
+    "filename": "geo-growth-engine-0.1.0-alpha.1.tgz",
+    "files": [
+      {
+        "path": ".agents/skills/app-geo-aso/SKILL.md",
+        "size": 1058,
+        "mode": 420
+      },
+      {
+        "path": ".agents/skills/geo-content-engine/SKILL.md",
+        "size": 909,
+        "mode": 420
+      },
+      {
+        "path": ".agents/skills/geo-orchestrator/SKILL.md",
+        "size": 1091,
+        "mode": 420
+      },
+      {
+        "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+        "size": 964,
+        "mode": 420
+      },
+      {
+        "path": ".agents/skills/web-geo/SKILL.md",
+        "size": 1123,
+        "mode": 420
+      },
+      {
+        "path": "LICENSE",
+        "size": 1064,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 6424,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/aso.js",
+        "size": 3644,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/audit.js",
+        "size": 8710,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/cli.js",
+        "size": 2608,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/config.js",
+        "size": 5976,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/install.js",
+        "size": 2187,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/paths.js",
+        "size": 730,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/plan.js",
+        "size": 1767,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/report.js",
+        "size": 1990,
+        "mode": 420
+      },
+      {
+        "path": "dist/src/visibility.js",
+        "size": 5875,
+        "mode": 420
+      },
+      {
+        "path": "docs/configuration.md",
+        "size": 4021,
+        "mode": 420
+      },
+      {
+        "path": "docs/sources.md",
+        "size": 2205,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1049,
+        "mode": 420
+      },
+      {
+        "path": "templates/config.yaml",
+        "size": 104,
+        "mode": 420
+      },
+      {
+        "path": "templates/product.yaml",
+        "size": 649,
+        "mode": 420
+      },
+      {
+        "path": "templates/queries.yaml",
+        "size": 155,
+        "mode": 420
+      }
+    ],
+    "entryCount": 22,
+    "bundled": []
+  }
+]

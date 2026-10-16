@@ -19,7 +19,7 @@ test at tests/core.test.ts:20:1
   
   2 !== 0
   
-      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/core.test.ts:24:10)
+      at TestContext.<anonymous> (file:///workspace/geo/tests/core.test.ts:24:10)
       at async Test.run (node:internal/test_runner/test:1332:7)
       at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
     generatedMessage: true,
@@ -32,16 +32,16 @@ test at tests/core.test.ts:20:1
 
 test at tests/core.test.ts:43:1
 ✖ audit checks an exported site from another directory and exposes unmeasured live behavior (1.371459ms)
-  Error: ENOENT: no such file or directory, lstat '/Users/tsm0420/geo/examples'
+  Error: ENOENT: no such file or directory, lstat '/workspace/geo/examples'
       at async lstat (node:internal/fs/promises:1029:18)
       at async Promise.all (index 0)
       at async checkPaths (node:internal/fs/cp/cp:77:39)
       at async cpFn (node:internal/fs/cp/cp:66:17)
-      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/core.test.ts:46:3)
+      at async TestContext.<anonymous> (file:///workspace/geo/tests/core.test.ts:46:3)
       at async Test.run (node:internal/test_runner/test:1332:7)
       at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
     errno: -2,
     code: 'ENOENT',
     syscall: 'lstat',
-    path: '/Users/tsm0420/geo/examples'
+    path: '/workspace/geo/examples'
   }

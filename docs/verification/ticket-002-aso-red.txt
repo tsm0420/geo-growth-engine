@@ -18,7 +18,7 @@ test at tests/content.test.ts:8:1
   
   2 !== 0
   
-      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/content.test.ts:12:10)
+      at TestContext.<anonymous> (file:///workspace/geo/tests/content.test.ts:12:10)
       at async Test.run (node:internal/test_runner/test:1332:7)
       at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
     generatedMessage: false,
@@ -35,7 +35,7 @@ test at tests/content.test.ts:19:1
   
   2 !== 1
   
-      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/content.test.ts:28:10)
+      at TestContext.<anonymous> (file:///workspace/geo/tests/content.test.ts:28:10)
       at async Test.run (node:internal/test_runner/test:1332:7)
       at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
     generatedMessage: true,

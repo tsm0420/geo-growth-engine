@@ -8,7 +8,7 @@
     {
       "id": "daily-journal",
       "status": "pass",
-      "evidence": "/Users/tsm0420/geo/examples/.geo/queries.yaml: How can I keep daily journal entries?; priority 1; daily-notes: https://example.com/features/daily-notes; sources not independently verified",
+      "evidence": "/workspace/geo/examples/.geo/queries.yaml: How can I keep daily journal entries?; priority 1; daily-notes: https://example.com/features/daily-notes; sources not independently verified",
       "action": "Inspect sources and create distinct, useful content only when authorized."
     }
   ],

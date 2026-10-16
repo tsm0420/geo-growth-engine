@@ -2,7 +2,7 @@
 
 Status: Completed implementation and CI
 Assignee: Codex
-Target Workspace: `/Users/tsm0420/geo`
+Target Workspace: `/workspace/geo`
 Blocked by: TICKET-001, TICKET-002
 
 ## Objectives

@@ -8,7 +8,7 @@ Product owners need one reusable GEO workflow across websites, SaaS, iOS, and An
 
 ## 2. Solution
 
-Create a private repository named `geo-growth-engine` containing a TypeScript CLI, five project-scoped skills, examples, tests, and GitHub Actions. The core edition needs no paid API. It audits local exported HTML and crawler files, checks supplied store metadata and product facts, plans content from supplied facts and questions, and measures imported real AI responses. It does not claim to measure a live website from a local export.
+Create a repository named `geo-growth-engine` containing a TypeScript CLI, five project-scoped skills, examples, tests, and GitHub Actions. It was initially private; the maintainer authorized a public MIT alpha in the [release specification](releases/alpha-spec.md). The core edition needs no paid API. It audits local exported HTML and crawler files, checks supplied store metadata and product facts, plans content from supplied facts and questions, and measures imported real AI responses. It does not claim to measure a live website from a local export.
 
 ## 3. User stories
 

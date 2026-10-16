@@ -1,0 +1,4 @@
+{"output":"/private/tmp/geo-alpha-fixtures","pass":16,"fail":0,"unknown":2}
+{"output":"/private/tmp/geo-alpha-fixtures","pass":9,"fail":0,"unknown":2}
+{"output":"/private/tmp/geo-alpha-fixtures","pass":1,"fail":0,"unknown":0}
+{"output":"/private/tmp/geo-alpha-fixtures","pass":0,"fail":0,"unknown":3}

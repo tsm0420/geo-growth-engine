@@ -17,7 +17,7 @@ test at tests/core.test.ts:43:1
   
   2 !== 0
   
-      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/core.test.ts:49:10)
+      at TestContext.<anonymous> (file:///workspace/geo/tests/core.test.ts:49:10)
       at async Test.run (node:internal/test_runner/test:1332:7)
       at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
     generatedMessage: false,

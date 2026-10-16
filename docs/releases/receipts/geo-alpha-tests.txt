@@ -1,0 +1,34 @@
+
+> geo-growth-engine@0.1.0-alpha.1 test
+> node --test tests/*.test.ts
+
+✔ aso checks supplied listing field limits and discloses unverified semantic claims (192.7525ms)
+✔ aso accepts exact platform boundaries and keeps missing listings unknown (198.223959ms)
+✔ plan preserves query/fact sources and marks unsupported content as a research gap (199.197625ms)
+✔ aso measures UTF-8 keyword bytes separately and rejects one-character Apple names (286.589084ms)
+✔ init creates editable project configuration and marks the example as fictional (209.112083ms)
+✔ init preflights all conflicts before creating earlier files (181.317ms)
+✔ audit reports actual broken metadata, search blocking, and JSON-LD without penalizing training policy (207.405583ms)
+✔ audit separates malformed configuration from failed site checks (256.402ms)
+✔ audit reports malformed sitemap XML as a finding and missing build output as an operational error (384.659542ms)
+✔ install copies five independently usable skills and refuses conflicts before writing (398.143ms)
+✔ init refuses symlink destinations and preserves existing project files (157.999416ms)
+✔ audit checks an exported site from another directory and exposes unmeasured live behavior (176.686125ms)
+✔ audit decodes standard XML entities before checking canonical sitemap coverage (196.476042ms)
+✔ install and init reject symlink ancestors before resolving the target (393.469166ms)
+✔ audit rejects a symlink used as the export root (191.350625ms)
+✔ reports reject symlink files and directories without overwriting external data (468.418542ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (203.1695ms)
+✔ installation uses the same normalized target for checking and writing with dot-dot segments (382.666208ms)
+✔ visibility preserves raw evidence and computes rates only from successful answers (214.766959ms)
+✔ visibility returns null rates for empty or entirely failed sample sets (384.551917ms)
+✔ visibility rejects malformed records and duplicate sample IDs before writing evidence (639.401375ms)
+✔ visibility rejects impossible calendar timestamps instead of normalizing them (231.324375ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2253.942292

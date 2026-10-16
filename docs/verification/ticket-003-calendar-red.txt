@@ -16,7 +16,7 @@ test at tests/visibility.test.ts:69:1
   
   0 !== 2
   
-      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility.test.ts:73:10)
+      at TestContext.<anonymous> (file:///workspace/geo/tests/visibility.test.ts:73:10)
       at async Test.run (node:internal/test_runner/test:1332:7)
       at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
     generatedMessage: true,

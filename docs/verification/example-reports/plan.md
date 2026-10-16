@@ -10,7 +10,7 @@ Pass: 1; fail: 0; unknown: 0.
 
 | Check | Status | Evidence | Next action |
 | --- | --- | --- | --- |
-| daily-journal | pass | /Users/tsm0420/geo/examples/.geo/queries.yaml: How can I keep daily journal entries?; priority 1; daily-notes: https://example.com/features/daily-notes; sources not independently verified | Inspect sources and create distinct, useful content only when authorized. |
+| daily-journal | pass | /workspace/geo/examples/.geo/queries.yaml: How can I keep daily journal entries?; priority 1; daily-notes: https://example.com/features/daily-notes; sources not independently verified | Inspect sources and create distinct, useful content only when authorized. |
 
 ## Details
 

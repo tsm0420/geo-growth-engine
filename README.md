@@ -1,15 +1,17 @@
 # GEO Growth Engine
 
-A reusable GEO toolkit for websites, SaaS, iOS, and Android. Five project-scoped skills use a TypeScript CLI to inspect public HTML exports, review store text, plan evidence-backed content, and summarize recorded AI answers. The core edition requires no paid API.
+A reusable GEO (Generative Engine Optimization) toolkit for websites, SaaS, iOS, and Android. Five project-scoped skills use a TypeScript CLI to inspect public HTML exports, review store text, plan evidence-backed content, and summarize recorded AI answers. The core edition requires no paid API.
+
+**v0.1.0-alpha.1:** an early public preview under [MIT](LICENSE). Checks produce evidence and explicit unknowns; they do not predict rankings or growth. See the [YinThread technical snapshot case](docs/case-studies/yinthread/README.md), [changelog](CHANGELOG.md), and [roadmap](docs/roadmap.md).
 
 ## Quick start
 
-Use Node.js 24 or newer. Clone this private repository with an authorized GitHub account, then run:
+Use Node.js 24 (the tested runtime). Install from the tagged GitHub source; no npm registry package is available:
 
 ```sh
+git clone --branch v0.1.0-alpha.1 --depth 1 https://github.com/tsm0420/geo-growth-engine.git
+cd geo-growth-engine
 npm ci --ignore-scripts
-npm run typecheck
-npm test
 npm run build
 node dist/src/cli.js --help
 ```
@@ -23,7 +25,7 @@ npm run geo -- plan --config examples/.geo/config.yaml --output reports/example
 npm run geo -- visibility --config examples/.geo/config.yaml --input examples/visibility.jsonl --output reports/example
 ```
 
-Every report has JSON and Markdown outputs. Example answers are authored fixtures, not AI observations; example reports are labelled accordingly.
+Every report has JSON and Markdown outputs. Example answers are authored fixtures, not AI observations; example reports are labelled accordingly. For a captured real homepage instead, follow the [case-study reproduction steps](docs/case-studies/yinthread/README.md).
 
 ## Use with a product
 
@@ -67,4 +69,8 @@ PR CI typechecks, tests, builds, and retains fictional reports. Weekly reporting
 
 See [configuration](docs/configuration.md), [specification](docs/spec.md), [domain glossary](CONTEXT.md), [upstream review](docs/research/upstream-review.md), [verification receipts](docs/verification/README.md), and [roadmap](docs/roadmap.md).
 
-Upstream GEO projects are references, not installed or vendored dependencies. This private toolkit has not been published to npm.
+## Contributing and licensing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for development and PR guidance, and [SECURITY.md](SECURITY.md) for private vulnerability reporting. File reproducible issues through [GitHub](https://github.com/tsm0420/geo-growth-engine/issues).
+
+The toolkit code and documentation are licensed under [MIT](LICENSE). Captured website bodies are source evidence with [separate rights](docs/case-studies/yinthread/README.md#snapshot-rights). Parser dependencies retain their own licenses; upstream GEO projects are reviewed references and are not installed or vendored. The npm `private` flag prevents accidental registry publication and does not restrict the open-source license. The core has no required paid API, and this project has no claimed OpenAI or Anthropic sponsorship.

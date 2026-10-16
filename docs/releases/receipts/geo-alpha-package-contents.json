@@ -1,0 +1,30 @@
+{
+  "packageSha256": "463a08272a44626eb961e863082ef87ca67802b7419e222445e9cb26dcf88552",
+  "memberCount": 22,
+  "licensePresent": true,
+  "skillCount": 5,
+  "members": [
+    "package/LICENSE",
+    "package/dist/src/aso.js",
+    "package/dist/src/audit.js",
+    "package/dist/src/cli.js",
+    "package/dist/src/config.js",
+    "package/dist/src/install.js",
+    "package/dist/src/paths.js",
+    "package/dist/src/plan.js",
+    "package/dist/src/report.js",
+    "package/dist/src/visibility.js",
+    "package/package.json",
+    "package/docs/configuration.md",
+    "package/README.md",
+    "package/.agents/skills/app-geo-aso/SKILL.md",
+    "package/.agents/skills/geo-content-engine/SKILL.md",
+    "package/.agents/skills/geo-orchestrator/SKILL.md",
+    "package/.agents/skills/geo-visibility-tracker/SKILL.md",
+    "package/.agents/skills/web-geo/SKILL.md",
+    "package/docs/sources.md",
+    "package/templates/config.yaml",
+    "package/templates/product.yaml",
+    "package/templates/queries.yaml"
+  ]
+}

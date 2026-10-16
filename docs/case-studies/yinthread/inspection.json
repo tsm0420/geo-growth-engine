@@ -1,0 +1,12 @@
+{
+  "method": "Separate XML inspection of saved sitemap; not a CLI capability",
+  "source": "public/sitemap.xml",
+  "entries": 146,
+  "uniqueUrls": 145,
+  "duplicateUrls": [
+    {
+      "url": "https://yinthread.com/learn/day-master",
+      "count": 2
+    }
+  ]
+}
