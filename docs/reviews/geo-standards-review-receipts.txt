@@ -1,0 +1,46 @@
+Host: Darwin arm64; Node v24.18.0. Independent Standards review worktree: /private/tmp/geo-review-standards.
+
+Command 1: npm run typecheck
+Exit: 0
+
+> geo-growth-engine@0.1.0 typecheck
+> tsc --noEmit
+
+
+Command 2: npm test
+Exit: 0
+
+> geo-growth-engine@0.1.0 test
+> node --test tests/*.test.ts
+
+✔ aso checks supplied listing field limits and discloses unverified semantic claims (179.142791ms)
+✔ aso accepts exact platform boundaries and keeps missing listings unknown (182.739958ms)
+✔ plan preserves query/fact sources and marks unsupported content as a research gap (170.7645ms)
+✔ aso measures UTF-8 keyword bytes separately and rejects one-character Apple names (167.481542ms)
+✔ init creates editable project configuration and marks the example as fictional (178.056708ms)
+✔ init preflights all conflicts before creating earlier files (166.132459ms)
+✔ audit reports actual broken metadata, search blocking, and JSON-LD without penalizing training policy (183.48625ms)
+✔ audit separates malformed configuration from failed site checks (158.735ms)
+✔ audit reports malformed sitemap XML as a finding and missing build output as an operational error (323.342292ms)
+✔ install copies five independently usable skills and refuses conflicts before writing (316.528791ms)
+✔ init refuses symlink destinations and preserves existing project files (150.966375ms)
+✔ audit checks an exported site from another directory and exposes unmeasured live behavior (165.088458ms)
+✔ visibility preserves raw evidence and computes rates only from successful answers (184.231625ms)
+✔ visibility returns null rates for empty or entirely failed sample sets (341.197542ms)
+✔ visibility rejects malformed records and duplicate sample IDs before writing evidence (487.13575ms)
+✔ visibility rejects impossible calendar timestamps instead of normalizing them (163.797542ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1726.139666
+
+Command 3: node --input-type=module (inline symlink CLI reproduction)
+Exit: 0
+{"scenario":"symlink publicDir root","status":0,"stdout":"{\"output\":\"/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-symlink-vPPFSy/audit-output\",\"pass\":16,\"fail\":0,\"unknown\":2}\n","stderr":""}
+{"scenario":"symlink target ancestor","status":0,"created":["config.yaml","product.yaml","queries.yaml"],"stdout":"{\n  \"created\": [\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-symlink-vPPFSy/real-parent/project/.geo/config.yaml\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-symlink-vPPFSy/real-parent/project/.geo/product.yaml\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-symlink-vPPFSy/real-parent/project/.geo/queries.yaml\"\n  ]\n}\n","stderr":""}
+
+

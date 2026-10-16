@@ -1,5 +1,70 @@
 # GEO Growth Engine
 
-A reusable GEO toolkit for websites, SaaS, iOS, and Android. The core edition combines project-scoped agent skills with deterministic checks and evidence-based reporting, without paid AI APIs.
+A reusable GEO toolkit for websites, SaaS, iOS, and Android. Five project-scoped skills use a TypeScript CLI to inspect public HTML exports, review store text, plan evidence-backed content, and summarize recorded AI answers. The core edition requires no paid API.
 
-Implementation is in progress. See [the agreed scope](docs/spec.md), [domain glossary](CONTEXT.md), and [upstream evidence review](docs/research/upstream-review.md). Usage and verification receipts will be added with the implementation.
+## Quick start
+
+Use Node.js 24 or newer. Clone this private repository with an authorized GitHub account, then run:
+
+```sh
+npm ci --ignore-scripts
+npm run typecheck
+npm test
+npm run build
+node dist/src/cli.js --help
+```
+
+Try the fictional fixtures:
+
+```sh
+npm run geo -- audit --config examples/.geo/config.yaml --output reports/example
+npm run geo -- aso --config examples/.geo/config.yaml --output reports/example
+npm run geo -- plan --config examples/.geo/config.yaml --output reports/example
+npm run geo -- visibility --config examples/.geo/config.yaml --input examples/visibility.jsonl --output reports/example
+```
+
+Every report has JSON and Markdown outputs. Example answers are authored fixtures, not AI observations; example reports are labelled accordingly.
+
+## Use with a product
+
+From this toolkit checkout:
+
+```sh
+node dist/src/cli.js init --target /absolute/path/to/product
+node dist/src/cli.js install --target /absolute/path/to/product
+```
+
+Edit the new `.geo/config.yaml`, `product.yaml`, and `queries.yaml`. Replace fictional origins, facts, platforms, listing text, and evidence sources. Set `example: false` only for actual product inputs. Point `publicDir` to the target's HTML build/export with `robots.txt` and a direct `sitemap.xml` urlset. Paths resolve relative to the config file. Build the target site before auditing.
+
+```sh
+node dist/src/cli.js audit --config /absolute/path/to/product/.geo/config.yaml --output /absolute/path/to/product/.geo/reports
+```
+
+Installation preserves existing files and rejects symlink destinations and ancestors. Provide canonical filesystem paths for installation, public exports, and report outputs. CLI path arguments resolve against the current working directory; paths declared in YAML resolve against the config file. Skills install under `.agents/skills/`; keep this toolkit checkout and CLI available for their commands. Installation does not edit application source, install globally, or configure another agent's discovery directories.
+
+| Command | Behavior |
+| --- | --- |
+| `init` | Create editable example configuration without overwrites. |
+| `install` | Copy five project-scoped skills after checking all conflicts. |
+| `audit` | Inspect HTML metadata, canonical URLs, text, robot policies, sitemap coverage, and JSON-LD syntax. |
+| `aso` | Check Apple/Google Play text limits and supplied fact references. |
+| `plan` | Link audience questions to sourced facts; keep unsupported queries as research gaps. |
+| `visibility` | Import response JSONL, retain raw evidence, and report mentions, citations, competitors, and coverage. |
+
+Report commands require `--config` and `--output`; `visibility` also requires `--input`. `init` and `install` require an existing `--target` directory. Exit 0 means completion without failed checks; 1 means observed failed checks; 2 means an operational/input error. Unknown findings remain visible with exit 0. Reusing an output directory replaces same-named reports and evidence; use a fresh directory per run to retain history.
+
+## Evidence and limits
+
+Audits read local files. Deployment status/headers, WAF access, browser rendering, indexing, Schema.org semantics, rankings, and AI citations are unmeasured. JSON-LD parsing proves syntax only. llms.txt is optional. Search-bot access and training permission are separate controls.
+
+ASO uses [sourced platform rules](docs/sources.md). Fact references provide traceability, not proof of every sentence. Copy semantics, localization quality, screenshots, store-console approval, and conversion require actual review and measurements.
+
+Visibility rates describe the supplied sample set. Successful responses form mention/citation denominators; collection errors remain in failed counts and coverage. No successful responses means null rates. Results group by provider, surface, model, and locale. Changing query sets are not comparable market rankings. Structured citations count exact owned hosts or genuine subdomains; naked URLs in answer text do not count. A mention is not a recommendation. Raw records and a SHA-256 digest are retained; importer provenance is not independently verified.
+
+## Automation
+
+PR CI typechecks, tests, builds, and retains fictional reports. Weekly reporting runs Mondays at 08:00 UTC on the default branch, using the fictional example by default. Manual runs accept a checked-in product config and optional visibility records. Workflows do not buy API calls, publish, deploy, or merge. Scheduling begins when the workflow reaches the default branch.
+
+See [configuration](docs/configuration.md), [specification](docs/spec.md), [domain glossary](CONTEXT.md), [upstream review](docs/research/upstream-review.md), [verification receipts](docs/verification/README.md), and [roadmap](docs/roadmap.md).
+
+Upstream GEO projects are references, not installed or vendored dependencies. This private toolkit has not been published to npm.

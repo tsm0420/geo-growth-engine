@@ -1,0 +1,29 @@
+✖ audit checks an exported site from another directory and exposes unmeasured live behavior (117.570542ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 221.078584
+
+✖ failing tests:
+
+test at tests/core.test.ts:43:1
+✖ audit checks an exported site from another directory and exposes unmeasured live behavior (117.570542ms)
+  AssertionError [ERR_ASSERTION]: Unknown option '--config'
+  
+  
+  2 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/core.test.ts:49:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

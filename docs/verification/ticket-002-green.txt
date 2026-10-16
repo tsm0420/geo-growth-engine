@@ -1,0 +1,12 @@
+✔ aso checks supplied listing field limits and discloses unverified semantic claims (221.329708ms)
+✔ aso accepts exact platform boundaries and keeps missing listings unknown (232.729583ms)
+✔ plan preserves query/fact sources and marks unsupported content as a research gap (275.12275ms)
+✔ aso measures UTF-8 keyword bytes separately and rejects one-character Apple names (436.798625ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1263.365125

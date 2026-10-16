@@ -1,0 +1,28 @@
+Host: Darwin arm64; Node v24.18.0. Final targeted Standards review in /private/tmp/geo-review-standards.
+
+Command 1: node --test tests/safety.test.ts
+Exit: 0
+✔ install and init reject symlink ancestors before resolving the target (328.563584ms)
+✔ audit rejects a symlink used as the export root (177.224666ms)
+✔ reports reject symlink files and directories without overwriting external data (345.812458ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (170.005208ms)
+✔ installation uses the same normalized target for checking and writing with dot-dot segments (301.790792ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1392.534084
+
+Command 2: node --input-type=module (inline original dot-dot repro plus existing-normalized-target check)
+Exit: 0
+{"scenario":"original symlink dot-dot reproduction","command":"init","status":2,"stdout":"","stderr":"ENOENT: no such file or directory, realpath '/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project'\n"}
+{"scenario":"original symlink dot-dot reproduction","command":"install","status":2,"stdout":"","stderr":"ENOENT: no such file or directory, realpath '/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project'\n"}
+{"outsideProjectContents":[]}
+{"scenario":"normalized target exists","command":"init","status":0,"stdout":"{\n  \"created\": [\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.geo/config.yaml\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.geo/product.yaml\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.geo/queries.yaml\"\n  ]\n}\n","stderr":""}
+{"scenario":"normalized target exists","command":"install","status":0,"stdout":"{\n  \"created\": [\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.agents/skills/geo-orchestrator/SKILL.md\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.agents/skills/web-geo/SKILL.md\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.agents/skills/app-geo-aso/SKILL.md\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.agents/skills/geo-content-engine/SKILL.md\",\n    \"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-standards-final-eh8Ogo/project/.agents/skills/geo-visibility-tracker/SKILL.md\"\n  ]\n}\n","stderr":""}
+{"normalizedProjectContents":[".agents",".geo"],"outsideProjectContents":[]}
+
+

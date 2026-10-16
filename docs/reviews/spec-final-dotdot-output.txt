@@ -1,0 +1,2 @@
+{"command":"init","target":"/private/tmp/geo-review-spec/.review-artifacts/final-dotdot-gNukCb/linked/../project","status":0,"normalizedDestinationWritten":true,"symlinkDestinationUntouched":true}
+{"command":"install","target":"/private/tmp/geo-review-spec/.review-artifacts/final-dotdot-gNukCb/linked/../project","status":0,"normalizedDestinationWritten":true,"symlinkDestinationUntouched":true}
