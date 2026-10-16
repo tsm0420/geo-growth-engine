@@ -1,0 +1,23 @@
+GEO Growth Engine
+init|install --target <existing-project>
+audit|aso|plan --config <config.yaml> --output <report-directory>
+visibility --config <config.yaml> --input <responses.jsonl> --output <report-directory>
+Exit: 0 completed without failed checks; 1 failed checks; 2 operational error. Unknown findings stay visible.
+Local artifacts and imported records only; no paid APIs or deployment.
+{
+  "created": [
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.geo/config.yaml",
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.geo/product.yaml",
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.geo/queries.yaml"
+  ]
+}
+{
+  "created": [
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.agents/skills/geo-orchestrator/SKILL.md",
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.agents/skills/web-geo/SKILL.md",
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.agents/skills/app-geo-aso/SKILL.md",
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.agents/skills/geo-content-engine/SKILL.md",
+    "/private/tmp/geo-alpha-package.uhva75_p/package/target/.agents/skills/geo-visibility-tracker/SKILL.md"
+  ]
+}
+{"output":"package-reports","pass":16,"fail":0,"unknown":2}

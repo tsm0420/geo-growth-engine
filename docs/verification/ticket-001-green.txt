@@ -1,0 +1,16 @@
+✔ init creates editable project configuration and marks the example as fictional (305.635125ms)
+✔ init preflights all conflicts before creating earlier files (276.256875ms)
+✔ audit reports actual broken metadata, search blocking, and JSON-LD without penalizing training policy (300.152375ms)
+✔ audit separates malformed configuration from failed site checks (276.208041ms)
+✔ audit reports malformed sitemap XML as a finding and missing build output as an operational error (626.43125ms)
+✔ install copies five independently usable skills and refuses conflicts before writing (481.289834ms)
+✔ init refuses symlink destinations and preserves existing project files (249.490125ms)
+✔ audit checks an exported site from another directory and exposes unmeasured live behavior (367.383875ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2985.747083

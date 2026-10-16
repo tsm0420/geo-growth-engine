@@ -1,0 +1,46 @@
+{
+  "name": "geo-growth-engine",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "description": "Evidence-based GEO tools and project-scoped agent skills",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "bin": {
+    "geo": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "geo": "node src/cli.ts"
+  },
+  "files": [
+    "dist/src",
+    ".agents/skills",
+    "templates",
+    "README.md",
+    "docs/configuration.md",
+    "docs/sources.md"
+  ],
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "fast-xml-parser": "5.11.2",
+    "robots-parser": "3.0.1",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "7.0.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsm0420/geo-growth-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsm0420/geo-growth-engine/issues"
+  },
+  "homepage": "https://github.com/tsm0420/geo-growth-engine#readme"
+}

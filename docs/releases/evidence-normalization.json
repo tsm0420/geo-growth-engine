@@ -1,0 +1,124 @@
+{
+  "operation": "Literal workstation path normalization in public evidence copies; results unchanged. Historical Git blobs and remote CI logs are not rewritten.",
+  "mapping": {
+    "personal checkout prefix": "/workspace/geo",
+    "personal home prefix": "/home/maintainer"
+  },
+  "files": [
+    {
+      "path": "docs/verification/example-reports/aso.json",
+      "originalSha256": "361e57d878fde61e2cab87ac9aa44c16d347533daa51f71a6c918dcf9b700ec9",
+      "publicSha256": "577d891a2428234a6b217af99e57f6247377ae1fd6935ebe6b916fbdb56509cb"
+    },
+    {
+      "path": "docs/verification/example-reports/aso.md",
+      "originalSha256": "9be653e10bd3c509584153bb795ff8ab395e2ff10e9c76096f6414c2ae0dcbe7",
+      "publicSha256": "b98c49861574d3f1806fcce6491af188908b8eb80575eccbc23a1b7defccd849"
+    },
+    {
+      "path": "docs/verification/example-reports/audit.json",
+      "originalSha256": "fde9ea8cfa7b915762767888f38eee174e268b59a49e5ce47576fbb5ee3c7baf",
+      "publicSha256": "30b78bef1853b840b2479696469351a6f1bf02025c2f070e87682d3bba162960"
+    },
+    {
+      "path": "docs/verification/example-reports/audit.md",
+      "originalSha256": "8312bfe2d7753e6b338e82f41b1cf723f7e1b71ff0832f946c9b7b84739abd43",
+      "publicSha256": "dbd7e76bb5c850275112fdab91b195a486821d041c3e7405d0176ea8ae17d1f5"
+    },
+    {
+      "path": "docs/verification/example-reports/plan.json",
+      "originalSha256": "3369285ed8a534f681beb7b28b26f97fe2bb98469ce3f2c0244e279a9eb8da4b",
+      "publicSha256": "1da25b7dd028b42bbc36ba7279c0de72beff54476596009c30b51d9b0c263122"
+    },
+    {
+      "path": "docs/verification/example-reports/plan.md",
+      "originalSha256": "7a9fed1c3e64ecf1c4e0de705ce71a360f7a0029f3624854c2f50b7ad5880449",
+      "publicSha256": "22134c419b981d7d4d8da007c3d944d2bb6b73c1aebc9bc82f2f2c2dccb8c5db"
+    },
+    {
+      "path": "docs/verification/example-reports/visibility.json",
+      "originalSha256": "00fbf1b2ba3e7d509089b2a69d321a3da9432e6774b58b30584fc1243f79c8ce",
+      "publicSha256": "f5447de34f58ce20820210c75e209b4cdecffb1b7312fae6989364c41ea158c3"
+    },
+    {
+      "path": "docs/verification/example-reports/visibility.md",
+      "originalSha256": "8ecaabb2891da5f83887b8081fc095e2d407c8fbfb13c4d333c1c2643dc71be7",
+      "publicSha256": "8ef355d37a4ce55287c38eeb02c2a6603cdfef39fd7872c510454a20844fae37"
+    },
+    {
+      "path": "docs/verification/review-dotdot-red.txt",
+      "originalSha256": "51739e31c03bf671efef8c21a3988484d388cfd628e50f679fcc45d2db5298be",
+      "publicSha256": "ff0ceb1e50ff75fb0c9d8853b45e9d4a825e30470dec9874fbc4686a0b556a6b"
+    },
+    {
+      "path": "docs/verification/review-safety-red.txt",
+      "originalSha256": "7e95c8da27f42b60bfd8eb89f0e9a0fdc7f69532cbe4898ee167ecb46d46795a",
+      "publicSha256": "4a83bf4a1d233e72d740bf5dcd10ae929e39608ac7cec162a3d5dc36b5cda907"
+    },
+    {
+      "path": "docs/verification/review-sitemap-red.txt",
+      "originalSha256": "7c8a270cb29bc892a378e11e68bd2bdad8e8e8e35b390a41998b376dc18dafe9",
+      "publicSha256": "056c4835979183818cbdc0da104aeb13c935a610def68eb35286e557861feed5"
+    },
+    {
+      "path": "docs/verification/ticket-001-audit-command-red.txt",
+      "originalSha256": "dc564ddbe39d954fd76d9f5899135ad3762e20b967e669692207ab0d6c170ee2",
+      "publicSha256": "91a9fde1f07125f08a846f55a66bcc27f6620f4085f439ad86a83e06809cff52"
+    },
+    {
+      "path": "docs/verification/ticket-001-audit-red.txt",
+      "originalSha256": "fd0ddf7527e7299ea4a5049ed0516ba374c48b8168777fb18a3aa413f091f379",
+      "publicSha256": "ce17c711ad872edece6813e2fdbef361a9483ce4fe723067fb3baedaa1da07f0"
+    },
+    {
+      "path": "docs/verification/ticket-001-red.txt",
+      "originalSha256": "09d872c12f9dc5d0a72ce960eae0af920885ec5a65270dd3959a6b2a13137344",
+      "publicSha256": "c34ddc94b95209d7386a6391480f749125f4afb4b1454bf24e11deaa48b060ef"
+    },
+    {
+      "path": "docs/verification/ticket-002-aso-red.txt",
+      "originalSha256": "791ccd3d7b16ebcd49bb05700b5fe56f70b1d4b3df4f7d27f6aa744d5ffb8d91",
+      "publicSha256": "a0e6242bd252ca272e289782eaac8e12e4ee0c125e2646410001097db4dd2753"
+    },
+    {
+      "path": "docs/verification/ticket-002-plan-red.txt",
+      "originalSha256": "8f2bdb3e96e392bffc9e4633e93096cd071bbc24f5cbc1831749971f8ed18c4b",
+      "publicSha256": "25d4c8bff1b6fa57c34a5c7d772f4a109adc761ceb2aaefcb7b3d77cf33a1bb7"
+    },
+    {
+      "path": "docs/verification/ticket-003-calendar-red.txt",
+      "originalSha256": "a206b238d7c191ed21614dfb7deac3bf8dec22a1678508fa10b3ae634f4977f3",
+      "publicSha256": "64eebd7e0b5c10a28b8abaf06cfe72d33a338717ff6a86b82d12179ffbd6e4e7"
+    },
+    {
+      "path": "docs/verification/ticket-003-red.txt",
+      "originalSha256": "eadb1a7f4791fa132828cc9c902c3874758d797f0f7c39c56052fce6791c0238",
+      "publicSha256": "47b2f87b059831ecb9fff2088c0efc0b7be7238c4ac214f437cf57955ca582e7"
+    },
+    {
+      "path": "tickets/archive/[CC]-TICKET-001-audit-and-install.md",
+      "originalSha256": "e8274d9747eb40bf113e0a09b96a0c9b332a21ccfe49cbfc24ec390bd6b6a5e5",
+      "publicSha256": "094f832ede4d3772b5316c092c75b5f4b7e415f7b86e6a2c6ae1fd5250c9f7e1"
+    },
+    {
+      "path": "tickets/archive/[CC]-TICKET-002-aso-and-content.md",
+      "originalSha256": "ec8729423cece313f95246ffcd52a47637b95221a2e42b8b429edf77740a8f5e",
+      "publicSha256": "89f3352acababc10697174fb9cbc9e0426274df542a5c2bd437f3f895fbf2a84"
+    },
+    {
+      "path": "tickets/archive/[CC]-TICKET-003-visibility-and-ci.md",
+      "originalSha256": "df2f90747c06821146c73f51b551f5336d32de1fe610713279747aab6f6a2f42",
+      "publicSha256": "1f51d86cf34bbd4fb87fa26a1dd6424d209e13aecc4532d5090888d23389e58e"
+    },
+    {
+      "path": "docs/case-studies/yinthread/results/audit.json",
+      "originalSha256": "0cab18b1dbd4541ef19e5cfd6489ec1c33881c19dc8e5260127f42cd63c3878d",
+      "publicSha256": "bf71d847954fe10f0ae2a85965dad0091ee31551b8595a976844c12312ee4f5d"
+    },
+    {
+      "path": "docs/case-studies/yinthread/results/audit.md",
+      "originalSha256": "8083bdfc5c001d3f63104964bd22a9895facbda46e216401b1c233850d1cf9d9",
+      "publicSha256": "db649be05333dbb47216fbf7582ec5f9381770d9289313da0eadbd824a234670"
+    }
+  ]
+}

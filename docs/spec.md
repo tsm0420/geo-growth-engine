@@ -8,7 +8,7 @@ Product owners need one reusable GEO workflow across websites, SaaS, iOS, and An
 
 ## 2. Solution
 
-Create a private repository named `geo-growth-engine` containing a TypeScript CLI, five project-scoped skills, examples, tests, and GitHub Actions. The core edition needs no paid API. It audits local exported HTML and crawler files, checks supplied store metadata and product facts, plans content from supplied facts and questions, and measures imported real AI responses. It does not claim to measure a live website from a local export.
+Create a repository named `geo-growth-engine` containing a TypeScript CLI, five project-scoped skills, examples, tests, and GitHub Actions. It was initially private; the maintainer authorized a public MIT alpha in the [release specification](releases/alpha-spec.md). The core edition needs no paid API. It audits local exported HTML and crawler files, checks supplied store metadata and product facts, plans content from supplied facts and questions, and measures imported real AI responses. It does not claim to measure a live website from a local export.
 
 ## 3. User stories
 
@@ -25,7 +25,7 @@ Create a private repository named `geo-growth-engine` containing a TypeScript CL
 ## 4. Implementation decisions
 
 - Node.js 24 and TypeScript, with strict checking; npm lockfile tracked. Runtime dependencies are parsers for YAML, HTML, XML, and robots.txt rather than hand-written substitutes.
-- Single CLI entry point with commands `init`, `install`, `audit`, `aso`, `plan`, and `visibility`; explicit `--config`, `--input`, `--target`, and `--output` paths where relevant. Relative artifact paths resolve against the configuration file, independent of the working directory.
+- Single CLI entry point with commands `init`, `install`, `audit`, `aso`, `plan`, and `visibility`; explicit `--config`, `--input`, `--target`, and `--output` paths where relevant. Relative paths declared inside configuration resolve against the configuration file, independent of the working directory. Explicit CLI path arguments resolve against the current working directory; absolute arguments work from any directory.
 - Configuration and product-fact YAML use a versioned contract. Products declare owned origins, brand aliases, sourced facts, platforms, optional listing metadata, queries, and competitors. Examples are fictional and explicitly labelled.
 - Local audit checks HTML files under one configured public directory, robots.txt, sitemap.xml, metadata, canonical origin, headings/readable content, and JSON-LD syntax. Reports include source path and check evidence. Robots checks include Googlebot, OAI-SearchBot, GPTBot, and Google-Extended separately, with training controls informational rather than search failures.
 - Unknown network status, rendered JavaScript content, WAF behavior, Schema.org semantics, indexing, and ranking are reported as unknown or explicitly outside the audit's observed scope. llms.txt is informational only.

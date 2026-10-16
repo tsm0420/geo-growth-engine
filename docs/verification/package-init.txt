@@ -1,0 +1,7 @@
+{
+  "created": [
+    "/private/tmp/geo-verified-package.84JKdw/target/.geo/config.yaml",
+    "/private/tmp/geo-verified-package.84JKdw/target/.geo/product.yaml",
+    "/private/tmp/geo-verified-package.84JKdw/target/.geo/queries.yaml"
+  ]
+}

@@ -1,0 +1,47 @@
+✔ init creates editable project configuration and marks the example as fictional (119.78375ms)
+✖ install copies five independently usable skills and refuses conflicts before writing (63.376417ms)
+✔ init refuses symlink destinations and preserves existing project files (66.251125ms)
+✖ audit checks an exported site from another directory and exposes unmeasured live behavior (1.371459ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 2
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 342.870542
+
+✖ failing tests:
+
+test at tests/core.test.ts:20:1
+✖ install copies five independently usable skills and refuses conflicts before writing (63.376417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 0
+  
+      at TestContext.<anonymous> (file:///workspace/geo/tests/core.test.ts:24:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/core.test.ts:43:1
+✖ audit checks an exported site from another directory and exposes unmeasured live behavior (1.371459ms)
+  Error: ENOENT: no such file or directory, lstat '/workspace/geo/examples'
+      at async lstat (node:internal/fs/promises:1029:18)
+      at async Promise.all (index 0)
+      at async checkPaths (node:internal/fs/cp/cp:77:39)
+      at async cpFn (node:internal/fs/cp/cp:66:17)
+      at async TestContext.<anonymous> (file:///workspace/geo/tests/core.test.ts:46:3)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'lstat',
+    path: '/workspace/geo/examples'
+  }

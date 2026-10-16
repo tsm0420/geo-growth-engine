@@ -1,0 +1,6 @@
+version: 1
+example: false
+name: YinThread
+ownedOrigins: [https://yinthread.com]
+platforms: [web]
+facts: []

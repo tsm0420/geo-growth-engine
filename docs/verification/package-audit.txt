@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-verified-package.84JKdw/reports","pass":16,"fail":0,"unknown":2}

@@ -1,0 +1,12 @@
+✔ install and init reject symlink ancestors before resolving the target (352.076584ms)
+✔ audit rejects a symlink used as the export root (160.05525ms)
+✔ reports reject symlink files and directories without overwriting external data (321.89525ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (192.5845ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1096.716959
