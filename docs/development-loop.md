@@ -66,10 +66,16 @@ The Agensi amendment permits research and preparation for that named distributio
 
 TICKET-010, base `79a7edbbe201ebd1e63d14d10e126ebdeff051f9`, branch `codex/optional-collection-validation`. Implemented the four undefined-only defaults after real CLI red evidence. All 21 focused / 69 full-suite tests passed, with typecheck/build exit 0. Separate independent Standards and Spec reports found no actionable introduced defects. Reviewed source `8a4be99204fc51aa9d4ff751dc3bdfe6f820a37d` passed clean-source/69 tests/build and 18 expected extracted-package outcomes. Manifest contains tarball SHA and exact commands/runtime. Delivered [PR #12](https://github.com/tsm0420/geo-growth-engine/pull/12), stacked on unmerged #11/#9. Final head `f33ec8eef40d29dc169f080de50e7d6525a48a61` passed Code Review-inspected verify job 117419790932 (run 39040816885); full original response retained. No merge/release. Existing real CLI subprocess seam is unchanged. PR delivery must declare unmerged PR #11 (and transitive PR #9); candidate and final-head CI proof must reflect this new source.
 
-### 3: visibility mention boundaries (in progress)
+### 3: visibility mention boundaries (complete delivery)
 
 TICKET-011; base `f33ec8eef40d29dc169f080de50e7d6525a48a61`; branch `codex/visibility-mention-boundaries`. Test underscore-delimited brands/aliases/competitors, embedded Unicode letters/numbers, successful denominators, grouping and retained input bytes, then make the narrow boundary correction. CLI subprocess seam remains the approved acceptance seam. Delivery must declare unmerged PR #12 and its transitive prerequisites.
 
 TICKET-011 implementation checkpoint: five visibility / 70 full-suite tests pass, typecheck/build exit 0; independent Standards and Spec found no actionable introduced defects. Reviewed source is ready for immutable package and final-head PR CI verification; other queue items remain planned.
 
 TICKET-011 immutable candidate `1a223de98e41473bacb743572db704ccce23d509` passed clean-source checks and 19 expected package outcomes; manifest records its tarball SHA/runtime. Final-head PR CI remains pending.
+
+TICKET-011 delivered [PR #13](https://github.com/tsm0420/geo-growth-engine/pull/13), final head `5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7`; Code Review observed verify job 117420839110 success. Raw CI response retained; no merge/release.
+
+### 4: sitemap XML reference validity (in progress)
+
+TICKET-012; base `5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7`; branch `codex/sitemap-xml-references`. Research addendum specifies pre-decode XML 1.0 reference/character checks and the proven long-leading-zero positive-control correction. Source research and original CLI archive are retained; no executable correction claimed yet. Next action: real CLI red/green slices using the existing seam, preserving literal sections, valid one-pass decoding, DTD exclusion and frozen inputs. Delivery depends on unmerged #13/#12/#11/#9.

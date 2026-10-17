@@ -1,6 +1,6 @@
 # TICKET-011: Count underscore-delimited brand and competitor mentions
 
-Status: Implemented and independently reviewed; clean-source/package verified; final PR CI pending
+Status: Completed delivery; PR #13 open and unmerged
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/visibility-mention-boundaries`
 Blocked by: TICKET-007 investigation (complete); PR #12 open and unmerged (transitive #11/#9)
@@ -29,3 +29,5 @@ Actual real CLI red regression returned mentionRate 1/7 rather than 3/7. After c
 Immutable source/package identity and final-head PR CI remain pending delivery steps. No merge, tag, release, dependency or provider change occurred.
 
 Immutable alpha.3 source `1a223de98e41473bacb743572db704ccce23d509` passed fresh install/typecheck/70 tests/build, then all 19 expected extracted-package command outcomes. This includes all six commands, earlier protection/validation regressions and literal underscore/embedded-name counting with exact retained records. Frozen YinThread remains 16 pass / 1 fail / 2 unknown, sitemap 146/145/1. Tarball SHA-256 `7dd137f34bc30de27bf806163560be74acff8a152f00345dbb4174b736c83cc5` (20,522 bytes). Original commands/exits/cwd/times/output, runtime and every packaged file hash are in `docs/verification/TICKET-011/candidate/manifest.json` and adjacent receipts. Tarball remains a local ignored artifact. Final-head PR CI is pending.
+
+Delivery: PR #13 targets #12's branch and declares unmerged #12/#11/#9. Final head `5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7` has unchanged executable/CI inputs and every packaged file compared to the verified source. Code Review observed verify job 117420839110 / run 39041184660 completed/success; untruncated original response retained in `docs/verification/TICKET-011/ci-final.json`. A transient HTTP 502 log read was retried successfully through the same connector. No merge, tag or release occurred. Next approved slice: TICKET-012.
