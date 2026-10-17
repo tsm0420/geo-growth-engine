@@ -1,0 +1,23 @@
+{
+  "content": [],
+  "structuredContent": {
+    "headRevision": "071c591948c5265afdf674ef9ecf8d1e988bbd2e",
+    "checks": [],
+    "statuses": [],
+    "annotations": [],
+    "hasMore": false,
+    "job": null,
+    "jobs": [
+      {
+        "id": 117403116463,
+        "head_sha": "071c591948c5265afdf674ef9ecf8d1e988bbd2e",
+        "name": "verify",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "log": null,
+    "logTruncated": false,
+    "providerGuidance": "GitHub guidance for this response only: use checkRunId for output and annotations, runId from a GitHub Actions /runs/<id> link to list jobs, or jobId from a /jobs/<id> link for logs. page paginates checks, jobs or annotations. Keep the supplied account and returned headRevision on follow-up reads. Third-party CI exposes only the output reported to GitHub."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-alpha-2-clean-e7jrbv97/extracted/package/dist/src/cli.js",
+    "audit",
+    "--config",
+    "/private/tmp/geo-alpha-2-clean-e7jrbv97/source/docs/case-studies/yinthread/config/config.yaml",
+    "--output",
+    "/private/tmp/geo-alpha-2-clean-e7jrbv97/reports-yinthread"
+  ],
+  "cwd": "/private/tmp/geo-alpha-2-clean-e7jrbv97",
+  "startedAt": "2026-10-17T13:04:20.946640+00:00",
+  "endedAt": "2026-10-17T13:04:21.278114+00:00",
+  "exitCode": 1,
+  "expectedExitCode": 1,
+  "sourceRevision": "071c591948c5265afdf674ef9ecf8d1e988bbd2e"
+}
