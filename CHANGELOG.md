@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.3 - Unreleased hardening candidate
 
+- Optional collection defaults apply only to omitted values; explicit null is rejected without suppressing valid evidence gaps.
+
 - Report generation rejects input/output collisions, including existing filesystem aliases.
 - All destinations are checked for predictable file-type, ancestor, symlink and write-access conflicts before replacing report/evidence bytes.
 - Safe output-directory reuse remains supported. Unexpected disk/concurrency failures are not covered by a transactional rollback promise.

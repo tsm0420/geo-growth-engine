@@ -64,4 +64,4 @@ The Agensi amendment permits research and preparation for that named distributio
 
 ### 2: optional collection validation (in progress)
 
-TICKET-010, base `79a7edbbe201ebd1e63d14d10e126ebdeff051f9`, branch `codex/optional-collection-validation`. Next action: real CLI regressions distinguishing explicit null from omitted/empty collections and null fact sources, then the minimal defaulting correction. Existing real CLI subprocess seam is unchanged. PR delivery must declare unmerged PR #11 (and transitive PR #9); candidate and final-head CI proof must reflect this new source.
+TICKET-010, base `79a7edbbe201ebd1e63d14d10e126ebdeff051f9`, branch `codex/optional-collection-validation`. Implemented the four undefined-only defaults after real CLI red evidence. All 21 focused / 69 full-suite tests passed, with typecheck/build exit 0. Separate independent Standards and Spec reports found no actionable introduced defects. Next action: immutable candidate/package proof and exact-head PR CI. Existing real CLI subprocess seam is unchanged. PR delivery must declare unmerged PR #11 (and transitive PR #9); candidate and final-head CI proof must reflect this new source.
