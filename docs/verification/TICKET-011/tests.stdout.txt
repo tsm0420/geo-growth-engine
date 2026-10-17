@@ -1,0 +1,87 @@
+
+> geo-growth-engine@0.1.0-alpha.3 test
+> node --test tests/*.test.ts
+
+▶ report commands reject explicit null optional collections before writing reports
+  ✔ aso: aliases (237.878959ms)
+  ✔ aso: competitors (194.911708ms)
+  ✔ aso: listings (257.408208ms)
+  ✔ aso: factIds (215.272416ms)
+  ✔ plan: aliases (192.143125ms)
+  ✔ plan: competitors (187.630541ms)
+  ✔ plan: listings (189.266209ms)
+  ✔ plan: factIds (178.726417ms)
+  ✔ visibility: aliases (177.739625ms)
+  ✔ visibility: competitors (179.377417ms)
+  ✔ visibility: listings (169.77375ms)
+  ✔ visibility: factIds (175.025583ms)
+✔ report commands reject explicit null optional collections before writing reports (2357.036375ms)
+▶ omitted and empty optional collections remain accepted
+  ✔ omitted: aso (363.890834ms)
+  ✔ omitted: plan (332.80275ms)
+  ✔ omitted: visibility (362.147167ms)
+  ✔ empty: aso (330.083708ms)
+  ✔ empty: plan (326.259708ms)
+  ✔ empty: visibility (325.618709ms)
+✔ omitted and empty optional collections remain accepted (2041.498041ms)
+✔ null fact sources remain evidence gaps in aso and plan (326.039584ms)
+✔ aso checks supplied listing field limits and discloses unverified semantic claims (231.527541ms)
+✔ aso accepts exact platform boundaries and keeps missing listings unknown (205.849625ms)
+✔ plan preserves query/fact sources and marks unsupported content as a research gap (250.708959ms)
+✔ aso measures UTF-8 keyword bytes separately and rejects one-character Apple names (233.90725ms)
+✔ init creates editable project configuration and marks the example as fictional (242.1385ms)
+✔ init preflights all conflicts before creating earlier files (206.9745ms)
+✔ audit reports actual broken metadata, search blocking, and JSON-LD without penalizing training policy (277.795959ms)
+✔ audit separates malformed configuration from failed site checks (216.516916ms)
+✔ audit reports malformed sitemap XML as a finding and missing build output as an operational error (397.922ms)
+✔ install copies five independently usable skills and refuses conflicts before writing (346.496458ms)
+✔ init refuses symlink destinations and preserves existing project files (160.579292ms)
+✔ audit checks an exported site from another directory and exposes unmeasured live behavior (184.221125ms)
+✔ audit decodes standard XML entities before checking canonical sitemap coverage (181.574833ms)
+✔ audit preserves UTF-8 text and decodes HTML character references in title evidence (190.422333ms)
+▶ report commands reject a destination that is also their configuration without changing it
+  ✔ audit (251.171833ms)
+  ✔ aso (224.068834ms)
+  ✔ plan (240.861417ms)
+  ✔ visibility (250.692166ms)
+✔ report commands reject a destination that is also their configuration without changing it (967.788125ms)
+✔ a later report destination conflict preserves the previous JSON and raw evidence (377.123875ms)
+✔ report preflight rejects a hard-linked input alias without modifying either name (186.37375ms)
+✔ report preflight rejects two destinations aliasing one file instead of reporting success with invalid JSON (182.083417ms)
+▶ report preflight protects product, query and raw-response input destinations
+  ✔ product (187.031625ms)
+  ✔ queries (174.308541ms)
+  ✔ input (171.637042ms)
+✔ report preflight protects product, query and raw-response input destinations (533.439791ms)
+✔ report preflight rejects a blocked evidence ancestor before replacing existing reports (186.194542ms)
+✔ safe report reuse replaces outputs with matching retained evidence (360.102125ms)
+✔ a non-writable later destination is detected before replacing earlier outputs (165.796167ms)
+✔ install and init reject symlink ancestors before resolving the target (458.763583ms)
+✔ audit rejects a symlink used as the export root (246.222416ms)
+✔ reports reject symlink files and directories without overwriting external data (405.229667ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (197.033583ms)
+✔ installation uses the same normalized target for checking and writing with dot-dot segments (350.432083ms)
+✔ audit fails repeated sitemap URLs with ordered positions and deterministic evidence (263.102667ms)
+✔ audit compares decoded XML references once and preserves literal escaped references (223.05075ms)
+✔ audit passes unique sitemap spellings without URL normalization (264.509125ms)
+▶ audit leaves duplicate status unknown for unavailable or unsupported sitemaps
+  ✔ missing (254.322917ms)
+  ✔ malformed (197.960792ms)
+  ✔ empty (197.591333ms)
+  ✔ index (209.836792ms)
+  ✔ off-origin (196.756209ms)
+  ✔ custom-entity (201.543958ms)
+✔ audit leaves duplicate status unknown for unavailable or unsupported sitemaps (1259.103834ms)
+✔ visibility preserves raw evidence and computes rates only from successful answers (237.391583ms)
+✔ visibility returns null rates for empty or entirely failed sample sets (448.703ms)
+✔ visibility rejects malformed records and duplicate sample IDs before writing evidence (581.012542ms)
+✔ visibility rejects impossible calendar timestamps instead of normalizing them (185.75775ms)
+✔ visibility counts underscore-delimited names and aliases while excluding embedded letters and numbers (200.922375ms)
+ℹ tests 70
+ℹ suites 0
+ℹ pass 70
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4817.077125

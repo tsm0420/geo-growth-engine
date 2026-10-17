@@ -69,3 +69,5 @@ TICKET-010, base `79a7edbbe201ebd1e63d14d10e126ebdeff051f9`, branch `codex/optio
 ### 3: visibility mention boundaries (in progress)
 
 TICKET-011; base `f33ec8eef40d29dc169f080de50e7d6525a48a61`; branch `codex/visibility-mention-boundaries`. Test underscore-delimited brands/aliases/competitors, embedded Unicode letters/numbers, successful denominators, grouping and retained input bytes, then make the narrow boundary correction. CLI subprocess seam remains the approved acceptance seam. Delivery must declare unmerged PR #12 and its transitive prerequisites.
+
+TICKET-011 implementation checkpoint: five visibility / 70 full-suite tests pass, typecheck/build exit 0; independent Standards and Spec found no actionable introduced defects. Reviewed source is ready for immutable package and final-head PR CI verification; other queue items remain planned.
