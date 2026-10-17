@@ -38,7 +38,7 @@ function sampleRecord(value: unknown, line: number): Sample {
 
 function mentions(answer: string, name: string): boolean {
   const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return new RegExp(`(^|[^\\p{L}\\p{N}_])${escaped}(?=$|[^\\p{L}\\p{N}_])`, 'iu').test(answer);
+  return new RegExp(`(^|[^\\p{L}\\p{N}])${escaped}(?=$|[^\\p{L}\\p{N}])`, 'iu').test(answer);
 }
 
 function statistics(samples: Sample[], config: Config): Stats {

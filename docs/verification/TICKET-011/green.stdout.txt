@@ -1,0 +1,13 @@
+✔ visibility preserves raw evidence and computes rates only from successful answers (163.738541ms)
+✔ visibility returns null rates for empty or entirely failed sample sets (305.45825ms)
+✔ visibility rejects malformed records and duplicate sample IDs before writing evidence (466.834792ms)
+✔ visibility rejects impossible calendar timestamps instead of normalizing them (159.994875ms)
+✔ visibility counts underscore-delimited names and aliases while excluding embedded letters and numbers (178.395375ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1355.177666

@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/visibility.test.ts"
+  ],
+  "exitCode": 0,
+  "time": "2026-10-17T14:29:04.657076+00:00"
+}

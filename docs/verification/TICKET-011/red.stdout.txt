@@ -1,0 +1,30 @@
+✖ visibility counts underscore-delimited names and aliases while excluding embedded letters and numbers (356.367916ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 495.853291
+
+✖ failing tests:
+
+test at tests/visibility.test.ts:78:1
+✖ visibility counts underscore-delimited names and aliases while excluding embedded letters and numbers (356.367916ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 0.14285714285714285
+  - 0.42857142857142855
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility.test.ts:108:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0.14285714285714285,
+    expected: 0.42857142857142855,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.3 - Unreleased hardening candidate
 
+- Visibility counts underscore-delimited brands, aliases and competitors using the documented Unicode letter/number boundaries.
+
 - Optional collection defaults apply only to omitted values; explicit null is rejected without suppressing valid evidence gaps.
 
 - Report generation rejects input/output collisions, including existing filesystem aliases.
