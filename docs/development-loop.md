@@ -91,3 +91,5 @@ TICKET-012 delivered [PR #14](https://github.com/tsm0420/geo-growth-engine/pull/
 TICKET-013; base `1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79`; branch `codex/crawler-path-encoding`. Next action: real CLI literal #/?/% filename regressions, preserving path separators/index inference, canonical independence and deployment unknowns; then encode filesystem segments. Delivery depends on unmerged #14/#13/#12/#11/#9. Existing subprocess acceptance seam remains unchanged.
 
 TICKET-013 implementation checkpoint: the initial Spec POSIX-backslash gap was reproduced and corrected. Current seven safety / 110 full-suite tests pass, typecheck/build exit 0. Both final independent review axes have no outstanding actionable introduced defects. No Windows execution claimed. Next action: immutable package proof and exact-head PR CI.
+
+TICKET-013 immutable source `6ac457319e85e734407eae1f05cf56805c34f932` passed clean-source/110 tests/build and 22 expected extracted-package commands; manifest/SHA retained. Final-head PR CI remains pending.
