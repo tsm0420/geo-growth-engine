@@ -1,0 +1,20 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--ignore-scripts",
+    "--omit=dev",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--no-audit",
+    "--no-fund",
+    "--fetch-retries=0",
+    "--fetch-timeout=30000"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-bq4p792i/extracted/package",
+  "startedAt": "2026-10-17T14:31:16.642086+00:00",
+  "endedAt": "2026-10-17T14:31:17.218357+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "1a223de98e41473bacb743572db704ccce23d509"
+}
