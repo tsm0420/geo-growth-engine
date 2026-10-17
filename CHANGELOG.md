@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.3 - Unreleased hardening candidate
 
+- Sitemap evidence rejects malformed references/prohibited XML characters and preserves valid long numeric spellings and literal sections.
+
 - Visibility counts underscore-delimited brands, aliases and competitors using the documented Unicode letter/number boundaries.
 
 - Optional collection defaults apply only to omitted values; explicit null is rejected without suppressing valid evidence gaps.

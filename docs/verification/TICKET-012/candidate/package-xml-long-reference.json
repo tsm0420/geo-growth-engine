@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-tn_ang4g/extracted/package/dist/src/cli.js",
+    "audit",
+    "--config",
+    "/private/tmp/geo-core-clean-tn_ang4g/xml-config.json",
+    "--output",
+    "/private/tmp/geo-core-clean-tn_ang4g/reports-xml"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-tn_ang4g",
+  "startedAt": "2026-10-17T14:44:54.538249+00:00",
+  "endedAt": "2026-10-17T14:44:54.669053+00:00",
+  "exitCode": 1,
+  "expectedExitCode": 1,
+  "sourceRevision": "54c8e908be7a9a0f86e0853f9f17e42888f692c1"
+}
