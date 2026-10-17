@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-17T15:16:04.232Z",
+  "mainRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "pullRequests": [
+    {
+      "number": 9,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/9",
+      "state": "open",
+      "merged": false,
+      "headRevision": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "headBranch": "codex/alpha-2-candidate",
+      "baseRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+      "baseBranch": "main"
+    },
+    {
+      "number": 11,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/11",
+      "state": "open",
+      "merged": false,
+      "headRevision": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "headBranch": "codex/core-hardening-campaign",
+      "baseRevision": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "baseBranch": "codex/alpha-2-candidate"
+    },
+    {
+      "number": 12,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/12",
+      "state": "open",
+      "merged": false,
+      "headRevision": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "headBranch": "codex/optional-collection-validation",
+      "baseRevision": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "baseBranch": "codex/core-hardening-campaign"
+    },
+    {
+      "number": 13,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/13",
+      "state": "open",
+      "merged": false,
+      "headRevision": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "headBranch": "codex/visibility-mention-boundaries",
+      "baseRevision": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "baseBranch": "codex/optional-collection-validation"
+    },
+    {
+      "number": 14,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/14",
+      "state": "open",
+      "merged": false,
+      "headRevision": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "headBranch": "codex/sitemap-xml-references",
+      "baseRevision": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "baseBranch": "codex/visibility-mention-boundaries"
+    },
+    {
+      "number": 15,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/15",
+      "state": "open",
+      "merged": false,
+      "headRevision": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "headBranch": "codex/crawler-path-encoding",
+      "baseRevision": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "baseBranch": "codex/sitemap-xml-references"
+    },
+    {
+      "number": 16,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/16",
+      "state": "open",
+      "merged": false,
+      "headRevision": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+      "headBranch": "codex/canonical-sitemap-coverage",
+      "baseRevision": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "baseBranch": "codex/crawler-path-encoding"
+    }
+  ]
+}

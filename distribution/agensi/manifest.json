@@ -1,0 +1,448 @@
+{
+  "status": "Prepared locally; platform/account/terms/submission decision pending",
+  "selectedCoreRevision": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+  "version": "0.1.0-alpha.3",
+  "cliProofSourceRevision": "fe885bbf7d90127b8ca230b28283fb2c83d5a2ca",
+  "cliPackageSha256": "39c9e37d07830475ac88b0502d2f247ed991796aa7be838eed6f096dbda6bfd4",
+  "cliPath": "/private/tmp/geo-core-clean-9dujffle/extracted/package/dist/src/cli.js",
+  "generatedAt": "2026-10-17T15:10:06.506101+00:00",
+  "runtime": {
+    "node": "v24.18.0",
+    "python": "3.11.0",
+    "pyyaml": "6.0.3",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "architecture": "arm64"
+  },
+  "authoringScriptSha256": "9fe653db4d896e181b41d5d6547956d2be2cb162e5df3ec01e6fac7e66ffcf31",
+  "packages": [
+    {
+      "name": "geo-orchestrator",
+      "path": "distribution/agensi/packages/geo-orchestrator.zip",
+      "bytes": 7574,
+      "sha256": "882f406082aea12b5caf3ccb500aa894ac98411cc2883c1be02a00d509438073",
+      "sourceSkillSha256": "133f0bd6e74d7476de1ed4db62ef6b63dff91098d93c733aafd6602b066e43ef",
+      "members": [
+        {
+          "path": "geo-orchestrator/LICENSE",
+          "bytes": 1064,
+          "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+        },
+        {
+          "path": "geo-orchestrator/README.md",
+          "bytes": 1227,
+          "sha256": "ab7317f52e6deaa9d1b803a09519bb852fa5f5ecf5e888a654104e3710ff6d8f"
+        },
+        {
+          "path": "geo-orchestrator/SKILL.md",
+          "bytes": 1533,
+          "sha256": "681034e465d9aa8ef30e163c735a3af245424251fa77cf9a39ec0e3ab16a6327"
+        },
+        {
+          "path": "geo-orchestrator/examples/config.yaml",
+          "bytes": 101,
+          "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+        },
+        {
+          "path": "geo-orchestrator/examples/expected-output.md",
+          "bytes": 745,
+          "sha256": "62e214d12b95c4991966f887e4ee38b149ea90819c7f9e4114f5017ac510bf4c"
+        },
+        {
+          "path": "geo-orchestrator/examples/product.yaml",
+          "bytes": 649,
+          "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+        },
+        {
+          "path": "geo-orchestrator/examples/public/index.html",
+          "bytes": 711,
+          "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+        },
+        {
+          "path": "geo-orchestrator/examples/public/robots.txt",
+          "bytes": 138,
+          "sha256": "2412b7ba5c9298ce470c2476f04bc5f6199857cee14853d003b8a3bace1acd7c"
+        },
+        {
+          "path": "geo-orchestrator/examples/public/sitemap.xml",
+          "bytes": 151,
+          "sha256": "0b4eee6b6f7b7c1597408946fd55ceb3a4280150e1479f7c1eb367356865fd62"
+        },
+        {
+          "path": "geo-orchestrator/examples/queries.yaml",
+          "bytes": 155,
+          "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+        },
+        {
+          "path": "geo-orchestrator/examples/responses.jsonl",
+          "bytes": 882,
+          "sha256": "b85d486fb2eb7eea407c0a5b34a3759c72605e6bf10ced205aece52a6c1e8bb4"
+        },
+        {
+          "path": "geo-orchestrator/references/setup-and-contract.md",
+          "bytes": 2313,
+          "sha256": "4eaceb264ca416ce79b6e9afd9811327eb4574c2cc080e6b00e6eb80beff8eae"
+        },
+        {
+          "path": "geo-orchestrator/references/sources-and-limits.md",
+          "bytes": 894,
+          "sha256": "ff78e9a76a0071f420e8ce70f40bb741d86b829b668edcff5ce38394ad411097"
+        }
+      ],
+      "observed": [
+        {
+          "command": "audit",
+          "exitCode": 0,
+          "summary": {
+            "pass": 17,
+            "fail": 0,
+            "unknown": 2
+          }
+        },
+        {
+          "command": "aso",
+          "exitCode": 0,
+          "summary": {
+            "pass": 9,
+            "fail": 0,
+            "unknown": 2
+          }
+        },
+        {
+          "command": "plan",
+          "exitCode": 0,
+          "summary": {
+            "pass": 1,
+            "fail": 0,
+            "unknown": 0
+          }
+        },
+        {
+          "command": "visibility",
+          "exitCode": 0,
+          "summary": {
+            "pass": 0,
+            "fail": 0,
+            "unknown": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "web-geo",
+      "path": "distribution/agensi/packages/web-geo.zip",
+      "bytes": 6969,
+      "sha256": "a6fdc09141ce2caa30f0c7100121c6e67a706d492ab263979a687aed8cdbcb3d",
+      "sourceSkillSha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796",
+      "members": [
+        {
+          "path": "web-geo/LICENSE",
+          "bytes": 1064,
+          "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+        },
+        {
+          "path": "web-geo/README.md",
+          "bytes": 1224,
+          "sha256": "a22175427a71fb50399309fce70d275cd6b9741ab220dd3d41f0561389b3e675"
+        },
+        {
+          "path": "web-geo/SKILL.md",
+          "bytes": 1967,
+          "sha256": "1089b5fd42f2f7d2b2a256dd3032e3e533d445dbd952a7ffb1863c86d2aa6462"
+        },
+        {
+          "path": "web-geo/examples/config.yaml",
+          "bytes": 101,
+          "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+        },
+        {
+          "path": "web-geo/examples/expected-output.md",
+          "bytes": 329,
+          "sha256": "69a0e56c0494c22eb0e38ae52b55493ff1f68d3d274d3bebedae6f90101e6090"
+        },
+        {
+          "path": "web-geo/examples/product.yaml",
+          "bytes": 649,
+          "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+        },
+        {
+          "path": "web-geo/examples/public/index.html",
+          "bytes": 711,
+          "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+        },
+        {
+          "path": "web-geo/examples/public/robots.txt",
+          "bytes": 138,
+          "sha256": "2412b7ba5c9298ce470c2476f04bc5f6199857cee14853d003b8a3bace1acd7c"
+        },
+        {
+          "path": "web-geo/examples/public/sitemap.xml",
+          "bytes": 151,
+          "sha256": "0b4eee6b6f7b7c1597408946fd55ceb3a4280150e1479f7c1eb367356865fd62"
+        },
+        {
+          "path": "web-geo/examples/queries.yaml",
+          "bytes": 155,
+          "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+        },
+        {
+          "path": "web-geo/references/setup-and-contract.md",
+          "bytes": 1984,
+          "sha256": "782b4e313ffc1ccb521cf74ccfd1bbf83a9ad8046ce1d4b6fc9f25990269b01b"
+        },
+        {
+          "path": "web-geo/references/sources-and-limits.md",
+          "bytes": 912,
+          "sha256": "98a6441c190ef5f8b03d8a3d392d540c2052c3e752e82cda0d58c012739fc02e"
+        }
+      ],
+      "observed": [
+        {
+          "command": "audit",
+          "exitCode": 0,
+          "summary": {
+            "pass": 17,
+            "fail": 0,
+            "unknown": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": "app-geo-aso",
+      "path": "distribution/agensi/packages/app-geo-aso.zip",
+      "bytes": 5711,
+      "sha256": "2a1784231d13f2b8c4ee6de553a790eb684fba3c9fec4a9c08d8c7004ec96df9",
+      "sourceSkillSha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e",
+      "members": [
+        {
+          "path": "app-geo-aso/LICENSE",
+          "bytes": 1064,
+          "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+        },
+        {
+          "path": "app-geo-aso/README.md",
+          "bytes": 1238,
+          "sha256": "efeb06c3fb446a47f92af2d69e0f0b4a69fbccfa39aabfd4fa62b59f94df4170"
+        },
+        {
+          "path": "app-geo-aso/SKILL.md",
+          "bytes": 1500,
+          "sha256": "94f5689a33390b83499ebbd3225bc0bf3bf9c6ff55e918da2f0579ef82293742"
+        },
+        {
+          "path": "app-geo-aso/examples/config.yaml",
+          "bytes": 101,
+          "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+        },
+        {
+          "path": "app-geo-aso/examples/expected-output.md",
+          "bytes": 304,
+          "sha256": "96fc9c905e359410e2782025202c88722bfbaecf9e9989eaa45c559689b2bbd8"
+        },
+        {
+          "path": "app-geo-aso/examples/product.yaml",
+          "bytes": 649,
+          "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+        },
+        {
+          "path": "app-geo-aso/examples/queries.yaml",
+          "bytes": 155,
+          "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+        },
+        {
+          "path": "app-geo-aso/references/setup-and-contract.md",
+          "bytes": 1982,
+          "sha256": "cc0ffb344959222130eb53cbc09e8c8a041ef53daed6852685ad272820410fad"
+        },
+        {
+          "path": "app-geo-aso/references/sources-and-limits.md",
+          "bytes": 909,
+          "sha256": "97c4610216e3e616f9e5c44450fc33e23b542bd7a48836969824b2a8311926c6"
+        }
+      ],
+      "observed": [
+        {
+          "command": "aso",
+          "exitCode": 0,
+          "summary": {
+            "pass": 9,
+            "fail": 0,
+            "unknown": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": "geo-content-engine",
+      "path": "distribution/agensi/packages/geo-content-engine.zip",
+      "bytes": 5765,
+      "sha256": "726582b45a3587e6c7e04dc32eb59c376231f3483f4bf2a40e640642887b7b62",
+      "sourceSkillSha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a",
+      "members": [
+        {
+          "path": "geo-content-engine/LICENSE",
+          "bytes": 1064,
+          "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+        },
+        {
+          "path": "geo-content-engine/README.md",
+          "bytes": 1223,
+          "sha256": "0b4dbd338dd3e8483b446f810821c7994ef3575bf226bd0e4caff633bb092752"
+        },
+        {
+          "path": "geo-content-engine/SKILL.md",
+          "bytes": 1351,
+          "sha256": "a58bbae539579931c8210354235d84aabe2d1fd5569dce585b3e2bb0aa2015bc"
+        },
+        {
+          "path": "geo-content-engine/examples/config.yaml",
+          "bytes": 101,
+          "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+        },
+        {
+          "path": "geo-content-engine/examples/expected-output.md",
+          "bytes": 330,
+          "sha256": "9cf4d3c2c1e5e717fe0096bb2726967f733cd6f437aa3acffb2e4167ef0e05ca"
+        },
+        {
+          "path": "geo-content-engine/examples/product.yaml",
+          "bytes": 649,
+          "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+        },
+        {
+          "path": "geo-content-engine/examples/queries.yaml",
+          "bytes": 155,
+          "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+        },
+        {
+          "path": "geo-content-engine/references/setup-and-contract.md",
+          "bytes": 1983,
+          "sha256": "009eea5d2b9aa9540b40dd907087097f5b8416df433c7899ed0976a0fa11c26e"
+        },
+        {
+          "path": "geo-content-engine/references/sources-and-limits.md",
+          "bytes": 909,
+          "sha256": "7d0109f7a2add64332450c5030bc3731c6dce14b91391bd0c043e19582fb508d"
+        }
+      ],
+      "observed": [
+        {
+          "command": "plan",
+          "exitCode": 0,
+          "summary": {
+            "pass": 1,
+            "fail": 0,
+            "unknown": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "geo-visibility-tracker",
+      "path": "distribution/agensi/packages/geo-visibility-tracker.zip",
+      "bytes": 6402,
+      "sha256": "3ba299ed8fa8934db2c4ee60edfa8d2e947c9ecc05e258fd5f206735a0c16a6a",
+      "sourceSkillSha256": "d8df1497f7a01eb19f3c1a9c3181d47e8bf5831619fdac76080847439b07db67",
+      "members": [
+        {
+          "path": "geo-visibility-tracker/LICENSE",
+          "bytes": 1064,
+          "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+        },
+        {
+          "path": "geo-visibility-tracker/README.md",
+          "bytes": 1227,
+          "sha256": "3da535ae58038d817d5cdeea4d3ed72f247da03d559b1c5c68b64e8fc7a90c3d"
+        },
+        {
+          "path": "geo-visibility-tracker/SKILL.md",
+          "bytes": 1406,
+          "sha256": "9b026bf986ae809f4a22be5fd7dfd9f553266fefa320fe9f0a1b60e8016889b3"
+        },
+        {
+          "path": "geo-visibility-tracker/examples/config.yaml",
+          "bytes": 101,
+          "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+        },
+        {
+          "path": "geo-visibility-tracker/examples/expected-output.md",
+          "bytes": 472,
+          "sha256": "c2bdfcb2c80c5da7e3d81e678465db2a321f327521dca9f8ad90052a6b5116a5"
+        },
+        {
+          "path": "geo-visibility-tracker/examples/product.yaml",
+          "bytes": 649,
+          "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+        },
+        {
+          "path": "geo-visibility-tracker/examples/queries.yaml",
+          "bytes": 155,
+          "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+        },
+        {
+          "path": "geo-visibility-tracker/examples/responses.jsonl",
+          "bytes": 882,
+          "sha256": "b85d486fb2eb7eea407c0a5b34a3759c72605e6bf10ced205aece52a6c1e8bb4"
+        },
+        {
+          "path": "geo-visibility-tracker/references/setup-and-contract.md",
+          "bytes": 2022,
+          "sha256": "9761f5d0ee7c0c025ca955ded9d75a0d5fbc1d264e5689fefb3b251fcc340cb2"
+        },
+        {
+          "path": "geo-visibility-tracker/references/sources-and-limits.md",
+          "bytes": 911,
+          "sha256": "a9d38b7f7b7c59b9a55306c0a1e0b9ad16f3035f04e711f9cb4bb914b50a9db1"
+        }
+      ],
+      "observed": [
+        {
+          "command": "visibility",
+          "exitCode": 0,
+          "summary": {
+            "pass": 0,
+            "fail": 0,
+            "unknown": 3
+          }
+        }
+      ]
+    }
+  ],
+  "negativeControls": [
+    {
+      "case": "traversal",
+      "rejected": true
+    },
+    {
+      "case": "second-folder",
+      "rejected": true
+    },
+    {
+      "case": "missing-entry",
+      "rejected": true
+    },
+    {
+      "case": "wrong-name",
+      "rejected": true
+    },
+    {
+      "case": "binary",
+      "rejected": true
+    },
+    {
+      "case": "os-junk",
+      "rejected": true
+    },
+    {
+      "case": "notice",
+      "rejected": true
+    }
+  ],
+  "missingCliCheck": "Missing entrypoint command exited 1; this is not a natural-language agent/platform test",
+  "limits": [
+    "No authenticated Agensi workflow, scan, upload or listing observed",
+    "No second agent platform or Windows device execution",
+    "Deterministic rebuild checked twice on this runtime only"
+  ]
+}

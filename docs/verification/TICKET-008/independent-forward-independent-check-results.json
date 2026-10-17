@@ -1,0 +1,15 @@
+{
+  "auditMatchesOrchestratorWithoutTimestamp": true,
+  "asoMatchesOrchestratorWithoutTimestamp": true,
+  "planMatchesOrchestratorWithoutTimestamp": true,
+  "visibilityMatchesOrchestratorWithoutTimestamp": true,
+  "individualRawEvidenceExact": true,
+  "individualEvidenceDigestMatches": true,
+  "individualLiteralTotalsMatch": true,
+  "individualGroupsRemainSeparate": true,
+  "orchestratorRawEvidenceExact": true,
+  "orchestratorEvidenceDigestMatches": true,
+  "orchestratorLiteralTotalsMatch": true,
+  "orchestratorGroupsRemainSeparate": true,
+  "inputBytesUnchanged": true
+}
