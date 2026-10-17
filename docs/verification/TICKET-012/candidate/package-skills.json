@@ -1,0 +1,15 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-tn_ang4g/extracted/package/dist/src/cli.js",
+    "install",
+    "--target",
+    "/private/tmp/geo-core-clean-tn_ang4g/product"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-tn_ang4g",
+  "startedAt": "2026-10-17T14:44:52.936643+00:00",
+  "endedAt": "2026-10-17T14:44:53.056687+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "54c8e908be7a9a0f86e0853f9f17e42888f692c1"
+}

@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-core-clean-tn_ang4g/reports-xml","pass":14,"fail":2,"unknown":3}

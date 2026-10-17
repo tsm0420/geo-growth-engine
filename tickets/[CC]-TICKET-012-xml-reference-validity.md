@@ -1,6 +1,6 @@
 # TICKET-012: Reject malformed sitemap XML references
 
-Status: Implemented and independently reviewed; immutable package/final-head CI pending
+Status: Implemented and independently reviewed; clean-source/package verified; final PR CI pending
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/sitemap-xml-references`
 Blocked by: TICKET-007 investigation (complete); PR #13 open and unmerged (transitive #12/#11/#9)
@@ -33,3 +33,5 @@ Real CLI red/green records are in `docs/verification/TICKET-012/`: initial 33 te
 Current `npm run typecheck`, `npm test` (108 passes, zero failures/skips), and `npm run build` each exited 0 on Darwin 25.5.0 arm64 / Node v24.18.0/npm 11.16.0. Historical 34/104-pass checks remain separately identified. Both review axes independently reassessed changed source and reran all 38 XML tests; final reports have no outstanding actionable introduced defects. Spec repeated all three original bypass probes with correct failed/unknown/null outcomes. Reports/check receipts: `docs/reviews/TICKET-012/`.
 
 Immutable candidate/package and final-head PR CI remain pending delivery steps. This is bounded regression evidence, not full XML/schema/namespace/encoding certification. No dependency, live request, private-file, merge, tag or release change occurred.
+
+Immutable alpha.3 source `54c8e908be7a9a0f86e0853f9f17e42888f692c1` passed fresh install/typecheck/108 tests/build and all 21 expected extracted-package outcomes, including all six commands, previous regressions, invalid XML rejection and long-numeric duplicate identity. Frozen YinThread remains 16 pass / 1 fail / 2 unknown and sitemap 146/145/1, duplicate positions 8,12. Tarball SHA-256 `b0dac211c1c8abbcd628e4daf7f024d7de6cbe853f863e71a502ef7e5445f807` (21,708 bytes); original runtime/commands/cwd/times/exits/output and package file hashes are in `docs/verification/TICKET-012/candidate/manifest.json` and adjacent receipts. The tarball is local and ignored. Exact-head PR CI remains pending.
