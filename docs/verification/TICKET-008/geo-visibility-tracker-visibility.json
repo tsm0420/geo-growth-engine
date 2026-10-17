@@ -1,0 +1,20 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-9dujffle/extracted/package/dist/src/cli.js",
+    "visibility",
+    "--config",
+    "examples/config.yaml",
+    "--output",
+    "demo-reports",
+    "--input",
+    "examples/responses.jsonl"
+  ],
+  "cwd": "/Users/tsm0420/geo/reports/agensi-preparation/geo-visibility-tracker/geo-visibility-tracker",
+  "startedAt": "2026-10-17T15:10:06.322349+00:00",
+  "completedAt": "2026-10-17T15:10:06.460946+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "selectedCoreRevision": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+  "cliProofSourceRevision": "fe885bbf7d90127b8ca230b28283fb2c83d5a2ca"
+}

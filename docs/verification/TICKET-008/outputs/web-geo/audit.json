@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "kind": "audit",
+  "generatedAt": "2026-10-17T15:10:05.886Z",
+  "example": true,
+  "scope": "local export: /Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public; no network requests or browser execution",
+  "findings": [
+    {
+      "id": "robots-file",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/robots.txt",
+      "action": "Review intentional access policy."
+    },
+    {
+      "id": "sitemap",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/sitemap.xml: 1 locations; direct urlset required",
+      "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+    },
+    {
+      "id": "sitemap-duplicates",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries",
+      "action": "Retain one intended canonical entry per URL and rebuild the export."
+    },
+    {
+      "id": "index.html:title",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: Example Journal — fictional toolkit fixture",
+      "action": "Provide one descriptive title."
+    },
+    {
+      "id": "index.html:description",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: Fictional sample: save daily journal entries.",
+      "action": "Provide a meaningful description."
+    },
+    {
+      "id": "index.html:open-graph",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: og:title and og:description presence",
+      "action": "Supply truthful social metadata."
+    },
+    {
+      "id": "index.html:heading",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: 1 H1 elements",
+      "action": "Use a descriptive page heading."
+    },
+    {
+      "id": "index.html:readable-text",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: 124 non-script text characters in HTML",
+      "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+    },
+    {
+      "id": "index.html:index-directive",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: no restrictive HTML meta directive observed",
+      "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+    },
+    {
+      "id": "index.html:canonical",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: https://example.com/",
+      "action": "Provide one absolute canonical URL on the configured origin."
+    },
+    {
+      "id": "index.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: https://example.com/ in /Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/sitemap.xml",
+      "action": "Add the intended canonical URL to the direct sitemap."
+    },
+    {
+      "id": "index.html:crawler.Googlebot",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "index.html:crawler.OAI-SearchBot",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "index.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "index.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "index.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html: JSON-LD parses as an object or array",
+      "action": "Review structured-data semantics separately."
+    },
+    {
+      "id": "schema-semantics",
+      "status": "unknown",
+      "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+      "action": "Use the applicable schema and search validation tools."
+    },
+    {
+      "id": "live-indexing",
+      "status": "unknown",
+      "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+      "action": "Inspect deployment and supported search tools separately."
+    },
+    {
+      "id": "llms-txt",
+      "status": "pass",
+      "evidence": "Optional llms.txt absent; no readiness penalty.",
+      "action": "Treat as an optional experiment."
+    }
+  ],
+  "summary": {
+    "pass": 17,
+    "fail": 0,
+    "unknown": 2
+  },
+  "data": {
+    "config": "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/config.yaml",
+    "files": [
+      "/Users/tsm0420/geo/reports/agensi-preparation/web-geo/web-geo/examples/public/index.html"
+    ],
+    "sitemap": {
+      "entries": 1,
+      "uniqueUrls": 1,
+      "duplicateEntries": 0,
+      "duplicates": []
+    }
+  }
+}

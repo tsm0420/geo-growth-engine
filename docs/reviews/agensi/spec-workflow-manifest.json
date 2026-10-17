@@ -1,0 +1,544 @@
+{
+  "capturedAtUtc": "2026-10-17T15:21:57.759966+00:00",
+  "source": "/private/tmp/geo-ticket008-spec-check",
+  "archive": "spec-workflow-raw.zip",
+  "bytes": 54555,
+  "sha256": "ba462453dfdd4cd5dca2a37781a7af239574fe177280d631fa7537dac6e366b7",
+  "members": [
+    {
+      "sourcePath": "app-geo-aso/LICENSE",
+      "archivePath": "app-geo-aso/LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "sourcePath": "app-geo-aso/README.md",
+      "archivePath": "app-geo-aso/README.md",
+      "bytes": 1238,
+      "sha256": "efeb06c3fb446a47f92af2d69e0f0b4a69fbccfa39aabfd4fa62b59f94df4170"
+    },
+    {
+      "sourcePath": "app-geo-aso/SKILL.md",
+      "archivePath": "app-geo-aso/SKILL.md",
+      "bytes": 1500,
+      "sha256": "94f5689a33390b83499ebbd3225bc0bf3bf9c6ff55e918da2f0579ef82293742"
+    },
+    {
+      "sourcePath": "app-geo-aso/examples/config.yaml",
+      "archivePath": "app-geo-aso/examples/config.yaml",
+      "bytes": 101,
+      "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+    },
+    {
+      "sourcePath": "app-geo-aso/examples/expected-output.md",
+      "archivePath": "app-geo-aso/examples/expected-output.md",
+      "bytes": 304,
+      "sha256": "96fc9c905e359410e2782025202c88722bfbaecf9e9989eaa45c559689b2bbd8"
+    },
+    {
+      "sourcePath": "app-geo-aso/examples/product.yaml",
+      "archivePath": "app-geo-aso/examples/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "sourcePath": "app-geo-aso/examples/queries.yaml",
+      "archivePath": "app-geo-aso/examples/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "sourcePath": "app-geo-aso/references/setup-and-contract.md",
+      "archivePath": "app-geo-aso/references/setup-and-contract.md",
+      "bytes": 1982,
+      "sha256": "cc0ffb344959222130eb53cbc09e8c8a041ef53daed6852685ad272820410fad"
+    },
+    {
+      "sourcePath": "app-geo-aso/references/sources-and-limits.md",
+      "archivePath": "app-geo-aso/references/sources-and-limits.md",
+      "bytes": 909,
+      "sha256": "97c4610216e3e616f9e5c44450fc33e23b542bd7a48836969824b2a8311926c6"
+    },
+    {
+      "sourcePath": "app-geo-aso/spec-reports/aso.json",
+      "archivePath": "app-geo-aso/spec-reports/aso.json",
+      "bytes": 4514,
+      "sha256": "429befde427de17f57971da4bbf5bff7761d2a21caa32ea35c1dbb94d119f53e"
+    },
+    {
+      "sourcePath": "app-geo-aso/spec-reports/aso.md",
+      "archivePath": "app-geo-aso/spec-reports/aso.md",
+      "bytes": 3668,
+      "sha256": "4b9c6daf2668d5e889dcc27b48b41f43cb0467761ea53c9cc5fe4ee24eadba8b"
+    },
+    {
+      "sourcePath": "app-geo-aso-aso.stderr.txt",
+      "archivePath": "app-geo-aso-aso.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "app-geo-aso-aso.stdout.txt",
+      "archivePath": "app-geo-aso-aso.stdout.txt",
+      "bytes": 56,
+      "sha256": "11cbd26512b26cf84f46df720f66fd1e0dcbf21c0f283ee6403a0d78d6873972"
+    },
+    {
+      "sourcePath": "geo-content-engine/LICENSE",
+      "archivePath": "geo-content-engine/LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "sourcePath": "geo-content-engine/README.md",
+      "archivePath": "geo-content-engine/README.md",
+      "bytes": 1223,
+      "sha256": "0b4dbd338dd3e8483b446f810821c7994ef3575bf226bd0e4caff633bb092752"
+    },
+    {
+      "sourcePath": "geo-content-engine/SKILL.md",
+      "archivePath": "geo-content-engine/SKILL.md",
+      "bytes": 1351,
+      "sha256": "a58bbae539579931c8210354235d84aabe2d1fd5569dce585b3e2bb0aa2015bc"
+    },
+    {
+      "sourcePath": "geo-content-engine/examples/config.yaml",
+      "archivePath": "geo-content-engine/examples/config.yaml",
+      "bytes": 101,
+      "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+    },
+    {
+      "sourcePath": "geo-content-engine/examples/expected-output.md",
+      "archivePath": "geo-content-engine/examples/expected-output.md",
+      "bytes": 330,
+      "sha256": "9cf4d3c2c1e5e717fe0096bb2726967f733cd6f437aa3acffb2e4167ef0e05ca"
+    },
+    {
+      "sourcePath": "geo-content-engine/examples/product.yaml",
+      "archivePath": "geo-content-engine/examples/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "sourcePath": "geo-content-engine/examples/queries.yaml",
+      "archivePath": "geo-content-engine/examples/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "sourcePath": "geo-content-engine/references/setup-and-contract.md",
+      "archivePath": "geo-content-engine/references/setup-and-contract.md",
+      "bytes": 1983,
+      "sha256": "009eea5d2b9aa9540b40dd907087097f5b8416df433c7899ed0976a0fa11c26e"
+    },
+    {
+      "sourcePath": "geo-content-engine/references/sources-and-limits.md",
+      "archivePath": "geo-content-engine/references/sources-and-limits.md",
+      "bytes": 909,
+      "sha256": "7d0109f7a2add64332450c5030bc3731c6dce14b91391bd0c043e19582fb508d"
+    },
+    {
+      "sourcePath": "geo-content-engine/spec-reports/plan.json",
+      "archivePath": "geo-content-engine/spec-reports/plan.json",
+      "bytes": 1136,
+      "sha256": "9753a89074b28137e68761d72faa6ec82039b316571e425e3320746b8170e4a6"
+    },
+    {
+      "sourcePath": "geo-content-engine/spec-reports/plan.md",
+      "archivePath": "geo-content-engine/spec-reports/plan.md",
+      "bytes": 1040,
+      "sha256": "bcab4850b77092b15d2eaea600d23b0f809bc8d8624514d1b03045f7e3e1d697"
+    },
+    {
+      "sourcePath": "geo-content-engine-plan.stderr.txt",
+      "archivePath": "geo-content-engine-plan.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "geo-content-engine-plan.stdout.txt",
+      "archivePath": "geo-content-engine-plan.stdout.txt",
+      "bytes": 56,
+      "sha256": "da42ea32bef683fb967e7bcddd2041a4f4514eb9bffaaae01c6c8d3e50fc64b1"
+    },
+    {
+      "sourcePath": "geo-orchestrator/LICENSE",
+      "archivePath": "geo-orchestrator/LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "sourcePath": "geo-orchestrator/README.md",
+      "archivePath": "geo-orchestrator/README.md",
+      "bytes": 1227,
+      "sha256": "ab7317f52e6deaa9d1b803a09519bb852fa5f5ecf5e888a654104e3710ff6d8f"
+    },
+    {
+      "sourcePath": "geo-orchestrator/SKILL.md",
+      "archivePath": "geo-orchestrator/SKILL.md",
+      "bytes": 1533,
+      "sha256": "681034e465d9aa8ef30e163c735a3af245424251fa77cf9a39ec0e3ab16a6327"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/config.yaml",
+      "archivePath": "geo-orchestrator/examples/config.yaml",
+      "bytes": 101,
+      "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/expected-output.md",
+      "archivePath": "geo-orchestrator/examples/expected-output.md",
+      "bytes": 745,
+      "sha256": "62e214d12b95c4991966f887e4ee38b149ea90819c7f9e4114f5017ac510bf4c"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/product.yaml",
+      "archivePath": "geo-orchestrator/examples/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/public/index.html",
+      "archivePath": "geo-orchestrator/examples/public/index.html",
+      "bytes": 711,
+      "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/public/robots.txt",
+      "archivePath": "geo-orchestrator/examples/public/robots.txt",
+      "bytes": 138,
+      "sha256": "2412b7ba5c9298ce470c2476f04bc5f6199857cee14853d003b8a3bace1acd7c"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/public/sitemap.xml",
+      "archivePath": "geo-orchestrator/examples/public/sitemap.xml",
+      "bytes": 151,
+      "sha256": "0b4eee6b6f7b7c1597408946fd55ceb3a4280150e1479f7c1eb367356865fd62"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/queries.yaml",
+      "archivePath": "geo-orchestrator/examples/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "sourcePath": "geo-orchestrator/examples/responses.jsonl",
+      "archivePath": "geo-orchestrator/examples/responses.jsonl",
+      "bytes": 882,
+      "sha256": "b85d486fb2eb7eea407c0a5b34a3759c72605e6bf10ced205aece52a6c1e8bb4"
+    },
+    {
+      "sourcePath": "geo-orchestrator/references/setup-and-contract.md",
+      "archivePath": "geo-orchestrator/references/setup-and-contract.md",
+      "bytes": 2313,
+      "sha256": "4eaceb264ca416ce79b6e9afd9811327eb4574c2cc080e6b00e6eb80beff8eae"
+    },
+    {
+      "sourcePath": "geo-orchestrator/references/sources-and-limits.md",
+      "archivePath": "geo-orchestrator/references/sources-and-limits.md",
+      "bytes": 894,
+      "sha256": "ff78e9a76a0071f420e8ce70f40bb741d86b829b668edcff5ce38394ad411097"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/aso.json",
+      "archivePath": "geo-orchestrator/spec-reports/aso.json",
+      "bytes": 4559,
+      "sha256": "d63a602dab7b7291574b961451c4ff24b9c16cc497d797369896248f72812242"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/aso.md",
+      "archivePath": "geo-orchestrator/spec-reports/aso.md",
+      "bytes": 3713,
+      "sha256": "5ea155edcf066d6a4a98ff82498a154bb457d1b49f413068dff7a53abdbadf43"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/audit.json",
+      "archivePath": "geo-orchestrator/spec-reports/audit.json",
+      "bytes": 6254,
+      "sha256": "2618e492a44a8520593dfcdaab0f4a2db8ad34cb15b4a9000e00f58fb47eb6d9"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/audit.md",
+      "archivePath": "geo-orchestrator/spec-reports/audit.md",
+      "bytes": 4802,
+      "sha256": "5721d10860994d314b9be91ea4f31df0f270631b3f4a4128999c12377e4f8786"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/evidence/responses.jsonl",
+      "archivePath": "geo-orchestrator/spec-reports/evidence/responses.jsonl",
+      "bytes": 882,
+      "sha256": "b85d486fb2eb7eea407c0a5b34a3759c72605e6bf10ced205aece52a6c1e8bb4"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/plan.json",
+      "archivePath": "geo-orchestrator/spec-reports/plan.json",
+      "bytes": 1134,
+      "sha256": "52518034bef81e74729600b99efa3ef00bb7c23079e9347290d3b649c24cfea5"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/plan.md",
+      "archivePath": "geo-orchestrator/spec-reports/plan.md",
+      "bytes": 1038,
+      "sha256": "84d78a36c8993122d103e533fedf0aa8854566c1b987ffd510e20c0ced7235d0"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/visibility.json",
+      "archivePath": "geo-orchestrator/spec-reports/visibility.json",
+      "bytes": 2142,
+      "sha256": "08fa038e5ef9c5cbc59708a5b45ca4a670362af01c9b8a02772e7e07683ad9b4"
+    },
+    {
+      "sourcePath": "geo-orchestrator/spec-reports/visibility.md",
+      "archivePath": "geo-orchestrator/spec-reports/visibility.md",
+      "bytes": 1860,
+      "sha256": "120b6b61a3c76e13531dfdb3c8c42fc6b3cb628fc8f63b5bee821adbebcc7a09"
+    },
+    {
+      "sourcePath": "geo-orchestrator-aso.stderr.txt",
+      "archivePath": "geo-orchestrator-aso.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "geo-orchestrator-aso.stdout.txt",
+      "archivePath": "geo-orchestrator-aso.stdout.txt",
+      "bytes": 56,
+      "sha256": "11cbd26512b26cf84f46df720f66fd1e0dcbf21c0f283ee6403a0d78d6873972"
+    },
+    {
+      "sourcePath": "geo-orchestrator-audit.stderr.txt",
+      "archivePath": "geo-orchestrator-audit.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "geo-orchestrator-audit.stdout.txt",
+      "archivePath": "geo-orchestrator-audit.stdout.txt",
+      "bytes": 57,
+      "sha256": "a0923215a362b6519f0dfdc5d902da27d6bd489dc8bfc6272e495f8d4f42310a"
+    },
+    {
+      "sourcePath": "geo-orchestrator-plan.stderr.txt",
+      "archivePath": "geo-orchestrator-plan.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "geo-orchestrator-plan.stdout.txt",
+      "archivePath": "geo-orchestrator-plan.stdout.txt",
+      "bytes": 56,
+      "sha256": "da42ea32bef683fb967e7bcddd2041a4f4514eb9bffaaae01c6c8d3e50fc64b1"
+    },
+    {
+      "sourcePath": "geo-orchestrator-visibility.stderr.txt",
+      "archivePath": "geo-orchestrator-visibility.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "geo-orchestrator-visibility.stdout.txt",
+      "archivePath": "geo-orchestrator-visibility.stdout.txt",
+      "bytes": 56,
+      "sha256": "31ecec308c52f9ad8493723d11c1f5d1fce7b5a35f6fadff48f09d80ff843e38"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/LICENSE",
+      "archivePath": "geo-visibility-tracker/LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/README.md",
+      "archivePath": "geo-visibility-tracker/README.md",
+      "bytes": 1227,
+      "sha256": "3da535ae58038d817d5cdeea4d3ed72f247da03d559b1c5c68b64e8fc7a90c3d"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/SKILL.md",
+      "archivePath": "geo-visibility-tracker/SKILL.md",
+      "bytes": 1406,
+      "sha256": "9b026bf986ae809f4a22be5fd7dfd9f553266fefa320fe9f0a1b60e8016889b3"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/examples/config.yaml",
+      "archivePath": "geo-visibility-tracker/examples/config.yaml",
+      "bytes": 101,
+      "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/examples/expected-output.md",
+      "archivePath": "geo-visibility-tracker/examples/expected-output.md",
+      "bytes": 472,
+      "sha256": "c2bdfcb2c80c5da7e3d81e678465db2a321f327521dca9f8ad90052a6b5116a5"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/examples/product.yaml",
+      "archivePath": "geo-visibility-tracker/examples/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/examples/queries.yaml",
+      "archivePath": "geo-visibility-tracker/examples/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/examples/responses.jsonl",
+      "archivePath": "geo-visibility-tracker/examples/responses.jsonl",
+      "bytes": 882,
+      "sha256": "b85d486fb2eb7eea407c0a5b34a3759c72605e6bf10ced205aece52a6c1e8bb4"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/references/setup-and-contract.md",
+      "archivePath": "geo-visibility-tracker/references/setup-and-contract.md",
+      "bytes": 2022,
+      "sha256": "9761f5d0ee7c0c025ca955ded9d75a0d5fbc1d264e5689fefb3b251fcc340cb2"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/references/sources-and-limits.md",
+      "archivePath": "geo-visibility-tracker/references/sources-and-limits.md",
+      "bytes": 911,
+      "sha256": "a9d38b7f7b7c59b9a55306c0a1e0b9ad16f3035f04e711f9cb4bb914b50a9db1"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/spec-reports/evidence/responses.jsonl",
+      "archivePath": "geo-visibility-tracker/spec-reports/evidence/responses.jsonl",
+      "bytes": 882,
+      "sha256": "b85d486fb2eb7eea407c0a5b34a3759c72605e6bf10ced205aece52a6c1e8bb4"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/spec-reports/visibility.json",
+      "archivePath": "geo-visibility-tracker/spec-reports/visibility.json",
+      "bytes": 2148,
+      "sha256": "9d9736191d600c97b353e7452d2c424cfafcaa339dd054fd7122d5233808391e"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker/spec-reports/visibility.md",
+      "archivePath": "geo-visibility-tracker/spec-reports/visibility.md",
+      "bytes": 1866,
+      "sha256": "54e696520e93b08caf51b31fe0ccae6047f900cb47dfa6b8e689096c67f29494"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker-visibility.stderr.txt",
+      "archivePath": "geo-visibility-tracker-visibility.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "geo-visibility-tracker-visibility.stdout.txt",
+      "archivePath": "geo-visibility-tracker-visibility.stdout.txt",
+      "bytes": 56,
+      "sha256": "31ecec308c52f9ad8493723d11c1f5d1fce7b5a35f6fadff48f09d80ff843e38"
+    },
+    {
+      "sourcePath": "integrity-check.json",
+      "archivePath": "integrity-check.json",
+      "bytes": 975,
+      "sha256": "a524098b414883464b1b4b4378d521ea994c6f948f6100d54cb1f0ba012a58ba"
+    },
+    {
+      "sourcePath": "web-geo/LICENSE",
+      "archivePath": "web-geo/LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "sourcePath": "web-geo/README.md",
+      "archivePath": "web-geo/README.md",
+      "bytes": 1224,
+      "sha256": "a22175427a71fb50399309fce70d275cd6b9741ab220dd3d41f0561389b3e675"
+    },
+    {
+      "sourcePath": "web-geo/SKILL.md",
+      "archivePath": "web-geo/SKILL.md",
+      "bytes": 1967,
+      "sha256": "1089b5fd42f2f7d2b2a256dd3032e3e533d445dbd952a7ffb1863c86d2aa6462"
+    },
+    {
+      "sourcePath": "web-geo/examples/config.yaml",
+      "archivePath": "web-geo/examples/config.yaml",
+      "bytes": 101,
+      "sha256": "b3658a4f7be62d015bba2d4e9bbbc1f558774f4f79d10b94a482e7a5353bb84a"
+    },
+    {
+      "sourcePath": "web-geo/examples/expected-output.md",
+      "archivePath": "web-geo/examples/expected-output.md",
+      "bytes": 329,
+      "sha256": "69a0e56c0494c22eb0e38ae52b55493ff1f68d3d274d3bebedae6f90101e6090"
+    },
+    {
+      "sourcePath": "web-geo/examples/product.yaml",
+      "archivePath": "web-geo/examples/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "sourcePath": "web-geo/examples/public/index.html",
+      "archivePath": "web-geo/examples/public/index.html",
+      "bytes": 711,
+      "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+    },
+    {
+      "sourcePath": "web-geo/examples/public/robots.txt",
+      "archivePath": "web-geo/examples/public/robots.txt",
+      "bytes": 138,
+      "sha256": "2412b7ba5c9298ce470c2476f04bc5f6199857cee14853d003b8a3bace1acd7c"
+    },
+    {
+      "sourcePath": "web-geo/examples/public/sitemap.xml",
+      "archivePath": "web-geo/examples/public/sitemap.xml",
+      "bytes": 151,
+      "sha256": "0b4eee6b6f7b7c1597408946fd55ceb3a4280150e1479f7c1eb367356865fd62"
+    },
+    {
+      "sourcePath": "web-geo/examples/queries.yaml",
+      "archivePath": "web-geo/examples/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "sourcePath": "web-geo/references/setup-and-contract.md",
+      "archivePath": "web-geo/references/setup-and-contract.md",
+      "bytes": 1984,
+      "sha256": "782b4e313ffc1ccb521cf74ccfd1bbf83a9ad8046ce1d4b6fc9f25990269b01b"
+    },
+    {
+      "sourcePath": "web-geo/references/sources-and-limits.md",
+      "archivePath": "web-geo/references/sources-and-limits.md",
+      "bytes": 912,
+      "sha256": "98a6441c190ef5f8b03d8a3d392d540c2052c3e752e82cda0d58c012739fc02e"
+    },
+    {
+      "sourcePath": "web-geo/spec-reports/audit.json",
+      "archivePath": "web-geo/spec-reports/audit.json",
+      "bytes": 6074,
+      "sha256": "1654228096236771509a5f6ef1795968b3b1f149b0a025d617e9fd9d3c06fce9"
+    },
+    {
+      "sourcePath": "web-geo/spec-reports/audit.md",
+      "archivePath": "web-geo/spec-reports/audit.md",
+      "bytes": 4622,
+      "sha256": "b6bd91300c4683a36026b7e91b704f3f87fdb80cb8f41f1057258dcc53231863"
+    },
+    {
+      "sourcePath": "web-geo-audit.stderr.txt",
+      "archivePath": "web-geo-audit.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "web-geo-audit.stdout.txt",
+      "archivePath": "web-geo-audit.stdout.txt",
+      "bytes": 57,
+      "sha256": "a0923215a362b6519f0dfdc5d902da27d6bd489dc8bfc6272e495f8d4f42310a"
+    },
+    {
+      "sourcePath": "workflow-receipts.json",
+      "archivePath": "workflow-receipts.json",
+      "bytes": 4501,
+      "sha256": "ae46a64e35c375c63a281a5ef5df2512216a511af61598b3be6f853a00884abc"
+    }
+  ],
+  "notes": "Exact-byte independent Spec-review workflow evidence. Any Python receipt harness is mapped to a .txt data reference; not a shipped executable. Raw recorded paths remain unchanged."
+}

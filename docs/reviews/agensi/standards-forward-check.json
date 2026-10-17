@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-10-17T15:22:04.426168+00:00",
+  "scope": "Inspection/comparison of forward evaluator raw artifacts; no workflow or evaluator script rerun.",
+  "archiveSha256": "d5eb66b1ea770ba4fbaf72dcca8e76fa6759f6acab563b454feed708cb89e962",
+  "archiveBytes": 59501,
+  "archiveMembersVerified": 100,
+  "originalInventoryEntriesVerified": 99,
+  "skillHashesMatchActualZips": 15,
+  "inputHashesBeforeAfterVerified": true,
+  "comparatorFlagsVerified": 13,
+  "receiptObservations": [
+    {
+      "skill": "web-geo",
+      "command": "audit",
+      "exit": 1,
+      "summary": {
+        "pass": 13,
+        "fail": 3,
+        "unknown": 3
+      }
+    },
+    {
+      "skill": "app-geo-aso",
+      "command": "aso",
+      "exit": 1,
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "unknown": 2
+      }
+    },
+    {
+      "skill": "geo-content-engine",
+      "command": "plan",
+      "exit": 0,
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    {
+      "skill": "geo-visibility-tracker",
+      "command": "visibility",
+      "exit": 0,
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 3
+      }
+    },
+    {
+      "skill": "geo-orchestrator",
+      "command": "audit",
+      "exit": 1,
+      "summary": {
+        "pass": 13,
+        "fail": 3,
+        "unknown": 3
+      }
+    },
+    {
+      "skill": "geo-orchestrator",
+      "command": "aso",
+      "exit": 1,
+      "summary": {
+        "pass": 3,
+        "fail": 1,
+        "unknown": 2
+      }
+    },
+    {
+      "skill": "geo-orchestrator",
+      "command": "plan",
+      "exit": 0,
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    {
+      "skill": "geo-orchestrator",
+      "command": "visibility",
+      "exit": 0,
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 3
+      }
+    }
+  ],
+  "evaluatorRuntime": {
+    "node": "v24.22.0",
+    "system": "Darwin 25.5.0 arm64"
+  },
+  "responseSha256": "d418039d42c4dff94397abdb9b1d984865c366c72abef3aa18c8fdb35cdf7d5c",
+  "reportSha256": "74f0edfc7faaadd1914c50235ea1bc4df3d23a96aacebfe3e4e0ea8efddc09b2",
+  "reviewerControlCorrection": "An initial comparison assumed orchid.example; corrected against raw config origin orchid.invalid. This was a reviewer expectation error, not a product failure."
+}

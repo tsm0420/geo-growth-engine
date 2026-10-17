@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "plan",
+  "generatedAt": "2026-10-17T15:10:05.527Z",
+  "example": true,
+  "scope": "Supplied questions and fact references only; no traffic estimates or automatic publication.",
+  "findings": [
+    {
+      "id": "daily-journal",
+      "status": "pass",
+      "evidence": "/Users/tsm0420/geo/reports/agensi-preparation/geo-orchestrator/geo-orchestrator/examples/queries.yaml: How can I keep daily journal entries?; priority 1; daily-notes: https://example.com/features/daily-notes; sources not independently verified",
+      "action": "Inspect sources and create distinct, useful content only when authorized."
+    }
+  ],
+  "summary": {
+    "pass": 1,
+    "fail": 0,
+    "unknown": 0
+  },
+  "data": {
+    "opportunities": [
+      {
+        "queryId": "daily-journal",
+        "query": "How can I keep daily journal entries?",
+        "intent": "use-case",
+        "priority": 1,
+        "facts": [
+          {
+            "id": "daily-notes",
+            "claim": "Save daily journal entries.",
+            "source": "https://example.com/features/daily-notes"
+          }
+        ]
+      }
+    ],
+    "researchGaps": []
+  }
+}

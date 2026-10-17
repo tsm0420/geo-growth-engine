@@ -1,0 +1,140 @@
+{
+  "commandDescription": "Independent archive inspection/extraction/repack from member data; primary authoring source was not executed or imported.",
+  "checkedAt": "2026-10-17T15:17:03.865202+00:00",
+  "head": "489c63aa327e6222d92847fe028be692c294043d",
+  "selectedCoreRevision": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+  "cliProofSourceRevision": "fe885bbf7d90127b8ca230b28283fb2c83d5a2ca",
+  "runtime": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "architecture": "arm64",
+    "python": "3.11.0"
+  },
+  "results": [
+    {
+      "name": "geo-orchestrator",
+      "zipBytes": 7574,
+      "zipSha256": "882f406082aea12b5caf3ccb500aa894ac98411cc2883c1be02a00d509438073",
+      "memberCount": 13,
+      "manifestMemberHashes": true,
+      "regularTextOnly": true,
+      "localMarkdownLinksResolve": true,
+      "completeNotice": true,
+      "originalFrontmatterAndInstructionBodyPreserved": true,
+      "sameRuntimeRepackTwiceMatchesArchive": true,
+      "files": [
+        "geo-orchestrator/LICENSE",
+        "geo-orchestrator/README.md",
+        "geo-orchestrator/SKILL.md",
+        "geo-orchestrator/examples/config.yaml",
+        "geo-orchestrator/examples/expected-output.md",
+        "geo-orchestrator/examples/product.yaml",
+        "geo-orchestrator/examples/public/index.html",
+        "geo-orchestrator/examples/public/robots.txt",
+        "geo-orchestrator/examples/public/sitemap.xml",
+        "geo-orchestrator/examples/queries.yaml",
+        "geo-orchestrator/examples/responses.jsonl",
+        "geo-orchestrator/references/setup-and-contract.md",
+        "geo-orchestrator/references/sources-and-limits.md"
+      ]
+    },
+    {
+      "name": "web-geo",
+      "zipBytes": 6969,
+      "zipSha256": "a6fdc09141ce2caa30f0c7100121c6e67a706d492ab263979a687aed8cdbcb3d",
+      "memberCount": 12,
+      "manifestMemberHashes": true,
+      "regularTextOnly": true,
+      "localMarkdownLinksResolve": true,
+      "completeNotice": true,
+      "originalFrontmatterAndInstructionBodyPreserved": true,
+      "sameRuntimeRepackTwiceMatchesArchive": true,
+      "files": [
+        "web-geo/LICENSE",
+        "web-geo/README.md",
+        "web-geo/SKILL.md",
+        "web-geo/examples/config.yaml",
+        "web-geo/examples/expected-output.md",
+        "web-geo/examples/product.yaml",
+        "web-geo/examples/public/index.html",
+        "web-geo/examples/public/robots.txt",
+        "web-geo/examples/public/sitemap.xml",
+        "web-geo/examples/queries.yaml",
+        "web-geo/references/setup-and-contract.md",
+        "web-geo/references/sources-and-limits.md"
+      ]
+    },
+    {
+      "name": "app-geo-aso",
+      "zipBytes": 5711,
+      "zipSha256": "2a1784231d13f2b8c4ee6de553a790eb684fba3c9fec4a9c08d8c7004ec96df9",
+      "memberCount": 9,
+      "manifestMemberHashes": true,
+      "regularTextOnly": true,
+      "localMarkdownLinksResolve": true,
+      "completeNotice": true,
+      "originalFrontmatterAndInstructionBodyPreserved": true,
+      "sameRuntimeRepackTwiceMatchesArchive": true,
+      "files": [
+        "app-geo-aso/LICENSE",
+        "app-geo-aso/README.md",
+        "app-geo-aso/SKILL.md",
+        "app-geo-aso/examples/config.yaml",
+        "app-geo-aso/examples/expected-output.md",
+        "app-geo-aso/examples/product.yaml",
+        "app-geo-aso/examples/queries.yaml",
+        "app-geo-aso/references/setup-and-contract.md",
+        "app-geo-aso/references/sources-and-limits.md"
+      ]
+    },
+    {
+      "name": "geo-content-engine",
+      "zipBytes": 5765,
+      "zipSha256": "726582b45a3587e6c7e04dc32eb59c376231f3483f4bf2a40e640642887b7b62",
+      "memberCount": 9,
+      "manifestMemberHashes": true,
+      "regularTextOnly": true,
+      "localMarkdownLinksResolve": true,
+      "completeNotice": true,
+      "originalFrontmatterAndInstructionBodyPreserved": true,
+      "sameRuntimeRepackTwiceMatchesArchive": true,
+      "files": [
+        "geo-content-engine/LICENSE",
+        "geo-content-engine/README.md",
+        "geo-content-engine/SKILL.md",
+        "geo-content-engine/examples/config.yaml",
+        "geo-content-engine/examples/expected-output.md",
+        "geo-content-engine/examples/product.yaml",
+        "geo-content-engine/examples/queries.yaml",
+        "geo-content-engine/references/setup-and-contract.md",
+        "geo-content-engine/references/sources-and-limits.md"
+      ]
+    },
+    {
+      "name": "geo-visibility-tracker",
+      "zipBytes": 6402,
+      "zipSha256": "3ba299ed8fa8934db2c4ee60edfa8d2e947c9ecc05e258fd5f206735a0c16a6a",
+      "memberCount": 10,
+      "manifestMemberHashes": true,
+      "regularTextOnly": true,
+      "localMarkdownLinksResolve": true,
+      "completeNotice": true,
+      "originalFrontmatterAndInstructionBodyPreserved": true,
+      "sameRuntimeRepackTwiceMatchesArchive": true,
+      "files": [
+        "geo-visibility-tracker/LICENSE",
+        "geo-visibility-tracker/README.md",
+        "geo-visibility-tracker/SKILL.md",
+        "geo-visibility-tracker/examples/config.yaml",
+        "geo-visibility-tracker/examples/expected-output.md",
+        "geo-visibility-tracker/examples/product.yaml",
+        "geo-visibility-tracker/examples/queries.yaml",
+        "geo-visibility-tracker/examples/responses.jsonl",
+        "geo-visibility-tracker/references/setup-and-contract.md",
+        "geo-visibility-tracker/references/sources-and-limits.md"
+      ]
+    }
+  ],
+  "authoringSourceCopySha256": "9fe653db4d896e181b41d5d6547956d2be2cb162e5df3ec01e6fac7e66ffcf31",
+  "manifestAuthoringScriptSha256": "9fe653db4d896e181b41d5d6547956d2be2cb162e5df3ec01e6fac7e66ffcf31"
+}
