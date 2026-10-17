@@ -1,0 +1,33 @@
+{
+  "command": [
+    "npm",
+    "view",
+    "encoding-sniffer",
+    "dist-tags",
+    "versions",
+    "version",
+    "dependencies",
+    "engines",
+    "repository",
+    "dist",
+    "--json",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:56:00.612511+00:00",
+  "endedAt": "2026-10-17T12:56:00.783583+00:00",
+  "exitCode": 0,
+  "stdout": "{\n  \"dist-tags\": {\n    \"latest\": \"1.0.2\"\n  },\n  \"versions\": [\n    \"0.0.0\",\n    \"0.0.1\",\n    \"0.0.2\",\n    \"0.1.0\",\n    \"0.2.0\",\n    \"0.2.1\",\n    \"1.0.0\",\n    \"1.0.1\",\n    \"1.0.2\"\n  ],\n  \"version\": \"1.0.2\",\n  \"dependencies\": {\n    \"@exodus/bytes\": \"^1.15.0\"\n  },\n  \"engines\": {\n    \"node\": \">=20.19.0\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git://github.com/fb55/encoding-sniffer.git\"\n  },\n  \"dist\": {\n    \"integrity\": \"sha512-dlQ0jlnDJ2ElE1Ky4crYX0pPEPxQY9F2j+ZMIXlBedLJToEfDed9pvPqXg4fZnuu4qVBbcIrZVeg3S4aibTYGw==\",\n    \"shasum\": \"548073cefb4cbe8530b4c17fb4b08d719c235427\",\n    \"tarball\": \"https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-1.0.2.tgz\",\n    \"fileCount\": 31,\n    \"unpackedSize\": 132616,\n    \"attestations\": {\n      \"url\": \"https://registry.npmjs.org/-/npm/v1/attestations/encoding-sniffer@1.0.2\",\n      \"provenance\": {\n        \"predicateType\": \"https://slsa.dev/provenance/v1\"\n      }\n    },\n    \"signatures\": [\n      {\n        \"keyid\": \"SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U\",\n        \"sig\": \"MEUCIQD+WHKaqGDB5+qy2+vJbachpkwWMtjURVwiH0ZAL1rXWwIgX6x1UQltvegSDgmRJNjLJq9cGlz4QGnLexI1cVIg2l8=\"\n      }\n    ]\n  }\n}\n",
+  "stderr": "",
+  "runtime": {
+    "os": "Darwin",
+    "release": "25.5.0",
+    "architecture": "arm64",
+    "node": "v24.18.0",
+    "npm": "11.16.0"
+  },
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed"
+}

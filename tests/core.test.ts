@@ -120,3 +120,18 @@ test('audit decodes standard XML entities before checking canonical sitemap cove
   assert.equal(result.status, 0, result.stderr);
   assert.equal(findings(await json(join(output, 'audit.json'))).find((f) => f.id === 'index.html:sitemap-coverage')?.status, 'pass');
 });
+
+test('audit preserves UTF-8 text and decodes HTML character references in title evidence', async (t) => {
+  const target = await realpath(await mkdtemp(join(tmpdir(), 'geo-decoding-')));
+  t.after(() => rm(target, { recursive: true, force: true }));
+  await cp(fileURLToPath(new URL('../examples', import.meta.url)), target, { recursive: true });
+  const path = join(target, 'public/index.html');
+  await writeFile(path, (await readFile(path, 'utf8')).replace(/<title>.*?<\/title>/s, '<title>臺灣 Café &amp; YinThread &#x1F331; &#233;</title>'));
+  const output = join(target, 'output');
+  const result = spawnSync(process.execPath, [cli, 'audit', '--config', join(target, '.geo/config.yaml'), '--output', output], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+  const title = findings(await json(join(output, 'audit.json'))).find((finding) => finding.id === 'index.html:title');
+  assert.equal(title?.status, 'pass');
+  assert.equal(title?.evidence, `${path}: 臺灣 Café & YinThread 🌱 é`);
+  assert.match(await readFile(join(output, 'audit.md'), 'utf8'), /臺灣 Café &amp; YinThread 🌱 é/);
+});

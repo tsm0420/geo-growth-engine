@@ -21,3 +21,7 @@ Red-phase logs document observed failing tests before their implementation or co
 ## Public alpha
 
 See [alpha verification](../releases/alpha-verification.md) for the clean installation, packaged CLI, credential-pattern scan, and real-site snapshot checks performed for the public preview. The [YinThread case](../case-studies/yinthread/README.md) is a bounded real technical observation; the original example reports above remain fictional.
+
+## Alpha 2 candidate
+
+The [separate candidate evidence](alpha-2/README.md) includes new red/green regressions, a 33-test suite, clean committed-source installation, extracted-package checks, source/digest identity, independent reviews and PR CI. The receipts above remain historical alpha 1 evidence.

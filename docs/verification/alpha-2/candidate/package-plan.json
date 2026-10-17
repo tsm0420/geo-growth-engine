@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-alpha-2-clean-e7jrbv97/extracted/package/dist/src/cli.js",
+    "plan",
+    "--config",
+    "/private/tmp/geo-alpha-2-clean-e7jrbv97/source/examples/.geo/config.yaml",
+    "--output",
+    "/private/tmp/geo-alpha-2-clean-e7jrbv97/reports-plan"
+  ],
+  "cwd": "/private/tmp/geo-alpha-2-clean-e7jrbv97",
+  "startedAt": "2026-10-17T13:04:20.378920+00:00",
+  "endedAt": "2026-10-17T13:04:20.643118+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "071c591948c5265afdf674ef9ecf8d1e988bbd2e"
+}

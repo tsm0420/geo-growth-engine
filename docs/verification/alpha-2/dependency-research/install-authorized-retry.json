@@ -1,0 +1,30 @@
+{
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--prefer-offline",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:56:53.778627+00:00",
+  "endedAt": "2026-10-17T12:56:59.493744+00:00",
+  "exitCode": 0,
+  "stdout": "\nadded 37 packages in 5s\n",
+  "stderr": "npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation\n",
+  "runtime": {
+    "os": "Darwin",
+    "release": "25.5.0",
+    "architecture": "arm64",
+    "node": "v24.18.0",
+    "npm": "11.16.0"
+  },
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "packageVersion": "0.1.0-alpha.1",
+  "lockfileSha256": "37a52fc5eb4cc85121f034fa8fdcd57bbd5f1a99486ea27cd0593a3447a8490b"
+}

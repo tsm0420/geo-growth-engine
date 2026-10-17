@@ -2,6 +2,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 import { load } from 'cheerio';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import { EntityDecoder } from '@nodable/entities';
 import robotsParser from 'robots-parser';
 import type { Config } from './config.ts';
 import { report } from './report.ts';
@@ -30,7 +31,20 @@ async function htmlFiles(directory: string): Promise<string[]> {
 function xmlLocations(value: unknown): string[] {
   if (Array.isArray(value)) return value.flatMap((item: unknown) => xmlLocations(item));
   if (typeof value !== 'object' || value === null) return [];
-  return Object.entries(value).flatMap(([key, child]: [string, unknown]) => key === 'loc' && typeof child === 'string' ? [child] : xmlLocations(child));
+  return Object.entries(value).flatMap(([key, child]: [string, unknown]) => key === 'loc' && typeof child === 'string' ? [child.trim()] : xmlLocations(child));
+}
+
+function summarizeSitemap(locations: string[]) {
+  const byUrl = new Map<string, number[]>();
+  for (const [index, url] of locations.entries()) {
+    const positions = byUrl.get(url);
+    if (positions) positions.push(index + 1);
+    else byUrl.set(url, [index + 1]);
+  }
+  const duplicates = [...byUrl].filter(([, positions]) => positions.length > 1)
+    .sort(([left], [right]) => left < right ? -1 : left > right ? 1 : 0)
+    .map(([url, positions]) => ({ url, occurrences: positions.length, positions }));
+  return { entries: locations.length, uniqueUrls: byUrl.size, duplicateEntries: locations.length - byUrl.size, duplicates };
 }
 
 export async function audit(config: Config): Promise<Report> {
@@ -46,16 +60,26 @@ export async function audit(config: Config): Promise<Report> {
   const sitemapPath = join(config.publicDir, 'sitemap.xml');
   const sitemap = await optionalFile(sitemapPath);
   let locations: string[] = [];
+  let sitemapData: ReturnType<typeof summarizeSitemap> | null = null;
   if (sitemap === null) add('sitemap', 'fail', `${sitemapPath}: missing`, 'Provide a sitemap for the audited public pages.');
   else if (XMLValidator.validate(sitemap) !== true || /<!DOCTYPE|<!ENTITY/i.test(sitemap)) add('sitemap', 'fail', `${sitemapPath}: invalid or unsupported XML`, 'Use well-formed sitemap XML without DTDs or custom entities.');
   else {
-    const parsed: unknown = new XMLParser({ parseTagValue: false, processEntities: true }).parse(sitemap);
+    const parsed: unknown = new XMLParser({
+      parseTagValue: false, processEntities: true,
+      entityDecoder: new EntityDecoder({ numericAllowed: true, limit: { maxExpandedLength: 100000, applyLimitsTo: 'all' } }),
+    }).parse(sitemap);
     locations = xmlLocations(parsed);
     const isUrlset = typeof parsed === 'object' && parsed !== null && 'urlset' in parsed;
     const valid = locations.length > 0 && locations.every((location) => {
       try { return new URL(location).origin === config.origin; } catch { return false; }
     });
     add('sitemap', isUrlset && valid ? 'pass' : 'fail', `${sitemapPath}: ${locations.length} locations; direct urlset required`, 'Supply a direct sitemap urlset for this export; sitemap indexes are not expanded.');
+    if (isUrlset && valid) sitemapData = summarizeSitemap(locations);
+  }
+  if (sitemapData === null) add('sitemap-duplicates', 'unknown', `${sitemapPath}: duplicate URLs unmeasured without a supported sitemap`, 'Provide a valid direct urlset on the configured origin, then rerun.');
+  else {
+    const repeated = sitemapData.duplicates.map(({ url, occurrences, positions }) => `${url} occurs ${occurrences} times at positions ${positions.join(', ')}`);
+    add('sitemap-duplicates', sitemapData.duplicateEntries > 0 ? 'fail' : 'pass', [`${sitemapPath}: ${sitemapData.entries} entries`, `${sitemapData.uniqueUrls} unique URLs`, `${sitemapData.duplicateEntries} duplicate entries`, ...repeated].join('; '), 'Retain one intended canonical entry per URL and rebuild the export.');
   }
   for (const file of files) {
     const page = relative(config.publicDir, file).replaceAll('\\', '/');
@@ -101,5 +125,5 @@ export async function audit(config: Config): Promise<Report> {
   add('live-indexing', 'unknown', 'Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.', 'Inspect deployment and supported search tools separately.');
   const llms = await optionalFile(join(config.publicDir, 'llms.txt'));
   add('llms-txt', 'pass', llms === null ? 'Optional llms.txt absent; no readiness penalty.' : 'Optional llms.txt present; no ranking claim.', 'Treat as an optional experiment.');
-  return report('audit', config.product.example, `local export: ${config.publicDir}; no network requests or browser execution`, findings, { config: config.path, files });
+  return report('audit', config.product.example, `local export: ${config.publicDir}; no network requests or browser execution`, findings, { config: config.path, files, sitemap: sitemapData });
 }

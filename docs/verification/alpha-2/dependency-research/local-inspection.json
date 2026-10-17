@@ -1,0 +1,77 @@
+{
+  "inspectedAt": "2026-10-17T12:58:07.776555+00:00",
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "packageVersion": "0.1.0-alpha.1",
+  "lockfileSha256": "37a52fc5eb4cc85121f034fa8fdcd57bbd5f1a99486ea27cd0593a3447a8490b",
+  "packages": {
+    "node_modules/cheerio": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/cheerio/-/cheerio-1.2.0.tgz",
+      "integrity": "sha512-WDrybc/gKFpTYQutKIK6UvfcuxijIZfMfXaYm8NMsPQxSYvf+13fXUJ4rztGGbJcBQ/GF55gvrZ0Bc0bj/mqvg==",
+      "license": "MIT",
+      "dependencies": {
+        "cheerio-select": "^2.1.0",
+        "dom-serializer": "^2.0.0",
+        "domhandler": "^5.0.3",
+        "domutils": "^3.2.2",
+        "encoding-sniffer": "^0.2.1",
+        "htmlparser2": "^10.1.0",
+        "parse5": "^7.3.0",
+        "parse5-htmlparser2-tree-adapter": "^7.1.0",
+        "parse5-parser-stream": "^7.1.2",
+        "undici": "^7.19.0",
+        "whatwg-mimetype": "^4.0.0"
+      },
+      "engines": {
+        "node": ">=20.18.1"
+      },
+      "funding": {
+        "url": "https://github.com/cheeriojs/cheerio?sponsor=1"
+      }
+    },
+    "node_modules/encoding-sniffer": {
+      "version": "0.2.1",
+      "resolved": "https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-0.2.1.tgz",
+      "integrity": "sha512-5gvq20T6vfpekVtqrYQsSCFZ1wEg5+wW0/QaZMWkFr6BqD3NfKs0rLCx4rrVlSWJeZb5NBJgVLswK/w2MWU+Gw==",
+      "license": "MIT",
+      "dependencies": {
+        "iconv-lite": "^0.6.3",
+        "whatwg-encoding": "^3.1.1"
+      },
+      "funding": {
+        "url": "https://github.com/fb55/encoding-sniffer?sponsor=1"
+      }
+    },
+    "node_modules/whatwg-encoding": {
+      "version": "3.1.1",
+      "resolved": "https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz",
+      "integrity": "sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==",
+      "deprecated": "Use @exodus/bytes instead for a more spec-conformant and faster implementation",
+      "license": "MIT",
+      "dependencies": {
+        "iconv-lite": "0.6.3"
+      },
+      "engines": {
+        "node": ">=18"
+      }
+    }
+  },
+  "auditLines": [
+    {
+      "line": 1,
+      "text": "import { readFile, readdir } from 'node:fs/promises';"
+    },
+    {
+      "line": 3,
+      "text": "import { load } from 'cheerio';"
+    },
+    {
+      "line": 12,
+      "text": "  try { return await readFile(path, 'utf8'); }"
+    },
+    {
+      "line": 62,
+      "text": "    const $ = load(await readFile(file, 'utf8'));"
+    }
+  ]
+}
