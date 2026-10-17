@@ -86,10 +86,16 @@ TICKET-012 immutable source `54c8e908be7a9a0f86e0853f9f17e42888f692c1` passed cl
 
 TICKET-012 delivered [PR #14](https://github.com/tsm0420/geo-growth-engine/pull/14), final head `1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79`; verify job 117423562041 succeeded, full Code Review response retained. No merge/release.
 
-### 5: crawler path encoding (in progress)
+### 5: crawler path encoding (complete delivery)
 
 TICKET-013; base `1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79`; branch `codex/crawler-path-encoding`. Next action: real CLI literal #/?/% filename regressions, preserving path separators/index inference, canonical independence and deployment unknowns; then encode filesystem segments. Delivery depends on unmerged #14/#13/#12/#11/#9. Existing subprocess acceptance seam remains unchanged.
 
 TICKET-013 implementation checkpoint: the initial Spec POSIX-backslash gap was reproduced and corrected. Current seven safety / 110 full-suite tests pass, typecheck/build exit 0. Both final independent review axes have no outstanding actionable introduced defects. No Windows execution claimed. Next action: immutable package proof and exact-head PR CI.
 
 TICKET-013 immutable source `6ac457319e85e734407eae1f05cf56805c34f932` passed clean-source/110 tests/build and 22 expected extracted-package commands; manifest/SHA retained. Final-head PR CI remains pending.
+
+TICKET-013 delivered [PR #15](https://github.com/tsm0420/geo-growth-engine/pull/15), final head `9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c`; Code Review observed verify job 117425595268 success, original untruncated response retained. No merge/release.
+
+### 6: canonical sitemap coverage (in progress)
+
+TICKET-014; base `9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c`; branch `codex/canonical-sitemap-coverage`. Final specified core queue item: serialize canonical and decoded sitemap URLs consistently for coverage while preserving original decoded duplicate identity. Real CLI controls must keep distinct path case/trailing slashes/query order and malformed locations as visible findings rather than operational exceptions. Delivery depends on unmerged #15/#14/#13/#12/#11/#9. Existing subprocess acceptance seam remains unchanged. Agensi preparation follows a reviewed immutable final core candidate.

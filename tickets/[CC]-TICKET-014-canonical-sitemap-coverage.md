@@ -1,9 +1,9 @@
 # TICKET-014: Compare canonical sitemap coverage consistently
 
-Status: Planned
+Status: In progress
 Assignee: Codex
-Target Workspace: `geo-growth-engine`, successive isolated primary branch after preceding slice
-Blocked by: TICKET-007 investigation (complete); delivery declares preceding unmerged slice
+Target Workspace: `geo-growth-engine`, branch `codex/canonical-sitemap-coverage`
+Blocked by: TICKET-007 investigation (complete); PR #15 open and unmerged (transitive #14/#13/#12/#11/#9)
 Specification: `docs/core-hardening-spec.md`, TICKET-014
 
 ## Objectives
