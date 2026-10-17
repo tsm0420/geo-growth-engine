@@ -1,0 +1,48 @@
+▶ audit rejects invalid XML references and characters before counting sitemap URLs
+  ✔ &unknown; (159.601125ms)
+  ✔ &nbsp; (158.720959ms)
+  ✔ &AMP; (163.753667ms)
+  ✔ &#0; (157.669959ms)
+  ✔ &#x0; (160.818083ms)
+  ✔ &#1; (157.548042ms)
+  ✔ &#xB; (168.002083ms)
+  ✔ &#xD800; (159.988042ms)
+  ✔ &#xDFFF; (161.162208ms)
+  ✔ &#xFFFE; (156.132291ms)
+  ✔ &#xFFFF; (158.203625ms)
+  ✔ &#x110000; (155.552458ms)
+  ✔ &#; (155.187292ms)
+  ✔ &#x; (161.184917ms)
+  ✔ &#X26; (162.475583ms)
+  ✔ attribute-name (159.193708ms)
+  ✔ attribute-empty-number (161.59475ms)
+  ✔ literal-null-in-comment (160.855958ms)
+  ✔ split-reference (157.499208ms)
+  ✔ quoted-<!-- &unknown; --> (158.005292ms)
+  ✔ quoted-<![CDATA[&unknown;]]> (188.780167ms)
+  ✔ quoted-<?fixture &unknown;?> (167.5475ms)
+✔ audit rejects invalid XML references and characters before counting sitemap URLs (3551.862667ms)
+▶ audit preserves legal XML numeric boundaries and predefined references
+  ✔ 9 (164.677792ms)
+  ✔ a (159.131667ms)
+  ✔ d (168.936375ms)
+  ✔ 20 (163.673042ms)
+  ✔ d7ff (156.500292ms)
+  ✔ e000 (161.232ms)
+  ✔ fffd (167.29ms)
+  ✔ 10000 (162.426166ms)
+  ✔ 10ffff (159.220875ms)
+  ✔ 85 (167.722958ms)
+  ✔ 1fffe (160.125ms)
+✔ audit preserves legal XML numeric boundaries and predefined references (1791.97375ms)
+✔ audit keeps reference-looking CDATA, comments, processing instructions and escaped ampersands literal (156.455291ms)
+✔ quotes in element text do not hide real literal sections (160.214291ms)
+✔ audit decodes valid long numeric spellings once without changing escaped or CDATA literals (168.670834ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5896.0585

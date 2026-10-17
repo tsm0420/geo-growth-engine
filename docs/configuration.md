@@ -22,6 +22,8 @@ Alpha 2 adds `sitemap-duplicates` and `data.sitemap`. For a supported direct, no
 
 Identity compares exact XML-decoded, trimmed `loc` text, including named and decimal/hexadecimal numeric references. It does not normalize case, percent escapes, query order, fragments, or trailing slashes. A URL escaped as `&amp;#38;` remains literal `&#38;` after one decoding pass. Counts describe extracted local locations, not deployed pages. Sitemap indexes are not expanded. Missing, malformed, or unsupported sitemap input yields unknown duplicates with `data.sitemap: null`, while the existing sitemap check fails. Unique valid entries pass; duplicates fail and cause exit 1. Retain one intended canonical entry and rebuild the export after an authorized fix.
 
+The hardening candidate validates XML 1.0 character ranges and reference spelling before sitemap counting, including ignored attributes. Only the five predefined named references are supported without a DTD. Numeric references must denote permitted characters; valid long leading-zero spellings decode once. Reference-looking text inside CDATA/comments/processing instructions remains literal, while prohibited actual characters still fail. Escaped ampersands are never rescanned as references. This is not XML 1.1 or full schema/namespace/encoding conformance certification.
+
 ## Product
 
 Start with `templates/product.yaml`. Required: `version`, boolean `example`, `name`, `ownedOrigins` (including config origin), `platforms` (`web`, `ios`, `android`), and `facts`. Optional `aliases`, `competitors`, and `listings` default to empty collections.

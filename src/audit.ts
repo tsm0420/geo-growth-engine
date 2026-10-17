@@ -47,6 +47,57 @@ function summarizeSitemap(locations: string[]) {
   return { entries: locations.length, uniqueUrls: byUrl.size, duplicateEntries: locations.length - byUrl.size, duplicates };
 }
 
+function xmlCharacter(point: number): boolean {
+  return point === 0x9 || point === 0xA || point === 0xD || point >= 0x20 && point <= 0xD7FF || point >= 0xE000 && point <= 0xFFFD || point >= 0x10000 && point <= 0x10FFFF;
+}
+
+function numericReferencePoint(reference: string): number {
+  const hexadecimal = reference.startsWith('&#x');
+  return Number.parseInt(reference.slice(hexadecimal ? 3 : 2, -1), hexadecimal ? 16 : 10);
+}
+
+function validXmlReferences(source: string): boolean {
+  for (const character of source) if (!xmlCharacter(character.codePointAt(0) ?? -1)) return false;
+  const literalSections: readonly (readonly [string, string])[] = [['<!--', '-->'], ['<![CDATA[', ']]>'], ['<?', '?>']];
+  const references = /&(?:amp|lt|gt|apos|quot|#(?:[0-9]+|x[0-9a-fA-F]+));/y;
+  let insideTag = false;
+  let quote: string | null = null;
+  for (let index = 0; index < source.length; index += 1) {
+    const character = source[index];
+    if (!insideTag && character === '<') {
+      const literal = literalSections.find(([open]) => source.startsWith(open, index));
+      if (literal) {
+        const end = source.indexOf(literal[1], index + literal[0].length);
+        if (end < 0) return false;
+        index = end + literal[1].length - 1;
+        continue;
+      }
+      insideTag = true;
+    } else if (insideTag) {
+      if (quote !== null) {
+        if (character === '<') return false;
+        if (character === quote) quote = null;
+      } else if (character === '"' || character === "'") quote = character;
+      else if (character === '>') insideTag = false;
+    }
+    if (character === '&') {
+      references.lastIndex = index;
+      const match = references.exec(source);
+      if (!match || match[0].startsWith('&#') && !xmlCharacter(numericReferencePoint(match[0]))) return false;
+      index = references.lastIndex - 1;
+    }
+  }
+  return !insideTag && quote === null;
+}
+
+class SitemapEntityDecoder extends EntityDecoder {
+  override decode(text: string): string {
+    // Compact validated numeric spellings before the upstream 32-character scan; do not expand them here.
+    const compact = text.replace(/&#(?:[0-9]+|x[0-9a-fA-F]+);/g, (reference: string) => `&#${numericReferencePoint(reference)};`);
+    return super.decode(compact);
+  }
+}
+
 export async function audit(config: Config): Promise<Report> {
   await rejectSymlinkAncestors(config.publicDir);
   const files = await htmlFiles(config.publicDir);
@@ -62,11 +113,11 @@ export async function audit(config: Config): Promise<Report> {
   let locations: string[] = [];
   let sitemapData: ReturnType<typeof summarizeSitemap> | null = null;
   if (sitemap === null) add('sitemap', 'fail', `${sitemapPath}: missing`, 'Provide a sitemap for the audited public pages.');
-  else if (XMLValidator.validate(sitemap) !== true || /<!DOCTYPE|<!ENTITY/i.test(sitemap)) add('sitemap', 'fail', `${sitemapPath}: invalid or unsupported XML`, 'Use well-formed sitemap XML without DTDs or custom entities.');
+  else if (XMLValidator.validate(sitemap) !== true || /<!DOCTYPE|<!ENTITY/i.test(sitemap) || !validXmlReferences(sitemap)) add('sitemap', 'fail', `${sitemapPath}: invalid or unsupported XML`, 'Use well-formed sitemap XML without DTDs or custom entities.');
   else {
     const parsed: unknown = new XMLParser({
       parseTagValue: false, processEntities: true,
-      entityDecoder: new EntityDecoder({ numericAllowed: true, limit: { maxExpandedLength: 100000, applyLimitsTo: 'all' } }),
+      entityDecoder: new SitemapEntityDecoder({ numericAllowed: true, limit: { maxExpandedLength: 100000, applyLimitsTo: 'all' } }),
     }).parse(sitemap);
     locations = xmlLocations(parsed);
     const isUrlset = typeof parsed === 'object' && parsed !== null && 'urlset' in parsed;

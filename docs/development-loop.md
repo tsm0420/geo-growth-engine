@@ -79,3 +79,5 @@ TICKET-011 delivered [PR #13](https://github.com/tsm0420/geo-growth-engine/pull/
 ### 4: sitemap XML reference validity (in progress)
 
 TICKET-012; base `5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7`; branch `codex/sitemap-xml-references`. Research addendum specifies pre-decode XML 1.0 reference/character checks and the proven long-leading-zero positive-control correction. Source research and original CLI archive are retained; no executable correction claimed yet. Next action: real CLI red/green slices using the existing seam, preserving literal sections, valid one-pass decoding, DTD exclusion and frozen inputs. Delivery depends on unmerged #13/#12/#11/#9.
+
+TICKET-012 implementation checkpoint: initial Spec P2 quoted-marker bypass reproduced and corrected; initial and final evidence retained separately. Current XML 38 / full-suite 108 passes, typecheck/build exit 0. Independent final Standards and Spec reviews have no outstanding actionable introduced defects. Next action: immutable candidate/package proof and exact-head PR CI.

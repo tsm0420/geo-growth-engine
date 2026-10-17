@@ -1,0 +1,28 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/xml-reference.test.ts"
+  ],
+  "cwd": "/private/tmp/geo-review012-standards",
+  "startedAt": "2026-10-17T14:38:06.705089+00:00",
+  "endedAt": "2026-10-17T14:38:12.067854+00:00",
+  "exitCode": 0,
+  "stdout": "\u25b6 audit rejects invalid XML references and characters before counting sitemap URLs\n  \u2714 &unknown; (202.375291ms)\n  \u2714 &nbsp; (170.943875ms)\n  \u2714 &AMP; (161.197875ms)\n  \u2714 &#0; (162.308209ms)\n  \u2714 &#x0; (160.736708ms)\n  \u2714 &#1; (164.373334ms)\n  \u2714 &#xB; (164.679458ms)\n  \u2714 &#xD800; (157.604541ms)\n  \u2714 &#xDFFF; (155.19125ms)\n  \u2714 &#xFFFE; (159.36375ms)\n  \u2714 &#xFFFF; (164.625542ms)\n  \u2714 &#x110000; (165.797666ms)\n  \u2714 &#; (164.666542ms)\n  \u2714 &#x; (164.106292ms)\n  \u2714 &#X26; (164.193708ms)\n  \u2714 attribute-name (168.553125ms)\n  \u2714 attribute-empty-number (164.966125ms)\n  \u2714 literal-null-in-comment (163.615709ms)\n  \u2714 split-reference (163.699708ms)\n\u2714 audit rejects invalid XML references and characters before counting sitemap URLs (3145.270583ms)\n\u25b6 audit preserves legal XML numeric boundaries and predefined references\n  \u2714 9 (169.730667ms)\n  \u2714 a (159.251ms)\n  \u2714 d (159.269375ms)\n  \u2714 20 (162.013958ms)\n  \u2714 d7ff (163.453292ms)\n  \u2714 e000 (162.451ms)\n  \u2714 fffd (160.616125ms)\n  \u2714 10000 (160.890292ms)\n  \u2714 10ffff (165.618167ms)\n  \u2714 85 (161.384958ms)\n  \u2714 1fffe (160.057083ms)\n\u2714 audit preserves legal XML numeric boundaries and predefined references (1785.761958ms)\n\u2714 audit keeps reference-looking CDATA, comments, processing instructions and escaped ampersands literal (162.760416ms)\n\u2714 audit decodes valid long numeric spellings once without changing escaped or CDATA literals (167.062791ms)\n\u2139 tests 34\n\u2139 suites 0\n\u2139 pass 34\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 5329.219625\n",
+  "stderr": "",
+  "head": "50ec719f6c0bfa96b0e7042642497ccdce54ae2d",
+  "base": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+  "runtime": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "node": "v24.18.0",
+    "npm": "11.16.0"
+  },
+  "dependencies": "Reused supplied APFS copy of primary locked node_modules; no clean installation performed.",
+  "fileSha256": {
+    "src/audit.ts": "088312b0499b8e3bcd690abaa077157f277e75ff763f0615dcac127fe2ac5af5",
+    "tests/xml-reference.test.ts": "ce9a5c65ec25cf21bcf0fbdf8f06ef398bbc232a018f481b1e0dcde9e6c8e304",
+    "package-lock.json": "e43312bae5abe690db7f4cfb9e57a0c983f6e25284865b1979df8710b68bd417"
+  }
+}

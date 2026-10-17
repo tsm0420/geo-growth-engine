@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/xml-reference.test.ts"
+  ],
+  "exitCode": 1,
+  "time": "2026-10-17T14:35:01.086915+00:00"
+}

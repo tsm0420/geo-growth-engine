@@ -1,6 +1,6 @@
 # TICKET-012: Reject malformed sitemap XML references
 
-Status: In progress
+Status: Implemented and independently reviewed; immutable package/final-head CI pending
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/sitemap-xml-references`
 Blocked by: TICKET-007 investigation (complete); PR #13 open and unmerged (transitive #12/#11/#9)
@@ -23,3 +23,13 @@ Existing local-input core only; English docs, strict TypeScript, real CLI red/gr
 ## Research addendum before implementation
 
 Primary-source XML 1.0 review and 31 recorded real CLI probes confirm malformed named/numeric references (including ignored attributes) and prohibited literal characters need checking before decoding. Reference-looking text in CDATA/comments/processing instructions and escaped ampersands remains literal. A valid numeric reference with 40 leading zeroes also exceeds the installed decoder's scan length and produces incorrect duplicate identity; include this observed positive-control defect in valid one-pass preservation. Keep existing structural validation, DTD exclusion and expansion limits. No XML 1.1, namespace/schema or encoding-conformance expansion is requested. Research: `docs/research/xml-reference-validity.md`.
+
+## 📄 Execution Report
+
+Validated original XML 1.0 Char ranges and complete predefined/numeric reference tokens before sitemap counting. Tag/quote context distinguishes actual CDATA/comments/PIs from prohibited attribute contents. Invalid input produces sitemap fail / duplicates unknown / null data. Validated numeric spellings compact inside the inherited decoder's original-input pass to avoid its observed 32-character scan cap, preserving one-pass identity and literal output. Structural validation, DTD exclusion and expansion limits remain.
+
+Real CLI red/green records are in `docs/verification/TICKET-012/`: initial 33 tests showed 17 malformed-content false-pass cases (18 failures including parent); reference checks passed, then a separate long-numeric identity red was fixed. Initial Spec review found a P2 quoted-marker bypass; its three false-success regressions and original independent probes are retained. Tag/attribute-aware scanning closes it while valid quoted element text and escaped attributes remain accepted. Final XML suite: 38 passes, zero skips.
+
+Current `npm run typecheck`, `npm test` (108 passes, zero failures/skips), and `npm run build` each exited 0 on Darwin 25.5.0 arm64 / Node v24.18.0/npm 11.16.0. Historical 34/104-pass checks remain separately identified. Both review axes independently reassessed changed source and reran all 38 XML tests; final reports have no outstanding actionable introduced defects. Spec repeated all three original bypass probes with correct failed/unknown/null outcomes. Reports/check receipts: `docs/reviews/TICKET-012/`.
+
+Immutable candidate/package and final-head PR CI remain pending delivery steps. This is bounded regression evidence, not full XML/schema/namespace/encoding certification. No dependency, live request, private-file, merge, tag or release change occurred.

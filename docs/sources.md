@@ -14,3 +14,5 @@ Reviewed on 2026-10-16. These sources inform checks; passing a check does not es
 | XML parsing | [fast-xml-parser source and documentation](https://github.com/NaturalIntelligence/fast-xml-parser). XML well-formedness is distinct from sitemap coverage. |
 
 Character checks count Unicode code points; UTF-8 bytes apply only to Apple's keyword field. Store-side validation and locale-specific behavior still require review in the relevant console. Product-fact sources supplied by a user are traceability references, not independently verified by the toolkit.
+
+XML reference hardening was checked separately on 2026-10-17 against [XML 1.0 character ranges](https://www.w3.org/TR/xml/#charsets), [reference grammar](https://www.w3.org/TR/xml/#sec-references), predefined entities and literal-section rules. The installed validator/decoder behavior was independently probed; its permissive result alone is not treated as proof of valid references. See [research and receipts](research/xml-reference-validity.md). Other source rows above retain their stated review date.

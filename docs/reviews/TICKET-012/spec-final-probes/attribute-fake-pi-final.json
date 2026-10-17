@@ -1,0 +1,19 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-review012-spec/src/cli.ts",
+    "audit",
+    "--config",
+    "/private/tmp/geo-ticket012-probes/attribute-fake-pi/.geo/config.yaml",
+    "--output",
+    "/private/tmp/geo-ticket012-probes/attribute-fake-pi/results-final"
+  ],
+  "startedAt": "2026-10-17T14:43:09.960819+00:00",
+  "endedAt": "2026-10-17T14:43:10.113704+00:00",
+  "exitCode": 1,
+  "stdout": "{\"output\":\"/private/tmp/geo-ticket012-probes/attribute-fake-pi/results-final\",\"pass\":14,\"fail\":2,\"unknown\":3}\n",
+  "stderr": "",
+  "sitemap": "fail",
+  "duplicates": "unknown",
+  "data": null
+}
