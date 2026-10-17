@@ -1,0 +1,15 @@
+▶ report commands reject a destination that is also their configuration without changing it
+  ✔ audit (178.436708ms)
+  ✔ aso (176.156ms)
+  ✔ plan (166.243125ms)
+  ✔ visibility (158.818959ms)
+✔ report commands reject a destination that is also their configuration without changing it (680.556ms)
+✔ report preflight rejects a hard-linked input alias without modifying either name (169.315625ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 922.634458

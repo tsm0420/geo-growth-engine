@@ -20,6 +20,8 @@ Protect configured input files (`config`, `product`, `queries`) and visibility `
 
 This is deterministic preflight, not a multi-file transaction or a promise of rollback after disk exhaustion, power loss or hostile concurrent filesystem changes. State that limitation explicitly. Those unobserved failures are not claimed fixed. The real reproduced EISDIR case must no longer replace JSON before reporting failure. No API mocks or injected production no-ops.
 
+A further in-scope CLI reproduction found hard-linked JSON/Markdown destinations could overwrite each other and still return success. Reject multiple destinations aliasing the same existing file before writing; preserve their prior bytes. The raw red receipt is in TICKET-009's verification directory.
+
 ### TICKET-010: optional collection types (C1)
 
 Default aliases, competitors, listings and listing factIds only when omitted. Explicit null is an incompatible list/object type: exit 2, no report. Preserve omitted-field defaults, valid empty collections, and intentional null fact sources as evidence gaps.

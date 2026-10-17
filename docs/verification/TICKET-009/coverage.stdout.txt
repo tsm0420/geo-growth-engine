@@ -1,0 +1,41 @@
+▶ report commands reject a destination that is also their configuration without changing it
+  ✔ audit (166.078584ms)
+  ✔ aso (203.770209ms)
+  ✔ plan (162.670958ms)
+  ✔ visibility (159.347916ms)
+✔ report commands reject a destination that is also their configuration without changing it (692.731666ms)
+✔ a later report destination conflict preserves the previous JSON and raw evidence (297.927416ms)
+✔ report preflight rejects a hard-linked input alias without modifying either name (159.629292ms)
+▶ report preflight protects product, query and raw-response input destinations
+  ✔ product (159.496084ms)
+  ✔ queries (158.528167ms)
+  ✔ input (154.555958ms)
+✔ report preflight protects product, query and raw-response input destinations (473.095084ms)
+✔ report preflight rejects a blocked evidence ancestor before replacing existing reports (165.303083ms)
+✔ safe report reuse replaces outputs with matching retained evidence (331.087458ms)
+✖ a non-writable later destination is detected before replacing earlier outputs (157.850083ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 13
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2347.339625
+
+✖ failing tests:
+
+test at tests/report-integrity.test.ts:109:1
+✖ a non-writable later destination is detected before replacing earlier outputs (157.850083ms)
+  Error: ENOENT: no such file or directory, chmod '/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-qoTs9L/output/plan.md'
+      at async chmod (node:internal/fs/promises:1092:10)
+      at async TestHook.run (node:internal/test_runner/test:1332:7)
+      at async Test.runHook (node:internal/test_runner/test:1212:9)
+      at async after (node:internal/test_runner/test:1265:9)
+      at async Test.run (node:internal/test_runner/test:1351:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'chmod',
+    path: '/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-qoTs9L/output/plan.md'
+  }

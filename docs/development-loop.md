@@ -50,7 +50,7 @@ Result: independent investigations completed, finite defect queue specified, act
 
 ### 1: report integrity (in progress)
 
-Ticket: TICKET-009; specification: `docs/core-hardening-spec.md`; base before implementation: `49d0e163` plus planning documents. Priority: preserve user inputs and coherent prior report/evidence artifacts. Next action: red CLI source-overlap regression, minimal guard, then predictable-destination preflight regression and correction. A source/PR/package/CI identity will be recorded after verification.
+Ticket: TICKET-009; specification: `docs/core-hardening-spec.md`; base before implementation: `49d0e163` plus planning documents. Priority: preserve user inputs and coherent prior report/evidence artifacts. Implemented complete report preflight and protected inputs. Real CLI final focused run: 15 passes; full suite: 48 passes; typecheck/build exit 0. Separate Standards and Spec reviews found no actionable introduced defects. Raw receipts: `docs/verification/TICKET-009/`; reviews: `docs/reviews/TICKET-009/`. Next action: commit reviewed alpha.3 source, verify immutable clean-source/extracted package, open a PR stacked on PR #9 and inspect exact final-head CI. These delivery gates remain pending.
 
 ## Delivery and stop conditions
 

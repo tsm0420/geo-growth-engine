@@ -1,0 +1,28 @@
+✖ report preflight rejects a hard-linked input alias without modifying either name (157.884292ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 224.582041
+
+✖ failing tests:
+
+test at tests/report-integrity.test.ts:25:1
+✖ report preflight rejects a hard-linked input alias without modifying either name (157.884292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/report-integrity.test.ts:33:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

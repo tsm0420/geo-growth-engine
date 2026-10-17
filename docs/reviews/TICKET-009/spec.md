@@ -1,0 +1,11 @@
+# TICKET-009 Spec review
+
+**No actionable introduced Spec defects found.** Reviewed the actual tracked/untracked proposal against fixed base `1c8c535bcf00739ae705bdb9e2d3a455717a45f4`, `docs/core-hardening-spec.md` TICKET-009, and its acceptance criteria. The planning-only committed diff was not substituted for implementation review.
+
+The implementation satisfies the reviewed requirement: “Protect configured input files (`config`, `product`, `queries`) and visibility `--input` from every report/evidence destination, including normalized-path and existing filesystem aliases.” CLI dispatch supplies those inputs; normalized paths and existing device/inode identities are checked before writing. Existing destination aliases are also rejected, including mutually hard-linked JSON/Markdown paths.
+
+The complete output set is checked for symlink paths, non-regular destinations, invalid ancestors and applicable write access before any report/evidence replacement. The directory-at-later-filename and blocked-evidence-ancestor regressions preserve previous JSON/raw bytes. Safe output reuse updates report and evidence together on successful completion. Documentation explicitly limits this to deterministic preflight and disclaims transactional rollback for disk, power or concurrent-path failures; it does not claim those failures were fixed.
+
+Actual verification: ran `node --test tests/report-integrity.test.ts` in the assigned isolated worktree. **15/15 tests passed, zero skipped**, including all four configuration-overlap commands, product/query/raw-source protection, hard-linked input and output aliases, later type/permission conflicts, ancestor conflict and normal reuse. Independently inspected source/dispatch/documentation and read the saved red/green receipts. Saved full-suite receipts report 48 tests and exit 0, with typecheck/build exit 0; those broader checks were read, not rerun by this reviewer.
+
+No tracked files, commits, other worktrees or network services were modified/accessed. Other planned hardening tickets are outside this slice. Ticket completion reports, immutable clean-source/package verification and final-head PR CI remain pending delivery gates, rather than claims of completed verification. No merge, tag or release is inferred from this review.

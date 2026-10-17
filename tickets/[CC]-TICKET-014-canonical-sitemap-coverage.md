@@ -19,4 +19,3 @@ Existing local-input core only; English docs, strict TypeScript, real CLI red/gr
 - Real CLI bare-origin/apostrophe equivalents pass coverage; distinct case/slash/query controls remain distinct; duplicate data and original evidence remain intact.
 - Required typecheck/full suite/build pass, with actual raw receipts and separate resolved review reports before source commit.
 - Deliver a reviewable PR with prerequisite, current candidate/package evidence and final-head CI; update the loop ledger before selecting the next justified item.
-
