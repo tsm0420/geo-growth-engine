@@ -1,6 +1,6 @@
 # TICKET-014: Compare canonical sitemap coverage consistently
 
-Status: Implemented and independently reviewed; immutable package/final-head CI pending
+Status: Implemented and independently reviewed; clean-source/package verified; final PR CI pending
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/canonical-sitemap-coverage`
 Blocked by: TICKET-007 investigation (complete); PR #15 open and unmerged (transitive #14/#13/#12/#11/#9)
@@ -29,3 +29,5 @@ Real CLI red/green receipts under `docs/verification/TICKET-014/` show bare-orig
 Separate Standards and Spec reviews found no actionable introduced defects; both independently ran all 11 focused tests with the supplied dependency copy and inspected the final clarified configuration paragraph. Reports and reviewer receipt are in `docs/reviews/TICKET-014/`.
 
 Immutable source/package and final-head PR CI remain pending delivery steps. This is the last specified core queue implementation, not completion of the Agensi workstream or a release. No dependency, live request, private-file, merge, tag or release change occurred.
+
+Final core alpha.3 source `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca` passed fresh install/typecheck/121 tests/build and all 23 expected extracted-package outcomes: all six commands and every hardening regression class, including equivalent canonical coverage with exact duplicate counts. Frozen YinThread remains 16 pass / 1 fail / 2 unknown, sitemap 146/145/1, positions 8,12. Tarball SHA-256 `39c9e37d07830475ac88b0502d2f247ed991796aa7be838eed6f096dbda6bfd4` (22,205 bytes). Original runtime/commands/cwd/times/exits/output and all package file hashes are in `docs/verification/TICKET-014/candidate/manifest.json` and adjacent receipts. Tarball remains local/ignored; no release is inferred. Exact final-head PR CI remains pending.

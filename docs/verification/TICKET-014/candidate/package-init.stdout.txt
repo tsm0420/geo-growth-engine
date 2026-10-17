@@ -1,0 +1,7 @@
+{
+  "created": [
+    "/private/tmp/geo-core-clean-9dujffle/product/.geo/config.yaml",
+    "/private/tmp/geo-core-clean-9dujffle/product/.geo/product.yaml",
+    "/private/tmp/geo-core-clean-9dujffle/product/.geo/queries.yaml"
+  ]
+}

@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-core-clean-9dujffle/collection/results","pass":0,"fail":0,"unknown":1}
