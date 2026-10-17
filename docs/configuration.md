@@ -14,6 +14,12 @@ queries: queries.yaml
 
 Origins are HTTP(S) origins without paths, credentials, queries, or fragments. Paths declared in YAML resolve against the config file. Explicit CLI arguments (`--config`, `--input`, `--target`, `--output`) resolve against the current working directory; use absolute paths when running elsewhere. `publicDir` is a self-contained local export; symlinks and symlink ancestors are rejected. Installation and report outputs also require canonical filesystem paths without symlinks. A direct `sitemap.xml` urlset is supported; indexes and compressed/multiple sitemaps need a future adapter.
 
+## Audit report
+
+Alpha 2 adds `sitemap-duplicates` and `data.sitemap`. For a supported direct, nonempty, on-origin urlset, the latter contains `entries`, `uniqueUrls`, `duplicateEntries` (excess entries), and `duplicates`. Each repeated URL has `url`, `occurrences`, and one-based `positions` in extracted document order. Repeated URLs sort by decoded text using code-unit order. Evidence names the local sitemap and counts; Markdown includes the same finding and JSON details.
+
+Identity compares exact XML-decoded, trimmed `loc` text, including named and decimal/hexadecimal numeric references. It does not normalize case, percent escapes, query order, fragments, or trailing slashes. A URL escaped as `&amp;#38;` remains literal `&#38;` after one decoding pass. Counts describe extracted local locations, not deployed pages. Sitemap indexes are not expanded. Missing, malformed, or unsupported sitemap input yields unknown duplicates with `data.sitemap: null`, while the existing sitemap check fails. Unique valid entries pass; duplicates fail and cause exit 1. Retain one intended canonical entry and rebuild the export after an authorized fix.
+
 ## Product
 
 Start with `templates/product.yaml`. Required: `version`, boolean `example`, `name`, `ownedOrigins` (including config origin), `platforms` (`web`, `ios`, `android`), and `facts`. Optional `aliases`, `competitors`, and `listings` default to empty collections.

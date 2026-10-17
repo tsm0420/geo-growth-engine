@@ -1,6 +1,6 @@
 # TICKET-006: Detect sitemap duplicates and verify alpha 2 candidate
 
-Status: Planned
+Status: Implemented; candidate delivery verification in progress
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/alpha-2-candidate`
 Blocked by: TICKET-005 supported outcome
@@ -21,3 +21,11 @@ English source/docs; strict TypeScript; no live acquisition, snapshot/history ed
 - Installed skill, README, configuration/report guidance and changelog match behavior and candidate status.
 - Separate Standards and Spec reports contain no outstanding introduced defects before source commits; this ticket status/report changes with its source commit.
 - Typecheck, full suite, build, clean source install, extracted-package smoke, version/revision/SHA-256 and actual runtime/OS have raw receipts. Final PR head CI succeeds. Provide readiness and unresolved-limitations report.
+
+## 📄 Execution Report
+
+Implemented the specified `sitemap-duplicates` finding and `data.sitemap` evidence. Independent literal CLI fixtures first failed on duplicate exit behavior and numeric-reference identity, then passed after implementation. Unique spelling distinctions and six unsupported/unavailable cases pass, including unknown duplicate status. A direct pinned MIT `@nodable/entities@3.1.0` uses the XML parser's supported decoder interface; no deprecated option or Cheerio override is used. README, configuration/report guidance, web-geo skill, changelog and case documentation match the behavior.
+
+The frozen YinThread copy returned exit 1 with 16 pass, 1 fail, 2 unknown, 146 entries, 145 unique URLs, and day-master at positions 8 and 12. Three body hashes match capture.json; historical files have no diff. New reports are separate, with original temporary paths. Raw red/green, typecheck, 33-test suite, build, case output/exits/hashes are under `docs/verification/alpha-2/`. Actual runtime: Darwin arm64, Node v24.18.0, npm 11.16.0. Parallel independent Standards and Spec reviews in separate worktrees found zero actionable introduced defects; Spec independently ran typecheck and all 33 tests. Reports: `docs/reviews/alpha-2/`.
+
+This source commit completes implementation and updates both ticket reports. Committed-source clean install, packaged CLI/digest/revision and final-head PR CI remain pending; candidate delivery is not yet claimed complete. No publication, production change or live acquisition occurred.

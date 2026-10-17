@@ -1,0 +1,30 @@
+{
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--prefer-offline",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:56:38.553042+00:00",
+  "endedAt": "2026-10-17T12:56:39.083463+00:00",
+  "exitCode": 255,
+  "stdout": "",
+  "stderr": "npm error code EPERM\nnpm error syscall mkdir\nnpm error path /Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo/node_modules\nnpm error errno -1\nnpm error Error: EPERM: operation not permitted, mkdir '/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo/node_modules'\nnpm error     at async mkdir (node:internal/fs/promises:859:10)\nnpm error     at async /Users/tsm0420/.local/share/fnm/node-versions/v24.18.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:590:20\nnpm error     at async Promise.allSettled (index 0)\nnpm error     at async #reifyPackages (/Users/tsm0420/.local/share/fnm/node-versions/v24.18.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:322:11)\nnpm error     at async Arborist.reify (/Users/tsm0420/.local/share/fnm/node-versions/v24.18.0/installation/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:128:5)\nnpm error     at async CI.exec (/Users/tsm0420/.local/share/fnm/node-versions/v24.18.0/installation/lib/node_modules/npm/lib/commands/ci.js:110:5)\nnpm error     at async Npm.exec (/Users/tsm0420/.local/share/fnm/node-versions/v24.18.0/installation/lib/node_modules/npm/lib/npm.js:193:9)\nnpm error     at async module.exports (/Users/tsm0420/.local/share/fnm/node-versions/v24.18.0/installation/lib/node_modules/npm/lib/cli/entry.js:67:5) {\nnpm error   errno: -1,\nnpm error   code: 'EPERM',\nnpm error   syscall: 'mkdir',\nnpm error   path: '/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo/node_modules'\nnpm error }\nnpm error\nnpm error The operation was rejected by your operating system.\nnpm error It is likely you do not have the permissions to access this file as the current user\nnpm error\nnpm error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /private/tmp/geo-npm-cache/_logs/2026-10-17T12_56_38_649Z-debug-0.log\n",
+  "runtime": {
+    "os": "Darwin",
+    "release": "25.5.0",
+    "architecture": "arm64",
+    "node": "v24.18.0",
+    "npm": "11.16.0"
+  },
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "packageVersion": "0.1.0-alpha.1",
+  "lockfileSha256": "37a52fc5eb4cc85121f034fa8fdcd57bbd5f1a99486ea27cd0593a3447a8490b"
+}

@@ -1,0 +1,1 @@
+{"output":"docs/case-studies/yinthread/results-alpha-2","pass":16,"fail":1,"unknown":2}

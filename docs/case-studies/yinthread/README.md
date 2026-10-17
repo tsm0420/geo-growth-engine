@@ -22,9 +22,15 @@ The existing CLI audited the saved files with exit status **0**, producing **16 
 
 Initial HTML contains a title, description, social metadata, one H1, readable text, an absolute canonical, and parseable JSON-LD. The homepage appears in the sitemap. Saved robots rules allow Googlebot and OAI-SearchBot at the inferred root URL. This observes the captured rules, not actual access by those bots. Training permissions remain a separate policy decision.
 
-An additional manual XML inspection found **146 sitemap entries and 145 unique URLs**: `https://yinthread.com/learn/day-master` occurs twice. [inspection.json](inspection.json) records this separate observation; the current CLI does not check duplicate sitemap entries. Removing the duplicate is a concrete cleanup opportunity, with no measured ranking impact.
+An additional manual XML inspection found **146 sitemap entries and 145 unique URLs**: `https://yinthread.com/learn/day-master` occurs twice. [inspection.json](inspection.json) records this separate observation; the alpha 1 CLI did not check duplicate sitemap entries. Removing the duplicate is a concrete cleanup opportunity, with no measured ranking impact.
 
 The two CLI unknowns are structured-data semantics/eligibility and live indexing. Although the separate capture observed HTTP 200 with its own User-Agent, the local audit did not measure headers, WAF behavior, rendered content, actual indexing, rankings, citations, conversions, or changes over time. Only the homepage was audited; the other sitemap pages were not fetched. The site's demo birth dates and score are labelled as examples and are not validated user readings.
+
+## Alpha 2 candidate re-audit
+
+On 2026-10-17 the candidate audited a byte-identical temporary copy of the frozen input, with no network requests. It returned **exit 1: 16 pass, 1 fail, 2 unknown**. The new `sitemap-duplicates` finding reports **146 entries, 145 unique URLs, one excess entry**, and two day-master occurrences at **positions 8 and 12**. Inspect the new [JSON](results-alpha-2/audit.json), [Markdown](results-alpha-2/audit.md), and [command/hash receipts](../../verification/alpha-2/README.md). The schema-semantics and live-indexing unknowns are unchanged. This finding does not establish a ranking effect or a production fix.
+
+Historical `results/`, `inspection.json`, capture receipts and website bodies remain unchanged. Candidate reports preserve their actual `/private/tmp/geo-alpha-2-case` input paths without redaction; capture hash verification confirms the copied bodies match the originals. These paths identify the local execution, not a deployed export.
 
 ## Reproduce the saved-file audit
 
@@ -35,6 +41,8 @@ node dist/src/cli.js audit --config docs/case-studies/yinthread/config/config.ya
 ```
 
 Compare check IDs, statuses, and evidence content rather than generated timestamps and absolute paths. Public result copies normalize the personal checkout prefix to `/workspace/geo`; originals are retained locally and [digest pairs](../../releases/evidence-normalization.json) disclose this transformation. The captured website bodies are not normalized.
+
+The published alpha 1 returns exit 0 for this command; the alpha 2 candidate returns exit 1 for the observed duplicate. Use a fresh output directory for each version. Only the historical alpha 1 reports use the path normalization above.
 
 Verify the captured bytes without network access from the repository root:
 

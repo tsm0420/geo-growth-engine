@@ -1,0 +1,16 @@
+{
+  "command": [
+    "node",
+    "--input-type=module",
+    "-e",
+    "import { load as full } from 'cheerio';\nimport { load as slim } from 'cheerio/slim';\nimport { readFileSync, existsSync } from 'node:fs';\nconst input = '<title>\u7e41\u9ad4\u4e2d\u6587 &amp; Caf\u00e9 &#x1F680;</title><h1 data-label=\"\u98a8\u6c34 &amp; Caf\u00e9\">\u7e41\u9ad4\u4e2d\u6587 &amp; Caf\u00e9 &#128640;</h1><table><tr><td>cell</td></tr></table>';\nfor (const [entry, load] of [['cheerio', full], ['cheerio/slim', slim]]) {\n const $ = load(input);\n console.log(JSON.stringify({entry,title:$('title').text(),h1:$('h1').text(),attribute:$('h1').attr('data-label'),bodyCount:$('body').length,tbodyCount:$('tbody').length,html:$.html()}));\n}\nconsole.log(JSON.stringify({encodingDependency:JSON.parse(readFileSync('node_modules/cheerio/package.json','utf8')).dependencies['encoding-sniffer'],whatwgEncodingInstalled:existsSync('node_modules/whatwg-encoding/package.json')}));\n"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:57:36.335230+00:00",
+  "endedAt": "2026-10-17T12:57:36.628931+00:00",
+  "exitCode": 0,
+  "stdout": "{\"entry\":\"cheerio\",\"title\":\"\u7e41\u9ad4\u4e2d\u6587 & Caf\u00e9 \ud83d\ude80\",\"h1\":\"\u7e41\u9ad4\u4e2d\u6587 & Caf\u00e9 \ud83d\ude80\",\"attribute\":\"\u98a8\u6c34 & Caf\u00e9\",\"bodyCount\":1,\"tbodyCount\":1,\"html\":\"<html><head><title>\u7e41\u9ad4\u4e2d\u6587 &amp; Caf\u00e9 \ud83d\ude80</title></head><body><h1 data-label=\\\"\u98a8\u6c34 &amp; Caf\u00e9\\\">\u7e41\u9ad4\u4e2d\u6587 &amp; Caf\u00e9 \ud83d\ude80</h1><table><tbody><tr><td>cell</td></tr></tbody></table></body></html>\"}\n{\"entry\":\"cheerio/slim\",\"title\":\"\u7e41\u9ad4\u4e2d\u6587 & Caf\u00e9 \ud83d\ude80\",\"h1\":\"\u7e41\u9ad4\u4e2d\u6587 & Caf\u00e9 \ud83d\ude80\",\"attribute\":\"\u98a8\u6c34 & Caf\u00e9\",\"bodyCount\":0,\"tbodyCount\":0,\"html\":\"<title>&#x7e41;&#x9ad4;&#x4e2d;&#x6587; &amp; Caf&#xe9; &#x1f680;</title><h1 data-label=\\\"&#x98a8;&#x6c34; &amp; Caf&#xe9;\\\">&#x7e41;&#x9ad4;&#x4e2d;&#x6587; &amp; Caf&#xe9; &#x1f680;</h1><table><tr><td>cell</td></tr></table>\"}\n{\"encodingDependency\":\"^0.2.1\",\"whatwgEncodingInstalled\":true}\n",
+  "stderr": "",
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "lockfileSha256": "37a52fc5eb4cc85121f034fa8fdcd57bbd5f1a99486ea27cd0593a3447a8490b"
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "npm",
+    "explain",
+    "whatwg-encoding",
+    "--json"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:57:35.883276+00:00",
+  "endedAt": "2026-10-17T12:57:36.319075+00:00",
+  "exitCode": 0,
+  "stdout": "[\n  {\n    \"name\": \"whatwg-encoding\",\n    \"version\": \"3.1.1\",\n    \"location\": \"node_modules/whatwg-encoding\",\n    \"isWorkspace\": false,\n    \"dependents\": [\n      {\n        \"type\": \"prod\",\n        \"name\": \"whatwg-encoding\",\n        \"spec\": \"^3.1.1\",\n        \"from\": {\n          \"name\": \"encoding-sniffer\",\n          \"version\": \"0.2.1\",\n          \"location\": \"node_modules/encoding-sniffer\",\n          \"isWorkspace\": false,\n          \"dependents\": [\n            {\n              \"type\": \"prod\",\n              \"name\": \"encoding-sniffer\",\n              \"spec\": \"^0.2.1\",\n              \"from\": {\n                \"name\": \"cheerio\",\n                \"version\": \"1.2.0\",\n                \"location\": \"node_modules/cheerio\",\n                \"isWorkspace\": false,\n                \"dependents\": [\n                  {\n                    \"type\": \"prod\",\n                    \"name\": \"cheerio\",\n                    \"spec\": \"1.2.0\",\n                    \"from\": {\n                      \"location\": \"/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo\"\n                    }\n                  }\n                ]\n              }\n            }\n          ]\n        }\n      }\n    ],\n    \"dev\": false,\n    \"optional\": false,\n    \"devOptional\": false,\n    \"peer\": false,\n    \"bundled\": false,\n    \"overridden\": false\n  }\n]\n",
+  "stderr": "",
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "lockfileSha256": "37a52fc5eb4cc85121f034fa8fdcd57bbd5f1a99486ea27cd0593a3447a8490b"
+}

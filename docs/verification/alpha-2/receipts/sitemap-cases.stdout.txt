@@ -1,0 +1,19 @@
+✔ audit fails repeated sitemap URLs with ordered positions and deterministic evidence (835.464167ms)
+✔ audit compares decoded XML references once and preserves literal escaped references (603.5965ms)
+✔ audit passes unique sitemap spellings without URL normalization (490.557666ms)
+▶ audit leaves duplicate status unknown for unavailable or unsupported sitemaps
+  ✔ missing (505.831333ms)
+  ✔ malformed (574.114875ms)
+  ✔ empty (416.832667ms)
+  ✔ index (357.587625ms)
+  ✔ off-origin (476.734417ms)
+  ✔ custom-entity (676.299708ms)
+✔ audit leaves duplicate status unknown for unavailable or unsupported sitemaps (3009.326834ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5060.535083

@@ -4,6 +4,8 @@ A reusable GEO (Generative Engine Optimization) toolkit for websites, SaaS, iOS,
 
 **v0.1.0-alpha.1:** an early public preview under [MIT](LICENSE). Checks produce evidence and explicit unknowns; they do not predict rankings or growth. See the [YinThread technical snapshot case](docs/case-studies/yinthread/README.md), [changelog](CHANGELOG.md), and [roadmap](docs/roadmap.md).
 
+**Alpha 2 candidate:** this branch adds explicit duplicate sitemap findings and a frozen-snapshot re-audit. It is not a tagged or published release. The installation below uses the published alpha 1; to review the candidate, check out `codex/alpha-2-candidate` instead and use its [specification](docs/releases/alpha-2-spec.md) and [verification](docs/verification/alpha-2/README.md).
+
 ## Quick start
 
 Use Node.js 24 (the tested runtime). Install from the tagged GitHub source; no npm registry package is available:
@@ -48,12 +50,14 @@ Installation preserves existing files and rejects symlink destinations and ances
 | --- | --- |
 | `init` | Create editable example configuration without overwrites. |
 | `install` | Copy five project-scoped skills after checking all conflicts. |
-| `audit` | Inspect HTML metadata, canonical URLs, text, robot policies, sitemap coverage, and JSON-LD syntax. |
+| `audit` | Inspect HTML metadata, canonical URLs, text, robot policies, sitemap coverage/duplicates, and JSON-LD syntax. |
 | `aso` | Check Apple/Google Play text limits and supplied fact references. |
 | `plan` | Link audience questions to sourced facts; keep unsupported queries as research gaps. |
 | `visibility` | Import response JSONL, retain raw evidence, and report mentions, citations, competitors, and coverage. |
 
 Report commands require `--config` and `--output`; `visibility` also requires `--input`. `init` and `install` require an existing `--target` directory. Exit 0 means completion without failed checks; 1 means observed failed checks; 2 means an operational/input error. Unknown findings remain visible with exit 0. Reusing an output directory replaces same-named reports and evidence; use a fresh directory per run to retain history.
+
+In the alpha 2 candidate, repeated sitemap URLs cause exit 1 and a `sitemap-duplicates` finding with counts and entry positions. Identity uses XML-decoded text; URL spellings are not normalized. See the [audit report contract](docs/configuration.md#audit-report).
 
 ## Evidence and limits
 
