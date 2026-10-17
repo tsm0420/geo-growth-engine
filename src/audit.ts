@@ -1,5 +1,5 @@
 import { readFile, readdir } from 'node:fs/promises';
-import { join, relative } from 'node:path';
+import { join, relative, sep } from 'node:path';
 import { load } from 'cheerio';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import { EntityDecoder } from '@nodable/entities';
@@ -133,7 +133,7 @@ export async function audit(config: Config): Promise<Report> {
     add('sitemap-duplicates', sitemapData.duplicateEntries > 0 ? 'fail' : 'pass', [`${sitemapPath}: ${sitemapData.entries} entries`, `${sitemapData.uniqueUrls} unique URLs`, `${sitemapData.duplicateEntries} duplicate entries`, ...repeated].join('; '), 'Retain one intended canonical entry per URL and rebuild the export.');
   }
   for (const file of files) {
-    const page = relative(config.publicDir, file).replaceAll('\\', '/');
+    const page = relative(config.publicDir, file).split(sep).join('/');
     const $ = load(await readFile(file, 'utf8'));
     const check = (name: string, valid: boolean, evidence: string, action: string): void => add(`${page}:${name}`, valid ? 'pass' : 'fail', `${file}: ${evidence}`, action);
     const title = $('title').text().trim();
@@ -152,7 +152,7 @@ export async function audit(config: Config): Promise<Report> {
     try { canonicalUrl = new URL(href); } catch { /* Invalid canonical is recorded below. */ }
     const validCanonical = canonical.length === 1 && canonicalUrl !== null && canonicalUrl.origin === config.origin && !canonicalUrl.hash && !canonicalUrl.username && !canonicalUrl.password;
     check('canonical', validCanonical, href || 'missing canonical', 'Provide one absolute canonical URL on the configured origin.');
-    const fallback = new URL(page.replace(/(^|\/)index\.html?$/i, '$1'), `${config.origin}/`).href;
+    const fallback = new URL(page.replace(/(^|\/)index\.html?$/i, '$1').split('/').map(encodeURIComponent).join('/'), `${config.origin}/`).href;
     const pageUrl = validCanonical && canonicalUrl ? canonicalUrl.href : fallback;
     check('sitemap-coverage', locations.includes(pageUrl), `${pageUrl} in ${sitemapPath}`, 'Add the intended canonical URL to the direct sitemap.');
     for (const bot of ['Googlebot', 'OAI-SearchBot']) {

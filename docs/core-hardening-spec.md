@@ -40,6 +40,8 @@ XML research addendum before implementation: validate XML 1.0 Char ranges throug
 
 Encode filesystem path segments when deriving URLs; retain directory separators and the existing index-file convention. Literal #/?/% characters remain path characters rather than fragment/query/escape syntax. Matching encoded Disallow rules fail the search checks. Keep canonical coverage and inferred crawl paths separate; deployment routes remain unverified.
 
+Research/review addendum before the next correction: a recorded Darwin CLI case with a literal POSIX backslash filename still becomes a slash before encoding, yielding false crawler passes. Preserve that filename character while converting actual platform separators; Windows separators retain their existing routing role. Add an actual POSIX-only filename regression, with an explicit Windows skip because that literal filename cannot be created there. This repairs the same segment-identity contract; no deployment-route adapter is added.
+
 ### TICKET-014: canonical sitemap coverage (FS-003)
 
 Serialize both decoded sitemap locations and the canonical through the same HTTP(S) URL representation for coverage. Bare origin versus slash and apostrophe versus its URL-serialized encoding cover the same canonical. Preserve decoded original strings and exact duplicate identity/counts; do not collapse distinct path case/trailing slashes or reorder queries. Invalid sitemap entries remain failed evidence.

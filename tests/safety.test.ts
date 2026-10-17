@@ -55,6 +55,53 @@ test('crawler checks use the export path even when canonical points to an allowe
   assert.match(String(findings(report).find((f) => f.id === 'blocked/index.html:crawler.OAI-SearchBot')?.evidence), /https:\/\/example.com\/blocked\//);
 });
 
+test('crawler checks encode literal filename segments while preserving index routes and canonical independence', async (t) => {
+  const target = await fixture(t);
+  for (const name of ['#notes.html', '?notes.html', '%2Fnotes.html']) await cp(join(target, 'public/index.html'), join(target, 'public', name));
+  await mkdir(join(target, 'public/a b'));
+  await cp(join(target, 'public/index.html'), join(target, 'public/a b/Index.HTML'));
+  await mkdir(join(target, 'public/ordinary'));
+  await cp(join(target, 'public/index.html'), join(target, 'public/ordinary/index.html'));
+  await writeFile(join(target, 'public/robots.txt'), 'User-agent: *\nDisallow: /%23notes.html\nDisallow: /%3Fnotes.html\nDisallow: /%252Fnotes.html\nDisallow: /a%20b/\n');
+  const output = join(target, 'output');
+  const result = run(['audit', '--config', join(target, '.geo/config.yaml'), '--output', output]);
+  assert.equal(result.status, 1, result.stderr);
+  const report = await json(join(output, 'audit.json'));
+  const checks = findings(report);
+  const blocked = [['#notes.html', 'https://example.com/%23notes.html'], ['?notes.html', 'https://example.com/%3Fnotes.html'], ['%2Fnotes.html', 'https://example.com/%252Fnotes.html'], ['a b/Index.HTML', 'https://example.com/a%20b/']];
+  for (const [name, url] of blocked) {
+    for (const bot of ['Googlebot', 'OAI-SearchBot']) {
+      const check = checks.find((finding) => finding.id === `${name}:crawler.${bot}`);
+      assert.equal(check?.status, 'fail', `${name}: ${bot}`);
+      assert.ok(String(check?.evidence).includes(`inferred export URL ${url};`));
+    }
+    assert.equal(checks.find((finding) => finding.id === `${name}:canonical`)?.status, 'pass');
+    assert.equal(checks.find((finding) => finding.id === `${name}:sitemap-coverage`)?.status, 'pass');
+    assert.equal(checks.find((finding) => finding.id === `${name}:training.GPTBot`)?.status, 'pass');
+  }
+  assert.equal(checks.find((finding) => finding.id === 'ordinary/index.html:crawler.OAI-SearchBot')?.status, 'pass');
+  assert.ok(String(checks.find((finding) => finding.id === 'ordinary/index.html:crawler.OAI-SearchBot')?.evidence).includes('https://example.com/ordinary/;'));
+  assert.equal(checks.find((finding) => finding.id === 'index.html:crawler.Googlebot')?.status, 'pass');
+  assert.equal(checks.find((finding) => finding.id === 'live-indexing')?.status, 'unknown');
+});
+
+test('crawler checks preserve a literal POSIX backslash filename', { skip: process.platform === 'win32' }, async (t) => {
+  const target = await fixture(t);
+  const name = 'blocked\\notes.html';
+  await cp(join(target, 'public/index.html'), join(target, 'public', name));
+  await writeFile(join(target, 'public/robots.txt'), 'User-agent: *\nDisallow: /blocked%5Cnotes.html\n');
+  const output = join(target, 'output');
+  const result = run(['audit', '--config', join(target, '.geo/config.yaml'), '--output', output]);
+  assert.equal(result.status, 1, result.stderr);
+  const checks = findings(await json(join(output, 'audit.json')));
+  for (const bot of ['Googlebot', 'OAI-SearchBot']) {
+    const check = checks.find((finding) => finding.id === `${name}:crawler.${bot}`);
+    assert.equal(check?.status, 'fail');
+    assert.ok(String(check?.evidence).includes('inferred export URL https://example.com/blocked%5Cnotes.html;'));
+  }
+  assert.equal(checks.find((finding) => finding.id === `${name}:canonical`)?.status, 'pass');
+});
+
 test('installation uses the same normalized target for checking and writing with dot-dot segments', async (t) => {
   const target = await fixture(t);
   await mkdir(join(target, 'outside/child'), { recursive: true });

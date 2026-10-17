@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+    "audit",
+    "--config",
+    "/private/tmp/geo-core-clean-ca8sr3uz/xml-config.json",
+    "--output",
+    "/private/tmp/geo-core-clean-ca8sr3uz/reports-xml"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+  "startedAt": "2026-10-17T14:54:39.235861+00:00",
+  "endedAt": "2026-10-17T14:54:39.359553+00:00",
+  "exitCode": 1,
+  "expectedExitCode": 1,
+  "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+}
