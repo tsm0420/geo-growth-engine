@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-core-clean-1i77ycrm/reports-plan","pass":1,"fail":0,"unknown":0}

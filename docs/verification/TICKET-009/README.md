@@ -22,3 +22,9 @@ The permission case uses an actual unprivileged POSIX process and 0444 destinati
 Full checks, independent reviews and immutable candidate/PR identities are recorded when observed; this file does not presume pending gates passed.
 
 Final working-tree checks: `npm run typecheck`, `npm test` (48 passed, zero failed/skipped) and `npm run build` each exited 0, with original `typecheck`, `tests` and `build` receipts here. Independent Standards and Spec review reports are retained under `docs/reviews/TICKET-009/`; neither found actionable introduced defects. Immutable clean-source/package and final-head CI gates remain pending.
+
+## Immutable candidate
+
+Source commit: `ec2b23caf57e22f106da7b07bb37f1b344e08981`; version `0.1.0-alpha.3`. A fresh git archive passed install, typecheck, all 48 tests and build. Its npm tarball was extracted and installed with production dependencies, then help, init, five-skill install, audit, aso, plan, visibility and frozen YinThread audit were exercised. The package rejected input overwrite and a later destination conflict with exit 2 while preserving original bytes. All 16 command results matched their stated expectations; YinThread's expected exit 1 retained 16 pass / 1 fail / 2 unknown and duplicate positions 8,12.
+
+Tarball SHA-256: `93ed2264bccbc5854f9dc4ed105ca8b3167f84dee43d407bcb76e0a5313761b0` (20,331 bytes). Original command arguments, timestamps, cwd, stdout/stderr, exits, package file hashes and actual Darwin arm64 runtime are in `candidate/manifest.json` and adjacent receipts. The tarball remains a local ignored artifact at the path in that manifest; no tagged or published release is inferred. Later documentation-only commits may reuse this proof only after executable inputs and every selected package file are compared unchanged. Final PR head CI must be checked separately.
