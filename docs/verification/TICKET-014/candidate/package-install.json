@@ -1,0 +1,20 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--ignore-scripts",
+    "--omit=dev",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--no-audit",
+    "--no-fund",
+    "--fetch-retries=0",
+    "--fetch-timeout=30000"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-9dujffle/extracted/package",
+  "startedAt": "2026-10-17T15:01:47.641555+00:00",
+  "endedAt": "2026-10-17T15:01:48.820145+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "fe885bbf7d90127b8ca230b28283fb2c83d5a2ca"
+}

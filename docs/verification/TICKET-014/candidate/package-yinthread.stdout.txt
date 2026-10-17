@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-core-clean-9dujffle/reports-yinthread","pass":16,"fail":1,"unknown":2}

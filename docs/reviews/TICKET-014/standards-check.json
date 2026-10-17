@@ -1,0 +1,28 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/coverage.test.ts"
+  ],
+  "cwd": "/private/tmp/geo-review014-standards",
+  "startedAt": "2026-10-17T15:00:09.528197+00:00",
+  "endedAt": "2026-10-17T15:00:11.525215+00:00",
+  "exitCode": 0,
+  "stdout": "\u25b6 canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries\n  \u2714 bare-origin (259.201708ms)\n  \u2714 host-case (223.291416ms)\n  \u2714 apostrophe (189.260875ms)\n  \u2714 encoded-apostrophe (186.030541ms)\n  \u2714 path-case (182.100916ms)\n  \u2714 trailing-slash (169.497792ms)\n  \u2714 query-order (168.781083ms)\n  \u2714 encoded-path (166.724958ms)\n\u2714 canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries (1546.283292ms)\n\u2714 coverage serialization preserves exact decoded duplicate identity and original evidence (169.206917ms)\n\u2714 malformed sitemap locations stay failed findings rather than becoming operational exceptions (170.75425ms)\n\u2139 tests 11\n\u2139 suites 0\n\u2139 pass 11\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1957.866625\n",
+  "stderr": "",
+  "head": "b41e4a0b0cbdb421317968a62c85af23672fb463",
+  "base": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+  "runtime": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "node": "v24.18.0",
+    "npm": "11.16.0"
+  },
+  "dependencies": "Reused supplied APFS copy of primary locked node_modules; no clean installation performed.",
+  "fileSha256": {
+    "src/audit.ts": "a91eee7fc08dbf038e485c1effb18b7e5db2f5a12bbdd1710d315fbdb20cdb8f",
+    "tests/coverage.test.ts": "b2fb841f3c4ad300bc6d66c6ac228ab4b52dda03c795f036b0409276cee0d9da",
+    "package-lock.json": "e43312bae5abe690db7f4cfb9e57a0c983f6e25284865b1979df8710b68bd417"
+  }
+}
