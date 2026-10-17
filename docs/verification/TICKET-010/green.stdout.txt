@@ -1,0 +1,31 @@
+▶ report commands reject explicit null optional collections before writing reports
+  ✔ aso: aliases (420.270834ms)
+  ✔ aso: competitors (294.848792ms)
+  ✔ aso: listings (410.963792ms)
+  ✔ aso: factIds (366.321083ms)
+  ✔ plan: aliases (354.056458ms)
+  ✔ plan: competitors (328.586041ms)
+  ✔ plan: listings (385.658083ms)
+  ✔ plan: factIds (364.087709ms)
+  ✔ visibility: aliases (319.269333ms)
+  ✔ visibility: competitors (316.891334ms)
+  ✔ visibility: listings (428.016542ms)
+  ✔ visibility: factIds (420.415625ms)
+✔ report commands reject explicit null optional collections before writing reports (4413.372834ms)
+▶ omitted and empty optional collections remain accepted
+  ✔ omitted: aso (661.401917ms)
+  ✔ omitted: plan (669.036125ms)
+  ✔ omitted: visibility (670.181916ms)
+  ✔ empty: aso (709.716375ms)
+  ✔ empty: plan (787.152875ms)
+  ✔ empty: visibility (715.693209ms)
+✔ omitted and empty optional collections remain accepted (4214.900875ms)
+✔ null fact sources remain evidence gaps in aso and plan (783.67ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9562.006917

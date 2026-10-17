@@ -58,3 +58,7 @@ Required shared strings: unique `id`, `provider`, `surface`, `model`, `query`, `
 Success requires a nonempty `answer` and an HTTP(S) `citations` array, possibly empty. Error requires `error`. Optional `example: true` forces the report's example label. Blank lines are ignored; malformed records reject the entire import before evidence is written. Empty input yields an unmeasured sample set with null rates.
 
 Mentions use case-insensitive Unicode letter/number boundaries around configured names and aliases. Substring variants do not count; languages without word separators may require explicit aliases or manual review. Citation ownership uses exact hostnames and genuine subdomains. Import structured citation data, not inferred naked links. The CLI preserves input bytes but cannot authenticate the supplied answers. Query-selection bias and changing query sets require researcher judgment.
+
+## Optional collections
+
+Product `aliases`, `competitors`, `listings`, and each listing's `factIds` default to empty only when omitted. Explicit `null` has the wrong list/object type and causes exit 2 before reports are written. Valid empty collections are accepted. A fact's `source: null` remains a supported evidence gap; it is not a malformed collection or a verified claim.

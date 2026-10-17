@@ -1,9 +1,9 @@
 # TICKET-010: Reject explicit null optional collections
 
-Status: Planned
+Status: Implemented and independently reviewed; clean-source/package verified; final PR CI pending
 Assignee: Codex
-Target Workspace: `geo-growth-engine`, successive isolated primary branch after preceding slice
-Blocked by: TICKET-007 investigation (complete); delivery declares preceding unmerged slice
+Target Workspace: `geo-growth-engine`, branch `codex/optional-collection-validation`
+Blocked by: TICKET-007 investigation (complete); PR #11 open and unmerged (its prerequisite is PR #9)
 Specification: `docs/core-hardening-spec.md`, TICKET-010
 
 ## Objectives
@@ -19,3 +19,13 @@ Existing local-input core only; English docs, strict TypeScript, real CLI red/gr
 - Real aso/plan/visibility CLI cases distinguish null errors (exit2/no report) from omitted/empty success and supported fact.source:null gaps.
 - Required typecheck/full suite/build pass, with actual raw receipts and separate resolved review reports before source commit.
 - Deliver a reviewable PR with prerequisite, current candidate/package evidence and final-head CI; update the loop ledger before selecting the next justified item.
+
+## 📄 Execution Report
+
+Changed the four optional collection defaults to apply only to undefined. Supplied null reaches the existing list/object error path; omitted/empty collections remain valid, and fact-source null remains an evidence gap.
+
+Real CLI test-first receipts under `docs/verification/TICKET-010/`: baseline twelve field/command null cases returned 0 instead of 2 (13 failing tests including parent; 8 passing controls), then all 21 focused tests passed with zero skips. `npm run typecheck`, `npm test` (69 passes, zero failures/skips), and `npm run build` exited 0 on Darwin 25.5.0 arm64, Node v24.18.0/npm 11.16.0. Independent Standards and Spec reports under `docs/reviews/TICKET-010/` found no actionable introduced defects; each reran 21 focused tests using the provided dependency copy.
+
+Source commit identity, clean-source/extracted-package proof and final-head CI remain pending delivery steps. No dependency change, merge, tag, release or external data collection occurred.
+
+Immutable alpha.3 source `8a4be99204fc51aa9d4ff751dc3bdfe6f820a37d` passed fresh install/typecheck/69 tests/build, then all 18 expected command outcomes through its extracted npm package. This includes all six commands, report input/conflict preservation, explicit null rejection and omitted-collection acceptance. Frozen YinThread remains 16 pass / 1 fail / 2 unknown and 146/145/1 sitemap counts. Tarball SHA-256: `42a60a5e6054b767ec044f27482f3c97e0f71871b126e12799a8447f93aeb5ff` (20,475 bytes). Original command arguments/cwd/times/exits/stdout/stderr, runtime and all packaged file hashes are in `docs/verification/TICKET-010/candidate/manifest.json` and adjacent receipts. The tarball is local and ignored; final-head PR CI remains pending.

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-10d6t8ss/extracted/package/dist/src/cli.js",
+    "install",
+    "--target",
+    "/private/tmp/geo-core-clean-10d6t8ss/product"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-10d6t8ss",
+  "startedAt": "2026-10-17T14:26:25.867494+00:00",
+  "endedAt": "2026-10-17T14:26:25.991320+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "8a4be99204fc51aa9d4ff751dc3bdfe6f820a37d"
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-10d6t8ss/extracted/package/dist/src/cli.js",
+    "visibility",
+    "--config",
+    "/private/tmp/geo-core-clean-10d6t8ss/source/examples/.geo/config.yaml",
+    "--input",
+    "/private/tmp/geo-core-clean-10d6t8ss/empty.jsonl",
+    "--output",
+    "/private/tmp/geo-core-clean-10d6t8ss/reports-visibility"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-10d6t8ss",
+  "startedAt": "2026-10-17T14:26:26.795382+00:00",
+  "endedAt": "2026-10-17T14:26:26.937002+00:00",
+  "exitCode": 2,
+  "expectedExitCode": 2,
+  "sourceRevision": "8a4be99204fc51aa9d4ff751dc3bdfe6f820a37d"
+}

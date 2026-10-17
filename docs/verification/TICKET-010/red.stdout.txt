@@ -1,0 +1,261 @@
+▶ report commands reject explicit null optional collections before writing reports
+  ✖ aso: aliases (230.809458ms)
+  ✖ aso: competitors (171.278792ms)
+  ✖ aso: listings (166.205792ms)
+  ✖ aso: factIds (189.89375ms)
+  ✖ plan: aliases (202.510875ms)
+  ✖ plan: competitors (167.746333ms)
+  ✖ plan: listings (170.271209ms)
+  ✖ plan: factIds (165.502709ms)
+  ✖ visibility: aliases (232.130166ms)
+  ✖ visibility: competitors (169.997625ms)
+  ✖ visibility: listings (171.053417ms)
+  ✖ visibility: factIds (179.626292ms)
+✖ report commands reject explicit null optional collections before writing reports (2218.930834ms)
+▶ omitted and empty optional collections remain accepted
+  ✔ omitted: aso (357.385917ms)
+  ✔ omitted: plan (329.250375ms)
+  ✔ omitted: visibility (328.662083ms)
+  ✔ empty: aso (319.681375ms)
+  ✔ empty: plan (334.39075ms)
+  ✔ empty: visibility (390.02675ms)
+✔ omitted and empty optional collections remain accepted (2060.174416ms)
+✔ null fact sources remain evidence gaps in aso and plan (320.129583ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 8
+ℹ fail 13
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4702.492
+
+✖ failing tests:
+
+test at tests/collection-validation.test.ts:11:15
+✖ aso: aliases (230.809458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ aso: competitors (171.278792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ aso: listings (166.205792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ aso: factIds (189.89375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ plan: aliases (202.510875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ plan: competitors (167.746333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ plan: listings (170.271209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ plan: factIds (165.502709ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ visibility: aliases (232.130166ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ visibility: competitors (169.997625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ visibility: listings (171.053417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/collection-validation.test.ts:11:15
+✖ visibility: factIds (179.626292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:22:16)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/collection-validation.test.ts:11:7)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
