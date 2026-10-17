@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-10-17T13:59:57.748277+00:00",
+  "sourceRevision": "9b6b59ef0d6c3230fd54b6f756f449718dc88f83",
+  "runtime": {
+    "os": "Darwin",
+    "architecture": "arm64",
+    "stripeCli": "1.53.1",
+    "directoryPlugin": "0.3.5"
+  },
+  "queries": [
+    {
+      "command": [
+        "stripe",
+        "directory",
+        "search",
+        "Agensi",
+        "--format",
+        "json"
+      ],
+      "exitCode": 0,
+      "stdout": "[\n  {\n    \"id\": \"profile_61VSK6CdDEqYXlfo1A6VSK6B07LJLtHhaP4nyP66a4ZE\",\n    \"display_name\": \"Vibeking Development\",\n    \"username\": \"vibeking_development\",\n    \"description\": \"Vibeking is an online subscription service (SaaS) for businesses, mainly real estate agencies. We monitor their website (uptime, speed, SEO, visibility in AI assistants such as ChatGPT, analytics and ads), turn findings into fix tasks and deliver a monthly report. Customers pay a monthly subscription (Monitor 49, Groei 149, Regie 499 euro per month) and optionally a fixed price per completed and verified fix. No physical products.\",\n    \"url\": \"https://stri.pe/sl/ZPRMnCu8\",\n    \"profile_url\": \"https://stri.pe/sl/3sQHvv2f\",\n    \"is_link_enabled\": false,\n    \"stripe_apps\": {\n      \"supported\": false,\n      \"title\": null,\n      \"description\": null,\n      \"slug\": null,\n      \"url\": null\n    },\n    \"next_actions\": [\n      {\n        \"command\": \"mppx https://vibekingdevelopment.com/llms.txt\",\n        \"description\": \"Pay with the machine payments protocol using https://vibekingdevelopment.com/llms.txt\",\n        \"url\": \"https://vibekingdevelopment.com/llms.txt\"\n      }\n    ]\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "stripe",
+        "directory",
+        "search",
+        "agensi.io skill marketplace",
+        "--format",
+        "json"
+      ],
+      "exitCode": 0,
+      "stdout": "[]\n",
+      "stderr": ""
+    }
+  ],
+  "interpretation": "No exact Agensi provider match was established. First query returned an unrelated provider; refined query returned an empty array. These searches do not establish marketplace safety or absence."
+}

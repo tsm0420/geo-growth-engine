@@ -1,0 +1,25 @@
+▶ report commands reject a destination that is also their configuration without changing it
+  ✔ audit (165.501709ms)
+  ✔ aso (152.308083ms)
+  ✔ plan (149.986834ms)
+  ✔ visibility (157.931333ms)
+✔ report commands reject a destination that is also their configuration without changing it (626.547541ms)
+✔ a later report destination conflict preserves the previous JSON and raw evidence (328.048792ms)
+✔ report preflight rejects a hard-linked input alias without modifying either name (168.362333ms)
+✔ report preflight rejects two destinations aliasing one file instead of reporting success with invalid JSON (162.172958ms)
+▶ report preflight protects product, query and raw-response input destinations
+  ✔ product (160.504167ms)
+  ✔ queries (166.236417ms)
+  ✔ input (156.044583ms)
+✔ report preflight protects product, query and raw-response input destinations (483.294792ms)
+✔ report preflight rejects a blocked evidence ancestor before replacing existing reports (161.58675ms)
+✔ safe report reuse replaces outputs with matching retained evidence (340.501917ms)
+✔ a non-writable later destination is detected before replacing earlier outputs (155.142042ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2495.296

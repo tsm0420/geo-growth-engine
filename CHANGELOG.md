@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-alpha.3 - Unreleased hardening candidate
+
+- Report generation rejects input/output collisions, including existing filesystem aliases.
+- All destinations are checked for predictable file-type, ancestor, symlink and write-access conflicts before replacing report/evidence bytes.
+- Safe output-directory reuse remains supported. Unexpected disk/concurrency failures are not covered by a transactional rollback promise.
+
 ## 0.1.0-alpha.2 - Unreleased candidate
 
 - Explicit duplicate sitemap findings with XML-decoded URL identity, deterministic counts and entry positions; duplicates cause exit 1.

@@ -4,7 +4,9 @@ A reusable GEO (Generative Engine Optimization) toolkit for websites, SaaS, iOS,
 
 **v0.1.0-alpha.1:** an early public preview under [MIT](LICENSE). Checks produce evidence and explicit unknowns; they do not predict rankings or growth. See the [YinThread technical snapshot case](docs/case-studies/yinthread/README.md), [changelog](CHANGELOG.md), and [roadmap](docs/roadmap.md).
 
-**Alpha 2 candidate:** this branch adds explicit duplicate sitemap findings and a frozen-snapshot re-audit. It is not a tagged or published release. The installation below uses the published alpha 1; to review the candidate, check out `codex/alpha-2-candidate` instead and use its [specification](docs/releases/alpha-2-spec.md) and [verification](docs/verification/alpha-2/README.md).
+**Alpha 2 candidate:** PR #9 adds explicit duplicate sitemap findings and a frozen-snapshot re-audit. It is not a tagged or published release. The installation below uses the published alpha 1; to review that candidate, check out `codex/alpha-2-candidate` and use its [specification](docs/releases/alpha-2-spec.md) and [verification](docs/verification/alpha-2/README.md).
+
+**Core hardening candidate (alpha 3):** `codex/core-hardening-campaign` builds on unmerged PR #9 and protects supplied input files and retained evidence from predictable report destination conflicts. It is not a release. See the [hardening specification](docs/core-hardening-spec.md) and [iteration ledger](docs/development-loop.md).
 
 ## Quick start
 
@@ -56,6 +58,8 @@ Installation preserves existing files and rejects symlink destinations and ances
 | `visibility` | Import response JSONL, retain raw evidence, and report mentions, citations, competitors, and coverage. |
 
 Report commands require `--config` and `--output`; `visibility` also requires `--input`. `init` and `install` require an existing `--target` directory. Exit 0 means completion without failed checks; 1 means observed failed checks; 2 means an operational/input error. Unknown findings remain visible with exit 0. Reusing an output directory replaces same-named reports and evidence; use a fresh directory per run to retain history.
+
+The hardening candidate rejects output paths that would overwrite configured inputs or imported records, and checks all destinations before writing. Predictable type, alias, symlink and write-access conflicts leave prior artifact bytes intact. This is preflight rather than transactional recovery from disk or concurrency failures; see the [report contract](docs/configuration.md#audit-report).
 
 In the alpha 2 candidate, repeated sitemap URLs cause exit 1 and a `sitemap-duplicates` finding with counts and entry positions. Identity uses XML-decoded text; URL spellings are not normalized. See the [audit report contract](docs/configuration.md#audit-report).
 
