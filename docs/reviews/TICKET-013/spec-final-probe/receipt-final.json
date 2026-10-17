@@ -1,0 +1,30 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-review013-spec/src/cli.ts",
+    "audit",
+    "--config",
+    "/private/tmp/geo-ticket013-spec-probe/.geo/config.yaml",
+    "--output",
+    "/private/tmp/geo-ticket013-spec-probe/results-final"
+  ],
+  "startedAt": "2026-10-17T14:52:54.865996+00:00",
+  "endedAt": "2026-10-17T14:52:55.070132+00:00",
+  "exitCode": 1,
+  "stdout": "{\"output\":\"/private/tmp/geo-ticket013-spec-probe/results-final\",\"pass\":28,\"fail\":2,\"unknown\":2}\n",
+  "stderr": "",
+  "checks": [
+    {
+      "id": "blocked\\notes.html:crawler.Googlebot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-ticket013-spec-probe/public/robots.txt: Googlebot at inferred export URL https://example.com/blocked%5Cnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "blocked\\notes.html:crawler.OAI-SearchBot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-ticket013-spec-probe/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/blocked%5Cnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    }
+  ]
+}

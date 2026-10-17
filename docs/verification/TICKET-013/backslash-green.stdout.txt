@@ -1,0 +1,15 @@
+✔ install and init reject symlink ancestors before resolving the target (669.059625ms)
+✔ audit rejects a symlink used as the export root (356.450333ms)
+✔ reports reject symlink files and directories without overwriting external data (651.097458ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (383.053625ms)
+✔ crawler checks encode literal filename segments while preserving index routes and canonical independence (439.671125ms)
+✔ crawler checks preserve a literal POSIX backslash filename (367.867291ms)
+✔ installation uses the same normalized target for checking and writing with dot-dot segments (701.69075ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3670.9355

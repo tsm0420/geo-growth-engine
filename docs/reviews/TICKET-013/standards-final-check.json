@@ -1,0 +1,29 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/safety.test.ts"
+  ],
+  "cwd": "/private/tmp/geo-review013-standards",
+  "startedAt": "2026-10-17T14:52:55.314048+00:00",
+  "endedAt": "2026-10-17T14:52:57.045040+00:00",
+  "exitCode": 0,
+  "stdout": "\u2714 install and init reject symlink ancestors before resolving the target (357.340375ms)\n\u2714 audit rejects a symlink used as the export root (157.509333ms)\n\u2714 reports reject symlink files and directories without overwriting external data (309.472166ms)\n\u2714 crawler checks use the export path even when canonical points to an allowed page (172.919625ms)\n\u2714 crawler checks encode literal filename segments while preserving index routes and canonical independence (172.832709ms)\n\u2714 crawler checks preserve a literal POSIX backslash filename (165.888ms)\n\u2714 installation uses the same normalized target for checking and writing with dot-dot segments (293.711916ms)\n\u2139 tests 7\n\u2139 suites 0\n\u2139 pass 7\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1697.943333\n",
+  "stderr": "",
+  "head": "210329e97bb19de9ecb55db8d0e90d5436e401dd",
+  "base": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+  "reviewState": "Revised platform-separator proposal; earlier six-test receipt is historical.",
+  "runtime": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "node": "v24.18.0",
+    "npm": "11.16.0"
+  },
+  "dependencies": "Reused supplied APFS copy of primary locked node_modules; no clean installation performed.",
+  "fileSha256": {
+    "src/audit.ts": "3285bb10f7caaead20618794bf00a4e27da5ef7d1f74c48a233afff00c8aedfc",
+    "tests/safety.test.ts": "a9d9b4f6a7aba81fdb64e7e48e7f46723b850280877d09b8abec23a2ceddb7a7",
+    "package-lock.json": "e43312bae5abe690db7f4cfb9e57a0c983f6e25284865b1979df8710b68bd417"
+  }
+}

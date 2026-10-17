@@ -2,6 +2,8 @@
 
 ## 0.1.0-alpha.3 - Unreleased hardening candidate
 
+- Crawler URL inference encodes filesystem path segments so reserved filename characters cannot become query/fragment/escape syntax.
+
 - Sitemap evidence rejects malformed references/prohibited XML characters and preserves valid long numeric spellings and literal sections.
 
 - Visibility counts underscore-delimited brands, aliases and competitors using the documented Unicode letter/number boundaries.

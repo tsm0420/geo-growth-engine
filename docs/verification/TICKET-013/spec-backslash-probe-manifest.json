@@ -1,0 +1,67 @@
+{
+  "archiveSha256": "4c1e00478b175649c3e46e65d250f8fed0f619c8227049cea6b3d3d5101a79a2",
+  "localOriginal": "/Users/tsm0420/geo/reports/research/TICKET-013-backslash-probe",
+  "pathDisclosure": "Literal backslashes in archived filenames are represented by %5C for portable checkout/extraction; originalPath retains their original spelling. File content bytes are unchanged.",
+  "files": [
+    {
+      "originalPath": ".geo/config.yaml",
+      "archivePath": ".geo/config.yaml",
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "originalPath": ".geo/product.yaml",
+      "archivePath": ".geo/product.yaml",
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "originalPath": ".geo/queries.yaml",
+      "archivePath": ".geo/queries.yaml",
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "originalPath": "oracle.json",
+      "archivePath": "oracle.json",
+      "sha256": "7fdf49ddb91d6b76a4c583e7489cb3d61514ddf763141342d9764f343dd9b524"
+    },
+    {
+      "originalPath": "public/blocked\\notes.html",
+      "archivePath": "public/blocked%5Cnotes.html",
+      "sha256": "ad44b69ed9c1c53f35bcef01fc0c55c2febdf2d3d18e4457f505bc6de3dfa71d"
+    },
+    {
+      "originalPath": "public/index.html",
+      "archivePath": "public/index.html",
+      "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+    },
+    {
+      "originalPath": "public/robots.txt",
+      "archivePath": "public/robots.txt",
+      "sha256": "3b59d95009c21ab44aaf4f62d82a50712105d7001bb2f66f76c0421581cfa140"
+    },
+    {
+      "originalPath": "public/sitemap.xml",
+      "archivePath": "public/sitemap.xml",
+      "sha256": "3a58cce9db0cea22e53952e7e237aeed96bf41de568e30f8c6495e3ecd2e7398"
+    },
+    {
+      "originalPath": "receipt.json",
+      "archivePath": "receipt.json",
+      "sha256": "dbd22cbb3c2659a4cc5a22455b97f1bfd9cd762e1b950d9720b5a60f66158cb1"
+    },
+    {
+      "originalPath": "results/audit.json",
+      "archivePath": "results/audit.json",
+      "sha256": "d9e2441a4ce39201309baf06e826f328d7cd3527cf1abfbaeabb8364798b08de"
+    },
+    {
+      "originalPath": "results/audit.md",
+      "archivePath": "results/audit.md",
+      "sha256": "005ef04454159efe65983fcc1977439d9f41548aa0076d14f50dc8c241443361"
+    },
+    {
+      "originalPath": "visibility.jsonl",
+      "archivePath": "visibility.jsonl",
+      "sha256": "60bc8038f38df4a74e958ca67aa61b48a55d3ed563b1d89830b153d58de6f6c5"
+    }
+  ]
+}
