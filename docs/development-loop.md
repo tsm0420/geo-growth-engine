@@ -25,13 +25,13 @@ TICKET-007 owns the initial audit. Each area must record its actual commands, ev
 
 | Area | Audit owner | Status |
 | --- | --- | --- |
-| init and install | isolated filesystem/audit researcher | Pending |
-| audit | isolated filesystem/audit researcher | Pending |
-| aso | isolated content/config researcher | Pending |
-| plan | isolated content/config researcher | Pending |
-| visibility | isolated visibility/report researcher | Pending |
-| shared configuration/report safety | content/config and visibility/report researchers | Pending |
-| packaging and CI portability | primary coder | Pending |
+| init and install | isolated filesystem/audit researcher | Observed success/conflict/symlink cases safe; concurrency unmeasured |
+| audit | isolated filesystem/audit researcher | Three confirmed correctness defects; TICKET-012/013/014 |
+| aso | isolated content/config researcher | Boundaries/gaps observed; shared null-type defect TICKET-010 |
+| plan | isolated content/config researcher | Fact gaps/order observed; shared null-type defect TICKET-010 |
+| visibility | isolated visibility/report researcher | Literal rates/groups/evidence observed; boundary defect TICKET-011 |
+| shared configuration/report safety | content/config and visibility/report researchers | Source overwrite and predictable partial-write findings, TICKET-009; null types TICKET-010 |
+| packaging and CI portability | primary coder | Real npm consumer bin and all six commands passed on Darwin arm64; PR #9 exact head CI success rechecked; other devices unmeasured |
 
 ## Work queue
 
@@ -39,12 +39,18 @@ No new item is accepted until a real CLI reproduction and concrete user impact e
 
 Explicit distribution request: TICKET-008 / BL-003 is accepted from the maintainer's scope amendment rather than treated as a core defect. Its work must preserve the existing toolkit contract.
 
+The finite core queue is defined in [the hardening specification](core-hardening-spec.md): TICKET-009 report/input integrity (V1/V2), 010 null collections (C1), 011 underscore boundaries (V3), 012 malformed XML references (FS-001), 013 encoded crawler paths (FS-002), 014 canonical coverage serialization (FS-003). Original reports and 724 raw data files are preserved in [audit archives](verification/core-gap-audit/manifest.json). The reports state tested coverage and exclusions; this is not an exhaustive correctness or security certification.
+
 ## Iteration record
 
-### 0: acceptance-gap audit (in progress)
+### 0: acceptance-gap audit (complete)
 
 Base: `1c8c535b`; branch: `codex/core-hardening-campaign`; ticket: TICKET-007.
-Next action: collect independent local CLI reproductions across every area, then prioritize a finite in-scope queue. No source changes or new release claims yet.
+Result: independent investigations completed, finite defect queue specified, actual npm consumer installation checked. Prior goal turn: progress (replacement native goal and ledger committed at `49d0e163`). No source changes or new release claims from the audit. Research ticket/report retained.
+
+### 1: report integrity (in progress)
+
+Ticket: TICKET-009; specification: `docs/core-hardening-spec.md`; base before implementation: `49d0e163` plus planning documents. Priority: preserve user inputs and coherent prior report/evidence artifacts. Next action: red CLI source-overlap regression, minimal guard, then predictable-destination preflight regression and correction. A source/PR/package/CI identity will be recorded after verification.
 
 ## Delivery and stop conditions
 
