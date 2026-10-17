@@ -1,9 +1,9 @@
 # TICKET-010: Reject explicit null optional collections
 
-Status: Planned
+Status: In progress
 Assignee: Codex
-Target Workspace: `geo-growth-engine`, successive isolated primary branch after preceding slice
-Blocked by: TICKET-007 investigation (complete); delivery declares preceding unmerged slice
+Target Workspace: `geo-growth-engine`, branch `codex/optional-collection-validation`
+Blocked by: TICKET-007 investigation (complete); PR #11 open and unmerged (its prerequisite is PR #9)
 Specification: `docs/core-hardening-spec.md`, TICKET-010
 
 ## Objectives

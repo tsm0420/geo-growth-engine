@@ -48,9 +48,9 @@ The finite core queue is defined in [the hardening specification](core-hardening
 Base: `1c8c535b`; branch: `codex/core-hardening-campaign`; ticket: TICKET-007.
 Result: independent investigations completed, finite defect queue specified, actual npm consumer installation checked. Prior goal turn: progress (replacement native goal and ledger committed at `49d0e163`). No source changes or new release claims from the audit. Research ticket/report retained.
 
-### 1: report integrity (in progress)
+### 1: report integrity (complete delivery)
 
-Ticket: TICKET-009; specification: `docs/core-hardening-spec.md`; base before implementation: `49d0e163` plus planning documents. Priority: preserve user inputs and coherent prior report/evidence artifacts. Implemented complete report preflight and protected inputs. Real CLI final focused run: 15 passes; full suite: 48 passes; typecheck/build exit 0. Separate Standards and Spec reviews found no actionable introduced defects. Raw receipts: `docs/verification/TICKET-009/`; reviews: `docs/reviews/TICKET-009/`. Reviewed source commit: `ec2b23caf57e22f106da7b07bb37f1b344e08981`, alpha.3. Its clean archive passed install/typecheck/48 tests/build; extracted npm package passed all 16 expected command outcomes, including source protection and conflict preservation. Candidate manifest and tarball SHA-256 are retained under the verification directory. Next action: open a PR stacked on PR #9, inspect exact final-head CI, then select TICKET-010. PR/CI gates remain pending.
+Ticket: TICKET-009; specification: `docs/core-hardening-spec.md`; base before implementation: `49d0e163` plus planning documents. Priority: preserve user inputs and coherent prior report/evidence artifacts. Implemented complete report preflight and protected inputs. Real CLI final focused run: 15 passes; full suite: 48 passes; typecheck/build exit 0. Separate Standards and Spec reviews found no actionable introduced defects. Raw receipts: `docs/verification/TICKET-009/`; reviews: `docs/reviews/TICKET-009/`. Reviewed source commit: `ec2b23caf57e22f106da7b07bb37f1b344e08981`, alpha.3. Its clean archive passed install/typecheck/48 tests/build; extracted npm package passed all 16 expected command outcomes, including source protection and conflict preservation. Candidate manifest and tarball SHA-256 are retained under the verification directory. Delivered [PR #11](https://github.com/tsm0420/geo-growth-engine/pull/11), stacked on unmerged PR #9. Final head `79a7edbbe201ebd1e63d14d10e126ebdeff051f9` has unchanged executable/CI and package files; Code Review observed verify job 117418524995 / run 39040390851 success, with all 48 tests passing on Ubuntu. Original CI responses are retained. No merge/release.
 
 ## Delivery and stop conditions
 
@@ -59,3 +59,9 @@ Keep source/revision/package hashes, actual runtime/OS, raw command outputs/exit
 No merge, tag, release, paid sampling, new provider integration, live crawl, production/store edit, funding application or recurring automation is authorized by this campaign.
 
 The Agensi amendment permits research and preparation for that named distribution channel; it does not authorize a new runtime provider integration or bypass the final submission/terms decision above. Record preparation, approval, submission and live availability as separate states. Do not declare the distribution milestone complete based on the invitation, drafts or ZIPs alone.
+
+## Current iteration
+
+### 2: optional collection validation (in progress)
+
+TICKET-010, base `79a7edbbe201ebd1e63d14d10e126ebdeff051f9`, branch `codex/optional-collection-validation`. Next action: real CLI regressions distinguishing explicit null from omitted/empty collections and null fact sources, then the minimal defaulting correction. Existing real CLI subprocess seam is unchanged. PR delivery must declare unmerged PR #11 (and transitive PR #9); candidate and final-head CI proof must reflect this new source.
