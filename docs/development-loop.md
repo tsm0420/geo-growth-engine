@@ -76,10 +76,16 @@ TICKET-011 immutable candidate `1a223de98e41473bacb743572db704ccce23d509` passed
 
 TICKET-011 delivered [PR #13](https://github.com/tsm0420/geo-growth-engine/pull/13), final head `5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7`; Code Review observed verify job 117420839110 success. Raw CI response retained; no merge/release.
 
-### 4: sitemap XML reference validity (in progress)
+### 4: sitemap XML reference validity (complete delivery)
 
 TICKET-012; base `5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7`; branch `codex/sitemap-xml-references`. Research addendum specifies pre-decode XML 1.0 reference/character checks and the proven long-leading-zero positive-control correction. Source research and original CLI archive are retained; no executable correction claimed yet. Next action: real CLI red/green slices using the existing seam, preserving literal sections, valid one-pass decoding, DTD exclusion and frozen inputs. Delivery depends on unmerged #13/#12/#11/#9.
 
 TICKET-012 implementation checkpoint: initial Spec P2 quoted-marker bypass reproduced and corrected; initial and final evidence retained separately. Current XML 38 / full-suite 108 passes, typecheck/build exit 0. Independent final Standards and Spec reviews have no outstanding actionable introduced defects. Next action: immutable candidate/package proof and exact-head PR CI.
 
 TICKET-012 immutable source `54c8e908be7a9a0f86e0853f9f17e42888f692c1` passed clean-source/108 tests/build and 21 expected extracted-package commands; original manifests and package SHA retained. Final-head PR CI remains pending.
+
+TICKET-012 delivered [PR #14](https://github.com/tsm0420/geo-growth-engine/pull/14), final head `1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79`; verify job 117423562041 succeeded, full Code Review response retained. No merge/release.
+
+### 5: crawler path encoding (in progress)
+
+TICKET-013; base `1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79`; branch `codex/crawler-path-encoding`. Next action: real CLI literal #/?/% filename regressions, preserving path separators/index inference, canonical independence and deployment unknowns; then encode filesystem segments. Delivery depends on unmerged #14/#13/#12/#11/#9. Existing subprocess acceptance seam remains unchanged.

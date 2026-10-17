@@ -6,6 +6,6 @@
 - BL-004: Confirmed source/output collision and deterministic partial-report evidence mismatch, TICKET-009 (V1/V2). Delivered in open, unmerged [PR #11](https://github.com/tsm0420/geo-growth-engine/pull/11); final-head CI passed.
 - BL-005: Explicit null optional collections bypass documented type errors, TICKET-010 (C1). Delivered in open, unmerged [PR #12](https://github.com/tsm0420/geo-growth-engine/pull/12); final-head CI passed.
 - BL-006: Markdown underscore boundaries suppress brand/competitor mentions, TICKET-011 (V3). Delivered in open, unmerged [PR #13](https://github.com/tsm0420/geo-growth-engine/pull/13); final-head CI passed.
-- BL-007: Undeclared/prohibited XML references become passing sitemap evidence, TICKET-012 (FS-001). Implemented and independently reviewed; immutable package verified, final-head PR CI pending.
-- BL-008: Reserved filename characters alter inferred crawler URLs, TICKET-013 (FS-002). Planned.
+- BL-007: Undeclared/prohibited XML references become passing sitemap evidence, TICKET-012 (FS-001). Delivered in open, unmerged [PR #14](https://github.com/tsm0420/geo-growth-engine/pull/14); final-head CI passed.
+- BL-008: Reserved filename characters alter inferred crawler URLs, TICKET-013 (FS-002). In progress.
 - BL-009: Asymmetric canonical/sitemap serialization causes false coverage failures, TICKET-014 (FS-003). Planned.

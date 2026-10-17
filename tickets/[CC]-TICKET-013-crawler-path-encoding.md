@@ -1,9 +1,9 @@
 # TICKET-013: Infer crawler URLs from encoded filesystem path segments
 
-Status: Planned
+Status: In progress
 Assignee: Codex
-Target Workspace: `geo-growth-engine`, successive isolated primary branch after preceding slice
-Blocked by: TICKET-007 investigation (complete); delivery declares preceding unmerged slice
+Target Workspace: `geo-growth-engine`, branch `codex/crawler-path-encoding`
+Blocked by: TICKET-007 investigation (complete); PR #14 open and unmerged (transitive #13/#12/#11/#9)
 Specification: `docs/core-hardening-spec.md`, TICKET-013
 
 ## Objectives
