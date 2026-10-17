@@ -1,0 +1,79 @@
+▶ canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries
+  ✖ bare-origin (225.262542ms)
+  ✖ host-case (172.314208ms)
+  ✖ apostrophe (159.989667ms)
+  ✔ encoded-apostrophe (162.857166ms)
+  ✔ path-case (162.205375ms)
+  ✔ trailing-slash (169.145417ms)
+  ✔ query-order (168.966584ms)
+  ✔ encoded-path (159.934083ms)
+✖ canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries (1381.929959ms)
+✔ coverage serialization preserves exact decoded duplicate identity and original evidence (160.523459ms)
+✔ malformed sitemap locations stay failed findings rather than becoming operational exceptions (165.103166ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 7
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1781.242292
+
+✖ failing tests:
+
+test at tests/coverage.test.ts:18:70
+✖ bare-origin (225.262542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/coverage.test.ts:25:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/coverage.test.ts:18:62)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/coverage.test.ts:18:70
+✖ host-case (172.314208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/coverage.test.ts:25:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/coverage.test.ts:18:62)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/coverage.test.ts:18:70
+✖ apostrophe (159.989667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/coverage.test.ts:25:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/coverage.test.ts:18:62)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

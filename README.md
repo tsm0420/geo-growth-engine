@@ -6,7 +6,7 @@ A reusable GEO (Generative Engine Optimization) toolkit for websites, SaaS, iOS,
 
 **Alpha 2 candidate:** PR #9 adds explicit duplicate sitemap findings and a frozen-snapshot re-audit. It is not a tagged or published release. The installation below uses the published alpha 1; to review that candidate, check out `codex/alpha-2-candidate` and use its [specification](docs/releases/alpha-2-spec.md) and [verification](docs/verification/alpha-2/README.md).
 
-**Core hardening candidate (alpha 3):** `codex/core-hardening-campaign` builds on unmerged PR #9 and protects supplied input files and retained evidence from predictable report destination conflicts. It is not a release. See the [hardening specification](docs/core-hardening-spec.md) and [iteration ledger](docs/development-loop.md).
+**Core hardening candidate (alpha 3):** `codex/canonical-sitemap-coverage` contains the six hardening slices stacked on unmerged PR #9, improving report safety, configuration validation, mention boundaries and local audit accuracy. It is not a release. See the [hardening specification](docs/core-hardening-spec.md) and [iteration ledger](docs/development-loop.md).
 
 ## Quick start
 

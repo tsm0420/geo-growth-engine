@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/coverage.test.ts"
+  ],
+  "exitCode": 0,
+  "time": "2026-10-17T14:58:35.415751+00:00"
+}

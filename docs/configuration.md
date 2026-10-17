@@ -24,6 +24,8 @@ Identity compares exact XML-decoded, trimmed `loc` text, including named and dec
 
 The hardening candidate validates XML 1.0 character ranges and reference spelling before sitemap counting, including ignored attributes. Only the five predefined named references are supported without a DTD. Numeric references must denote permitted characters; valid long leading-zero spellings decode once. Reference-looking text inside CDATA/comments/processing instructions remains literal, while prohibited actual characters still fail. Escaped ampersands are never rescanned as references. This is not XML 1.1 or full schema/namespace/encoding conformance certification.
 
+Canonical coverage uses the same URL serialization for the canonical and each decoded sitemap location. Bare origins/trailing root slashes, hostname case and URL-serialized apostrophes can therefore cover the same canonical. This separate coverage lookup does not change the original decoded strings used for duplicate identity/evidence. Path case, `/a` versus `/a/`, unreserved escapes such as `/%61` versus `/a`, and query order remain distinct; ordinary URL parsing still applies. Malformed locations still fail the sitemap finding with unknown/null duplicates rather than becoming report-generation exceptions.
+
 ## Product
 
 Start with `templates/product.yaml`. Required: `version`, boolean `example`, `name`, `ownedOrigins` (including config origin), `platforms` (`web`, `ios`, `android`), and `facts`. Optional `aliases`, `competitors`, and `listings` default to empty collections.

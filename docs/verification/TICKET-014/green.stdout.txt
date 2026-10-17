@@ -1,0 +1,20 @@
+▶ canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries
+  ✔ bare-origin (256.47375ms)
+  ✔ host-case (190.116792ms)
+  ✔ apostrophe (195.738625ms)
+  ✔ encoded-apostrophe (217.477625ms)
+  ✔ path-case (211.218291ms)
+  ✔ trailing-slash (174.08025ms)
+  ✔ query-order (218.905625ms)
+  ✔ encoded-path (171.179292ms)
+✔ canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries (1636.57875ms)
+✔ coverage serialization preserves exact decoded duplicate identity and original evidence (240.645458ms)
+✔ malformed sitemap locations stay failed findings rather than becoming operational exceptions (438.177875ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2395.144166

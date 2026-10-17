@@ -1,6 +1,6 @@
 # TICKET-014: Compare canonical sitemap coverage consistently
 
-Status: In progress
+Status: Implemented and independently reviewed; immutable package/final-head CI pending
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/canonical-sitemap-coverage`
 Blocked by: TICKET-007 investigation (complete); PR #15 open and unmerged (transitive #14/#13/#12/#11/#9)
@@ -19,3 +19,13 @@ Existing local-input core only; English docs, strict TypeScript, real CLI red/gr
 - Real CLI bare-origin/apostrophe equivalents pass coverage; distinct case/slash/query controls remain distinct; duplicate data and original evidence remain intact.
 - Required typecheck/full suite/build pass, with actual raw receipts and separate resolved review reports before source commit.
 - Deliver a reviewable PR with prerequisite, current candidate/package evidence and final-head CI; update the loop ledger before selecting the next justified item.
+
+## 📄 Execution Report
+
+Built a separate serialized URL lookup for canonical coverage while preserving original decoded sitemap locations for exact duplicate counts/positions/evidence. Malformed locations remain failed sitemap findings with unknown/null duplicates, rather than throwing during lookup construction. Ordinary URL parsing applies; tested path case, /a versus /a/, /%61 versus /a and query order remain distinct.
+
+Real CLI red/green receipts under `docs/verification/TICKET-014/` show bare-origin, hostname-case and apostrophe false coverage failures before correction (4 failures including parent, 7 passing controls), followed by all 11 focused tests passing with zero skips. `npm run typecheck`, `npm test` (121 passes, zero failures/skips) and `npm run build` exited 0 on Darwin 25.5.0 arm64 / Node v24.18.0/npm 11.16.0.
+
+Separate Standards and Spec reviews found no actionable introduced defects; both independently ran all 11 focused tests with the supplied dependency copy and inspected the final clarified configuration paragraph. Reports and reviewer receipt are in `docs/reviews/TICKET-014/`.
+
+Immutable source/package and final-head PR CI remain pending delivery steps. This is the last specified core queue implementation, not completion of the Agensi workstream or a release. No dependency, live request, private-file, merge, tag or release change occurred.

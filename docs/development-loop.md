@@ -99,3 +99,5 @@ TICKET-013 delivered [PR #15](https://github.com/tsm0420/geo-growth-engine/pull/
 ### 6: canonical sitemap coverage (in progress)
 
 TICKET-014; base `9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c`; branch `codex/canonical-sitemap-coverage`. Final specified core queue item: serialize canonical and decoded sitemap URLs consistently for coverage while preserving original decoded duplicate identity. Real CLI controls must keep distinct path case/trailing slashes/query order and malformed locations as visible findings rather than operational exceptions. Delivery depends on unmerged #15/#14/#13/#12/#11/#9. Existing subprocess acceptance seam remains unchanged. Agensi preparation follows a reviewed immutable final core candidate.
+
+TICKET-014 implementation checkpoint: eleven focused / 121 full-suite tests pass, typecheck/build exit 0; separate independent Standards and Spec reviews have no actionable introduced defects. Source is ready for immutable candidate/package and exact-head PR CI verification. All six core queue items now have implementations; delivery gates for this final slice and Agensi preparation remain open.
