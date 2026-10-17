@@ -4,7 +4,7 @@ Goal: iteratively improve the existing local-input core through evidence-backed,
 
 ## User-approved goal amendment: Agensi distribution
 
-On 2026-10-17 the maintainer asked to include the supplied Agensi invitation in this goal. This adds a distribution workstream alongside core hardening; the email is a lead, not verified platform evidence or authorization to accept contracts. This amendment is durable goal scope and must be read on each resumed iteration, even though the native Goal objective field cannot be edited by the available tools.
+On 2026-10-17 the maintainer asked to include the supplied Agensi invitation in this goal. This adds a distribution workstream alongside core hardening; the email is a lead, not verified platform evidence or authorization to accept contracts. The amendment was initially recorded here because the tools could not edit an existing objective. The maintainer then deleted that goal and requested its replacement: the new active native Goal now includes both workstreams. Its [objective snapshot](iterative-goal.md) preserves the exact replacement text; use this ledger for ongoing progress.
 
 TICKET-008 owns platform/terms/format verification, five independently usable skill ZIPs, honest English listing drafts, and a concrete submission plan. Proposed initial pricing is free; paid packs remain a later decision. Preserve the public MIT source, required notices, external CLI prerequisites, and the local-input/no-paid-API contract. Resolve possible platform-delivery/licensing mismatches before submission. See [the source review](research/agensi-distribution.md).
 
