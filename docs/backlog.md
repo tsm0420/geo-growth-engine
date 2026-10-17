@@ -8,4 +8,4 @@
 - BL-006: Markdown underscore boundaries suppress brand/competitor mentions, TICKET-011 (V3). Delivered in open, unmerged [PR #13](https://github.com/tsm0420/geo-growth-engine/pull/13); final-head CI passed.
 - BL-007: Undeclared/prohibited XML references become passing sitemap evidence, TICKET-012 (FS-001). Delivered in open, unmerged [PR #14](https://github.com/tsm0420/geo-growth-engine/pull/14); final-head CI passed.
 - BL-008: Reserved filename characters alter inferred crawler URLs, TICKET-013 (FS-002). Delivered in open, unmerged [PR #15](https://github.com/tsm0420/geo-growth-engine/pull/15); final-head CI passed.
-- BL-009: Asymmetric canonical/sitemap serialization causes false coverage failures, TICKET-014 (FS-003). In progress.
+- BL-009: Asymmetric canonical/sitemap serialization causes false coverage failures, TICKET-014 (FS-003). Delivered in open, unmerged [PR #16](https://github.com/tsm0420/geo-growth-engine/pull/16); final-head CI passed.

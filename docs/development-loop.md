@@ -96,10 +96,18 @@ TICKET-013 immutable source `6ac457319e85e734407eae1f05cf56805c34f932` passed cl
 
 TICKET-013 delivered [PR #15](https://github.com/tsm0420/geo-growth-engine/pull/15), final head `9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c`; Code Review observed verify job 117425595268 success, original untruncated response retained. No merge/release.
 
-### 6: canonical sitemap coverage (in progress)
+### 6: canonical sitemap coverage (complete delivery)
 
 TICKET-014; base `9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c`; branch `codex/canonical-sitemap-coverage`. Final specified core queue item: serialize canonical and decoded sitemap URLs consistently for coverage while preserving original decoded duplicate identity. Real CLI controls must keep distinct path case/trailing slashes/query order and malformed locations as visible findings rather than operational exceptions. Delivery depends on unmerged #15/#14/#13/#12/#11/#9. Existing subprocess acceptance seam remains unchanged. Agensi preparation follows a reviewed immutable final core candidate.
 
 TICKET-014 implementation checkpoint: eleven focused / 121 full-suite tests pass, typecheck/build exit 0; separate independent Standards and Spec reviews have no actionable introduced defects. Source is ready for immutable candidate/package and exact-head PR CI verification. All six core queue items now have implementations; delivery gates for this final slice and Agensi preparation remain open.
 
 Final core immutable source `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca` passed clean-source/121 tests/build and 23 expected extracted-package commands. Manifest records original runtime and SHA-256 `39c9e37d07830475ac88b0502d2f247ed991796aa7be838eed6f096dbda6bfd4`. Final-head PR CI remains pending; only after success can this core candidate be selected for Agensi preparation.
+
+TICKET-014 delivered [PR #16](https://github.com/tsm0420/geo-growth-engine/pull/16), final head `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`; Code Review observed verify job 117427121547 success, untruncated original response retained. All six finite core queue items have separate resolved Standards/Spec reviews, current local/package proof and exact-head PR CI. They remain an unmerged PR chain; no release or live-product result is inferred. BL-001 remains the explicitly documented upstream publication constraint.
+
+### 7: Agensi distribution preparation (in progress)
+
+TICKET-008; base and selected immutable core head `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`; branch `codex/agensi-skill-packages`; prerequisite unmerged PR #16 and its chain. The core tarball proof was built from `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca`; every packaged/executable/CI input was compared identical at the selected head and that head's CI succeeded. CLI demonstrations may use those exact verified extracted bytes, with the equivalence explicit.
+
+Official format/delivery research is complete; full captures are retained locally, source metadata/hashes and the derived report publicly. A packaging-spec review caught an unsupported README requirement attribution; the specification now calls it this project's package README, not a platform gate. Next action: generate five text-only instruction ZIPs and honest free listing drafts, validate/extract/demonstrate, obtain independent artifact reviews, then present one concrete account/terms/submission decision. Platform compatibility, triggering, scan approval and live listing remain unverified.

@@ -1,11 +1,11 @@
 # TICKET-008: Prepare and validate Agensi skill distribution
 
-Status: Planned; goal amendment and preliminary source review recorded
+Status: In progress; official research complete, artifact preparation authorized
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, distribution preparation workstream
 Blocked by: No blocker for research/drafts; ZIP verification depends on a selected reviewed source revision; submission depends on maintainer account/pricing/terms approval
 Origin: Maintainer request on 2026-10-17 to add the supplied Agensi invitation to the iterative development goal
-Specification: `docs/development-loop.md`, Agensi amendment; existing `docs/spec.md` contract
+Specification: `distribution/agensi/spec.md`; `docs/development-loop.md` Agensi amendment and existing `docs/spec.md` contract
 
 ## Objectives
 
@@ -31,3 +31,5 @@ Goal scope was initially recorded in the durable loop ledger and backlog without
 An independent review of the goal amendment found no actionable scope/evidence/authorization contradiction; see `docs/reviews/agensi/goal-amendment.md`. Two raw Directory lookup results are preserved with actual exit codes; neither establishes an exact marketplace match. Documentation whitespace checks passed. This is a documentation-only scope update, so product tests were not rerun or claimed as new evidence.
 
 The maintainer subsequently deleted the old native Goal and explicitly requested a rewrite. After confirming no goal existed, a replacement native Goal was created with both iterative core hardening and Agensi preparation/submission gates. It is active; `docs/iterative-goal.md` retains its objective snapshot. An independent rewrite review found no actionable contradiction (`docs/reviews/agensi/goal-rewrite.md`). Existing investigations, tickets, private files and historical evidence are preserved. This step configures the development goal; it does not claim completion of either workstream.
+
+Preparation checkpoint: all six core slices are delivered through unmerged PR #16 with exact-head CI. Selected immutable core `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`; build/package proof source `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca` has identical packaged/executable inputs. Completed official-format research is in `docs/research/agensi-format.md` with twelve verified capture metadata records and original local retained bodies. No sibling skill dependency was found. Draft spec review caught and corrected an unsupported marketplace README attribution before generation. No ZIP/listing/account/submission completion is claimed at this checkpoint; actual artifacts and final independent reviews follow.
