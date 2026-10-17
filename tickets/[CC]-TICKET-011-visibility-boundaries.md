@@ -1,9 +1,9 @@
 # TICKET-011: Count underscore-delimited brand and competitor mentions
 
-Status: Planned
+Status: In progress
 Assignee: Codex
-Target Workspace: `geo-growth-engine`, successive isolated primary branch after preceding slice
-Blocked by: TICKET-007 investigation (complete); delivery declares preceding unmerged slice
+Target Workspace: `geo-growth-engine`, branch `codex/visibility-mention-boundaries`
+Blocked by: TICKET-007 investigation (complete); PR #12 open and unmerged (transitive #11/#9)
 Specification: `docs/core-hardening-spec.md`, TICKET-011
 
 ## Objectives
