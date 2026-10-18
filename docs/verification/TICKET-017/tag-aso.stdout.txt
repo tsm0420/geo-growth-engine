@@ -1,0 +1,5 @@
+
+> geo-growth-engine@0.1.0-alpha.1 geo
+> node src/cli.ts aso --config examples/.geo/config.yaml --output reports/example
+
+{"output":"reports/example","pass":9,"fail":0,"unknown":2}

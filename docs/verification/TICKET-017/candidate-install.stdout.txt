@@ -1,0 +1,9 @@
+{
+  "created": [
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.agents/skills/geo-orchestrator/SKILL.md",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.agents/skills/web-geo/SKILL.md",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.agents/skills/app-geo-aso/SKILL.md",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.agents/skills/geo-content-engine/SKILL.md",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.agents/skills/geo-visibility-tracker/SKILL.md"
+  ]
+}

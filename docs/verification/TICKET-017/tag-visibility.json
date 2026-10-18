@@ -1,0 +1,19 @@
+{
+  "label": "tag-visibility",
+  "command": [
+    "npm",
+    "run",
+    "geo",
+    "--",
+    "visibility",
+    "--config",
+    "examples/.geo/config.yaml",
+    "--output",
+    "reports/example",
+    "--input",
+    "examples/visibility.jsonl"
+  ],
+  "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+  "exitCode": 0,
+  "expectedExit": 0
+}

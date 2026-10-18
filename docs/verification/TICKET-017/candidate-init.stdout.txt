@@ -1,0 +1,7 @@
+{
+  "created": [
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/config.yaml",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/product.yaml",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/queries.yaml"
+  ]
+}

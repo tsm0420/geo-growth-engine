@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/reports/plan","pass":1,"fail":0,"unknown":0}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "archive",
+    "v0.1.0-alpha.1"
+  ],
+  "exitCode": 0,
+  "bytes": 512000,
+  "sha256": "dbe435a618cc723f9a8b5f14e1f4eb95d4bfa0bf5e3e0574410604afe0d7253a",
+  "validation": "regular files/directories inside new extraction root; no symlinks"
+}

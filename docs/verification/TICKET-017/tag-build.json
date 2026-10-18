@@ -1,0 +1,11 @@
+{
+  "label": "tag-build",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+  "exitCode": 0,
+  "expectedExit": 0
+}
