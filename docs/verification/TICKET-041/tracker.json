@@ -1,0 +1,43 @@
+{
+  "observedAt": "2026-10-18T15:27:10.734991+00:00",
+  "specSource": "4ac9502f1854a91840662dd97b430735f0461485",
+  "issues": [
+    {
+      "number": 42,
+      "state": "open",
+      "url": "https://github.com/tsm0420/geo-growth-engine/issues/42",
+      "execution": "held",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 43,
+      "state": "open",
+      "url": "https://github.com/tsm0420/geo-growth-engine/issues/43",
+      "execution": "held",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 44,
+      "state": "open",
+      "url": "https://github.com/tsm0420/geo-growth-engine/issues/44",
+      "execution": "held",
+      "labels": [
+        "enhancement"
+      ]
+    }
+  ],
+  "dependencies": {
+    "44": [
+      "43",
+      "explicit resume",
+      "consent and genuine inputs"
+    ]
+  },
+  "dependencyRepresentation": "issue bodies; native metadata not claimed",
+  "noProductImplementation": true,
+  "nativeGoal": "paused"
+}

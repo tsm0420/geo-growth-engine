@@ -1,0 +1,64 @@
+{
+  "observedAtUtc": "2026-10-18T15:20:46.026356+00:00",
+  "scope": "Read-only source, GitHub connector and Code Review diagnostics; no new product execution",
+  "baselineMain": "ea594befaf0827c1b03b264a646abc13df623946",
+  "repository": {
+    "visibility": "public",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "createdAt": "2026-10-16T19:11:39Z",
+    "countsBeforePlanningIssues": true
+  },
+  "mainCI": {
+    "run": 39138682627,
+    "job": 117708389780,
+    "jobHead": "ea594befaf0827c1b03b264a646abc13df623946",
+    "providerContextHead": "9ea0d678ba12194b8ae6811500a3b1099d9de1c6",
+    "conclusion": "success",
+    "tests": 227,
+    "failed": 0,
+    "skipped": 0,
+    "logCharacters": 46435,
+    "truncated": false
+  },
+  "heldPR": {
+    "number": 41,
+    "head": "558cb720826e0191b846882655c033090318643a",
+    "merged": false,
+    "ci": {
+      "run": 39139801260,
+      "job": 117711691913,
+      "tests": 234,
+      "failed": 0,
+      "skipped": 0,
+      "conclusion": "success",
+      "logCharacters": 48163,
+      "truncated": false
+    }
+  },
+  "openNonPRIssuesBeforePlanning": [
+    7,
+    40
+  ],
+  "publishedRelease": "v0.1.0-alpha.1",
+  "nativeGoal": "paused",
+  "development": "explicitly held by maintainer",
+  "heartbeat": {
+    "id": "geo-agensi",
+    "status": "ACTIVE",
+    "intervalHours": 6,
+    "mode": "Agensi observation only; no implementation or merges"
+  },
+  "agensi": {
+    "freshObservation": false,
+    "lastActualObservationUtc": "2026-10-18T09:58:54.002210+00:00",
+    "pending": 5,
+    "live": 0
+  },
+  "limits": [
+    "Historical CI read, not newly executed tests",
+    "Star/fork counts do not establish usage or demand",
+    "No genuine pilot, causal GEO, publication approval or new measurement claim"
+  ]
+}
