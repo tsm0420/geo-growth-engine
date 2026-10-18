@@ -1,5 +1,5 @@
 import { constants } from 'node:fs';
-import { access, mkdir, readFile, realpath, writeFile } from 'node:fs/promises';
+import { access, mkdir, readFile, realpath, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, parse, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { pathExists, rejectSymlinkAncestors } from './paths.ts';
@@ -19,6 +19,10 @@ async function installFiles(target: string, files: ReadonlyArray<{ from: string;
     await rejectSymlinkAncestors(file.to);
     if (await pathExists(file.to)) throw new Error(`File already exists; nothing was overwritten: ${file.to}`);
     await access(file.from, constants.R_OK);
+    let parent = dirname(file.to);
+    while (!await pathExists(parent)) parent = dirname(parent);
+    if (!(await stat(parent)).isDirectory()) throw new Error(`Installation ancestor must be a directory: ${parent}`);
+    await access(parent, constants.W_OK | constants.X_OK);
   }
   for (const file of files) {
     await mkdir(dirname(file.to), { recursive: true });

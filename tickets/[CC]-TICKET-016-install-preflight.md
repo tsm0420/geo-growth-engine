@@ -1,10 +1,11 @@
 # TICKET-016: Reject unwritable installation destinations before creation
 
-Status: Ready for implementation
+Status: Implementation verified; clean-package and PR CI delivery pending
 Assignee: Codex
 Target Workspace: codex/install-destination-preflight
 Blocked by: Unmerged PR #17 and its transitive prerequisites for delivery
 Specification: docs/install-preflight-spec.md
+Issue: https://github.com/tsm0420/geo-growth-engine/issues/18
 
 ## Objectives
 
@@ -25,3 +26,7 @@ Keep the core init/install contract, no-overwrite and symlink protections, stric
 ## 📄 Execution Report
 
 Planning checkpoint: prior goal turn made authoritative progress by creating the active replacement goal, configuring the existing heartbeat and delivering PR #17 head 20e15a8 with successful exact-head CI. This continuation verified that prerequisite remains open/unmerged. The accepted next slice follows the retained unprivileged POSIX reproduction. No new source implementation or regression result is claimed at this checkpoint.
+
+Implementation checkpoint: the real CLI red regression failed because geo-orchestrator was created before EACCES on the second parent. Added nearest-existing-parent directory/write/search checks to the shared preflight, retaining source checks, symlink rejection and exclusive wx creation. The regression then passed, including retry after permission correction. Five controls cover init permissions/retry, missing parents, owner file conflict, nondirectory parent and later symlink parent.
+
+Actual Node v24.22.0/npm 11.19.1 on unprivileged macOS arm64: 13 focused tests and all 127 full-suite tests passed, zero skipped; npm run typecheck and npm run build exited 0. Raw commands/outputs are under docs/verification/TICKET-016. Separate independent Standards and Spec reviews found no actionable introduced findings; their three-file source snapshot is in docs/reviews/TICKET-016. Existing Agensi ZIPs were not changed. Clean-source/package proof and final-head CI remain explicit next gates; no package or PR completion is claimed by this source checkpoint.

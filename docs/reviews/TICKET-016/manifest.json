@@ -1,0 +1,20 @@
+{
+  "base": "5c88289",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "61c975788b8b09f455fd2b28677dbd011619b0ba26692a49721623eb6372f50f",
+      "bytes": 8192
+    },
+    {
+      "path": "src/install.ts",
+      "sha256": "5315c2476fc1837a877c75f675bbdf714d6bd18da831d7d0e2c2e6f199457ed8",
+      "bytes": 2506
+    },
+    {
+      "path": "tests/install-preflight.test.ts",
+      "sha256": "27305027e9051505fc48bd0f786c64a018cb4d5e06aa1b15c9d83cb0c91a828d",
+      "bytes": 5026
+    }
+  ]
+}

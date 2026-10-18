@@ -135,3 +135,5 @@ TICKET-015 setup checkpoint: replacement native goal created/read back active, n
 ### 10: installation destination access preflight
 
 TICKET-016; base 20e15a80e4db98b37b7781d447cfcabbbe7506c4; branch codex/install-destination-preflight. The previous turn was progress: active native goal, verified six-hour heartbeat and documentation delivery with successful exact-head CI. PR #17 remains open/unmerged and is the new prerequisite. Scope and CLI seam are specified in docs/install-preflight-spec.md. Next action: red regression for the later nonwritable parent, then shared init/install preflight and independent reviews. Existing Agensi submissions remain unchanged; six-hour polling is not due in this immediate development continuation.
+
+TICKET-016 implementation checkpoint: real CLI red/green verified; 13 focused /127 full tests pass with zero skipped, typecheck/build exit 0. Separate Standards and Spec reviews have no actionable introduced findings. Issue #18 records the reproduction. Source/README/new tests match the reviewed snapshot; next action is immutable clean-source and extracted-package verification, then dependency-declared PR/final-head CI.

@@ -1,0 +1,9 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "exit": 0,
+  "recordedAtUtc": "2026-10-18T10:12:59.570000+00:00"
+}

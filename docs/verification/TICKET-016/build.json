@@ -1,0 +1,9 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "exit": 0,
+  "recordedAtUtc": "2026-10-18T10:13:32.392211+00:00"
+}
