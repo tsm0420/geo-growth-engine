@@ -1,0 +1,114 @@
+{
+  "sourceRevision": "92e5377db03439662fc9d7c8b036d300d45643d0",
+  "description": "Every actual194-test/typecheck/build working input matches this immutable source commit; no broad test rerun.",
+  "inputs": [
+    {
+      "path": "src/compare.ts",
+      "sha256": "fcad9eb8d01baa89026863e9958568b8cc38d8dcdb76738307c9f4a2f82f174a"
+    },
+    {
+      "path": "src/report.ts",
+      "sha256": "e2b8fed6e4434fbc94604ef6e62b026a128de93396453d7bb6ac8212204ed0c8"
+    },
+    {
+      "path": "src/visibility-comparison.ts",
+      "sha256": "450b69212f84b1aadced43fa5b847ef7a5adc0fe8fd52b2f9ef49ce9960b10ff"
+    },
+    {
+      "path": "src/install.ts",
+      "sha256": "5315c2476fc1837a877c75f675bbdf714d6bd18da831d7d0e2c2e6f199457ed8"
+    },
+    {
+      "path": "src/visibility.ts",
+      "sha256": "ebc99649da70f4198904e4ee4da5f48ff47425cd17922d147ede2816272b6442"
+    },
+    {
+      "path": "src/robots-parser.d.ts",
+      "sha256": "de95c74de098a99a0c410cc6d3e9b811edf7f973a1483e0dc25fd31ca387494c"
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "93571a8f20fa55e0de9a82bfa8bf8c50344d17aaa9dde22848254a0b01d62954"
+    },
+    {
+      "path": "src/aso.ts",
+      "sha256": "8f2d74038ec0566eee273498e4c7c845e67e3fb3a52eeb6fbc67824248526190"
+    },
+    {
+      "path": "src/paths.ts",
+      "sha256": "ab68c42ed88099ffe5737a48d118b5a3b3fa680c2a928c3c67bb5d9cd5cc5fd5"
+    },
+    {
+      "path": "src/config.ts",
+      "sha256": "184a79e7277a26f58cf15edcbd96ae95a6739eb19932d451a28cd420bfa0b4dd"
+    },
+    {
+      "path": "src/audit.ts",
+      "sha256": "a91eee7fc08dbf038e485c1effb18b7e5db2f5a12bbdd1710d315fbdb20cdb8f"
+    },
+    {
+      "path": "src/plan.ts",
+      "sha256": "16cf8e69b58cd6816e72b240bbf977569f88758e56463329603683ce384c2e50"
+    },
+    {
+      "path": "tests/content.test.ts",
+      "sha256": "b5590f2228068f262a27c97b3a84003f25ddc4704e1450682b1a9f3a57ed57b8"
+    },
+    {
+      "path": "tests/compare.test.ts",
+      "sha256": "09185d979bf0c514f06b39495618b88db278b8d5f9fe71895f4d31ec4fb0a381"
+    },
+    {
+      "path": "tests/helpers.ts",
+      "sha256": "5c7b880070711a68abfbcdf26fd0cb8469e90888749f9772f9588f24022d673c"
+    },
+    {
+      "path": "tests/core.test.ts",
+      "sha256": "dc5033e6aa62d6178e079b5f6ed321e749a9e81068d006cca21974f083d6e322"
+    },
+    {
+      "path": "tests/coverage.test.ts",
+      "sha256": "b2fb841f3c4ad300bc6d66c6ac228ab4b52dda03c795f036b0409276cee0d9da"
+    },
+    {
+      "path": "tests/sitemap.test.ts",
+      "sha256": "73d747f8c79f1507b910087f7178cc3bdfbb8fddc174a4bae786c971f10cbd0c"
+    },
+    {
+      "path": "tests/report-integrity.test.ts",
+      "sha256": "5324fdb41550e852cbe0ea64253281b1b74fa2615c806010fd8ccc93a0539006"
+    },
+    {
+      "path": "tests/install-preflight.test.ts",
+      "sha256": "27305027e9051505fc48bd0f786c64a018cb4d5e06aa1b15c9d83cb0c91a828d"
+    },
+    {
+      "path": "tests/visibility-comparison.test.ts",
+      "sha256": "f058dd0bf6dd48346d4fb1134400cf70aed9b2f63983c24518e60ad6b37bbdd6"
+    },
+    {
+      "path": "tests/markdown-integrity.test.ts",
+      "sha256": "442776cd9780e38a6b5cdc576ea31c38d203c5ae5d63a56bdb845f011c1e3641"
+    },
+    {
+      "path": "tests/xml-reference.test.ts",
+      "sha256": "f5c26a907bf2f9be2badae0a830658a173c985ecf68d7befd9c06f36e6cbc304"
+    },
+    {
+      "path": "tests/safety.test.ts",
+      "sha256": "a9d9b4f6a7aba81fdb64e7e48e7f46723b850280877d09b8abec23a2ceddb7a7"
+    },
+    {
+      "path": "tests/visibility.test.ts",
+      "sha256": "c93648754dcf48c5608cfd47f03cd2ddf6549067c3f08b699e1568dc144ccc64"
+    },
+    {
+      "path": "tests/collection-validation.test.ts",
+      "sha256": "0b4218b430c3d723686a018f2015722e890b9b0acddbb7c572aa204269017b0d"
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "3b95383728e75db6a18221e2511031182de2dca70e761874022324773110fda2"
+    }
+  ]
+}

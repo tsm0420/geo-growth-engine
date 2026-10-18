@@ -1,0 +1,1 @@
+{"version": 1, "queries": [{"id": "first\r\nsecond|<&>", "query": "question\rcontinued\nmore?", "intent": "faq", "priority": 1, "factIds": []}]}

@@ -1,0 +1,243 @@
+[
+  {
+    "kind": "audit",
+    "table": [
+      [
+        "robots-file",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt",
+        "Review intentional access policy."
+      ],
+      [
+        "sitemap",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/sitemap.xml: 1 locations; direct urlset required",
+        "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+      ],
+      [
+        "sitemap-duplicates",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries",
+        "Retain one intended canonical entry per URL and rebuild the export."
+      ],
+      [
+        "index.html:title",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: Example Journal — fictional toolkit fixture",
+        "Provide one descriptive title."
+      ],
+      [
+        "index.html:description",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: Fictional sample: save daily journal entries.",
+        "Provide a meaningful description."
+      ],
+      [
+        "index.html:open-graph",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: og:title and og:description presence",
+        "Supply truthful social metadata."
+      ],
+      [
+        "index.html:heading",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: 1 H1 elements",
+        "Use a descriptive page heading."
+      ],
+      [
+        "index.html:readable-text",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: 124 non-script text characters in HTML",
+        "Include public content in the exported HTML. CSS visibility is not evaluated."
+      ],
+      [
+        "index.html:index-directive",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: no restrictive HTML meta directive observed",
+        "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+      ],
+      [
+        "index.html:canonical",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: https://example.com/",
+        "Provide one absolute canonical URL on the configured origin."
+      ],
+      [
+        "index.html:sitemap-coverage",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: https://example.com/ in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/sitemap.xml",
+        "Add the intended canonical URL to the direct sitemap."
+      ],
+      [
+        "index.html:crawler.Googlebot",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+        "Review search access separately from training permissions."
+      ],
+      [
+        "index.html:crawler.OAI-SearchBot",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+        "Review search access separately from training permissions."
+      ],
+      [
+        "index.html:training.GPTBot",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: training policy allowed=false; informational only",
+        "Preserve the owner's training policy; it is not a search eligibility check."
+      ],
+      [
+        "index.html:training.Google-Extended",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: training policy allowed=false; informational only",
+        "Preserve the owner's training policy; it is not a search eligibility check."
+      ],
+      [
+        "index.html:jsonld-syntax.1",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: JSON-LD parses as an object or array",
+        "Review structured-data semantics separately."
+      ],
+      [
+        "schema-semantics",
+        "unknown",
+        "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+        "Use the applicable schema and search validation tools."
+      ],
+      [
+        "live-indexing",
+        "unknown",
+        "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+        "Inspect deployment and supported search tools separately."
+      ],
+      [
+        "llms-txt",
+        "pass",
+        "Optional llms.txt absent; no readiness penalty.",
+        "Treat as an optional experiment."
+      ]
+    ]
+  },
+  {
+    "kind": "aso",
+    "table": [
+      [
+        "ios.name",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml; en-GB; 15 Unicode code points; accepted range 2-30; https://developer.apple.com/help/app-store-connect/reference/app-information/app-information/",
+        "Review the field in the store console; the CLI checks length, not policy acceptance."
+      ],
+      [
+        "ios.subtitle",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml; en-GB; 11 Unicode code points; accepted range 1-30; https://developer.apple.com/help/app-store-connect/reference/app-information/app-information/",
+        "Review the field in the store console; the CLI checks length, not policy acceptance."
+      ],
+      [
+        "ios.keywords",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml; en-GB; 19 UTF-8 bytes; accepted range 1-100; https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+        "Review the field in the store console; the CLI checks length, not policy acceptance."
+      ],
+      [
+        "ios.description",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml; en-GB; 27 Unicode code points; accepted range 1-4000; https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+        "Review the field in the store console; the CLI checks length, not policy acceptance."
+      ],
+      [
+        "ios.fact-references",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml: supplied references daily-notes -> https://example.com/features/daily-notes; sources not fetched",
+        "Inspect the referenced evidence before approving claims."
+      ],
+      [
+        "ios.semantic-claims",
+        "unknown",
+        "Text-to-fact consistency, screenshots, localization quality, conversion, and store acceptance were not verified.",
+        "Review every capability, price, and comparison against source evidence; inspect actual console and image artifacts."
+      ],
+      [
+        "android.title",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml; en-GB; 15 Unicode code points; accepted range 1-30; https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+        "Review the field in the store console; the CLI checks length, not policy acceptance."
+      ],
+      [
+        "android.shortDescription",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml; en-GB; 27 Unicode code points; accepted range 1-80; https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+        "Review the field in the store console; the CLI checks length, not policy acceptance."
+      ],
+      [
+        "android.fullDescription",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml; en-GB; 27 Unicode code points; accepted range 1-4000; https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+        "Review the field in the store console; the CLI checks length, not policy acceptance."
+      ],
+      [
+        "android.fact-references",
+        "pass",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/product.yaml: supplied references daily-notes -> https://example.com/features/daily-notes; sources not fetched",
+        "Inspect the referenced evidence before approving claims."
+      ],
+      [
+        "android.semantic-claims",
+        "unknown",
+        "Text-to-fact consistency, screenshots, localization quality, conversion, and store acceptance were not verified.",
+        "Review every capability, price, and comparison against source evidence; inspect actual console and image artifacts."
+      ]
+    ]
+  },
+  {
+    "kind": "plan",
+    "table": [
+      [
+        "first second|<&>",
+        "unknown",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/queries.yaml: question continued more?; priority 1; no evidence; sources not independently verified",
+        "Research this gap before drafting product claims."
+      ]
+    ]
+  },
+  {
+    "kind": "visibility",
+    "table": [
+      [
+        "collection-coverage",
+        "unknown",
+        "1/2 successful; 1 collection errors; coverage=0.5",
+        "Read groups and coverage before comparing rates. Failed attempts are excluded from mention/citation denominators."
+      ],
+      [
+        "recommendations",
+        "unknown",
+        "Mentions were matched; explicit recommendations were not classified.",
+        "Inspect raw answers before making recommendation claims."
+      ],
+      [
+        "provenance",
+        "unknown",
+        "Provider, model, surface, locale, timestamps, and answers are supplied by the importer and were not independently verified.",
+        "Retain collection receipts and repeat comparable queries before drawing conclusions."
+      ]
+    ]
+  },
+  {
+    "kind": "compare",
+    "table": [
+      [
+        "finding:first second|<&>",
+        "unknown",
+        "unchanged; before: unknown; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/queries.yaml: question continued more?; priority 1; no evidence; sources not independently verified; action=Research this gap before drafting product claims.; after: unknown; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/queries.yaml: question continued more?; priority 1; no evidence; sources not independently verified; action=Research this gap before drafting product claims.",
+        "Inspect both original observations and the later action before choosing a fix."
+      ],
+      [
+        "comparison-scope",
+        "unknown",
+        "Structural finding comparison only. Product identity, collection conditions and growth attribution are unverified.",
+        "Inspect both source scopes, input data and collection conditions. Removed findings are unknown; literal differences do not establish improvement."
+      ]
+    ]
+  }
+]

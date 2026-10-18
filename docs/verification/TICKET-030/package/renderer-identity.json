@@ -1,0 +1,16 @@
+{
+  "marked": {
+    "entry": "/Users/tsm0420/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js",
+    "version": "17.0.5",
+    "sha256": "0b4487359ce6b85108708e7a532e1242a27f4718241e7b2de109ac6cd307d2dc"
+  },
+  "cheerio": {
+    "entry": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/cheerio/dist/commonjs/index.js",
+    "version": "1.2.0",
+    "sha256": "ed43f738462a3ce5f277d8626dad1a0210464e38331064b3b43e1083b1ffd494"
+  },
+  "options": {
+    "gfm": true
+  },
+  "scope": "Local parser conversion/DOM inspection only; entry-file digests, no native browser claim."
+}

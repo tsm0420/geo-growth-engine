@@ -1,0 +1,356 @@
+{
+  "sourceRevision": "92e5377db03439662fc9d7c8b036d300d45643d0",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6",
+  "tarball": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/geo-growth-engine-0.1.0-alpha.3.tgz",
+  "tarballBytes": 27085,
+  "tarballSha256": "197d3ceaae91762be485160b47f485c3fc90e3c0214844dc39ac2bd3cdc93a4f",
+  "installedFiles": [
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "bytes": 1058,
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "bytes": 909,
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "bytes": 1347,
+      "sha256": "4e5f3552f68df537edd14a68ee27a0d79d82d047b190248ab7374e8a84cea66c"
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "bytes": 1616,
+      "sha256": "8e41b128bf0fda74b4992ae1756da9e383c1d9edd5007e6c8f9848bdfcaa24da"
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "bytes": 1525,
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10609,
+      "sha256": "b78040741474c9f146019d9e661eefabc05f42d27224011912f49897a4a32e98"
+    },
+    {
+      "path": "dist/src/aso.js",
+      "bytes": 3644,
+      "sha256": "cf878538416fb46f7a076f2a861375adc72458d01a18e605f74c3cd748fd2ef2"
+    },
+    {
+      "path": "dist/src/audit.js",
+      "bytes": 13218,
+      "sha256": "9be9e41dce9e196d2378cbdd4d5c7d1106d4f1512060f4fd9466f9e6c96b0205"
+    },
+    {
+      "path": "dist/src/cli.js",
+      "bytes": 3853,
+      "sha256": "eca8898947ccfb25b934bb2d6db34e236a527a5892389d5488e44b8be4eb8246"
+    },
+    {
+      "path": "dist/src/compare.js",
+      "bytes": 5320,
+      "sha256": "38c6c98344f8927d4f2e3ee1250deb5b7b1411aa7886ead914b828bb5ec43076"
+    },
+    {
+      "path": "dist/src/config.js",
+      "bytes": 6105,
+      "sha256": "abb9852113d4f6e901df1e57477a00575270f32749d60483c16c85494ba8f43a"
+    },
+    {
+      "path": "dist/src/install.js",
+      "bytes": 2509,
+      "sha256": "558ca8610e83072c8e65eb6611eb2a922947a68524df5ec7ca9ac371b5f959d5"
+    },
+    {
+      "path": "dist/src/paths.js",
+      "bytes": 730,
+      "sha256": "457c79c1ba284fbda4c61e788d33acbbe99901d270e20151cb3717277c2c0cb7"
+    },
+    {
+      "path": "dist/src/plan.js",
+      "bytes": 1767,
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb"
+    },
+    {
+      "path": "dist/src/report.js",
+      "bytes": 3644,
+      "sha256": "1d6ad889b56ebb468bac42094e340f2c7fcf74ce991b3774451e34422248abda"
+    },
+    {
+      "path": "dist/src/visibility-comparison.js",
+      "bytes": 3293,
+      "sha256": "ceea1b3ceaf56f5c23ceb599209d3bede9a29dc2c682713f97fd95ac7288190f"
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "bytes": 5873,
+      "sha256": "2059c58fff82a2b1a269eea17ec01f2ce667a71ed477384b75bfccc2bae1d423"
+    },
+    {
+      "path": "docs/configuration.md",
+      "bytes": 12362,
+      "sha256": "3b95383728e75db6a18221e2511031182de2dca70e761874022324773110fda2"
+    },
+    {
+      "path": "docs/sources.md",
+      "bytes": 2713,
+      "sha256": "bbcda0b1061f93911f69f3131c7ef8b93873cfffe3ae846c824d0744c2621ac8"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1083,
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da"
+    },
+    {
+      "path": "templates/config.yaml",
+      "bytes": 104,
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "templates/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "templates/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    }
+  ],
+  "changedPackageInputs": [
+    "dist/src/report.js",
+    "docs/configuration.md"
+  ],
+  "steps": [
+    {
+      "label": "clean-install",
+      "command": [
+        "npm",
+        "ci",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:15.955154+00:00"
+    },
+    {
+      "label": "clean-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:16.672223+00:00"
+    },
+    {
+      "label": "pack",
+      "command": [
+        "npm",
+        "pack",
+        "--ignore-scripts",
+        "--json",
+        "--pack-destination",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:16.926444+00:00"
+    },
+    {
+      "label": "consumer-install",
+      "command": [
+        "npm",
+        "install",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/geo-growth-engine-0.1.0-alpha.3.tgz"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:17.758199+00:00"
+    },
+    {
+      "label": "consumer-audit",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/audit"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:18.178902+00:00"
+    },
+    {
+      "label": "consumer-aso",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/.bin/geo",
+        "aso",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/aso"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:18.304810+00:00"
+    },
+    {
+      "label": "consumer-plan",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/plan"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:18.432386+00:00"
+    },
+    {
+      "label": "consumer-visibility",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/visibility",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/visibility.jsonl"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:18.562877+00:00"
+    },
+    {
+      "label": "consumer-compare",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/plan/plan.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/plan/plan.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/comparison"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:18.683564+00:00"
+    },
+    {
+      "label": "consumer-input-protection",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/collision/compare.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/plan/plan.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/collision"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T13:58:18.807995+00:00"
+    },
+    {
+      "label": "consumer-rendered-rows",
+      "command": [
+        "node",
+        "--input-type=module",
+        "-e",
+        "\nimport assert from 'node:assert/strict';\nimport {readFile,writeFile} from 'node:fs/promises';\nimport {createRequire} from 'node:module';\nimport {createHash} from 'node:crypto';\nconst [packagePath,artifactPath]=process.argv.slice(1);\nconst bundled=createRequire('/Users/tsm0420/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json');\nconst markedPath=bundled.resolve('marked');\nconst {marked}=await import(markedPath);\nconst consumer=createRequire(packagePath+'/package.json');\nconst {load}=consumer('cheerio');\nconst cheerioPath=consumer.resolve('cheerio');\nconst renderer={\n marked:{entry:markedPath,version:JSON.parse(await readFile(markedPath.replace(/lib\\/marked\\.esm\\.js$/,'package.json'),'utf8')).version,sha256:createHash('sha256').update(await readFile(markedPath)).digest('hex')},\n cheerio:{entry:cheerioPath,version:JSON.parse(await readFile(consumer.resolve('cheerio/package.json'),'utf8')).version,sha256:createHash('sha256').update(await readFile(cheerioPath)).digest('hex')},\n options:{gfm:true},scope:'Local parser conversion/DOM inspection only; entry-file digests, no native browser claim.'\n};\nawait writeFile(artifactPath+'/renderer-identity.json',JSON.stringify(renderer,null,2)+'\\n');\nconst rows=[];\nfor(const kind of ['audit','aso','plan','visibility','compare']){\n const doc=JSON.parse(await readFile(artifactPath+'/report-'+kind+'.json','utf8'));\n const md=await readFile(artifactPath+'/report-'+kind+'.md','utf8');\n const html=await marked.parse(md,{gfm:true});\n const $=load(html);\n const table=$('table tbody tr').map((_i,row)=>[$(row).find('td').map((_j,cell)=>$(cell).text()).get()]).get();\n assert.equal(table.length,doc.findings.length);\n assert.deepEqual(table.map(row=>row[1]),doc.findings.map(row=>row.status));\n if(kind==='plan')assert.equal(table[0][0],'first second|<&>');\n if(kind==='compare')assert.equal(table[0][0],'finding:first second|<&>');\n await writeFile(artifactPath+'/report-'+kind+'.html',html);\n rows.push({kind,table});\n}\nawait writeFile(artifactPath+'/rendered-rows.json',JSON.stringify(rows,null,2)+'\\n');\nconsole.log('All five installed report tables retain exact finding row/status counts; CRLF ID displays as one space. Local parser only.');\n",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/geo-growth-engine",
+        "/Users/tsm0420/geo/reports/candidates/TICKET-030/package"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T13:58:18.936692+00:00"
+    }
+  ],
+  "runtime": {
+    "node": "v24.22.0",
+    "npm": "11.19.1",
+    "os": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "rendererIdentity": {
+    "marked": {
+      "entry": "/Users/tsm0420/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js",
+      "version": "17.0.5",
+      "sha256": "0b4487359ce6b85108708e7a532e1242a27f4718241e7b2de109ac6cd307d2dc"
+    },
+    "cheerio": {
+      "entry": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/cheerio/dist/commonjs/index.js",
+      "version": "1.2.0",
+      "sha256": "ed43f738462a3ce5f277d8626dad1a0210464e38331064b3b43e1083b1ffd494"
+    },
+    "options": {
+      "gfm": true
+    },
+    "scope": "Local parser conversion/DOM inspection only; entry-file digests, no native browser claim."
+  },
+  "reusedSkillValidation": {
+    "sourceRevision": "c8a40d9a964529995ec6ec5963146323cc0901d5",
+    "receipt": "docs/verification/TICKET-028/package/manifest.json",
+    "unchangedSkills": [
+      {
+        "path": ".agents/skills/geo-orchestrator/SKILL.md",
+        "sha256": "4e5f3552f68df537edd14a68ee27a0d79d82d047b190248ab7374e8a84cea66c"
+      },
+      {
+        "path": ".agents/skills/web-geo/SKILL.md",
+        "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+      },
+      {
+        "path": ".agents/skills/app-geo-aso/SKILL.md",
+        "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+      },
+      {
+        "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+        "sha256": "8e41b128bf0fda74b4992ae1756da9e383c1d9edd5007e6c8f9848bdfcaa24da"
+      },
+      {
+        "path": ".agents/skills/geo-content-engine/SKILL.md",
+        "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+      }
+    ],
+    "scope": "Only unchanged five skill frontmatter/instructions and prior copied-skill validation; no new auto-trigger claim."
+  },
+  "limits": [
+    "Actual Darwin and bundled local marked GFM/Cheerio conversion; no native browser/platform approval.",
+    "New194-test source proof is separate; no repeat full suite in installed consumer.",
+    "Fictional fixtures, no paid/live collection or growth attribution.",
+    "Final-head PR/main CI remain separate."
+  ]
+}
