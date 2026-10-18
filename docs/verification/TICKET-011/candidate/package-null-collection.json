@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-bq4p792i/extracted/package/dist/src/cli.js",
+    "aso",
+    "--config",
+    "/private/tmp/geo-core-clean-bq4p792i/collection/config.json",
+    "--output",
+    "/private/tmp/geo-core-clean-bq4p792i/collection/results"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-bq4p792i",
+  "startedAt": "2026-10-17T14:31:18.497431+00:00",
+  "endedAt": "2026-10-17T14:31:18.624059+00:00",
+  "exitCode": 2,
+  "expectedExitCode": 2,
+  "sourceRevision": "1a223de98e41473bacb743572db704ccce23d509"
+}

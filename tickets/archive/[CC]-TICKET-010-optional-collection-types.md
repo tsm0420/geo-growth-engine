@@ -1,6 +1,6 @@
 # TICKET-010: Reject explicit null optional collections
 
-Status: Implemented and independently reviewed; clean-source/package verified; final PR CI pending
+Status: Completed delivery; PR #12 open and unmerged
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/optional-collection-validation`
 Blocked by: TICKET-007 investigation (complete); PR #11 open and unmerged (its prerequisite is PR #9)
@@ -29,3 +29,5 @@ Real CLI test-first receipts under `docs/verification/TICKET-010/`: baseline twe
 Source commit identity, clean-source/extracted-package proof and final-head CI remain pending delivery steps. No dependency change, merge, tag, release or external data collection occurred.
 
 Immutable alpha.3 source `8a4be99204fc51aa9d4ff751dc3bdfe6f820a37d` passed fresh install/typecheck/69 tests/build, then all 18 expected command outcomes through its extracted npm package. This includes all six commands, report input/conflict preservation, explicit null rejection and omitted-collection acceptance. Frozen YinThread remains 16 pass / 1 fail / 2 unknown and 146/145/1 sitemap counts. Tarball SHA-256: `42a60a5e6054b767ec044f27482f3c97e0f71871b126e12799a8447f93aeb5ff` (20,475 bytes). Original command arguments/cwd/times/exits/stdout/stderr, runtime and all packaged file hashes are in `docs/verification/TICKET-010/candidate/manifest.json` and adjacent receipts. The tarball is local and ignored; final-head PR CI remains pending.
+
+Delivery: PR #12 targets `codex/core-hardening-campaign`, explicitly depends on unmerged #11 and transitively #9. Final head `f33ec8eef40d29dc169f080de50e7d6525a48a61` has unchanged executable/CI inputs and every package file compared with the reviewed candidate. Code Review observed verify job 117419790932 / run 39040816885 completed/success, with its untruncated original response in `docs/verification/TICKET-010/ci-final.json`. No merge, tag or release occurred. The next approved slice is TICKET-011.

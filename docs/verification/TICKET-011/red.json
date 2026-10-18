@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "--test-name-pattern=underscore-delimited",
+    "tests/visibility.test.ts"
+  ],
+  "exitCode": 1,
+  "time": "2026-10-17T14:28:53.695850+00:00"
+}
