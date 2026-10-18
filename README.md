@@ -58,12 +58,23 @@ The installation hardening candidate checks each destination's nearest existing 
 | `aso` | Check Apple/Google Play text limits and supplied fact references. |
 | `plan` | Link audience questions to sourced facts; keep unsupported queries as research gaps. |
 | `visibility` | Import response JSONL, retain raw evidence, and report mentions, citations, competitors, and coverage. |
+| `compare` (candidate) | Compare exact finding IDs and observations in two retained local reports. |
 
-Report commands require `--config` and `--output`; `visibility` also requires `--input`. `init` and `install` require an existing `--target` directory. Exit 0 means completion without failed checks; 1 means observed failed checks; 2 means an operational/input error. Unknown findings remain visible with exit 0. Reusing an output directory replaces same-named reports and evidence; use a fresh directory per run to retain history.
+`audit`, `aso`, `plan` and `visibility` require `--config` and `--output`; `visibility` also requires `--input`. `init` and `install` require an existing `--target` directory. Exit 0 means completion without failed checks; 1 means observed failed checks; 2 means an operational/input error. Unknown findings remain visible with exit 0. Reusing an output directory replaces same-named reports and evidence; use a fresh directory per run to retain history.
 
 The hardening candidate rejects output paths that would overwrite configured inputs or imported records, and checks all destinations before writing. Predictable type, alias, symlink and write-access conflicts leave prior artifact bytes intact. This is preflight rather than transactional recovery from disk or concurrency failures; see the [report contract](docs/configuration.md#audit-report).
 
 In the alpha 2 candidate, repeated sitemap URLs cause exit 1 and a `sitemap-duplicates` finding with counts and entry positions. Identity uses XML-decoded text; URL spellings are not normalized. See the [audit report contract](docs/configuration.md#audit-report).
+
+### Compare retained reports (unmerged candidate)
+
+The `codex/local-report-comparison` candidate adds the following command; the published alpha 1 quickstart does not include it. Build this candidate checkout before using its compiled CLI:
+
+```sh
+node dist/src/cli.js compare --before /absolute/path/to/earlier/audit.json --after /absolute/path/to/later/audit.json --output /absolute/path/to/comparison
+```
+
+No config is required. Inputs must share schema version 1, report kind (`audit`, `aso`, `plan` or `visibility`) and fictional/actual flag. `compare.json` and `compare.md` show added, removed, status-changed, details-changed and unchanged findings, both parsed reports and original-byte digests. Exact IDs and text are compared; even path-only evidence changes stay visible. Removed checks become unknown; remaining or newly failed checks produce exit 1. Exit 0 can still contain unknown or removed findings. Product identity, collection conditions and growth attribution remain unverified. See the [comparison contract](docs/configuration.md#report-comparison-candidate).
 
 ## Evidence and limits
 

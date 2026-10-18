@@ -1,0 +1,3 @@
+# Local report comparison verification
+
+The first real CLI audit/title-fix regression failed before implementation with unknown --before, then passed. A separate metadata-retention regression failed and then passed after preserving supplied summary extensions. All 38 focused tests and all 165 full-suite tests passed, zero skipped, with typecheck/build exit 0. The retained commands/output/exits identify actual macOS arm64/Node24 runtime. The tests use fictional local fixtures; no growth, cohort identity, network or Agensi result was measured. Source-review, immutable-package and CI gates are recorded separately with their exact revisions.

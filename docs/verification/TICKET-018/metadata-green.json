@@ -1,0 +1,8 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/compare.test.ts"
+  ],
+  "exitCode": 0
+}

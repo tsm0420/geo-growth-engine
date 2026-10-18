@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/compare.test.ts"
+  ],
+  "exitCode": 1,
+  "recordedAt": "2026-10-18T10:25:59.179326+00:00",
+  "runtime": "macOS-26.5.2-arm64-arm-64bit"
+}

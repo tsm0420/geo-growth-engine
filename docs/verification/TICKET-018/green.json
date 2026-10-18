@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/compare.test.ts"
+  ],
+  "exitCode": 0,
+  "recordedAt": "2026-10-18T10:26:22.109757+00:00"
+}

@@ -1,0 +1,43 @@
+✔ compare retains real audit observations after a local title fix (527.893083ms)
+✔ compare classifies literal categories, preserves removed failures and exact sorted IDs (163.263083ms)
+✖ compare retains complete parsed metadata including summary extensions (160.095125ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 2
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 924.959292
+
+✖ failing tests:
+
+test at tests/compare.test.ts:94:1
+✖ compare retains complete parsed metadata including summary extensions (160.095125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      data: {
+        recorded: 'original data'
+      },
+      example: true,
+  ...
+        fail: 0,
+  -     note: 'supplied extension',
+        pass: 1,
+        unknown: 0
+      }
+    }
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/compare.test.ts:103:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { schemaVersion: 1, kind: 'audit', generatedAt: '2026-10-18T10:00:00Z', example: true, scope: 'Fictional local fixture', findings: [ [Object] ], summary: { pass: 1, fail: 0, unknown: 0 }, data: { recorded: 'original data' }, extension: [ 'retained' ] },
+    expected: { schemaVersion: 1, kind: 'audit', generatedAt: '2026-10-18T10:00:00Z', example: true, scope: 'Fictional local fixture', findings: [ [Object] ], summary: { pass: 1, fail: 0, unknown: 0, note: 'supplied extension' }, data: { recorded: 'original data' }, extension: [ 'retained' ] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
