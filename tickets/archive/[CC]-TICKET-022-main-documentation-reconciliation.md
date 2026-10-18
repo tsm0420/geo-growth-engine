@@ -1,6 +1,6 @@
 # TICKET-022: Reconcile current-main setup and skill guidance
 
-Status: Immutable package verified; PR delivery and exact-head CI pending
+Status: Delivered in PR #25; final bookkeeping-head CI pending
 Assignee: Codex
 Target Workspace: codex/main-documentation-reconciliation, based on PR #23 head 6f06fdd9f752caabe9a28860d0972b03ddcf3b8a
 Blocked by: TICKET-020 delivery/final-head CI; PR #23 remains a separate unmerged prerequisite
@@ -23,3 +23,5 @@ Independent source review: Standards found no introduced issue. Spec found one P
 Immutable package checkpoint: reviewed source09a317561e2dbd71500f0da07ef2e2788d28bad8 produced a clean-source/build tarball of24,891bytes, SHA-256 b30ca6bf2868c7b8f9b47e5520ce2bb010d7f3a517872f892b1d498bf0e91e33. All23 installed files match; exactly the reviewed README/configuration/orchestrator changed and20 prior package inputs match. All20 expected preparation/install/consumer outcomes passed, including15 actual geo CLI outcomes and final installed-skill validation. Missing config/input, existing-skill and input-overwrite controls retain exit2 and preserve inputs. Fixtures and raw visibility evidence remain unchanged. Separate static Standards/Spec package addenda have no findings; primary raw receipts are retained under docs/verification/TICKET-022/candidate/. Final whole-head CI remains required. PR23 is still open at6f06fdd; no merge authorization is inferred.
 
 Independent package-byte follow-up: the reviewer rehashed the actual local tarball and all23 archive/installed/built-source members,13 non-dist Git inputs and11 source files; no discrepancy. All20 retained receipt sets agree with recorded exits. This authenticates retained bytes without a new execution; raw proof and the separate addendum are retained with the reviews.
+
+Delivery checkpoint: PR #25 is open against PR23 branch codex/yinthread-local-remediation, base6f06fdd9f752caabe9a28860d0972b03ddcf3b8a. Documentation/package-evidence head3d78dd724be07a87d6dd31eadcd7ccc50ecf7184 passed Code Review run39123454467/job117663630008:165 passed,0 failed/skipped, typecheck/build and four fictional reports successful. The full39,433-character untruncated log is retained. The tested synthetic merge f811db1 and actual head have identical tree8e58bda0e6718a01f59ab67d6a994196e9f2ab28, verified from both Git objects. This archival bookkeeping commit receives a separate final exact-head CI observation in the PR/local checkpoint. All23 package files and1,343 protected files remain unchanged. No merge or release is claimed.

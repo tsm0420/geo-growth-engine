@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3791,
-      "sha256": "44e4d808f6edb76e06934d1af352ebdd5eb2a8ee3c7eedba8339c7f0af82934b"
+      "bytes": 4353,
+      "sha256": "d4515c9bb57b33529722ab530c7fe607bc4f08a29e538af8aee7f8df397c0b51"
     },
     {
       "path": "audit.json",
@@ -729,6 +729,31 @@
       "path": "remote-facts/sources.json",
       "bytes": 6278,
       "sha256": "94f1e712482c1645cabb8b9e32c692e7f561179af561e97069ee843dd76aef84"
+    },
+    {
+      "path": "source-ci-checkout.json",
+      "bytes": 6447,
+      "sha256": "6051f2790ee501fdbe6da1fec6e5d0ee96a27f42b5ed6b68be024d6ce6bec766"
+    },
+    {
+      "path": "source-ci-head.json",
+      "bytes": 3317,
+      "sha256": "5e22686d164bed2d4ddca37e33a7bc6c35426a54e068a24d1de0fedd99a41eb0"
+    },
+    {
+      "path": "source-ci-response.json",
+      "bytes": 41322,
+      "sha256": "2d586fb926e4317c05f48aeae462bd4d851c5201545d3a5a0148f8bfa554f824"
+    },
+    {
+      "path": "source-ci-summary.json",
+      "bytes": 776,
+      "sha256": "a68e5a1c0e66fa917096997c1f1c8a131e35b485e58c006a05862781e85a31c3"
+    },
+    {
+      "path": "source-ci.log",
+      "bytes": 39797,
+      "sha256": "3b16aa7939189b3fa09c273651de72276a1777e6d950503c6c54dd6e503e429f"
     },
     {
       "path": "test.json",
