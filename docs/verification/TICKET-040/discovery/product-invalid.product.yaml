@@ -1,0 +1,25 @@
+version: 1
+example: true
+name: Example Journal
+aliases: []
+ownedOrigins: [https://example.com]
+platforms: [web, ios, android]
+facts:
+  - id: daily-notes
+    claim: Save ÿ daily journal entries.
+    source: https://example.com/features/daily-notes
+competitors: [Other Journal]
+listings:
+  ios:
+    locale: en-GB
+    name: Example Journal
+    subtitle: Daily notes
+    keywords: journal,daily,notes
+    description: Save daily journal entries.
+    factIds: [daily-notes]
+  android:
+    locale: en-GB
+    title: Example Journal
+    shortDescription: Save daily journal entries.
+    fullDescription: Save daily journal entries.
+    factIds: [daily-notes]

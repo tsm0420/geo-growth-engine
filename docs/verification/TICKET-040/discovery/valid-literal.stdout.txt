@@ -1,0 +1,1 @@
+{"output":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-literal/results","pass":1,"fail":0,"unknown":0}

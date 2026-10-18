@@ -1,0 +1,15 @@
+✔ plan rejects malformed product bytes before replacing existing artifacts (222.689166ms)
+✔ all configured report commands reject malformed root and product YAML comments before writes (1341.231792ms)
+✔ only plan consumes malformed query YAML while other report commands retain lazy loading (642.757417ms)
+✔ YAML rejects truncated, overlong, surrogate and out-of-range UTF-8 sequences (626.227041ms)
+✔ YAML retains valid Unicode, escaped replacement characters and parser-accepted BOMs (487.247709ms)
+✔ both JSON ingress paths retain their established format-specific UTF-8 diagnostics (465.70825ms)
+✔ valid UTF-8 JSON BOMs still reach parser rejection instead of being stripped (309.864334ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4166.691042

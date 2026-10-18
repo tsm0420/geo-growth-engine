@@ -1,0 +1,11 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/yaml-utf8.test.ts"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exitCode": 0,
+  "at": "2026-10-18T15:09:43.460686+00:00",
+  "runtime": "v24.22.0"
+}

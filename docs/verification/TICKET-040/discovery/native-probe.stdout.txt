@@ -1,0 +1,6 @@
+{"path":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/config-invalid/.geo/config.yaml","validUtf8":false,"hasDecodedReplacement":true}
+{"path":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/product-invalid/.geo/product.yaml","validUtf8":false,"hasDecodedReplacement":true}
+{"path":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/queries-invalid/.geo/queries.yaml","validUtf8":false,"hasDecodedReplacement":true}
+{"path":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-literal/.geo/product.yaml","validUtf8":true,"hasDecodedReplacement":true}
+{"path":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-escaped/.geo/product.yaml","validUtf8":true,"hasDecodedReplacement":false}
+{"path":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-bom/.geo/product.yaml","validUtf8":true,"hasDecodedReplacement":true}

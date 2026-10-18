@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+    "--input-type=module",
+    "--eval",
+    "import { isUtf8 } from 'node:buffer'; import { readFileSync } from 'node:fs'; for(const p of process.argv.slice(1)){ const b=readFileSync(p); console.log(JSON.stringify({path:p,validUtf8:isUtf8(b),hasDecodedReplacement:b.toString('utf8').includes('\\ufffd')}));}",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/config-invalid/.geo/config.yaml",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/product-invalid/.geo/product.yaml",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/queries-invalid/.geo/queries.yaml",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-literal/.geo/product.yaml",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-escaped/.geo/product.yaml",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-bom/.geo/product.yaml"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf",
+  "exitCode": 0,
+  "runtime": "v24.22.0"
+}

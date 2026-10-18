@@ -1,0 +1,116 @@
+{
+  "main": "ea594befaf0827c1b03b264a646abc13df623946",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf",
+  "runtime": "v24.22.0",
+  "execution": "Unchanged immutable T038 installed CLI:25installed/47main-source identities verified",
+  "cases": [
+    {
+      "label": "config-invalid",
+      "exitCode": 0,
+      "sourceSha256BeforeConsumption": {
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/config-invalid/.geo/config.yaml": "755c7c13216824c9dd4d13a89308b8142f9eae5d04d947d92e24f75073f520ef",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/config-invalid/.geo/product.yaml": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/config-invalid/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+      },
+      "claim": "Save daily journal entries.",
+      "query": "How can I keep daily journal entries?",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "note": "Malformed config comment accepted; no consumed field text changed in this case."
+    },
+    {
+      "label": "product-invalid",
+      "exitCode": 0,
+      "sourceSha256BeforeConsumption": {
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/product-invalid/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/product-invalid/.geo/product.yaml": "462606c8c74d6d09ad8906e24480a5ba0b7061d4e9621a426f9103fe38ea45c2",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/product-invalid/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+      },
+      "claim": "Save \ufffd daily journal entries.",
+      "query": "How can I keep daily journal entries?",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "note": "Observed parsed content only; original input files remain unchanged."
+    },
+    {
+      "label": "queries-invalid",
+      "exitCode": 0,
+      "sourceSha256BeforeConsumption": {
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/queries-invalid/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/queries-invalid/.geo/product.yaml": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/queries-invalid/.geo/queries.yaml": "e2078317fd4b2222012f68e8803236f5ef613230214a769571ad4f551d6c7536"
+      },
+      "claim": "Save daily journal entries.",
+      "query": "How can I \ufffd keep daily journal entries?",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "note": "Observed parsed content only; original input files remain unchanged."
+    },
+    {
+      "label": "valid-literal",
+      "exitCode": 0,
+      "sourceSha256BeforeConsumption": {
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-literal/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-literal/.geo/product.yaml": "868afb539deb0aefa10c01990dfd206646a459c74289d24798d1d91a658b6d66",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-literal/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+      },
+      "claim": "Save \ufffd \ud83d\ude00 e\u0301 daily journal entries.",
+      "query": "How can I keep daily journal entries?",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "note": "Observed parsed content only; original input files remain unchanged."
+    },
+    {
+      "label": "valid-escaped",
+      "exitCode": 0,
+      "sourceSha256BeforeConsumption": {
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-escaped/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-escaped/.geo/product.yaml": "aa104bd81c4075e253b580396f83da60b041ab7dbc815b615ed58883444eaac0",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-escaped/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+      },
+      "claim": "Save \ufffd daily journal entries.",
+      "query": "How can I keep daily journal entries?",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "note": "Observed parsed content only; original input files remain unchanged."
+    },
+    {
+      "label": "valid-bom",
+      "exitCode": 0,
+      "sourceSha256BeforeConsumption": {
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-bom/.geo/config.yaml": "8b9ecf089b55bb34c20c256a8777878f8befb39f52376abe3d0870e401e73430",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-bom/.geo/product.yaml": "b8945c0d6cd8f976b5f53f33996d8cbaec8fc0f020df386fc0abe0a6b6205b43",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/valid-bom/.geo/queries.yaml": "2a4af3980397f48aa6f78df4a3c88b34332deff469d336272787ab67b91b7514"
+      },
+      "claim": "Save \ufffd \ud83d\ude00 e\u0301 daily journal entries.",
+      "query": "How can I keep daily journal entries?",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "note": "Observed parsed content only; original input files remain unchanged."
+    }
+  ],
+  "limits": [
+    "Fictional local plan commands, not product measurements",
+    "Config malformed bytes were in an ignored comment; product/query cases visibly replace text",
+    "Source files unchanged; no original byte-loss or raw-rewrite claim",
+    "UTF8-only core path, not full YAML Unicode-encoding conformance"
+  ]
+}

@@ -1,0 +1,1 @@
+YAML input /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/queries.yaml must use valid UTF-8
