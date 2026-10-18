@@ -1,0 +1,797 @@
+{
+  "sourceRevision": "b29de7a249a6a9a8b6c0f3fcb1f24894706766aa",
+  "runtime": "v24.22.0",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d",
+  "tarball": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/geo-growth-engine-0.1.0-alpha.3.tgz",
+  "tarballBytes": 29021,
+  "tarballSha256": "95bf8806f564758cd4436b5b928b40b91c323aa80be0d652ad4cb7e1e67f77c1",
+  "installedFiles": [
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "path": "dist/src/aso.js",
+      "bytes": 3644,
+      "sha256": "cf878538416fb46f7a076f2a861375adc72458d01a18e605f74c3cd748fd2ef2"
+    },
+    {
+      "path": "dist/src/audit.js",
+      "bytes": 13416,
+      "sha256": "e23fecad94cd9a55456b7036511203edbb04873b3c1bf41b0c69e7d32100011c"
+    },
+    {
+      "path": "dist/src/cli.js",
+      "bytes": 3853,
+      "sha256": "eca8898947ccfb25b934bb2d6db34e236a527a5892389d5488e44b8be4eb8246"
+    },
+    {
+      "path": "dist/src/compare.js",
+      "bytes": 6021,
+      "sha256": "111dc5be94abaa2574b6cf0e7396aa80e9777d0c3bb069c936582a8d4e12d6f9"
+    },
+    {
+      "path": "dist/src/config.js",
+      "bytes": 6164,
+      "sha256": "f0e9ca96fc3e9ce725f0b8a0203d181780e6e00b0627d478698fd8b5a69c6000"
+    },
+    {
+      "path": "dist/src/install.js",
+      "bytes": 2509,
+      "sha256": "558ca8610e83072c8e65eb6611eb2a922947a68524df5ec7ca9ac371b5f959d5"
+    },
+    {
+      "path": "dist/src/paths.js",
+      "bytes": 730,
+      "sha256": "457c79c1ba284fbda4c61e788d33acbbe99901d270e20151cb3717277c2c0cb7"
+    },
+    {
+      "path": "dist/src/plan.js",
+      "bytes": 1767,
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb"
+    },
+    {
+      "path": "dist/src/report.js",
+      "bytes": 3644,
+      "sha256": "1d6ad889b56ebb468bac42094e340f2c7fcf74ce991b3774451e34422248abda"
+    },
+    {
+      "path": "dist/src/utf8-text.js",
+      "bytes": 220,
+      "sha256": "080ea1b0225e410864434ed25b1012b3e71f9b7e53c29fb6c9720f5ec4fe2b12"
+    },
+    {
+      "path": "dist/src/visibility-comparison.js",
+      "bytes": 3293,
+      "sha256": "ceea1b3ceaf56f5c23ceb599209d3bede9a29dc2c682713f97fd95ac7288190f"
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "bytes": 6455,
+      "sha256": "b7eccd88c283bf0c4f5c74bb262f4b9a31760d3c22e4995219f183ad2bdea441"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1083,
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da"
+    },
+    {
+      "path": "docs/configuration.md",
+      "bytes": 15691,
+      "sha256": "e339151cdac5aff8c4077cbd8c49098e0a529854e8b5df020df55d3a0ad9c075"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10843,
+      "sha256": "1eea6d6c025cdbfc41c094a1ca24d444860c23b5f535f8ca5ecb5ec738cbcbca"
+    },
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "bytes": 1058,
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "bytes": 909,
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "bytes": 1347,
+      "sha256": "4e5f3552f68df537edd14a68ee27a0d79d82d047b190248ab7374e8a84cea66c"
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "bytes": 2018,
+      "sha256": "f5981e9461db110bf8b9da285f23f67e611c61b4cee3cf837a20d587894e1604"
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "bytes": 1525,
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+    },
+    {
+      "path": "docs/sources.md",
+      "bytes": 3234,
+      "sha256": "8fccb462d7a2f918e8bc90db23401e2a40b937991cd1d083067621863fb08204"
+    },
+    {
+      "path": "templates/config.yaml",
+      "bytes": 104,
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "templates/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "templates/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    }
+  ],
+  "changedPackageInputs": [
+    "dist/src/compare.js",
+    "dist/src/config.js",
+    "dist/src/visibility.js",
+    "docs/configuration.md"
+  ],
+  "removedPackageFiles": [
+    "dist/src/json-text.js"
+  ],
+  "addedPackageFiles": [
+    "dist/src/utf8-text.js"
+  ],
+  "checkedInputCount": 48,
+  "inputDigestsBeforeConsumption": {
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline.jsonl": "0fe975506bdfb8a8c52172dae0f5cf6c189b77e055d89c7084318b0569b9a302",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/swapped.jsonl": "de2142570cc41be293a203831c90b1ab4d1dc243456c99922b6e2323503b5ed7",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/empty.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/duplicate.jsonl": "d2858361c92cd160f4fb2080df6fd21d0894c2daaa16570f3034b76fe221d092",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/collision/evidence/responses.jsonl": "0fe975506bdfb8a8c52172dae0f5cf6c189b77e055d89c7084318b0569b9a302",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/visibility.jsonl": "60bc8038f38df4a74e958ca67aa61b48a55d3ed563b1d89830b153d58de6f6c5",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/older.json": "a188337c4e7536718d12b5d5a4f93e88e23b82043758c5a6b59c30458584a5c2",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline/visibility.json": "e91ea2e916cf5b755bd3eb3de3b140cef6e32dda17f2fb572a52f1dd66a5c9b9",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-config-invalid/.geo/config.yaml": "755c7c13216824c9dd4d13a89308b8142f9eae5d04d947d92e24f75073f520ef",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-config-invalid/.geo/product.yaml": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-config-invalid/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-product-invalid/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-product-invalid/.geo/product.yaml": "462606c8c74d6d09ad8906e24480a5ba0b7061d4e9621a426f9103fe38ea45c2",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-product-invalid/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/product.yaml": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/queries.yaml": "e2078317fd4b2222012f68e8803236f5ef613230214a769571ad4f551d6c7536",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-literal/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-literal/.geo/product.yaml": "868afb539deb0aefa10c01990dfd206646a459c74289d24798d1d91a658b6d66",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-literal/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-escaped/.geo/config.yaml": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-escaped/.geo/product.yaml": "aa104bd81c4075e253b580396f83da60b041ab7dbc815b615ed58883444eaac0",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-escaped/.geo/queries.yaml": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-bom/.geo/config.yaml": "8b9ecf089b55bb34c20c256a8777878f8befb39f52376abe3d0870e401e73430",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-bom/.geo/product.yaml": "b8945c0d6cd8f976b5f53f33996d8cbaec8fc0f020df386fc0abe0a6b6205b43",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-bom/.geo/queries.yaml": "2a4af3980397f48aa6f78df4a3c88b34332deff469d336272787ab67b91b7514",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/invalid.json": "a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/bom.json": "6c8fa3473f79583475f372a8af6f4bce44b0dede1e29dfc77d88706be7ee235f"
+  },
+  "steps": [
+    {
+      "label": "clean-install",
+      "command": [
+        "npm",
+        "ci",
+        "--ignore-scripts"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:04.712113+00:00"
+    },
+    {
+      "label": "clean-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:05.470388+00:00"
+    },
+    {
+      "label": "pack",
+      "command": [
+        "npm",
+        "pack",
+        "--json"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:05.725772+00:00"
+    },
+    {
+      "label": "consumer-install",
+      "command": [
+        "npm",
+        "install",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/geo-growth-engine-0.1.0-alpha.3.tgz"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:06.573171+00:00"
+    },
+    {
+      "label": "consumer-init",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "init",
+        "--target",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/project"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:06.974699+00:00"
+    },
+    {
+      "label": "consumer-skills",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "install",
+        "--target",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/project"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:07.107866+00:00"
+    },
+    {
+      "label": "consumer-audit",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/example-audit"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:07.256257+00:00"
+    },
+    {
+      "label": "consumer-aso",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "aso",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/example-aso"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:07.391498+00:00"
+    },
+    {
+      "label": "consumer-plan",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/example-plan"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:07.528773+00:00"
+    },
+    {
+      "label": "consumer-visibility",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/example-visibility",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/visibility.jsonl"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:07.662601+00:00"
+    },
+    {
+      "label": "question-baseline",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:07.795888+00:00"
+    },
+    {
+      "label": "question-swapped",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/swapped.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/swapped"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:07.937360+00:00"
+    },
+    {
+      "label": "question-empty",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/empty.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/empty"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:08.073736+00:00"
+    },
+    {
+      "label": "compare-False",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/older.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline/visibility.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/compare-False"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:08.209594+00:00"
+    },
+    {
+      "label": "compare-True",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/older.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline/visibility.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/compare-True",
+        "--visibility-metrics"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:08.337521+00:00"
+    },
+    {
+      "label": "duplicate-rejection",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/duplicate.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/duplicate-output"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:08.467857+00:00"
+    },
+    {
+      "label": "input-protection",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/collision/evidence/responses.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/collision"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:08.633466+00:00"
+    },
+    {
+      "label": "yaml-config-invalid-False",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-config-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/config-invalid-output-False"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:08.765105+00:00"
+    },
+    {
+      "label": "yaml-config-invalid-True",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-config-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/config-invalid-output-True"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:08.891028+00:00"
+    },
+    {
+      "label": "yaml-product-invalid-False",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-product-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/product-invalid-output-False"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:09.019720+00:00"
+    },
+    {
+      "label": "yaml-product-invalid-True",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-product-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/product-invalid-output-True"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:09.146951+00:00"
+    },
+    {
+      "label": "yaml-queries-invalid-False",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/queries-invalid-output-False"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:09.277370+00:00"
+    },
+    {
+      "label": "yaml-queries-invalid-True",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/queries-invalid-output-True"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:09.404020+00:00"
+    },
+    {
+      "label": "yaml-valid-literal",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-literal/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/valid-literal-output"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:09.539221+00:00"
+    },
+    {
+      "label": "yaml-valid-escaped",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-escaped/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/valid-escaped-output"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:09.675488+00:00"
+    },
+    {
+      "label": "yaml-valid-bom",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-valid-bom/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/valid-bom-output"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:09.810104+00:00"
+    },
+    {
+      "label": "lazy-audit",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/lazy-audit"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:09.951014+00:00"
+    },
+    {
+      "label": "lazy-aso",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "aso",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/lazy-aso"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:10.087961+00:00"
+    },
+    {
+      "label": "lazy-visibility",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/lazy-visibility",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/visibility.jsonl"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T15:13:10.223710+00:00"
+    },
+    {
+      "label": "visibility-invalid",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/invalid.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/visibility-invalid"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:10.350939+00:00"
+    },
+    {
+      "label": "compare-before-invalid",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/invalid.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline/visibility.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/compare-before-invalid"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:10.476440+00:00"
+    },
+    {
+      "label": "compare-after-invalid",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline/visibility.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/invalid.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/compare-after-invalid"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:10.606273+00:00"
+    },
+    {
+      "label": "visibility-bom",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/bom.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/visibility-bom"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:10.738460+00:00"
+    },
+    {
+      "label": "compare-bom",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline/visibility.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/bom.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/compare-bom"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T15:13:10.867979+00:00"
+    }
+  ],
+  "queryRows": [
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-a",
+      "locale": "en-GB",
+      "query": "How can I save daily journal entries?",
+      "attempted": 2,
+      "successful": 1,
+      "failed": 1,
+      "coverage": 0.5,
+      "mentionRate": 1,
+      "citationRate": 1,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 0
+      }
+    },
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-a",
+      "locale": "en-GB",
+      "query": "Which journal supports sharing?",
+      "attempted": 1,
+      "successful": 1,
+      "failed": 0,
+      "coverage": 1,
+      "mentionRate": 0,
+      "citationRate": 0,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 1
+      }
+    },
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-a",
+      "locale": "en-GB",
+      "query": "Does it work offline?",
+      "attempted": 1,
+      "successful": 0,
+      "failed": 1,
+      "coverage": 0,
+      "mentionRate": null,
+      "citationRate": null,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 0
+      }
+    },
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-b",
+      "locale": "en-GB",
+      "query": "How can I save daily journal entries?",
+      "attempted": 1,
+      "successful": 1,
+      "failed": 0,
+      "coverage": 1,
+      "mentionRate": 0,
+      "citationRate": 0,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 1
+      }
+    }
+  ],
+  "sentinels": {
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/collision/visibility.json": "db3a292584b69f99bad48354c7b9e67c97dec5991689fa96e7c5e8c71e59af28",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/collision/visibility.md": "91b2ebe38fc0feeab0137f998f59645e63c57c6f165c3e94e4b5986f6be94c7f",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/config-invalid-output-True/plan.json": "73e81e554d987233e4990fef89312e7eb92aba034c415e12f88ee9fd1b4d759a",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/config-invalid-output-True/plan.md": "2d38b1385deb4499da36b039f3d4422f7f6c81ce0d236566ea4fe14908e6d639",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/product-invalid-output-True/plan.json": "2cd017db2577d946730f057fa80fe1fe00eeaf3805f464844007f2bd57d9ce5f",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/product-invalid-output-True/plan.md": "9dfb91e0830bc831a8c50d61cf879932e4c1ee4e1f66050aa9c3f3db4031f4e2",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/queries-invalid-output-True/plan.json": "0062e4620af93069a3995ae241c2757132aae8f61f9d001a5dcfe126f49f744b",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/queries-invalid-output-True/plan.md": "8605dc1ea9a043dc635c2a27c1df9a06dd428e058b4733b580c27226e65314f2"
+  },
+  "skillValidationReuse": {
+    "source": "docs/verification/TICKET-038/package/manifest.json",
+    "reason": "All five unchanged installed/copied skill byte identities match original five actual validator outcomes; not rerun"
+  },
+  "harnessSha256": "c360a206189869611b1f26973ae99d12e84069213b23b663e7d1dbc94e7ee713",
+  "limits": [
+    "Fictional local imports, not new live measurements or growth evidence.",
+    "Five unchanged skill validators use exact T038 proof; not rerun. JSON encoding diagnostics/BOM were actually exercised.",
+    "Primary temporal and fresh-directory assertions are separate from independently copied bytes.",
+    "Final-head CI, actual-main verification, release and marketplace decisions are separate."
+  ]
+}

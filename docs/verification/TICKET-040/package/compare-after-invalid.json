@@ -1,0 +1,17 @@
+{
+  "label": "compare-after-invalid",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+    "compare",
+    "--before",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/baseline/visibility.json",
+    "--after",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/invalid.json",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/compare-after-invalid"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "at": "2026-10-18T15:13:10.606273+00:00"
+}

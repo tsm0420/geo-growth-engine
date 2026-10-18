@@ -1,0 +1,12 @@
+{
+  "label": "pack",
+  "command": [
+    "npm",
+    "pack",
+    "--json"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T15:13:05.725772+00:00"
+}

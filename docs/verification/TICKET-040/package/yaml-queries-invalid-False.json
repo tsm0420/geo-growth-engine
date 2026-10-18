@@ -1,0 +1,15 @@
+{
+  "label": "yaml-queries-invalid-False",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer/node_modules/.bin/geo",
+    "plan",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/yaml-queries-invalid/.geo/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/queries-invalid-output-False"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo040-package-quemth6d/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "at": "2026-10-18T15:13:09.277370+00:00"
+}
