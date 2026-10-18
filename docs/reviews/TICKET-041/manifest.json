@@ -1,0 +1,81 @@
+{
+  "base": "c9f85a564e437097abf1965adf622727d9aeec67",
+  "productMain": "ea594befaf0827c1b03b264a646abc13df623946",
+  "entries": [
+    {
+      "path": "candidate/docs/development-loop.md",
+      "bytes": 59539,
+      "sha256": "8cd993442c9fd623eb5196b10728f66197d8ee80dcfdc1226897720c06fd1e64"
+    },
+    {
+      "path": "candidate/docs/iterative-goal.md",
+      "bytes": 5230,
+      "sha256": "d3ce051ec754f9f724ad784c6146d6a8b937bd31d0d403d10090ace581a59a70"
+    },
+    {
+      "path": "candidate/docs/next-phase-spec.md",
+      "bytes": 8712,
+      "sha256": "ee112208aa18b280838a3e1790160c7857121c6575623a9e2c7389a1dd340224"
+    },
+    {
+      "path": "candidate/docs/research/direction-sources-2026-10-18.md",
+      "bytes": 4932,
+      "sha256": "7130811531e2ed63c877bf0ebbb911dd301441994b9ca8c9a3281715e1a63c22"
+    },
+    {
+      "path": "candidate/docs/research/project-state-2026-10-18.md",
+      "bytes": 6366,
+      "sha256": "2d81f654b1fc22a6ba3d1631588d829c06749ea5d80e9c443317237fc9121826"
+    },
+    {
+      "path": "candidate/docs/research/workflow-assessment-2026-10-18.md",
+      "bytes": 6702,
+      "sha256": "d928ac30614f204b78939b6d649bd5f330b535a5d24c1ca4882cb921a604f93b"
+    },
+    {
+      "path": "candidate/docs/roadmap.md",
+      "bytes": 2821,
+      "sha256": "20c268892cb15c0c95693e90ce16c8229b053938b99de120a31ad963eaae5301"
+    },
+    {
+      "path": "candidate/docs/verification/TICKET-041/status.json",
+      "bytes": 1762,
+      "sha256": "4d802bf9a0978f5e3c3da9d2e08ddb717cfdb0d2e500f446384bd4953cf1c2d0"
+    },
+    {
+      "path": "candidate/tickets/[CC]-TICKET-041-direction-review.md",
+      "bytes": 3271,
+      "sha256": "62521bbb8d062c9526edf39e3bfb378e568c9716995782d0d470510a4f6b6a45"
+    },
+    {
+      "path": "candidate/tickets/[CC]-TICKET-044-first-product-candidate.md",
+      "bytes": 1827,
+      "sha256": "a8736b5c7afb66289a0b5ab432bab526c905b9913bb5c894be8154237308e7e7"
+    },
+    {
+      "path": "candidate/tickets/[CC]-TICKET-045-manual-visibility-pilot.md",
+      "bytes": 2451,
+      "sha256": "0bad382b2445147dade08e8731e0556caa17083c1abd467d07cdff4d80836e99"
+    },
+    {
+      "path": "candidate/tickets/archive/[CC]-TICKET-042-workflow-assessment.md",
+      "bytes": 3312,
+      "sha256": "a86c9d05e5b791fb80caf94a66e0c16019a506e85743bedde8340022a085e366"
+    },
+    {
+      "path": "candidate/tickets/archive/[CC]-TICKET-043-direction-sources.md",
+      "bytes": 2407,
+      "sha256": "a4acc942c340802ecf51a834baaf0add65506ba360d360033a1c9d03d736b2a2"
+    },
+    {
+      "path": "changes.patch",
+      "bytes": 12599,
+      "sha256": "d25d3b88ac3098d6a2c94a8828c436e9c1fa1bc643548073835b895632e32f89"
+    }
+  ],
+  "removed": [
+    "tickets/[CC]-TICKET-042-workflow-assessment.md",
+    "tickets/[CC]-TICKET-043-direction-sources.md"
+  ],
+  "scope": "Immutable planning candidate; source is unchanged; no product execution requested"
+}

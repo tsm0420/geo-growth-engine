@@ -1,5 +1,11 @@
 # Continuous development goal
 
+## Current mode: development hold
+
+On 2026-10-18 the maintainer stopped development and requested a status review, future direction, specification and GitHub issues. Keep the native goal paused. Authorized work during this hold is planning and the existing Agensi observation schedule; implementation, project PR merges and listing modifications wait for an explicit resume. The heartbeat now monitors Agensi only. Preserve the standing merge consent below for use after resumption. Read [the next-phase specification](next-phase-spec.md) before choosing subsequent work; its proposals do not resume execution.
+
+## Objective after resumption
+
 Continuously improve GEO Growth Engine as a useful, evidence-backed open-source toolkit: complete a GEO review, choose fixes and compare later observations. Preserve the free MIT core without paid APIs. Tickets, PRs and marketplace results are milestones, not completion of this ongoing goal.
 
 Read AGENTS.md, CONTEXT.md, core specs, docs/development-loop.md, backlog and relevant tickets. See docs/continuous-development-spec.md for setup acceptance. Verify main/PR state and dependencies; preserve private data, historical receipts and frozen YinThread inputs.
