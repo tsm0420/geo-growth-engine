@@ -1,6 +1,6 @@
 # TICKET-028: Compare supplied visibility headline totals explicitly
 
-Status: Source and immutable package verified; evidence review and CI delivery pending
+Status: Delivered in PR #29; final bookkeeping CI and merge tracked in PR/local receipt
 Assignee: Codex
 Target Workspace: codex/visibility-metric-comparison, main b5483c3f1b286fae23b9cbe381f94a8639c94d59
 Blocked by: TICKET-027 bounded workflow discovery (three CLI observations complete)
@@ -26,3 +26,7 @@ Independent Standards and Spec reviews each report no actionable introduced find
 Both separate documentation addenda verify the exact two clarifications with no remaining actionable issue. No product-source/test byte changed after the190-test proof. Reviewed source is ready for immutable package construction; package/CI/merge gates remain outstanding.
 
 Immutable package from reviewed source c8a40d9a964529995ec6ec5963146323cc0901d5 passed all22 expected preparation/installed-consumer outcomes. The new26953-byte tarball SHA-256 is30a1281760c0825c44817237addc4ceef7257b28911b213c4f50c3fdcdbf50bd; all24 built/tar/installed files match, with six changed package inputs versus TICKET-022. Five copied skill frontmatter checks and actual installed comparison positive/null/default/invalid/protection paths passed. Raw receipts/reports and manifest are under docs/verification/TICKET-028/package/. Static artifact review and final-head CI remain separate; no release, agent auto-trigger or marketplace approval is inferred.
+
+Independent package-evidence authentication verifies126 original plus five supplement file sizes/hashes, all24 tar/built/installed bytes, six changed package inputs, five installed-skill fingerprints/validators and all22 expected recorded outcomes. Original preflight gaps are resolved by exact retained null/default outputs and supplemental assertions without a product/package rerun; the reviewer distinguishes static authentication from primary execution. Original reports remain under docs/reviews/TICKET-028/.
+
+Delivery checkpoint: PR29 at head088dbb32082ec51d42f8e5f3408b561b0ffd63e7 passed Code Review run39132698752/job117690927934:190 passed,0 failed/skipped, typecheck/build and four fictional reports. Complete untruncated response is retained in docs/verification/TICKET-028/source-ci-response.json. This archival bookkeeping changes no product/package input and receives its own final-head CI; subsequent ordinary merge and final-main outcomes remain in the PR and reports/candidates/TICKET-028/delivery-checkpoint.json. Standing merge consent applies; the new late reply separately reconfirms already-completed PR25 authorization and does not request a second merge. This ticket is an iteration milestone, not completion of the ongoing goal.
