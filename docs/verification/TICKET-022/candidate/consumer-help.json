@@ -1,0 +1,11 @@
+{
+  "label": "consumer-help",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer/node_modules/.bin/geo",
+    "--help"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:24:51.965684+00:00"
+}

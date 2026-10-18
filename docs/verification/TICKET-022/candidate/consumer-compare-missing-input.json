@@ -1,0 +1,17 @@
+{
+  "label": "consumer-compare-missing-input",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer/node_modules/.bin/geo",
+    "compare",
+    "--before",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/missing.json",
+    "--after",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/reports/audit.json",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/missing-input-output"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "recordedAt": "2026-10-18T11:24:53.588748+00:00"
+}

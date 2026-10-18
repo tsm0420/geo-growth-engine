@@ -1,0 +1,398 @@
+{
+  "sourceRevision": "09a317561e2dbd71500f0da07ef2e2788d28bad8",
+  "tarball": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/geo-growth-engine-0.1.0-alpha.3.tgz",
+  "tarballBytes": 24891,
+  "tarballSha256": "b30ca6bf2868c7b8f9b47e5520ce2bb010d7f3a517872f892b1d498bf0e91e33",
+  "installedFiles": [
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "bytes": 1058,
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "bytes": 909,
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "bytes": 1347,
+      "sha256": "4e5f3552f68df537edd14a68ee27a0d79d82d047b190248ab7374e8a84cea66c",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "bytes": 964,
+      "sha256": "d8df1497f7a01eb19f3c1a9c3181d47e8bf5831619fdac76080847439b07db67",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "bytes": 1525,
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 9682,
+      "sha256": "1f921bca6e347df03697fd5f13c3781e74334e788462b723921902a0359a98b0",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "dist/src/aso.js",
+      "bytes": 3644,
+      "sha256": "cf878538416fb46f7a076f2a861375adc72458d01a18e605f74c3cd748fd2ef2",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/audit.js",
+      "bytes": 13218,
+      "sha256": "9be9e41dce9e196d2378cbdd4d5c7d1106d4f1512060f4fd9466f9e6c96b0205",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/cli.js",
+      "bytes": 3437,
+      "sha256": "1f373153366d73ce38e5d6dafefe2ae4d80b64dc280d9c40f5f82a233d1b12e6",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/compare.js",
+      "bytes": 4945,
+      "sha256": "fe95a7a336ff8d6ec8fc8bbe7335b20be3b8dbad4b226804582700ccad8c3fa0",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/config.js",
+      "bytes": 6105,
+      "sha256": "abb9852113d4f6e901df1e57477a00575270f32749d60483c16c85494ba8f43a",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/install.js",
+      "bytes": 2509,
+      "sha256": "558ca8610e83072c8e65eb6611eb2a922947a68524df5ec7ca9ac371b5f959d5",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/paths.js",
+      "bytes": 730,
+      "sha256": "457c79c1ba284fbda4c61e788d33acbbe99901d270e20151cb3717277c2c0cb7",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/plan.js",
+      "bytes": 1767,
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/report.js",
+      "bytes": 3640,
+      "sha256": "164fa3be3cdfe8472e0bf00a47ca49ed24d346ebca6cffbe593abc6f80b69b5f",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "bytes": 5873,
+      "sha256": "2059c58fff82a2b1a269eea17ec01f2ce667a71ed477384b75bfccc2bae1d423",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": null
+    },
+    {
+      "path": "docs/configuration.md",
+      "bytes": 9959,
+      "sha256": "5fe3f491d690e457bfbc6a50a937f72aff789791dbff5443e0463458ce69ed85",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "docs/sources.md",
+      "bytes": 2713,
+      "sha256": "bbcda0b1061f93911f69f3131c7ef8b93873cfffe3ae846c824d0744c2621ac8",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "package.json",
+      "bytes": 1083,
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "templates/config.yaml",
+      "bytes": 104,
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "templates/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    },
+    {
+      "path": "templates/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52",
+      "matchesTarballAndBuiltSource": true,
+      "matchesImmutableTrackedSource": true
+    }
+  ],
+  "immutableSourceFiles": [
+    {
+      "path": "src/aso.ts",
+      "sha256": "8f2d74038ec0566eee273498e4c7c845e67e3fb3a52eeb6fbc67824248526190"
+    },
+    {
+      "path": "src/audit.ts",
+      "sha256": "a91eee7fc08dbf038e485c1effb18b7e5db2f5a12bbdd1710d315fbdb20cdb8f"
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "0ee627f64a6a451613a337edeba54af64dc49977d9a78c39b6ea22e51b3469a6"
+    },
+    {
+      "path": "src/compare.ts",
+      "sha256": "57597bd7efa440dc14ed2f4bfe5a3853bbfe771330e585954ecb00163e701eb5"
+    },
+    {
+      "path": "src/config.ts",
+      "sha256": "184a79e7277a26f58cf15edcbd96ae95a6739eb19932d451a28cd420bfa0b4dd"
+    },
+    {
+      "path": "src/install.ts",
+      "sha256": "5315c2476fc1837a877c75f675bbdf714d6bd18da831d7d0e2c2e6f199457ed8"
+    },
+    {
+      "path": "src/paths.ts",
+      "sha256": "ab68c42ed88099ffe5737a48d118b5a3b3fa680c2a928c3c67bb5d9cd5cc5fd5"
+    },
+    {
+      "path": "src/plan.ts",
+      "sha256": "16cf8e69b58cd6816e72b240bbf977569f88758e56463329603683ce384c2e50"
+    },
+    {
+      "path": "src/report.ts",
+      "sha256": "6bad5244c8871d9c946dd18610b03026a76f53c307bec7e6dc2083c256792c81"
+    },
+    {
+      "path": "src/robots-parser.d.ts",
+      "sha256": "de95c74de098a99a0c410cc6d3e9b811edf7f973a1483e0dc25fd31ca387494c"
+    },
+    {
+      "path": "src/visibility.ts",
+      "sha256": "6ff5194bb131d6b30b618d87526911d9416dc1235a69389b24f9f647ff6ccdcd"
+    }
+  ],
+  "recordedSteps": [
+    {
+      "label": "clean-install",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 25,
+      "stdoutSha256": "22fc5c35b5140e826549b76183a9149addba65ba04c939474fa39de7a3be9bc5",
+      "stderrBytes": 331,
+      "stderrSha256": "3b75d492ffc080806e238d2637a59c2bebebfdd4bcdd0e9e3aa2c71f1c83cdbf"
+    },
+    {
+      "label": "clean-build",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 48,
+      "stdoutSha256": "09c29cd15b5951777b42ed6d7fe2f279d1920443b98bf23f1243d17b2124d2fd",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pack",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 2769,
+      "stdoutSha256": "05e89cf5e75cb2eaa250eb849a85f7dff3b3d998dc0ace96a606a211b1aaddf1",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-install",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 28,
+      "stdoutSha256": "405a910175b0735926a8788f251988c7b78efb2b1bb7005e6806629c049be7bb",
+      "stderrBytes": 122,
+      "stderrSha256": "67389c0b6efbe86c5fc51293d278be25159d27ace6d73ae2da626b49a0143470"
+    },
+    {
+      "label": "consumer-help",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 475,
+      "stdoutSha256": "7d22741ab14110c3ef7ab40603bd8273e9c1e0fff581793594e9408b92d780fa",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-init",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 375,
+      "stdoutSha256": "28377905078ae8771b16f5d7ff42e9b177507459a3449ef6e0b6ffb0d35d56b7",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-skills",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 721,
+      "stdoutSha256": "9526568eda4e256f22599833a535da251026df564f4c700fa983d1867ac9d3c2",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-skill-conflict",
+      "recordedExitCode": 2,
+      "expectedExitCode": 2,
+      "stdoutBytes": 0,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrBytes": 180,
+      "stderrSha256": "027c99147ddf4852e870ba0e4925cf9c5151ed23a4d607b34d47dc87836210cf"
+    },
+    {
+      "label": "consumer-skill-validation",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 16,
+      "stdoutSha256": "db349825903d66adffea3ecf1bd8e1803043e8a71cf1a051235dabc5371f5bb0",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-audit",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 137,
+      "stdoutSha256": "6f25d63c9c74e1e609b9fc96247505822ec1b4c658bab4ab84a63eff6c3d64a2",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-audit-requires-config",
+      "recordedExitCode": 2,
+      "expectedExitCode": 2,
+      "stdoutBytes": 0,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrBytes": 35,
+      "stderrSha256": "103629ba1f7b5ee411e9ad58ab244aef140da69f36ea4ec6a2b815c4ce7a23db"
+    },
+    {
+      "label": "consumer-aso",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 136,
+      "stdoutSha256": "70e6ac138ac715faf5777f7504763ee4952355b381344775eac9ad0d34765854",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-aso-requires-config",
+      "recordedExitCode": 2,
+      "expectedExitCode": 2,
+      "stdoutBytes": 0,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrBytes": 35,
+      "stderrSha256": "103629ba1f7b5ee411e9ad58ab244aef140da69f36ea4ec6a2b815c4ce7a23db"
+    },
+    {
+      "label": "consumer-plan",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 136,
+      "stdoutSha256": "ad618b3218e1fa1ed092ecd1e990629839d52feea396f2e83d096868a081898d",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-plan-requires-config",
+      "recordedExitCode": 2,
+      "expectedExitCode": 2,
+      "stdoutBytes": 0,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrBytes": 35,
+      "stderrSha256": "103629ba1f7b5ee411e9ad58ab244aef140da69f36ea4ec6a2b815c4ce7a23db"
+    },
+    {
+      "label": "consumer-visibility",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 136,
+      "stdoutSha256": "5807b7bc87b0e94fa82a0394b1c36d7f2f9503f1d9815c7ba610b1bdf7955e24",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-visibility-requires-config",
+      "recordedExitCode": 2,
+      "expectedExitCode": 2,
+      "stdoutBytes": 0,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrBytes": 35,
+      "stderrSha256": "103629ba1f7b5ee411e9ad58ab244aef140da69f36ea4ec6a2b815c4ce7a23db"
+    },
+    {
+      "label": "consumer-compare-no-config",
+      "recordedExitCode": 0,
+      "expectedExitCode": 0,
+      "stdoutBytes": 140,
+      "stdoutSha256": "59bd49605dac91caccd71a9c80625f3e34766af1c6cc1e7225ff927f0a026626",
+      "stderrBytes": 0,
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "consumer-compare-missing-input",
+      "recordedExitCode": 2,
+      "expectedExitCode": 2,
+      "stdoutBytes": 0,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrBytes": 140,
+      "stderrSha256": "cde0175d17956668c61760a67d355dceb5e4669e8555c00d17824d7f02411084"
+    },
+    {
+      "label": "consumer-compare-protects-input",
+      "recordedExitCode": 2,
+      "expectedExitCode": 2,
+      "stdoutBytes": 0,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrBytes": 158,
+      "stderrSha256": "b71d2bb3ce80ae523cc8ae604497a07e037417b767fa7f848e6354a47294a88b"
+    }
+  ],
+  "limits": "Independent actual-byte checks and retained receipt consistency only; no command/test/validator execution was repeated."
+}
