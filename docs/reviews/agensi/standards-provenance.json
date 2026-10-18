@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-10-17T15:18:27.920391+00:00",
+  "scope": "Inspection of retained primary command receipts and output artifacts; no workflow rerun claimed.",
+  "selectedVsProofSourceInputDiffEmpty": true,
+  "allowedPinnedCliSha256": "dbed6a26fc2f8631c0f1d395d6197cc8eb8acc7e4ab3a8dd5aa5fada644c716e",
+  "priorFinalHeadCiHead": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+  "priorFinalHeadCiConclusion": "success",
+  "workflowReceipts": [
+    {
+      "name": "geo-orchestrator",
+      "command": "audit",
+      "exit": 0,
+      "summary": {
+        "pass": 17,
+        "fail": 0,
+        "unknown": 2
+      },
+      "example": true
+    },
+    {
+      "name": "geo-orchestrator",
+      "command": "aso",
+      "exit": 0,
+      "summary": {
+        "pass": 9,
+        "fail": 0,
+        "unknown": 2
+      },
+      "example": true
+    },
+    {
+      "name": "geo-orchestrator",
+      "command": "plan",
+      "exit": 0,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "example": true
+    },
+    {
+      "name": "geo-orchestrator",
+      "command": "visibility",
+      "exit": 0,
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 3
+      },
+      "example": true,
+      "retainedInputAndMetricsVerified": true
+    },
+    {
+      "name": "web-geo",
+      "command": "audit",
+      "exit": 0,
+      "summary": {
+        "pass": 17,
+        "fail": 0,
+        "unknown": 2
+      },
+      "example": true
+    },
+    {
+      "name": "app-geo-aso",
+      "command": "aso",
+      "exit": 0,
+      "summary": {
+        "pass": 9,
+        "fail": 0,
+        "unknown": 2
+      },
+      "example": true
+    },
+    {
+      "name": "geo-content-engine",
+      "command": "plan",
+      "exit": 0,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      },
+      "example": true
+    },
+    {
+      "name": "geo-visibility-tracker",
+      "command": "visibility",
+      "exit": 0,
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 3
+      },
+      "example": true,
+      "retainedInputAndMetricsVerified": true
+    }
+  ],
+  "fiveRetainedSkillValidatorExits": 0,
+  "missingCliReceiptExit": 1,
+  "negativeControls": [
+    {
+      "case": "traversal",
+      "rejected": true
+    },
+    {
+      "case": "second-folder",
+      "rejected": true
+    },
+    {
+      "case": "missing-entry",
+      "rejected": true
+    },
+    {
+      "case": "wrong-name",
+      "rejected": true
+    },
+    {
+      "case": "binary",
+      "rejected": true
+    },
+    {
+      "case": "os-junk",
+      "rejected": true
+    },
+    {
+      "case": "notice",
+      "rejected": true
+    }
+  ],
+  "pending": "Independent forward evaluation and maintainer disposition."
+}

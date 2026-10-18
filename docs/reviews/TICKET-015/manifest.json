@@ -1,0 +1,83 @@
+{
+  "base": "2aa9a84ca769f18b00c3378e7f2412947356d8ce",
+  "files": [
+    {
+      "path": "distribution/agensi/README.md",
+      "sha256": "b2c6a1d319c707836104127fcae6c81d448e00b83a1435d117d1779390d24b25",
+      "bytes": 3007,
+      "baseExists": true
+    },
+    {
+      "path": "distribution/agensi/decision.md",
+      "sha256": "549a3509b6c5dac5a80f64b74d556a50a781c7662f047e8fbfb5213f92d49514",
+      "bytes": 5495,
+      "baseExists": true
+    },
+    {
+      "path": "distribution/agensi/listings.json",
+      "sha256": "319756fc8f83a4a6f0f2ca3f0ad422e47820ef0c7756b752ef6e18db8794cd3b",
+      "bytes": 5418,
+      "baseExists": true
+    },
+    {
+      "path": "distribution/agensi/listings.md",
+      "sha256": "22ac47e6af4d60b860a52c4cc803e0e9be6162b48fd6af7a503cea7f194f0f4f",
+      "bytes": 6453,
+      "baseExists": true
+    },
+    {
+      "path": "distribution/agensi/spec.md",
+      "sha256": "179aae9894af4215ff8b2f9b5891f93893bff2819678ad7dc87ab417b083b760",
+      "bytes": 6566,
+      "baseExists": true
+    },
+    {
+      "path": "docs/backlog.md",
+      "sha256": "1cf232c7376c9169aec609073612b449572d9aa9f29e2e475f8a7417499cbd58",
+      "bytes": 2754,
+      "baseExists": true
+    },
+    {
+      "path": "docs/continuous-development-spec.md",
+      "sha256": "d5749977c4062a40cc29ff69037a37c62c9b78c49f3efbc9f039a0682f31b3fb",
+      "bytes": 2557,
+      "baseExists": false
+    },
+    {
+      "path": "docs/development-loop.md",
+      "sha256": "91be53c942e17328fcfb774bcaf6f48c995acc5f7d86932ec6ed1cbf24914762",
+      "bytes": 20445,
+      "baseExists": true
+    },
+    {
+      "path": "docs/iterative-goal.md",
+      "sha256": "d276ad9e4d1c9cf6969a2564356f326f06ec6d279c37a7bc87fd08ff311fd05a",
+      "bytes": 3931,
+      "baseExists": true
+    },
+    {
+      "path": "docs/verification/TICKET-008/agensi-submission.json",
+      "sha256": "c97c9eabfb97b9da49822c9736f87b8029010f28cbcb517e9e386fcf71d9eb4d",
+      "bytes": 2538,
+      "baseExists": false
+    },
+    {
+      "path": "docs/verification/TICKET-015/rea-package-inspection.json",
+      "sha256": "bf5d42ccba975eb84512222f8b7e3af57d173da892094052b9f85a6241d50272",
+      "bytes": 918,
+      "baseExists": false
+    },
+    {
+      "path": "tickets/[CC]-TICKET-008-agensi-distribution.md",
+      "sha256": "e6c57322cad499ef8f1d9d58ee89a8974b6ea9be7b97af1761e8897d210e57b9",
+      "bytes": 12386,
+      "baseExists": true
+    },
+    {
+      "path": "tickets/[CC]-TICKET-015-continuous-goal.md",
+      "sha256": "51cd95c9e78f68021a8339e6738dfc43080bbc24e3ae4c162fac62d6ba9650c9",
+      "bytes": 1916,
+      "baseExists": false
+    }
+  ]
+}

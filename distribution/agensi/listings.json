@@ -1,0 +1,110 @@
+[
+  {
+    "name": "geo-orchestrator",
+    "title": "GEO Review Orchestrator: Local Evidence Baseline",
+    "description": "Coordinate local website, listing, content-opportunity and imported-answer checks when the relevant inputs are supplied.",
+    "prerequisites": "Node 24+, local shell/filesystem, separately installed pinned CLI; no sibling skill.",
+    "limits": "A baseline of local evidence, not live indexing, analytics, store approval or growth measurement.",
+    "tags": [
+      "geo",
+      "agent-skills",
+      "audit",
+      "aso",
+      "plan",
+      "visibility"
+    ],
+    "proposedPrice": "Free; submitted on 2026-10-18",
+    "sourceUrl": "https://github.com/tsm0420/geo-growth-engine/tree/c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+    "supportUrl": "https://github.com/tsm0420/geo-growth-engine/issues",
+    "status": "Submitted on 2026-10-18; Pending Review; not observed live",
+    "suggestedCategory": "Marketing / workflow coordination",
+    "useCases": [
+      "Build a baseline from supplied web/app artifacts and imported records.",
+      "Identify traceable fixes and remaining measurement gaps."
+    ]
+  },
+  {
+    "name": "web-geo",
+    "title": "Web GEO Audit: Inspect Your HTML Export",
+    "description": "Inspect exported HTML metadata, canonical/sitemap coverage and duplicates, crawler files and JSON-LD syntax.",
+    "prerequisites": "Node 24+, local shell/filesystem, separately installed pinned CLI; no sibling skill.",
+    "limits": "No deployed crawl, JavaScript/CSS rendering, HTTP/WAF inspection, schema semantics or indexing/ranking measurement.",
+    "tags": [
+      "geo",
+      "agent-skills",
+      "audit"
+    ],
+    "proposedPrice": "Free; submitted on 2026-10-18",
+    "sourceUrl": "https://github.com/tsm0420/geo-growth-engine/tree/c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+    "supportUrl": "https://github.com/tsm0420/geo-growth-engine/issues",
+    "status": "Submitted on 2026-10-18; Pending Review; not observed live",
+    "suggestedCategory": "Marketing / website audits",
+    "useCases": [
+      "Review a public export before an authorized deployment.",
+      "Inspect sitemap duplicates, metadata and separate search/training policies."
+    ]
+  },
+  {
+    "name": "app-geo-aso",
+    "title": "App Listing Review: iOS and Android Metadata",
+    "description": "Check supplied iOS/Android listing field limits and fact references; retain missing-data and semantic/localization gaps.",
+    "prerequisites": "Node 24+, local shell/filesystem, separately installed pinned CLI; no sibling skill.",
+    "limits": "No store-console access, screenshot/device testing, semantic truth, localization quality or publishing approval.",
+    "tags": [
+      "geo",
+      "agent-skills",
+      "aso"
+    ],
+    "proposedPrice": "Free; submitted on 2026-10-18",
+    "sourceUrl": "https://github.com/tsm0420/geo-growth-engine/tree/c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+    "supportUrl": "https://github.com/tsm0420/geo-growth-engine/issues",
+    "status": "Submitted on 2026-10-18; Pending Review; not observed live",
+    "suggestedCategory": "Marketing / app listings",
+    "useCases": [
+      "Review proposed listing text before console entry.",
+      "Identify missing locale/fact evidence for human review."
+    ]
+  },
+  {
+    "name": "geo-content-engine",
+    "title": "GEO Content Planner: Questions and Product Facts",
+    "description": "Turn supplied audience questions and product fact IDs into traceable opportunities and research gaps.",
+    "prerequisites": "Node 24+, local shell/filesystem, separately installed pinned CLI; no sibling skill.",
+    "limits": "Source URLs are traceability pointers, not fetched verification; no demand, traffic or publishable-page promise.",
+    "tags": [
+      "geo",
+      "agent-skills",
+      "plan"
+    ],
+    "proposedPrice": "Free; submitted on 2026-10-18",
+    "sourceUrl": "https://github.com/tsm0420/geo-growth-engine/tree/c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+    "supportUrl": "https://github.com/tsm0420/geo-growth-engine/issues",
+    "status": "Submitted on 2026-10-18; Pending Review; not observed live",
+    "suggestedCategory": "Marketing / content planning",
+    "useCases": [
+      "Prioritize a supplied question list using product-fact IDs.",
+      "Keep unsupported topics in a research-gap list."
+    ]
+  },
+  {
+    "name": "geo-visibility-tracker",
+    "title": "AI Answer Visibility Tracker: Imported Evidence",
+    "description": "Compute mentions, owned-host citations, competitor counts and collection coverage from recorded answers.",
+    "prerequisites": "Node 24+, local shell/filesystem, separately installed pinned CLI; no sibling skill.",
+    "limits": "No paid sampling, consumer-interface scraping or answer authentication; mentions do not establish recommendations.",
+    "tags": [
+      "geo",
+      "agent-skills",
+      "visibility"
+    ],
+    "proposedPrice": "Free; submitted on 2026-10-18",
+    "sourceUrl": "https://github.com/tsm0420/geo-growth-engine/tree/c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+    "supportUrl": "https://github.com/tsm0420/geo-growth-engine/issues",
+    "status": "Submitted on 2026-10-18; Pending Review; not observed live",
+    "suggestedCategory": "Research / analytics",
+    "useCases": [
+      "Review mentions and citations in recorded answer sets.",
+      "Compare successful-response rates alongside failed collection coverage."
+    ]
+  }
+]

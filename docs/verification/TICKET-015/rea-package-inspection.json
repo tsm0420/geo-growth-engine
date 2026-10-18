@@ -1,0 +1,19 @@
+{
+  "operation": "inspect_artifact",
+  "target": "distribution/agensi/packages/geo-orchestrator.zip",
+  "sha256": "882f406082aea12b5caf3ccb500aa894ac98411cc2883c1be02a00d509438073",
+  "evidenceId": "ev_04c0b5c09d63e2400ef97cfd5955ae40f32a67b76afa429346943946a3e66964",
+  "inventoryEvidenceId": "ev_0c6a070adc4b7cda38e3691049f2b9f14625a80f4f4e21450818d6b23a426121",
+  "coverage": "complete-within-substeps",
+  "inventory": {
+    "nodes": 14,
+    "occurrences": 14,
+    "edges": 13
+  },
+  "contradictions": [],
+  "limitations": [
+    "Static inventory does not execute the artifact or establish semantic correctness, marketplace compatibility or security acceptance.",
+    "ZIP central-directory entries only; bytes after the central directory are outside inventory occurrences."
+  ],
+  "rawEvidence": "Full original MCP responses retained locally under reports/candidates/TICKET-015/rea-package-inspection.raw.json."
+}

@@ -1,0 +1,47 @@
+{
+  "evaluationSource": "489c63aa327e6222d92847fe028be692c294043d",
+  "node": "v24.22.0",
+  "runtime": "Darwin 25.5.0 arm64",
+  "pinnedCliSourceInSkills": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+  "providedCliPath": "/private/tmp/geo-core-clean-9dujffle/extracted/package/dist/src/cli.js",
+  "providedCliSha256": "dbed6a26fc2f8631c0f1d395d6197cc8eb8acc7e4ab3a8dd5aa5fada644c716e",
+  "packageJsonSha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da",
+  "providedPackageVersion": "0.1.0-alpha.3",
+  "sourceIdentityLimit": "Uses parent-supplied verified immutable package; this evaluation does not independently rebuild or authenticate compilation provenance.",
+  "inputHashesBefore": {
+    "config.json": "b123396967be718f9314804e5a2ce5f5154502c78cbd5c284e81098fc2f2e955",
+    "product.json": "5868e3b2dbed620110a1f72f32ec37b664dc6a04cdb8c028e2daf7a7e2725d2e",
+    "public/index.html": "ada524cb6bd8d761a55525927c2bed7ff72f062ebccef167a27c41921c517716",
+    "public/robots.txt": "362212dde1aa5fe757797d8e2a15672b3f3be84267854b48c13052587d22eca4",
+    "public/sitemap.xml": "57b28fab46b2dd0dbbac39ddeb8783eb826dc90f122ca4ddea620db2fd18a3c7",
+    "queries.json": "c9c5b2f9a2c8001756168bb169c3c8c668a12c748d2f91df91c10976a5ba08c2",
+    "responses.jsonl": "d418039d42c4dff94397abdb9b1d984865c366c72abef3aa18c8fdb35cdf7d5c"
+  },
+  "readSkillHashes": {
+    "app-geo-aso/SKILL.md": "94f5689a33390b83499ebbd3225bc0bf3bf9c6ff55e918da2f0579ef82293742",
+    "app-geo-aso/references/setup-and-contract.md": "cc0ffb344959222130eb53cbc09e8c8a041ef53daed6852685ad272820410fad",
+    "app-geo-aso/references/sources-and-limits.md": "97c4610216e3e616f9e5c44450fc33e23b542bd7a48836969824b2a8311926c6",
+    "geo-content-engine/SKILL.md": "a58bbae539579931c8210354235d84aabe2d1fd5569dce585b3e2bb0aa2015bc",
+    "geo-content-engine/references/setup-and-contract.md": "009eea5d2b9aa9540b40dd907087097f5b8416df433c7899ed0976a0fa11c26e",
+    "geo-content-engine/references/sources-and-limits.md": "7d0109f7a2add64332450c5030bc3731c6dce14b91391bd0c043e19582fb508d",
+    "geo-orchestrator/SKILL.md": "681034e465d9aa8ef30e163c735a3af245424251fa77cf9a39ec0e3ab16a6327",
+    "geo-orchestrator/references/setup-and-contract.md": "4eaceb264ca416ce79b6e9afd9811327eb4574c2cc080e6b00e6eb80beff8eae",
+    "geo-orchestrator/references/sources-and-limits.md": "ff78e9a76a0071f420e8ce70f40bb741d86b829b668edcff5ce38394ad411097",
+    "geo-visibility-tracker/SKILL.md": "9b026bf986ae809f4a22be5fd7dfd9f553266fefa320fe9f0a1b60e8016889b3",
+    "geo-visibility-tracker/references/setup-and-contract.md": "9761f5d0ee7c0c025ca955ded9d75a0d5fbc1d264e5689fefb3b251fcc340cb2",
+    "geo-visibility-tracker/references/sources-and-limits.md": "a9d38b7f7b7c59b9a55306c0a1e0b9ad16f3035f04e711f9cb4bb914b50a9db1",
+    "web-geo/SKILL.md": "1089b5fd42f2f7d2b2a256dd3032e3e533d445dbd952a7ffb1863c86d2aa6462",
+    "web-geo/references/setup-and-contract.md": "782b4e313ffc1ccb521cf74ccfd1bbf83a9ad8046ce1d4b6fc9f25990269b01b",
+    "web-geo/references/sources-and-limits.md": "98a6441c190ef5f8b03d8a3d392d540c2052c3e752e82cda0d58c012739fc02e"
+  },
+  "inputHashesAfter": {
+    "config.json": "b123396967be718f9314804e5a2ce5f5154502c78cbd5c284e81098fc2f2e955",
+    "product.json": "5868e3b2dbed620110a1f72f32ec37b664dc6a04cdb8c028e2daf7a7e2725d2e",
+    "public/index.html": "ada524cb6bd8d761a55525927c2bed7ff72f062ebccef167a27c41921c517716",
+    "public/robots.txt": "362212dde1aa5fe757797d8e2a15672b3f3be84267854b48c13052587d22eca4",
+    "public/sitemap.xml": "57b28fab46b2dd0dbbac39ddeb8783eb826dc90f122ca4ddea620db2fd18a3c7",
+    "queries.json": "c9c5b2f9a2c8001756168bb169c3c8c668a12c748d2f91df91c10976a5ba08c2",
+    "responses.jsonl": "d418039d42c4dff94397abdb9b1d984865c366c72abef3aa18c8fdb35cdf7d5c"
+  },
+  "inputBytesUnchanged": true
+}

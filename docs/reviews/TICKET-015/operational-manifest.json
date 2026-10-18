@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "docs/continuous-development-spec.md",
+      "sha256": "646fc76b82165c6f0e4084e38739680b76304e4fcdd6e84810f902ed61e4a3bd",
+      "bytes": 2627
+    },
+    {
+      "path": "docs/development-loop.md",
+      "sha256": "7273b099f7008ff5e046920d81b8fa533f139a52ded10fe9047f84c632c64e70",
+      "bytes": 21166
+    },
+    {
+      "path": "docs/iterative-goal.md",
+      "sha256": "d276ad9e4d1c9cf6969a2564356f326f06ec6d279c37a7bc87fd08ff311fd05a",
+      "bytes": 3931
+    },
+    {
+      "path": "docs/verification/TICKET-015/automation-state.json",
+      "sha256": "50edc8bf4204d42fa46969894142d86c26d6353ab97fe6aa56007bb132ed8263",
+      "bytes": 435
+    },
+    {
+      "path": "docs/verification/TICKET-015/goal-activation.json",
+      "sha256": "aac9967b7ae5d666d90b64e3fe664639576b154d550aeeba3ca8124813f5ca6b",
+      "bytes": 615
+    },
+    {
+      "path": "tickets/[CC]-TICKET-015-continuous-goal.md",
+      "sha256": "9d49d5f1d9db3bc8630d59d22100555660e9f3cf0d1bc3980a5c6dcfe3b97037",
+      "bytes": 4046
+    }
+  ],
+  "purpose": "Final operational addenda snapshot; separate from the original 13-document proposal manifest."
+}

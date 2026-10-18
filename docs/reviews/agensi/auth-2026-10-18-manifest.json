@@ -1,0 +1,37 @@
+{
+  "base": "fe62285c28665a2ee7fe36e57c1a969a6b2b5091",
+  "files": [
+    {
+      "path": "distribution/agensi/README.md",
+      "sha256": "f473170ced6475bd36ba0931e0ddf63faa5affe37338772e3dc3d9d4c0e07b2a"
+    },
+    {
+      "path": "distribution/agensi/decision.md",
+      "sha256": "ff8171e8dcef5da7a48117d3d47a12222965332f33737d1c9ad5e609bf8aefc9"
+    },
+    {
+      "path": "distribution/agensi/listings.json",
+      "sha256": "6bf7d4cf7e8204c9cc2dcea737fc74871b954df035f42c184bdb9a49af267503"
+    },
+    {
+      "path": "distribution/agensi/listings.md",
+      "sha256": "70cd08eeb626bbf494c4347b50965757fc19ded0cafe144321628c127239063f"
+    },
+    {
+      "path": "distribution/agensi/spec.md",
+      "sha256": "d860d6d0583b662a78b4b89ad531c0d5adf2eeb3deb413edcba708594b485511"
+    },
+    {
+      "path": "docs/backlog.md",
+      "sha256": "701d011c5bd85db468ee71583e6513f9ba1f17611d95b065aacd29b975d88768"
+    },
+    {
+      "path": "docs/development-loop.md",
+      "sha256": "3754e1faed56321e6932cce14a34ef6d20fd5717220bf33883e84d767db10255"
+    },
+    {
+      "path": "tickets/[CC]-TICKET-008-agensi-distribution.md",
+      "sha256": "596198c6e1ced4f108be8680ce8836b06cab82a87c8bed200b849ae87f6c968d"
+    }
+  ]
+}

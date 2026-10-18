@@ -1,11 +1,11 @@
 # TICKET-008: Prepare and validate Agensi skill distribution
 
-Status: Planned; goal amendment and preliminary source review recorded
+Status: Submitted as Free on 2026-10-18; awaiting platform review
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, distribution preparation workstream
-Blocked by: No blocker for research/drafts; ZIP verification depends on a selected reviewed source revision; submission depends on maintainer account/pricing/terms approval
+Blocked by: External review outcomes; core development remains independent
 Origin: Maintainer request on 2026-10-17 to add the supplied Agensi invitation to the iterative development goal
-Specification: `docs/development-loop.md`, Agensi amendment; existing `docs/spec.md` contract
+Specification: `distribution/agensi/spec.md`; `docs/development-loop.md` Agensi amendment and existing `docs/spec.md` contract
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Make the existing five project skills discoverable through the requested Agensi 
 
 ## Hard constraints
 
-English docs/listings; pinned reviewed source; preserve MIT notices and source access. Disclose Node/CLI and sibling-skill prerequisites. No private funding details, website capture redistribution, guaranteed rankings, invented metrics, or claim that an alpha candidate is a published release. Do not add paid services or runtime provider integration. No account creation, terms acceptance, upload/publication, pricing commitment, payouts/KYC/bank/wallet setup, or reply to the sender under the present preparation authorization.
+English docs/listings; pinned reviewed source; preserve MIT notices and source access. Disclose Node/CLI and sibling-skill prerequisites. No private funding details, website capture redistribution, guaranteed rankings, invented metrics, or claim that an alpha candidate is a published release. Do not add paid services or runtime provider integration. The 2026-10-18 authorization covers submission of the five prepared free candidates; authentication account/method and any action-time terms/access confirmation remain applicable. No charges, paid packs, payouts/KYC/bank/wallet setup, unrelated account access or sender reply is authorized.
 
 ## Acceptance Criteria
 
@@ -24,10 +24,38 @@ English docs/listings; pinned reviewed source; preserve MIT notices and source a
 5. Present the concrete five-package/listing set and unresolved fit questions for one final account/pricing/terms/submission decision. Existing public MIT distribution remains available. If platform fit is unresolved, record the exact evidence and required decision rather than silently weakening the toolkit contract.
 6. After explicit authorization, submit using the approved account/content and retain actual submission/review receipts. Verify observed listing URLs/states and any rejections; distinguish draft, submitted, pending, rejected and live. Do not mark this milestone complete from local ZIPs alone.
 
-## Current Execution Note
+## Historical checkpoints
 
-Goal scope was initially recorded in the durable loop ledger and backlog without changing the old goal's paused status. The seller page and posted terms were read; their statements and project-specific questions are in `docs/research/agensi-distribution.md`. No ZIPs, listings, account or submission receipts exist yet.
+Goal scope was initially recorded in the durable loop ledger and backlog without changing the old goal's paused status. The seller page and posted terms were read; their statements and project-specific questions are in `docs/research/agensi-distribution.md`. At that initial checkpoint no ZIPs, listings, account or submission receipts existed.
 
 An independent review of the goal amendment found no actionable scope/evidence/authorization contradiction; see `docs/reviews/agensi/goal-amendment.md`. Two raw Directory lookup results are preserved with actual exit codes; neither establishes an exact marketplace match. Documentation whitespace checks passed. This is a documentation-only scope update, so product tests were not rerun or claimed as new evidence.
 
 The maintainer subsequently deleted the old native Goal and explicitly requested a rewrite. After confirming no goal existed, a replacement native Goal was created with both iterative core hardening and Agensi preparation/submission gates. It is active; `docs/iterative-goal.md` retains its objective snapshot. An independent rewrite review found no actionable contradiction (`docs/reviews/agensi/goal-rewrite.md`). Existing investigations, tickets, private files and historical evidence are preserved. This step configures the development goal; it does not claim completion of either workstream.
+
+Preparation checkpoint: all six core slices are delivered through unmerged PR #16 with exact-head CI. Selected immutable core `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`; build/package proof source `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca` has identical packaged/executable inputs. Completed official-format research is in `docs/research/agensi-format.md` with twelve verified capture metadata records and original local retained bodies. No sibling skill dependency was found. Draft spec review caught and corrected an unsupported marketplace README attribution before generation. No ZIP/listing/account/submission completion is claimed at this checkpoint; actual artifacts and final independent reviews follow.
+
+## 📄 Execution Report
+
+Prepared five text-only instruction ZIPs, English listing drafts, a manifest and a concrete decision document under `distribution/agensi/`. Each preserves the original pinned skill body/frontmatter and full MIT notice, discloses Node 24+/local shell/filesystem/separately installed CLI, and includes relevant fictional inputs and setup/limits references. No sibling skill or executable CLI is bundled. Price remains a free proposal. Actual artifact sizes, member inventories and SHA-256 are in `distribution/agensi/manifest.json`; no tagged release or registry publication is inferred.
+
+Five independently extracted packages passed the bundled skill validator, layout/text/notice/link/hash checks and same-runtime byte-identical rebuilds. Seven real malformed ZIP controls were rejected. Eight primary CLI workflow commands exited 0, preserving explicit unknowns and exact synthetic visibility input bytes/digests/counts. A missing CLI entrypoint command exited 1; this proves operational failure, not natural-language stopping. Original authoring runtime was Python 3.11.0/PyYAML 6.0.3, Node v24.18.0, Darwin 25.5.0 arm64. The one-off authoring source is retained locally as reference with its hash; no new executable packaging tooling is shipped.
+
+Independent Standards and Spec artifact reviews are separate under `docs/reviews/agensi/`; neither found an actionable introduced defect. The Spec reviewer also ran all eight documented workflows independently. A separate custom-input Codex forward evaluation ran eight workflows using Node v24.22.0 on Darwin 25.5.0 arm64, observed audit/ASO failures and content gaps, kept collection groups separate, preserved all inputs/raw evidence, and ignored instruction-looking imported text. It establishes one explicit local request, not automatic triggering, another agent platform, exhaustive security testing or Agensi MCP behavior. Its exact-byte archive, runtime, hashes, commands, stdout/stderr, exits and checks are retained under `docs/verification/TICKET-008/`.
+
+Selected reviewed core is `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`. Demonstrations use the explicitly equivalent extracted package from `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca`, SHA-256 `39c9e37d07830475ac88b0502d2f247ed991796aa7be838eed6f096dbda6bfd4`. The recorded clean-source 121 tests and 23 expected extracted-package outcomes are reused only because 38 source/build/test/CI inputs and all 22 package files were actually compared unchanged. No new local full-suite run or tarball build is claimed.
+
+Delivered open, unmerged [PR #17](https://github.com/tsm0420/geo-growth-engine/pull/17), stacked on unmerged #16 and its chain. Code Review observed initial preparation head `96b9b1bf386fa88da2242e211a48a06ffc0c8073` verify job `117432073515` / run `39045077014` completed successfully: typecheck, 121 tests (121 pass, zero fail/skip), build. Its full untruncated response is `docs/verification/TICKET-008/ci-initial.json`. This later update changes only delivery receipts/status; any final documentation head must separately pass exact-head CI before delivery. See current PR checks and retained local final receipt under `reports/candidates/TICKET-008/` rather than treating the initial head's check as another revision's result.
+
+At the prior preparation checkpoint, official research left original-author MIT/free eligibility, external CLI acceptance, supporting-file/notice delivery, actual upload limits and free-account payout requirements unresolved. `distribution/agensi/decision.md` presented retaining/deferment or an explicitly scoped submission plan. The maintainer had not yet chosen a disposition. No account creation, terms acceptance, price commitment, upload, scan approval, live listing, payout/KYC/bank setup or sender contact had occurred. Acceptance criteria 1–4 had local preparation evidence; criterion 5 awaited the final decision and criterion 6 was conditional on later authorization. No publication success was claimed. The subsequent authorization and remaining operational gates are recorded below.
+
+### Authorized submission checkpoint: 2026-10-18
+
+The maintainer subsequently instructed the agent to handle publication, resolving the prior disposition question for the prepared five free candidates. No paid products, charges, payout/KYC/bank setup or sender contact is included. All five actual ZIP sizes/hashes were rechecked against the reviewed manifest and remain unchanged; unchanged workflows/tests were not rerun.
+
+The current official seller page linked to the submission route, which displayed an unauthenticated sign-in form before any listing form. Automatic browser approval review rejected the Google-login action because no Google account/method had been specified. The maintainer then chose to complete login personally and notify the agent. Completion has not been reported or verified; the choice is not an authentication or terms receipt and does not transfer the agent's publication task. No account creation, credentials entry, terms acceptance, upload, platform scan/review or live URL is claimed. Private account details and the login screenshot remain outside public repository files. Current public rules are being rechecked separately; authenticated validation remains unknown. After sign-in is reported complete, verify the authenticated state and continue submission through the real form and any action-time terms/access requirements. The original publication decision itself does not need to be asked again.
+
+### Actual submission checkpoint: 2026-10-18
+
+The maintainer reported personal login complete and the authenticated dashboard was observed. The agent enabled reversible Creator Mode and submitted all five reviewed ZIPs as Free. The actual form recognized SKILL.md, displayed a 50 MB ZIP limit, allowed external software requirements and did not require payout onboarding for these submissions. Unsupported generated descriptions/demos were cleared and replaced with truthful descriptions and complete retained local reports on fictional fixtures, with local paths explicitly replaced for display.
+
+Creator Studio then showed five named Pending Review / In review / Free listings, zero Live. Raw DOM and screenshot receipts remain local; their digests and the five statuses are recorded in docs/verification/TICKET-008/agensi-submission.json. All eleven retained raw receipt hashes were checked in this setup turn. No scan approval, final platform acceptance, public listing URL, new terms acceptance or payout setup is claimed. The user subsequently requested quiet six-hour review tracking plus continuing development, now owned by TICKET-015 and docs/iterative-goal.md. Source and ZIPs remain unchanged; no new product test run is claimed.

@@ -1,0 +1,11 @@
+{
+  "automationId": "geo-agensi",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "intervalHours": 6,
+  "sameChat": true,
+  "goalPointer": "docs/iterative-goal.md",
+  "deduplicatedChangeOnlyReporting": true,
+  "savedPromptSha256": "1d5ccb29862a3e329436abca7981dde80dea2e4ee3a254921b31c27d43e784d6",
+  "rawRetention": "Original app-tool response and read-only saved configuration retained locally under reports/candidates/TICKET-015."
+}
