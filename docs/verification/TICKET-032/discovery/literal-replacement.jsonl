@@ -1,0 +1,1 @@
+{"id": "sample-1", "provider": "fixture", "surface": "API", "model": "fictional", "locale": "en-GB", "query": "Which journal?", "observedAt": "2026-10-18T12:00:00Z", "status": "success", "answer": "Example Journal�", "citations": [], "example": true}

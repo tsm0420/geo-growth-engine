@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "compare",
+  "generatedAt": "2026-10-18T14:06:26.081Z",
+  "example": true,
+  "scope": "Local audit findings: /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo031-import-discovery-1kn81xyi/before.json -> /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo031-import-discovery-1kn81xyi/after.json; exact IDs and text; no network requests",
+  "findings": [
+    {
+      "id": "finding:check�",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=literal; action=inspect; after: pass; evidence=literal; action=inspect",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "comparison-scope",
+      "status": "unknown",
+      "evidence": "Structural finding comparison only. Product identity, collection conditions and growth attribution are unverified.",
+      "action": "Inspect both source scopes, input data and collection conditions. Removed findings are unknown; literal differences do not establish improvement."
+    }
+  ],
+  "summary": {
+    "pass": 1,
+    "fail": 0,
+    "unknown": 1
+  },
+  "data": {
+    "before": {
+      "path": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo031-import-discovery-1kn81xyi/before.json",
+      "sha256": "3d02db75507cc79acca346de51ddc2af45f050823fb5c683be19d6363bcf1507",
+      "report": {
+        "schemaVersion": 1,
+        "kind": "audit",
+        "generatedAt": "2026-10-18T12:00:00Z",
+        "example": true,
+        "scope": "Fictional JSON import",
+        "findings": [
+          {
+            "id": "check�",
+            "status": "pass",
+            "evidence": "literal",
+            "action": "inspect"
+          }
+        ],
+        "summary": {
+          "pass": 1,
+          "fail": 0,
+          "unknown": 0
+        },
+        "data": null
+      }
+    },
+    "after": {
+      "path": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo031-import-discovery-1kn81xyi/after.json",
+      "sha256": "8f7a28cf7f89bc49075390dcf813a6547530e104b186ceb1e83fd65b7367a63f",
+      "report": {
+        "schemaVersion": 1,
+        "kind": "audit",
+        "generatedAt": "2026-10-18T12:00:00Z",
+        "example": true,
+        "scope": "Fictional JSON import",
+        "findings": [
+          {
+            "id": "check�",
+            "status": "pass",
+            "evidence": "literal",
+            "action": "inspect"
+          }
+        ],
+        "summary": {
+          "pass": 1,
+          "fail": 0,
+          "unknown": 0
+        },
+        "data": null
+      }
+    },
+    "changes": [
+      {
+        "id": "check�",
+        "change": "unchanged",
+        "before": {
+          "id": "check�",
+          "status": "pass",
+          "evidence": "literal",
+          "action": "inspect"
+        },
+        "after": {
+          "id": "check�",
+          "status": "pass",
+          "evidence": "literal",
+          "action": "inspect"
+        }
+      }
+    ],
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "status-changed": 0,
+      "details-changed": 0,
+      "unchanged": 1
+    },
+    "comparability": "unknown"
+  }
+}

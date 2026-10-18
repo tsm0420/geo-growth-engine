@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/json-utf8.test.ts"
+  ],
+  "exitCode": 1,
+  "testSha256": "5a6c29c7e5625c9fa553bd4faac3d95dd2236012bdcab2503d8d87b776a28fc1"
+}

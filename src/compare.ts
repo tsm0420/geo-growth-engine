@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { object, string } from './config.ts';
+import { jsonText } from './json-text.ts';
 import { report, type Finding, type Report, type Status } from './report.ts';
 import { visibilityComparison } from './visibility-comparison.ts';
 
@@ -46,7 +47,7 @@ function parseReport(value: unknown): Report {
 async function source(path: string) {
   const fullPath = resolve(path);
   const bytes = await readFile(fullPath);
-  const value: unknown = JSON.parse(bytes.toString('utf8'));
+  const value: unknown = JSON.parse(jsonText(bytes, fullPath));
   return { path: fullPath, sha256: createHash('sha256').update(bytes).digest('hex'), report: parseReport(value) };
 }
 

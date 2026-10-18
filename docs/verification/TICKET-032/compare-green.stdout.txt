@@ -1,0 +1,11 @@
+✔ visibility rejects a corrupt later record before replacing reports or evidence (156.555125ms)
+✔ compare rejects malformed UTF-8 on before without collapsing its ID or replacing reports (147.156292ms)
+✔ compare rejects malformed UTF-8 on after without collapsing its ID or replacing reports (148.461667ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 522.965917

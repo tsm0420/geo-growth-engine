@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { object, string, strings, webUrl } from './config.ts';
 import type { Config } from './config.ts';
+import { jsonText } from './json-text.ts';
 import { report } from './report.ts';
 import type { Report } from './report.ts';
 
@@ -69,7 +70,7 @@ export async function visibility(config: Config, input: string): Promise<{ resul
   const raw = await readFile(resolve(input));
   const samples: Sample[] = [];
   const ids = new Set<string>();
-  for (const [index, line] of raw.toString('utf8').split(/\r?\n/).entries()) {
+  for (const [index, line] of jsonText(raw, resolve(input)).split(/\r?\n/).entries()) {
     if (!line.trim()) continue;
     let value: unknown;
     try { value = JSON.parse(line); } catch { throw new Error(`line ${index + 1}: invalid JSON`); }

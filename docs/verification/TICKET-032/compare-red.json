@@ -1,0 +1,8 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/json-utf8.test.ts"
+  ],
+  "exitCode": 1
+}

@@ -1,0 +1,122 @@
+{
+  "sourceRevision": "029f917635794f277293f294d26e312e10cfef71",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo031-import-discovery-1kn81xyi",
+  "observations": [
+    {
+      "case": "literal-replacement",
+      "command": "visibility",
+      "exitCode": 0,
+      "inputSha256": "1af076e6a9c184ed2ed6162627723f55894aebbd6e84226c6de1a5384f30ed21",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 2
+      },
+      "totals": {
+        "attempted": 1,
+        "successful": 1,
+        "failed": 0,
+        "coverage": 1,
+        "mentionRate": 1,
+        "citationRate": 0,
+        "recommendationRate": null,
+        "competitors": {
+          "Other Journal": 0
+        }
+      },
+      "evidenceMatches": true
+    },
+    {
+      "case": "escaped-replacement",
+      "command": "visibility",
+      "exitCode": 0,
+      "inputSha256": "34a0c3adb519d2b4f0662e5cff82aef40cd1365804e52a297f55045d0f9326fb",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 2
+      },
+      "totals": {
+        "attempted": 1,
+        "successful": 1,
+        "failed": 0,
+        "coverage": 1,
+        "mentionRate": 1,
+        "citationRate": 0,
+        "recommendationRate": null,
+        "competitors": {
+          "Other Journal": 0
+        }
+      },
+      "evidenceMatches": true
+    },
+    {
+      "case": "invalid-byte",
+      "command": "visibility",
+      "exitCode": 0,
+      "inputSha256": "ac20f2078a52fcd7a4cb49fcb4a1ff82d383ad9f34abcf29e488d654a139735e",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 2
+      },
+      "totals": {
+        "attempted": 1,
+        "successful": 1,
+        "failed": 0,
+        "coverage": 1,
+        "mentionRate": 1,
+        "citationRate": 0,
+        "recommendationRate": null,
+        "competitors": {
+          "Other Journal": 0
+        }
+      },
+      "evidenceMatches": true
+    },
+    {
+      "case": "truncated-sequence",
+      "command": "visibility",
+      "exitCode": 0,
+      "inputSha256": "6ea533b7d22c3d763c5643d9c76c62066cbeea7d72506e8e40df7feb3fe744de",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 2
+      },
+      "totals": {
+        "attempted": 1,
+        "successful": 1,
+        "failed": 0,
+        "coverage": 1,
+        "mentionRate": 1,
+        "citationRate": 0,
+        "recommendationRate": null,
+        "competitors": {
+          "Other Journal": 0
+        }
+      },
+      "evidenceMatches": true
+    },
+    {
+      "case": "invalid-report-vs-valid-replacement",
+      "command": "compare",
+      "exitCode": 0,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 1
+      },
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "status-changed": 0,
+        "details-changed": 0,
+        "unchanged": 1
+      },
+      "beforeID": "check\ufffd",
+      "afterID": "check\ufffd"
+    }
+  ],
+  "runtime": "v24.22.0"
+}
