@@ -7,3 +7,5 @@ All six primary expected outcomes passed: baseline audit 1, patch check 0, patch
 The exact README fenced block was separately executed through /bin/sh with exit 0; walkthrough-command.json stores its actual arguments and body, and walkthrough-result.json its digest and observations. The comparison retains schema/live-indexing unknowns and adds unknown comparison scope. All 40 execution inputs and 23 installed files match verified source 248adb10c710633269ad4342d1cb5bd14f35e715. Unchanged source/package proof is reused; no new package or unaffected local full-suite execution is claimed.
 
 No site build, network request, source feature, production edit or Agensi edit occurred during this rehearsal. Independent Standards/Spec reviews and exact-head CI remain separate delivery gates.
+
+Documentation commit a078069d1d260e6eabb833402e58e4f879371c7e passed exact-head PR CI run39122032946/job117659401166:165 tests passed, zero failed/skipped; typecheck/build and four fictional reports succeeded. ci-documentation.json retains the complete Code Review log. Later outcome bookkeeping receives its own final-head check, identified in PR #23 and the local delivery checkpoint.

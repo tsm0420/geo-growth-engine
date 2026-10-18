@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 1912,
-      "sha256": "0aadb800901210d25d7f322bbdaf2047d1b8684f562632e260afb53c07c477d3"
+      "bytes": 2300,
+      "sha256": "db2c396533d85d1182eaa6bcbbfca4b2b3cc6df8f140894f37659220893592fb"
     },
     {
       "path": "after-audit-command.json",
@@ -71,6 +71,11 @@
       "path": "before-audit.stdout.txt",
       "bytes": 150,
       "sha256": "ab712217d46e41613934029a64293a3d65dd8e59287d2618d5d9362a64ea6485"
+    },
+    {
+      "path": "ci-documentation.json",
+      "bytes": 41239,
+      "sha256": "f9d6b60fd930f612081baafdf11f57300d5569c32e0abe1d2b92e3a059c645b4"
     },
     {
       "path": "compare-command.json",

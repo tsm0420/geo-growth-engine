@@ -1,6 +1,6 @@
 # TICKET-020: Demonstrate a local frozen-sitemap fix and comparison
 
-Status: Documentation and independent reviews complete; PR delivery and CI pending
+Status: Delivered in PR #23; final bookkeeping-head CI tracked in the PR/local checkpoint
 Assignee: Codex
 Target Workspace: codex/yinthread-local-remediation, based on dddf667f8dee72a2521fba4bdc6c2c718a4939f0
 Blocked by: TICKET-019 discovery/delivery (completed); independent of the completed ten-PR integration
@@ -21,3 +21,5 @@ The exact README POSIX-shell block was separately executed successfully using by
 Final authoring verification: the first diff had correct resulting bytes but aligned deletion markers across adjacent identical XML delimiters (lines 70–75). Its raw receipts and patch remain local under reports/candidates/TICKET-020/initial-diff-alignment/. The final patch explicitly deletes the complete second node at lines 69–74; patch-alignment.json records the actual markers. All six primary outcomes and the exact README walkthrough were rerun in fresh temporary roots with that final patch. The source/package/frozen input checks passed again. This PR targets main after the separately authorized ten merges; its own merge is not covered by that authorization.
 
 Independent review outcome: Standards and Spec each identified the same P3 current-status sentence. Both separate correction addenda verified its resolution and all other 40 reviewed files unchanged. Original reports, the 41-file snapshot and one-file correction hashes are retained in docs/reviews/TICKET-020. Primary verified all 34 public receipt members, the exact executed README body, authored links, original input hashes and five unchanged Agensi ZIPs. Next gate: independent PR against current main and exact-head CI.
+
+Delivery: PR #23 targets main5013f87 after the completed ten-PR integration; the new PR is open and unmerged. Documentation commit a078069d1d260e6eabb833402e58e4f879371c7e passed Code Review-inspected CI run39122032946/job117659401166:165 tests passed,0 failed/skipped, typecheck/build and four fictional reports succeeded. The complete untruncated log is docs/verification/TICKET-020/ci-documentation.json. Final outcome bookkeeping changes only documentation/receipts/ticket location and receives a separate exact-head CI check retained in the PR/local delivery checkpoint. No tag, release, new package, production edit or Agensi change.
