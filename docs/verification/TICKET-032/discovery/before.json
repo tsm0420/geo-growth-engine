@@ -1,0 +1,1 @@
+{"schemaVersion": 1, "kind": "audit", "generatedAt": "2026-10-18T12:00:00Z", "example": true, "scope": "Fictional JSON import", "findings": [{"id": "check�", "status": "pass", "evidence": "literal", "action": "inspect"}], "summary": {"pass": 1, "fail": 0, "unknown": 0}, "data": null}

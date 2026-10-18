@@ -1,0 +1,15 @@
+{
+  "label": "consumer-install",
+  "command": [
+    "npm",
+    "install",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo032-package-vt1h6im2/geo-growth-engine-0.1.0-alpha.3.tgz"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo032-package-vt1h6im2/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T14:14:15.259092+00:00"
+}

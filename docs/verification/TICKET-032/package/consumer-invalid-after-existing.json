@@ -1,0 +1,17 @@
+{
+  "label": "consumer-invalid-after-existing",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo032-package-vt1h6im2/consumer/node_modules/.bin/geo",
+    "compare",
+    "--before",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo032-package-vt1h6im2/valid.json",
+    "--after",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo032-package-vt1h6im2/bad.json",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo032-package-vt1h6im2/invalid-after-existing"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo032-package-vt1h6im2/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "at": "2026-10-18T14:14:17.182980+00:00"
+}

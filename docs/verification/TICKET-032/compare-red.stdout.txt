@@ -1,0 +1,47 @@
+✔ visibility rejects a corrupt later record before replacing reports or evidence (160.152666ms)
+✖ compare rejects malformed UTF-8 on before without collapsing its ID or replacing reports (152.816709ms)
+✖ compare rejects malformed UTF-8 on after without collapsing its ID or replacing reports (151.766ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 1
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 532.716416
+
+✖ failing tests:
+
+test at tests/json-utf8.test.ts:54:3
+✖ compare rejects malformed UTF-8 on before without collapsing its ID or replacing reports (152.816709ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/json-utf8.test.ts:66:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/json-utf8.test.ts:54:3
+✖ compare rejects malformed UTF-8 on after without collapsing its ID or replacing reports (151.766ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/json-utf8.test.ts:66:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

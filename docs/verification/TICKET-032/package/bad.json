@@ -1,0 +1,1 @@
+{"schemaVersion": 1, "kind": "audit", "example": true, "generatedAt": "2026-10-18T10:00:00Z", "scope": "Fictional fixture", "findings": [{"id": "checkâ‚", "status": "pass", "evidence": "supplied", "action": "inspect"}], "summary": {"pass": 1, "fail": 0, "unknown": 0}, "data": null}

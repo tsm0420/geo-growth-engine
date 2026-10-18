@@ -1,0 +1,59 @@
+{
+  "runtime": "v24.22.0",
+  "results": [
+    {
+      "label": "literal U+FFFD",
+      "hex": "efbfbd",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "label": "astral and combining",
+      "hex": "f09f918b65cc81",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "label": "empty",
+      "hex": "",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "label": "invalid byte",
+      "hex": "ff",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "label": "truncated",
+      "hex": "e282",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "label": "overlong",
+      "hex": "c0af",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "label": "encoded surrogate",
+      "hex": "eda080",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "label": "above Unicode maximum",
+      "hex": "f4908080",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "label": "BOM",
+      "hex": "efbbbf",
+      "expected": true,
+      "actual": true
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{"id": "literal", "provider": "fixture", "surface": "recorded", "model": "fixture", "locale": "en-GB", "observedAt": "2026-10-18T10:00:00Z", "example": true, "query": "Fictional question", "status": "success", "answer": "Example Journal � 👋 é", "citations": []}
+
+{"id": "escaped", "provider": "fixture", "surface": "recorded", "model": "fixture", "locale": "en-GB", "observedAt": "2026-10-18T10:00:00Z", "example": true, "query": "Fictional question", "status": "success", "answer": "Example Journal \ufffd 👋 é", "citations": []}
