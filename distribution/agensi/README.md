@@ -1,6 +1,6 @@
 # Agensi preparation candidate
 
-Status: locally prepared and independently reviewed; the maintainer authorized agent-led submission of the five free candidates on 2026-10-18 and chose to complete sign-in personally. Sign-in completion is pending. No account creation, upload, platform approval or live listing is established.
+Status: all five submitted as Free on 2026-10-18; five Pending Review and zero Live observed. [Dated receipt](../../docs/verification/TICKET-008/agensi-submission.json) and [ongoing tracking goal](../../docs/iterative-goal.md). Approval, public availability and platform delivery remain unverified.
 
 These are instruction packages requiring Node 24+, a local shell/filesystem and a separately installed pinned GEO Growth Engine CLI. They contain the original MIT skill instructions plus disclosed prerequisite guidance and fictional examples. No sibling skills or executable CLI are bundled.
 
@@ -16,6 +16,6 @@ Read the [English listing drafts](listings.md), [exact member inventory/provenan
 
 Selected core revision: `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`, an alpha.3 candidate in unmerged PR #16. The verified CLI package was built at `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca`; all packaged/executable inputs were compared identical at the selected head, whose CI succeeded. No tagged release or registry publication is implied.
 
-Five independent local extractions passed the skill validator and eight real workflow commands, with seven structural rejection controls and post-workflow member hashes retained. These observations establish local candidate behavior on the recorded Darwin runtime, not Agensi triggering, security review, supporting-file delivery or eligibility. Original-author MIT/free acceptance, external CLI fit and free-account payout requirements remain unresolved in current public guidance; see the dated research linked from the decision material. Public MIT source remains available separately.
+Five independent local extractions passed the skill validator and eight real workflow commands, with seven structural rejection controls and post-workflow member hashes retained. These observations establish local candidate behavior on the recorded Darwin runtime, not Agensi triggering, security review, supporting-file delivery or eligibility. Original-author MIT/free acceptance, external CLI fit and free-account payout requirements differed in public guidance; these five free submissions proceeded without payout onboarding; see the dated research linked from the decision material. Public MIT source remains available separately.
 
 Separate [Standards and Spec reviews](../../docs/reviews/agensi/README.md) found no actionable introduced findings. A separate [custom-input Codex evaluation](../../docs/verification/TICKET-008/independent-forward-report.md) ran eight workflows, retained failures/unknowns and exact raw evidence, and treated instruction-looking imported answers as data. This is one explicit local agent execution, not automatic triggering or a second agent platform.

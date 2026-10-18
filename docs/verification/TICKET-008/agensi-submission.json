@@ -1,0 +1,65 @@
+{
+  "observedAtUtc": "2026-10-18T09:58:54.002210+00:00",
+  "source": "Retained authenticated Creator Studio DOM and screenshot, captured through supported browser tools.",
+  "dashboardUrl": "https://www.agensi.io/dashboard#my-skills",
+  "observedCounts": {
+    "total": 5,
+    "pending": 5,
+    "live": 0
+  },
+  "listings": [
+    {
+      "name": "geo-orchestrator",
+      "title": "GEO Review Orchestrator: Local Evidence Baseline",
+      "price": "Free",
+      "observedStatus": "Pending Review",
+      "sha256": "882f406082aea12b5caf3ccb500aa894ac98411cc2883c1be02a00d509438073",
+      "zipBytes": 7574,
+      "publicListingUrl": null
+    },
+    {
+      "name": "web-geo",
+      "title": "Web GEO Audit: Inspect Your HTML Export",
+      "price": "Free",
+      "observedStatus": "Pending Review",
+      "sha256": "a6fdc09141ce2caa30f0c7100121c6e67a706d492ab263979a687aed8cdbcb3d",
+      "zipBytes": 6969,
+      "publicListingUrl": null
+    },
+    {
+      "name": "app-geo-aso",
+      "title": "App Listing Review: iOS and Android Metadata",
+      "price": "Free",
+      "observedStatus": "Pending Review",
+      "sha256": "2a1784231d13f2b8c4ee6de553a790eb684fba3c9fec4a9c08d8c7004ec96df9",
+      "zipBytes": 5711,
+      "publicListingUrl": null
+    },
+    {
+      "name": "geo-content-engine",
+      "title": "GEO Content Planner: Questions and Product Facts",
+      "price": "Free",
+      "observedStatus": "Pending Review",
+      "sha256": "726582b45a3587e6c7e04dc32eb59c376231f3483f4bf2a40e640642887b7b62",
+      "zipBytes": 5765,
+      "publicListingUrl": null
+    },
+    {
+      "name": "geo-visibility-tracker",
+      "title": "AI Answer Visibility Tracker: Imported Evidence",
+      "price": "Free",
+      "observedStatus": "Pending Review",
+      "sha256": "3ba299ed8fa8934db2c4ee60edfa8d2e947c9ecc05e258fd5f206735a0c16a6a",
+      "zipBytes": 6402,
+      "publicListingUrl": null
+    }
+  ],
+  "rawReceiptSha256": "dbe82487d1cab8d63c46f88306d7b54dee5ef2977acfaba44457a7604bb25ae7",
+  "screenshotSha256": "feaee884a6e4f985d6ab4f1ff52628c7034796a96fc5401ee4184cda176466f8",
+  "rawEvidenceRetention": "Original raw UI/account receipts are retained locally under reports/candidates/TICKET-008/submission-2026-10-18; they are not redistributed in public files.",
+  "limits": [
+    "This is the observed submission baseline, not a fresh review check.",
+    "Pending Review is not public availability, security scan approval or final platform acceptance.",
+    "No payout setup or new terms acceptance was performed by the agent."
+  ]
+}

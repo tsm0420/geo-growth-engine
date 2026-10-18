@@ -1,0 +1,10 @@
+{
+  "status": "active",
+  "createdAt": 1792318081,
+  "objectiveCharacters": 3930,
+  "fileSha256": "d276ad9e4d1c9cf6969a2564356f326f06ec6d279c37a7bc87fd08ff311fd05a",
+  "nativeObjectiveSha256": "7fc6093e5285dcd0877fc114a6c65b54273fbdf43593fc82d32e7c5252f99959",
+  "normalizedObjectiveSha256": "7fc6093e5285dcd0877fc114a6c65b54273fbdf43593fc82d32e7c5252f99959",
+  "comparison": "Native goal tool trims surrounding whitespace; objectives are equal after surrounding-whitespace normalization.",
+  "rawRetention": "Original goal-tool response retained locally in reports/candidates/TICKET-015/goal-creation.raw.json."
+}

@@ -1,9 +1,9 @@
 # Agensi distribution preparation specification
 
-Status: Preparation verified; maintainer authorized free submission on 2026-10-18; user-completed sign-in pending
+Status: Five Free candidates submitted on 2026-10-18; Pending Review, zero Live observed
 Assignee: Codex
 Target Workspace: `codex/agensi-skill-packages`
-Blocked by: user-completed sign-in and any observed action-time terms/access requirement for submission
+Blocked by: External review outcomes for live availability; independent core work continues
 
 ## Outcome and scope
 
@@ -40,3 +40,5 @@ An independent draft-spec review found the README was incorrectly attributed as 
 On 2026-10-18 the maintainer directed the agent to publish the prepared five free candidates. The package contract remains unchanged; this authorization resolves the prior publication disposition, without proving platform fit or live availability. Ordinary authentication still requires a specified account/method, and observed action-time terms/access confirmation requirements remain applicable. No fees, paid packs, payout/KYC/bank setup, unrelated account access or sender contact is included. Current authentication/submission observations belong in `decision.md` and TICKET-008; do not rewrite historical archive-generation provenance as a newer platform result.
 
 The maintainer subsequently selected personal sign-in and will notify the agent when it is complete. Verify authenticated state then continue the agent's listing work; the authentication choice neither proves completion nor transfers publication ownership to the maintainer.
+
+Current submission and review-tracking evidence is in [the decision record](decision.md) and [the continuing goal](../../docs/iterative-goal.md). Prior sign-in-pending text is historical; it is superseded by the dated submission receipt.

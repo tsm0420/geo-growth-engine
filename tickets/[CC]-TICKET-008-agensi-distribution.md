@@ -1,9 +1,9 @@
 # TICKET-008: Prepare and validate Agensi skill distribution
 
-Status: Free submission authorized on 2026-10-18; user-completed sign-in pending
+Status: Submitted as Free on 2026-10-18; awaiting platform review
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, distribution preparation workstream
-Blocked by: User-completed sign-in; any actual action-time terms/access gate
+Blocked by: External review outcomes; core development remains independent
 Origin: Maintainer request on 2026-10-17 to add the supplied Agensi invitation to the iterative development goal
 Specification: `distribution/agensi/spec.md`; `docs/development-loop.md` Agensi amendment and existing `docs/spec.md` contract
 
@@ -53,3 +53,9 @@ At the prior preparation checkpoint, official research left original-author MIT/
 The maintainer subsequently instructed the agent to handle publication, resolving the prior disposition question for the prepared five free candidates. No paid products, charges, payout/KYC/bank setup or sender contact is included. All five actual ZIP sizes/hashes were rechecked against the reviewed manifest and remain unchanged; unchanged workflows/tests were not rerun.
 
 The current official seller page linked to the submission route, which displayed an unauthenticated sign-in form before any listing form. Automatic browser approval review rejected the Google-login action because no Google account/method had been specified. The maintainer then chose to complete login personally and notify the agent. Completion has not been reported or verified; the choice is not an authentication or terms receipt and does not transfer the agent's publication task. No account creation, credentials entry, terms acceptance, upload, platform scan/review or live URL is claimed. Private account details and the login screenshot remain outside public repository files. Current public rules are being rechecked separately; authenticated validation remains unknown. After sign-in is reported complete, verify the authenticated state and continue submission through the real form and any action-time terms/access requirements. The original publication decision itself does not need to be asked again.
+
+### Actual submission checkpoint: 2026-10-18
+
+The maintainer reported personal login complete and the authenticated dashboard was observed. The agent enabled reversible Creator Mode and submitted all five reviewed ZIPs as Free. The actual form recognized SKILL.md, displayed a 50 MB ZIP limit, allowed external software requirements and did not require payout onboarding for these submissions. Unsupported generated descriptions/demos were cleared and replaced with truthful descriptions and complete retained local reports on fictional fixtures, with local paths explicitly replaced for display.
+
+Creator Studio then showed five named Pending Review / In review / Free listings, zero Live. Raw DOM and screenshot receipts remain local; their digests and the five statuses are recorded in docs/verification/TICKET-008/agensi-submission.json. All eleven retained raw receipt hashes were checked in this setup turn. No scan approval, final platform acceptance, public listing URL, new terms acceptance or payout setup is claimed. The user subsequently requested quiet six-hour review tracking plus continuing development, now owned by TICKET-015 and docs/iterative-goal.md. Source and ZIPs remain unchanged; no new product test run is claimed.
