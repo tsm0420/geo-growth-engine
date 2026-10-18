@@ -1,6 +1,6 @@
 # Candidate integration decision
 
-Status: Prepared for maintainer review; no merge is authorized or performed by this document.
+Status: Historical proposal recorded before the ten-PR integration. The maintainer subsequently authorized and completed those merges; see the [dated outcome](integration-outcome-2026-10-18.md). The original observations and proposed steps below remain historical, including their earlier head/tree identities. This document supplies no additional merge authorization.
 
 ## Why this is the next decision
 

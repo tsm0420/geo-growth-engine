@@ -1,0 +1,10 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exitCode": 0,
+  "recordedAt": "2026-10-18T11:17:42.814167+00:00"
+}

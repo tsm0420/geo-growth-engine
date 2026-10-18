@@ -1,6 +1,9 @@
 # Changelog
 
-## 0.1.0-alpha.3 - Unreleased hardening candidate
+## 0.1.0-alpha.3 - Unreleased on main
+
+- Compare retained local reports with exact finding changes, complete parsed inputs, original-byte digests and explicit unknown comparability.
+- Initialization and skill installation preflight each destination's nearest existing parent before writing; predictable access failures preserve earlier destinations.
 
 - Canonical coverage serializes both URL inputs consistently without changing exact decoded duplicate identity or malformed-location findings.
 
@@ -16,14 +19,14 @@
 - All destinations are checked for predictable file-type, ancestor, symlink and write-access conflicts before replacing report/evidence bytes.
 - Safe output-directory reuse remains supported. Unexpected disk/concurrency failures are not covered by a transactional rollback promise.
 
-## 0.1.0-alpha.2 - Unreleased candidate
+## 0.1.0-alpha.2 - Integrated into main, unreleased
 
 - Explicit duplicate sitemap findings with XML-decoded URL identity, deterministic counts and entry positions; duplicates cause exit 1.
 - Named and numeric XML character references share one decoding pass.
 - Frozen YinThread re-audit saved separately from alpha 1 evidence.
 - CLI regression coverage for UTF-8 HTML and character-reference decoding.
 
-This is a local candidate, not a tagged release or npm publication. The transitive encoding dependency investigation and remaining constraint are documented in the candidate verification.
+These alpha 2 changes are integrated into main. Their development version label does not establish a separate tagged release or registry publication. The transitive encoding dependency investigation and remaining constraint are preserved in the original candidate verification.
 
 ## 0.1.0-alpha.1 - 2026-10-16
 

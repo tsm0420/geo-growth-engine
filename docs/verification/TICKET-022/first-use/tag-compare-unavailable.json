@@ -1,0 +1,18 @@
+{
+  "label": "tag-compare-unavailable",
+  "command": [
+    "node",
+    "dist/src/cli.js",
+    "compare",
+    "--before",
+    "reports/example/audit.json",
+    "--after",
+    "reports/example/audit.json",
+    "--output",
+    "reports/tag-compare"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/tag/geo-growth-engine",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "recordedAt": "2026-10-18T11:18:15.125891+00:00"
+}

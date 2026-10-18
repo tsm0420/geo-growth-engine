@@ -1,0 +1,162 @@
+[
+  {
+    "name": "release-alpha1",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/releases/tags/v0.1.0-alpha.1",
+    "startedAt": "2026-10-18T11:14:26.542Z",
+    "observedAt": "2026-10-18T11:14:27.175Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "release-alpha1.raw.json",
+    "rawBytes": 15551,
+    "rawSha256": "e137c80aec349d8f028009bbadddde34c8c9f162c52d3ec98706167c8f5779e3"
+  },
+  {
+    "name": "releases-page1",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/releases?per_page=100&page=1",
+    "startedAt": "2026-10-18T11:14:26.548Z",
+    "observedAt": "2026-10-18T11:14:27.266Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "releases-page1.raw.json",
+    "rawBytes": 15537,
+    "rawSha256": "2ea022feb6d57ee21f2716b550930f46a912878510e9c35ff6e1d434bb2f59d8"
+  },
+  {
+    "name": "tag-alpha1",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/ref/tags/v0.1.0-alpha.1",
+    "startedAt": "2026-10-18T11:14:26.548Z",
+    "observedAt": "2026-10-18T11:14:27.086Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "tag-alpha1.raw.json",
+    "rawBytes": 1460,
+    "rawSha256": "844701d9fc13f69941aed1ab6fcdc1c22b10e98099de48649406b3f625e80489"
+  },
+  {
+    "name": "main",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/branches/main",
+    "startedAt": "2026-10-18T11:14:26.548Z",
+    "observedAt": "2026-10-18T11:14:27.131Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "main.raw.json",
+    "rawBytes": 12402,
+    "rawSha256": "3b35616960acb429f9c2a647095d58ba6d2fd5a582dde8f33b08a0282729d598"
+  },
+  {
+    "name": "pr-23",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/23",
+    "startedAt": "2026-10-18T11:14:26.548Z",
+    "observedAt": "2026-10-18T11:14:27.314Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-23.raw.json",
+    "rawBytes": 40415,
+    "rawSha256": "e3ec1e2ed30ceee88e612995177d8138089e5c69e585b2399d73eb7d34f6af88"
+  },
+  {
+    "name": "pr-9",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/9",
+    "startedAt": "2026-10-18T11:14:52.707Z",
+    "observedAt": "2026-10-18T11:14:53.460Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-9.raw.json",
+    "rawBytes": 43733,
+    "rawSha256": "8787b65bd943219548825b5c722b163b07280d337de1de38bc66c3c3a93a642b"
+  },
+  {
+    "name": "pr-11",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/11",
+    "startedAt": "2026-10-18T11:14:52.707Z",
+    "observedAt": "2026-10-18T11:14:53.387Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-11.raw.json",
+    "rawBytes": 42761,
+    "rawSha256": "fa43afb35553fd8339029bbd45d1d808e4d821a30aceaf0ca2d07a006ed8a6b7"
+  },
+  {
+    "name": "pr-12",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/12",
+    "startedAt": "2026-10-18T11:14:52.707Z",
+    "observedAt": "2026-10-18T11:14:53.414Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-12.raw.json",
+    "rawBytes": 42015,
+    "rawSha256": "526a20fb8709ff88f8a48b1d513fae600392485519369dab2e93e1705866b6d7"
+  },
+  {
+    "name": "pr-13",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/13",
+    "startedAt": "2026-10-18T11:14:52.707Z",
+    "observedAt": "2026-10-18T11:14:53.508Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-13.raw.json",
+    "rawBytes": 41955,
+    "rawSha256": "6a173db4729ad1cddd53d2155ed33d3c19f7e5332392dcc366c91540de09f613"
+  },
+  {
+    "name": "pr-14",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/14",
+    "startedAt": "2026-10-18T11:14:52.707Z",
+    "observedAt": "2026-10-18T11:14:53.436Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-14.raw.json",
+    "rawBytes": 43219,
+    "rawSha256": "41ef45188f1a9d60e9dc3e0a966a90e4a0365371bc7c62b96c08529bd06c567c"
+  },
+  {
+    "name": "pr-15",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/15",
+    "startedAt": "2026-10-18T11:14:52.707Z",
+    "observedAt": "2026-10-18T11:14:53.468Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-15.raw.json",
+    "rawBytes": 42749,
+    "rawSha256": "d8ffaf761e393f7c1b8fa26a95f20a4897f9578b0b38320c92ba3d9119ab9be0"
+  },
+  {
+    "name": "pr-16",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/16",
+    "startedAt": "2026-10-18T11:14:52.707Z",
+    "observedAt": "2026-10-18T11:14:53.409Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-16.raw.json",
+    "rawBytes": 42975,
+    "rawSha256": "21e7446b638b1c47719fc2c0e331f7302b63b9ad742c5f67a89289123fca8b72"
+  },
+  {
+    "name": "pr-17",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/17",
+    "startedAt": "2026-10-18T11:14:52.708Z",
+    "observedAt": "2026-10-18T11:14:53.541Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-17.raw.json",
+    "rawBytes": 44277,
+    "rawSha256": "01d3e55f23839d37d4b50f4a19ffc894296bf8cfefad54abc51a27d79cd40188"
+  },
+  {
+    "name": "pr-19",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/19",
+    "startedAt": "2026-10-18T11:14:52.708Z",
+    "observedAt": "2026-10-18T11:14:53.470Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-19.raw.json",
+    "rawBytes": 43495,
+    "rawSha256": "6309f4a33d3bc8e8bb8f77f54ed05825dfdd3ad1dc1d81139dbd05f668c41562"
+  },
+  {
+    "name": "pr-21",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/pulls/21",
+    "startedAt": "2026-10-18T11:14:52.708Z",
+    "observedAt": "2026-10-18T11:14:53.450Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "pr-21.raw.json",
+    "rawBytes": 44553,
+    "rawSha256": "54fa003a5202dc968e932217bc15fac2a496450602bb452b8fa5280431f5cfae"
+  },
+  {
+    "name": "alpha1-commit",
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c",
+    "startedAt": "2026-10-18T11:14:52.708Z",
+    "observedAt": "2026-10-18T11:14:53.274Z",
+    "transport": "GitHub connector fetch",
+    "rawFile": "alpha1-commit.raw.json",
+    "rawBytes": 6861,
+    "rawSha256": "4f71027f79b9524b43a22ba322190d2bacda3ff64f869ebd4b3fc762b8c715d5"
+  }
+]

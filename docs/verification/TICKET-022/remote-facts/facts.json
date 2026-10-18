@@ -1,0 +1,130 @@
+{
+  "observationStart": "2026-10-18T11:14:26.542Z",
+  "observationEnd": "2026-10-18T11:14:53.541Z",
+  "release": {
+    "id": 415347975,
+    "name": "v0.1.0-alpha.1",
+    "tag_name": "v0.1.0-alpha.1",
+    "draft": false,
+    "prerelease": true,
+    "created_at": "2026-10-16T20:19:13Z",
+    "published_at": "2026-10-16T20:20:54Z",
+    "target_commitish": "6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c",
+    "html_url": "https://github.com/tsm0420/geo-growth-engine/releases/tag/v0.1.0-alpha.1"
+  },
+  "tag": {
+    "ref": "refs/tags/v0.1.0-alpha.1",
+    "objectType": "commit",
+    "commit": "6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c",
+    "tree": "555ddf6cdf8657e5d6995f55a63a565709d8f955"
+  },
+  "main": {
+    "sha": "5013f87a56286f6ebc768d35440a00e06993275f",
+    "tree": "61881ecd3d730723181479d6c9a51bb3092701d4"
+  },
+  "mergedPullRequests": [
+    {
+      "number": 9,
+      "id": 4900283262,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/9",
+      "head": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "merge": "8ffddec24e8251e833a9d60f5bdf1f99321cfc89",
+      "mergedAt": "2026-10-18T10:53:18Z"
+    },
+    {
+      "number": 11,
+      "id": 4900838093,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/11",
+      "head": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "merge": "eb307ab05821bc9a5d77b75d4c14a9aed7bcf114",
+      "mergedAt": "2026-10-18T10:55:24Z"
+    },
+    {
+      "number": 12,
+      "id": 4900881659,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/12",
+      "head": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "merge": "133d883b913fc47dc70fd5bddbcf07ad5e429c9b",
+      "mergedAt": "2026-10-18T10:55:42Z"
+    },
+    {
+      "number": 13,
+      "id": 4900917705,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/13",
+      "head": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "merge": "6a1ef0286a6ced44dcddee11a40df9c49b8641ce",
+      "mergedAt": "2026-10-18T10:57:07Z"
+    },
+    {
+      "number": 14,
+      "id": 4901019799,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/14",
+      "head": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "merge": "9114c7d3d97e52238ca298a8ec71ebd1a5bc64ec",
+      "mergedAt": "2026-10-18T10:57:22Z"
+    },
+    {
+      "number": 15,
+      "id": 4901100701,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/15",
+      "head": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "merge": "334e3b033abcb7ab43ce7164d41e3f9ffc25dc9c",
+      "mergedAt": "2026-10-18T10:57:42Z"
+    },
+    {
+      "number": 16,
+      "id": 4901156559,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/16",
+      "head": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+      "merge": "2a88d5a791eff3ccb7aad3289d3e71c8b1e1ffc2",
+      "mergedAt": "2026-10-18T10:57:58Z"
+    },
+    {
+      "number": 17,
+      "id": 4901350993,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/17",
+      "head": "20e15a80e4db98b37b7781d447cfcabbbe7506c4",
+      "merge": "d5080617536148e238218d01c6c6257c4777fe8d",
+      "mergedAt": "2026-10-18T10:58:15Z"
+    },
+    {
+      "number": 19,
+      "id": 4908248155,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/19",
+      "head": "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+      "merge": "25476a6793a31073a0c650e97478b229f9f801a4",
+      "mergedAt": "2026-10-18T10:58:28Z"
+    },
+    {
+      "number": 21,
+      "id": 4908329050,
+      "url": "https://github.com/tsm0420/geo-growth-engine/pull/21",
+      "head": "dddf667f8dee72a2521fba4bdc6c2c718a4939f0",
+      "merge": "5013f87a56286f6ebc768d35440a00e06993275f",
+      "mergedAt": "2026-10-18T10:58:45Z"
+    }
+  ],
+  "pr23": {
+    "number": 23,
+    "id": 4908554641,
+    "state": "open",
+    "merged": false,
+    "head": "6f06fdd9f752caabe9a28860d0972b03ddcf3b8a",
+    "headRef": "codex/yinthread-local-remediation",
+    "base": "main",
+    "baseSha": "5013f87a56286f6ebc768d35440a00e06993275f",
+    "url": "https://github.com/tsm0420/geo-growth-engine/pull/23"
+  },
+  "releaseListing": {
+    "page": 1,
+    "perPage": 100,
+    "observedItems": 1,
+    "exhaustivenessClaimed": false
+  },
+  "limits": [
+    "GitHub metadata only; no registry query or Agensi observation.",
+    "No CI query or CLI CI/log fallback; existing T021 CI evidence not re-executed.",
+    "16 successful connector GETs; no gh fallback, API mutation, Git/index/source changes.",
+    "A main merge does not create a tag, GitHub release or npm publication."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1087,
+      "sha256": "36387192f0e5f27538843beb8c2c2f8be7a991d749d5cdd4dbefd2b3d19e00d3"
+    },
+    {
+      "path": "final-snapshot.json",
+      "bytes": 304,
+      "sha256": "66c188cef6db9c57105d6019312bd0be21f59123e76dfa25ea14cc42458c7033"
+    },
+    {
+      "path": "prerequisite-snapshot.json",
+      "bytes": 284,
+      "sha256": "e989fb2330fa66e0f522b51ba2642a9ec05309c78561052a05290160ac84af1a"
+    },
+    {
+      "path": "snapshot.json",
+      "bytes": 17754,
+      "sha256": "a514a0f80a4b1ecbdd8e5c98447e934b2bc3f81423cb02a83a685d56ea9853ce"
+    },
+    {
+      "path": "spec-final-addendum.md",
+      "bytes": 1058,
+      "sha256": "5fe3ac31f61c98c5a16505c7000d66955f26da8f113a35341dbd46ada935a470"
+    },
+    {
+      "path": "spec-initial.md",
+      "bytes": 2460,
+      "sha256": "2fa5ffb34c1697ce276c4b2d68ab0700000bc9b67a97ab870236df38292e5b08"
+    },
+    {
+      "path": "standards-final-addendum.md",
+      "bytes": 1240,
+      "sha256": "e1015a4686fd6d27eca0246ba094e80ad234bc4cc99f02a01e5a6cdf874d783f"
+    },
+    {
+      "path": "standards-initial.md",
+      "bytes": 2471,
+      "sha256": "7d6bb204701c794618d06742089ef494b40e2d09d787c2d082f05b834cef3a70"
+    },
+    {
+      "path": "standards-prerequisite-addendum.md",
+      "bytes": 1277,
+      "sha256": "309710343f1e77d4ab335a2f8ba381b97cac3683da805c7929cb56a9950af92b"
+    }
+  ]
+}
