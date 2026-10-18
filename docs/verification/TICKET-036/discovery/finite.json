@@ -1,0 +1,1 @@
+{"schemaVersion":1,"kind":"audit","generatedAt":"2026-10-18T10:00:00Z","example":true,"scope":"Fictional retention fixture","findings":[{"id":"check","status":"pass","evidence":"supplied","action":"inspect","extension":1e308}],"summary":{"pass":1,"fail":0,"unknown":0},"data":{"nested":[1e308]},"extension":1e308}
