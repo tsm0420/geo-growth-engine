@@ -1,0 +1,5 @@
+{
+  "path": "tickets/[CC]-TICKET-026-standing-merge-authorization.md",
+  "sha256": "68faa795096ae8862e15b78f6397279e08112fc1b453a3161fe2fb512fb3b544",
+  "change": "Current prerequisite field now records completed integration/main CI; original initial execution checkpoint remains historical."
+}

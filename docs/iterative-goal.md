@@ -14,6 +14,10 @@ Notify in Taiwan Traditional Chinese on meaningful review changes, requested mod
 
 Use primary sources for changing facts. Apply REA to distributed artifacts or authorized runtime; repository tools to source analysis. Retain Evidence IDs and separate observations, inferences and unknowns. Static inventory is not execution or platform/security approval. Separate search access, training permission, indexing and measured visibility. Label fixtures.
 
-Authorized: local core iteration, five free Agensi submissions and tracking. Paid services, new runtime providers, live crawling, production/store edits, funding applications, sender replies, payout/KYC/bank/wallet setup, new binding terms, merges/tags/releases require explicit applicable authorization. Preserve browser approval gates.
+## Authorization
+
+On 2026-10-18 the maintainer approved PR23 and PR25 and granted standing consent for subsequent project PR merges. Merge reviewed PRs within accepted project scope into this repository's main without requesting consent again once required tests, package verification where applicable, separate Standards/Spec reviews and exact-head CI pass with no unresolved findings. Recheck current main, PR head and diff before each ordinary merge; use an expected-head lock, honor GitHub protection and preserve source branches. Changed inputs or failed checks require correction and fresh verification before merging.
+
+Authorized: local core iteration, five free Agensi submissions and tracking, and the project PR merges above. Paid services, new runtime providers, live crawling, production/store edits, funding applications, sender replies, payout/KYC/bank/wallet setup, new binding terms, tags and releases require explicit applicable authorization. Preserve browser approval gates.
 
 Resume from the ledger after interruptions. If bounded discovery finds no justified work, record coverage and await evidence via the existing heartbeat; invent neither activity nor completion. Marketplace waits must not stop useful core work. Follow goal-tool blocked/paused rules; pause only at the maintainer's request.

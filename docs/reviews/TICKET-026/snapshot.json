@@ -1,0 +1,77 @@
+{
+  "fixedPoint": "3f70a6c0fb066f8cd4a335be225bc6fdeff20c06",
+  "planningHead": "a2b3ff9a48cbf8be3d399da6b452e7d5f02b3f78",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 1701,
+      "sha256": "4871b21efa640559a547c6f6f45fbe3606fe9616e573fb40275f892e4437c1a2"
+    },
+    {
+      "path": "docs/backlog.md",
+      "bytes": 5185,
+      "sha256": "b73985df2b477979db6752b643c56f0f3c89e31bd969463e7a0abecc6c53bf19"
+    },
+    {
+      "path": "docs/continuous-development-spec.md",
+      "bytes": 3006,
+      "sha256": "eb402322f2161507756b83f8b2b59f97ea4fa70427cc1262a665f1dc61f94fe6"
+    },
+    {
+      "path": "docs/development-loop.md",
+      "bytes": 39915,
+      "sha256": "1d65ea1ce726453c0c44769f1f11f086a2af45240d33807eb96ebb2574e4e393"
+    },
+    {
+      "path": "docs/integration-outcome-2026-10-18-follow-up.md",
+      "bytes": 1941,
+      "sha256": "3458fef7b206aef3a271aa5ce4ace0320f39deb60594132798f3e69129bb7a83"
+    },
+    {
+      "path": "docs/iterative-goal.md",
+      "bytes": 4587,
+      "sha256": "58e60f739b6e3113788bd48012422e294d59a0dc92ec02c4201fc2ae26632d13"
+    },
+    {
+      "path": "docs/standing-merge-authorization-spec.md",
+      "bytes": 2587,
+      "sha256": "6b5dad917d2035321d38041e0f30c3ba3ecddd80bb67f2ec76faccb4a78ff7b9"
+    },
+    {
+      "path": "docs/verification/TICKET-026/README.md",
+      "bytes": 1324,
+      "sha256": "49acd6e3c7215d3fecf4d9e2c7e435274ab2410ac7a2985c9030113bb067bb85"
+    },
+    {
+      "path": "docs/verification/TICKET-026/branch-preservation.json",
+      "bytes": 7510,
+      "sha256": "443e8c6ff46dc78eb72de1c0365dc7d7765c79218e37a9a6ae8ca17445c70281"
+    },
+    {
+      "path": "docs/verification/TICKET-026/heartbeat-pointer.json",
+      "bytes": 509,
+      "sha256": "0231ef86aa72317584b184ea4713145ed786ab81b5c5a9ea9aaae7847ca8ed85"
+    },
+    {
+      "path": "docs/verification/TICKET-026/integration.json",
+      "bytes": 1921,
+      "sha256": "6e807ed90687daa92f45315379f6d64abb1f2bdc746a3c275fa7e8da09512481"
+    },
+    {
+      "path": "docs/verification/TICKET-026/main-ci-response.json",
+      "bytes": 40440,
+      "sha256": "acf1e98d9b1976f09b3419d0cc3420ea7f2785cb5ec1f61a335f22ba08e7232a"
+    },
+    {
+      "path": "docs/verification/TICKET-026/manifest.json",
+      "bytes": 787,
+      "sha256": "0217e79297ac72e86c2e8adda6a0f6a251cb8a288928f34e9a8bfcca36e5c363"
+    },
+    {
+      "path": "tickets/[CC]-TICKET-026-standing-merge-authorization.md",
+      "bytes": 2661,
+      "sha256": "1617926f74f0d9a78719e68144ef82760e0683d67291ca24c3adddebfa510077"
+    }
+  ],
+  "scope": "Full current working-tree diff against actual merged main, plus explicitly indexed untracked files; no runtime/package change."
+}

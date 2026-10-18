@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1751,
+      "sha256": "d84bbbafe453af239a57db07c7b160e8618a26962d9c0bdd2f66d91fcaf66a51"
+    },
+    {
+      "path": "branch-preservation.json",
+      "bytes": 7510,
+      "sha256": "443e8c6ff46dc78eb72de1c0365dc7d7765c79218e37a9a6ae8ca17445c70281"
+    },
+    {
+      "path": "heartbeat-pointer.json",
+      "bytes": 509,
+      "sha256": "0231ef86aa72317584b184ea4713145ed786ab81b5c5a9ea9aaae7847ca8ed85"
+    },
+    {
+      "path": "integration.json",
+      "bytes": 1921,
+      "sha256": "6e807ed90687daa92f45315379f6d64abb1f2bdc746a3c275fa7e8da09512481"
+    },
+    {
+      "path": "main-ci-response.json",
+      "bytes": 40440,
+      "sha256": "acf1e98d9b1976f09b3419d0cc3420ea7f2785cb5ec1f61a335f22ba08e7232a"
+    },
+    {
+      "path": "source-ci-response.json",
+      "bytes": 41227,
+      "sha256": "62889e73a2a3fe6a285a8bd568d0dbf04ffcb913b18aacbcbb05bb1a4b8e6bc2"
+    }
+  ]
+}
