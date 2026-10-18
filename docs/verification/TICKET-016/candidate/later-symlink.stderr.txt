@@ -1,0 +1,1 @@
+Refusing symlink path: /private/tmp/geo-core016-clean-3b02lmln/proof/symlink/.agents/skills/web-geo. Supply a canonical filesystem path.

@@ -1,0 +1,14 @@
+{
+  "name": "nondirectory",
+  "command": [
+    "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+    "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "install",
+    "--target",
+    "/private/tmp/geo-core016-clean-3b02lmln/proof/nondirectory"
+  ],
+  "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+  "exit": 2,
+  "expectedExit": 2,
+  "recordedAtUtc": "2026-10-18T10:16:16.735790+00:00"
+}

@@ -1,0 +1,1 @@
+ENOTDIR: not a directory, lstat '/private/tmp/geo-core016-clean-3b02lmln/proof/nondirectory/.agents/skills/web-geo/SKILL.md'

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+    "--test",
+    "tests/install-preflight.test.ts",
+    "tests/safety.test.ts"
+  ],
+  "exit": 0,
+  "recordedAtUtc": "2026-10-18T10:12:47.987917+00:00"
+}

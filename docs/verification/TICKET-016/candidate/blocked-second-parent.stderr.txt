@@ -1,0 +1,1 @@
+EACCES: permission denied, access '/private/tmp/geo-core016-clean-3b02lmln/proof/blocked/.agents/skills/web-geo'

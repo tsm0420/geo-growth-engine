@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+    "--test",
+    "tests/install-preflight.test.ts"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exit": 1,
+  "runtime": "v24.22.0",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "uid": 501,
+  "recordedAtUtc": "2026-10-18T10:12:15.245075+00:00"
+}

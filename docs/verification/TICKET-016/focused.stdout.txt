@@ -1,0 +1,21 @@
+✔ install preflights a later unwritable parent without leaving earlier skills and can retry (602.025042ms)
+✔ init rejects a nonwritable existing configuration parent and retries after correction (362.38475ms)
+✔ install creates missing destination parents and all five skills (211.170541ms)
+✔ install preflights a later existing file without creating earlier skill paths (255.00525ms)
+✔ install rejects a later nondirectory parent without creating earlier skill paths (182.607709ms)
+✔ install rejects a later symlink parent without creating earlier skill paths (175.233417ms)
+✔ install and init reject symlink ancestors before resolving the target (586.680959ms)
+✔ audit rejects a symlink used as the export root (192.522083ms)
+✔ reports reject symlink files and directories without overwriting external data (395.428166ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (278.088209ms)
+✔ crawler checks encode literal filename segments while preserving index routes and canonical independence (200.900666ms)
+✔ crawler checks preserve a literal POSIX backslash filename (185.890625ms)
+✔ installation uses the same normalized target for checking and writing with dot-dot segments (306.218917ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2244.585083

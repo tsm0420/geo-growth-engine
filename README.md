@@ -48,6 +48,8 @@ node dist/src/cli.js audit --config /absolute/path/to/product/.geo/config.yaml -
 
 Installation preserves existing files and rejects symlink destinations and ancestors. Provide canonical filesystem paths for installation, public exports, and report outputs. CLI path arguments resolve against the current working directory; paths declared in YAML resolve against the config file. Skills install under `.agents/skills/`; keep this toolkit checkout and CLI available for their commands. Installation does not edit application source, install globally, or configure another agent's discovery directories.
 
+The installation hardening candidate checks each destination's nearest existing parent for creation access before writing configuration or skills. Predictable destination conflicts leave no earlier files installed, so correcting permissions allows a clean retry. This preflight does not provide rollback for concurrent changes or later disk/I/O failures.
+
 | Command | Behavior |
 | --- | --- |
 | `init` | Create editable example configuration without overwrites. |

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--offline"
+  ],
+  "cwd": "/private/tmp/geo-core016-clean-3b02lmln/source",
+  "exit": 0,
+  "recordedAtUtc": "2026-10-18T10:15:26.602867+00:00"
+}

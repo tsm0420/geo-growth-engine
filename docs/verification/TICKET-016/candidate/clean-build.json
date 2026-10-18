@@ -1,0 +1,10 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "cwd": "/private/tmp/geo-core016-clean-3b02lmln/source",
+  "exit": 0,
+  "recordedAtUtc": "2026-10-18T10:15:41.036914+00:00"
+}
