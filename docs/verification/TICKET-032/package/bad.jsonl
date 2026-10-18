@@ -1,0 +1,2 @@
+{"id": "valid", "provider": "fixture", "surface": "recorded", "model": "fixture", "locale": "en-GB", "observedAt": "2026-10-18T10:00:00Z", "example": true, "query": "Fictional question", "status": "success", "answer": "Example Journal", "citations": []}
+{"id": "bad", "provider": "fixture", "surface": "recorded", "model": "fixture", "locale": "en-GB", "observedAt": "2026-10-18T10:00:00Z", "example": true, "query": "Fictional question", "status": "success", "answer": "ÿ", "citations": []}
