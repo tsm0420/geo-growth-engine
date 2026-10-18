@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core018-clean-_za4j6uo/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "compare",
+    "--before",
+    "/Users/tsm0420/geo/docs/case-studies/yinthread/results/audit.json",
+    "--after",
+    "/Users/tsm0420/geo/docs/verification/TICKET-014/candidate/package-yinthread-audit.json",
+    "--output",
+    "/Users/tsm0420/geo/reports/candidates/TICKET-019/alpha1-to-core"
+  ],
+  "cwd": "/private/tmp",
+  "exitCode": 1,
+  "expectedExit": 1,
+  "recordedAt": "2026-10-18T10:37:25.872367+00:00"
+}

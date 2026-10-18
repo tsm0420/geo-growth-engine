@@ -1,0 +1,126 @@
+{
+  "recordedAt": "2026-10-18T10:38:23.917126+00:00",
+  "steps": [
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+        "1c8c535bcf00739ae705bdb9e2d3a455717a45f4"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+        "79a7edbbe201ebd1e63d14d10e126ebdeff051f9"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+        "f33ec8eef40d29dc169f080de50e7d6525a48a61"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+        "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+        "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+        "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+        "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+        "20e15a80e4db98b37b7781d447cfcabbbe7506c4"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "20e15a80e4db98b37b7781d447cfcabbbe7506c4",
+        "5fb6baceefa64dc028c5af0c6b13745bee744de3"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+        "f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "result": "each current PR head descends from its recorded predecessor; no branches modified"
+}

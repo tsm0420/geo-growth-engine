@@ -1,0 +1,10 @@
+{
+  "command": ["git", "merge-tree", "--write-tree", "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed", "f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39"],
+  "exitCode": 0,
+  "stdout": "38d85cf3628e9979a48877662fbee56b924e06d4\n",
+  "stderr": "",
+  "expectedHeadTreeCommand": ["git", "rev-parse", "f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39^{tree}"],
+  "expectedHeadTree": "38d85cf3628e9979a48877662fbee56b924e06d4",
+  "result": "The computed integration tree equals the existing candidate tree; no branch/index/working-file merge occurred.",
+  "limits": "This is a read-only branch-state rehearsal, not GitHub branch-protection approval or action-time retarget/merge verification."
+}

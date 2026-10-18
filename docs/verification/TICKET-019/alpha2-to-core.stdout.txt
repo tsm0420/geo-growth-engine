@@ -1,0 +1,1 @@
+{"output":"/Users/tsm0420/geo/reports/candidates/TICKET-019/alpha2-to-core","pass":16,"fail":1,"unknown":3}

@@ -1,0 +1,100 @@
+{
+  "recordedAt": "2026-10-18T10:37:26.135321+00:00",
+  "sourceHead": "f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39",
+  "executedConsumerSource": "248adb10c710633269ad4342d1cb5bd14f35e715",
+  "runtime": {
+    "node": "v24.22.0",
+    "os": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "installedFilesReverified": 23,
+  "capturedBodiesReverified": [
+    {
+      "path": "docs/case-studies/yinthread/public/index.html",
+      "bytes": 29426,
+      "sha256": "4f3faa316cc46519c856ec282b418c6a4442a9f13d5824eadbea411be0ef8e76"
+    },
+    {
+      "path": "docs/case-studies/yinthread/public/robots.txt",
+      "bytes": 502,
+      "sha256": "fea0bdc19fe2f68d0fcb3382ff3656cf01a8b9c26def637fd11fe99e46b60155"
+    },
+    {
+      "path": "docs/case-studies/yinthread/public/sitemap.xml",
+      "bytes": 26918,
+      "sha256": "8edaa414edeedc46b0152db4f7c0bab7b292400f495e40dd4f7d358865a3ea06"
+    }
+  ],
+  "reports": [
+    {
+      "path": "docs/case-studies/yinthread/results/audit.json",
+      "sha256": "bf71d847954fe10f0ae2a85965dad0091ee31551b8595a976844c12312ee4f5d"
+    },
+    {
+      "path": "docs/case-studies/yinthread/results-alpha-2/audit.json",
+      "sha256": "0b19602454c11eabb01e68942ae4541a62ac407c7aa3475b4a20f28fb0f74cfd"
+    },
+    {
+      "path": "docs/verification/TICKET-014/candidate/package-yinthread-audit.json",
+      "sha256": "eaee4b9c757101eeda7c4d83c8b977cab3d31ad6b5e2e9628b09be56b25a9199"
+    }
+  ],
+  "comparisons": [
+    {
+      "case": "alpha1-to-core",
+      "summary": {
+        "pass": 16,
+        "fail": 1,
+        "unknown": 3
+      },
+      "counts": {
+        "added": 1,
+        "removed": 0,
+        "status-changed": 0,
+        "details-changed": 15,
+        "unchanged": 3
+      },
+      "outputSha256": "4668a1e2c026d512a0e65d554dc419cec5aaa62e7b78fe928f4e8684823deeb7",
+      "exitCode": 1
+    },
+    {
+      "case": "alpha2-to-core",
+      "summary": {
+        "pass": 16,
+        "fail": 1,
+        "unknown": 3
+      },
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "status-changed": 0,
+        "details-changed": 16,
+        "unchanged": 3
+      },
+      "outputSha256": "51f87b4a41d61257ba1b04d67a5ff623eb20e5f56b163bf9cdfbbb7d6b298164",
+      "exitCode": 1
+    },
+    {
+      "case": "same-core-control",
+      "summary": {
+        "pass": 16,
+        "fail": 1,
+        "unknown": 3
+      },
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "status-changed": 0,
+        "details-changed": 0,
+        "unchanged": 19
+      },
+      "outputSha256": "c1caf1875ecc37f3d9ca1848abdf8905858d69cc56ed94c8d7553dc20c2a188c",
+      "exitCode": 1
+    }
+  ],
+  "limits": [
+    "No new audit, website fetch, product edit or fix. Reused actual retained snapshot reports.",
+    "Added duplicate check is tool coverage, not a product regression; literal path changes are not growth.",
+    "All three reports describe the same frozen input corpus, based on retained capture provenance; command still leaves comparability unknown.",
+    "Existing case rights/NOTICE remain applicable; bodies unchanged."
+  ]
+}

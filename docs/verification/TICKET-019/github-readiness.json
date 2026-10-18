@@ -1,0 +1,255 @@
+{
+  "recordedAt": {
+    "current_time": "2026-10-18 10:38:23 UTC"
+  },
+  "main": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "pullRequests": [
+    {
+      "number": 9,
+      "state": "open",
+      "merged": false,
+      "head": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "headRef": "codex/alpha-2-candidate",
+      "base": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+      "baseRef": "main",
+      "mergeable": true
+    },
+    {
+      "number": 11,
+      "state": "open",
+      "merged": false,
+      "head": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "headRef": "codex/core-hardening-campaign",
+      "base": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "baseRef": "codex/alpha-2-candidate",
+      "mergeable": true
+    },
+    {
+      "number": 12,
+      "state": "open",
+      "merged": false,
+      "head": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "headRef": "codex/optional-collection-validation",
+      "base": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "baseRef": "codex/core-hardening-campaign",
+      "mergeable": true
+    },
+    {
+      "number": 13,
+      "state": "open",
+      "merged": false,
+      "head": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "headRef": "codex/visibility-mention-boundaries",
+      "base": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "baseRef": "codex/optional-collection-validation",
+      "mergeable": true
+    },
+    {
+      "number": 14,
+      "state": "open",
+      "merged": false,
+      "head": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "headRef": "codex/sitemap-xml-references",
+      "base": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "baseRef": "codex/visibility-mention-boundaries",
+      "mergeable": true
+    },
+    {
+      "number": 15,
+      "state": "open",
+      "merged": false,
+      "head": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "headRef": "codex/crawler-path-encoding",
+      "base": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "baseRef": "codex/sitemap-xml-references",
+      "mergeable": true
+    },
+    {
+      "number": 16,
+      "state": "open",
+      "merged": false,
+      "head": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+      "headRef": "codex/canonical-sitemap-coverage",
+      "base": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "baseRef": "codex/crawler-path-encoding",
+      "mergeable": true
+    },
+    {
+      "number": 17,
+      "state": "open",
+      "merged": false,
+      "head": "20e15a80e4db98b37b7781d447cfcabbbe7506c4",
+      "headRef": "codex/agensi-skill-packages",
+      "base": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+      "baseRef": "codex/canonical-sitemap-coverage",
+      "mergeable": true
+    },
+    {
+      "number": 19,
+      "state": "open",
+      "merged": false,
+      "head": "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+      "headRef": "codex/install-destination-preflight",
+      "base": "20e15a80e4db98b37b7781d447cfcabbbe7506c4",
+      "baseRef": "codex/agensi-skill-packages",
+      "mergeable": true
+    },
+    {
+      "number": 21,
+      "state": "open",
+      "merged": false,
+      "head": "f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39",
+      "headRef": "codex/local-report-comparison",
+      "base": "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+      "baseRef": "codex/install-destination-preflight",
+      "mergeable": true
+    }
+  ],
+  "checks": [
+    {
+      "number": 9,
+      "expectedHead": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "head": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "checks": [
+        {
+          "id": 117403458927,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39035188280/job/117403458927"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "expectedHead": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "head": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "checks": [
+        {
+          "id": 117418524995,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39040390851/job/117418524995"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "expectedHead": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "head": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "checks": [
+        {
+          "id": 117419790932,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39040816885/job/117419790932"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "expectedHead": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "head": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "checks": [
+        {
+          "id": 117420839110,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39041184660/job/117420839110"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "expectedHead": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "head": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "checks": [
+        {
+          "id": 117423562041,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39042126571/job/117423562041"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "expectedHead": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "head": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "checks": [
+        {
+          "id": 117425595268,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39042831393/job/117425595268"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "expectedHead": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+      "head": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+      "checks": [
+        {
+          "id": 117427121547,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39043361559/job/117427121547"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "expectedHead": "20e15a80e4db98b37b7781d447cfcabbbe7506c4",
+      "head": "20e15a80e4db98b37b7781d447cfcabbbe7506c4",
+      "checks": [
+        {
+          "id": 117648145352,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39118178866/job/117648145352"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "expectedHead": "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+      "head": "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+      "checks": [
+        {
+          "id": 117649968778,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39118798292/job/117649968778"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "expectedHead": "f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39",
+      "head": "f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39",
+      "checks": [
+        {
+          "id": 117652782494,
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39119760269/job/117652782494"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Read-only GitHub GET and Code Review check metadata; no merge/base edit/release action performed.",
+    "Test count165 is supported by the retained final PR21 full CI log, not inferred from other check headers.",
+    "Mergeability is observed against each current base; retarget-to-main and protection acceptance remain action-time checks."
+  ]
+}

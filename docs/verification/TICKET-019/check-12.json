@@ -1,0 +1,27 @@
+{
+  "headRevision": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+  "checks": [
+    {
+      "id": 117419790932,
+      "name": "verify",
+      "head_sha": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/tsm0420/geo-growth-engine/actions/runs/39040816885/job/117419790932",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 1
+      }
+    }
+  ],
+  "statuses": [],
+  "annotations": [],
+  "hasMore": false,
+  "job": null,
+  "jobs": [],
+  "log": null,
+  "logTruncated": false,
+  "providerGuidance": "GitHub guidance for this response only: use checkRunId for output and annotations, runId from a GitHub Actions /runs/<id> link to list jobs, or jobId from a /jobs/<id> link for logs. page paginates checks, jobs or annotations. Keep the supplied account and returned headRevision on follow-up reads. Third-party CI exposes only the output reported to GitHub."
+}
