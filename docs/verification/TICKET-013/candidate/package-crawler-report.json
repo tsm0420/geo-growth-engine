@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "kind": "audit",
+  "generatedAt": "2026-10-17T14:54:39.615Z",
+  "example": true,
+  "scope": "local export: /private/tmp/geo-core-clean-ca8sr3uz/crawl-public; no network requests or browser execution",
+  "findings": [
+    {
+      "id": "robots-file",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt",
+      "action": "Review intentional access policy."
+    },
+    {
+      "id": "sitemap",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/sitemap.xml: 1 locations; direct urlset required",
+      "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+    },
+    {
+      "id": "sitemap-duplicates",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries",
+      "action": "Retain one intended canonical entry per URL and rebuild the export."
+    },
+    {
+      "id": "#notes.html:title",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: Example Journal — fictional toolkit fixture",
+      "action": "Provide one descriptive title."
+    },
+    {
+      "id": "#notes.html:description",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: Fictional sample: save daily journal entries.",
+      "action": "Provide a meaningful description."
+    },
+    {
+      "id": "#notes.html:open-graph",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: og:title and og:description presence",
+      "action": "Supply truthful social metadata."
+    },
+    {
+      "id": "#notes.html:heading",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: 1 H1 elements",
+      "action": "Use a descriptive page heading."
+    },
+    {
+      "id": "#notes.html:readable-text",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: 124 non-script text characters in HTML",
+      "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+    },
+    {
+      "id": "#notes.html:index-directive",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: no restrictive HTML meta directive observed",
+      "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+    },
+    {
+      "id": "#notes.html:canonical",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: https://example.com/",
+      "action": "Provide one absolute canonical URL on the configured origin."
+    },
+    {
+      "id": "#notes.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: https://example.com/ in /private/tmp/geo-core-clean-ca8sr3uz/crawl-public/sitemap.xml",
+      "action": "Add the intended canonical URL to the direct sitemap."
+    },
+    {
+      "id": "#notes.html:crawler.Googlebot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: Googlebot at inferred export URL https://example.com/%23notes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "#notes.html:crawler.OAI-SearchBot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/%23notes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "#notes.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "#notes.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "#notes.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html: JSON-LD parses as an object or array",
+      "action": "Review structured-data semantics separately."
+    },
+    {
+      "id": "%2Fnotes.html:title",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: Example Journal — fictional toolkit fixture",
+      "action": "Provide one descriptive title."
+    },
+    {
+      "id": "%2Fnotes.html:description",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: Fictional sample: save daily journal entries.",
+      "action": "Provide a meaningful description."
+    },
+    {
+      "id": "%2Fnotes.html:open-graph",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: og:title and og:description presence",
+      "action": "Supply truthful social metadata."
+    },
+    {
+      "id": "%2Fnotes.html:heading",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: 1 H1 elements",
+      "action": "Use a descriptive page heading."
+    },
+    {
+      "id": "%2Fnotes.html:readable-text",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: 124 non-script text characters in HTML",
+      "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+    },
+    {
+      "id": "%2Fnotes.html:index-directive",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: no restrictive HTML meta directive observed",
+      "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+    },
+    {
+      "id": "%2Fnotes.html:canonical",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: https://example.com/",
+      "action": "Provide one absolute canonical URL on the configured origin."
+    },
+    {
+      "id": "%2Fnotes.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: https://example.com/ in /private/tmp/geo-core-clean-ca8sr3uz/crawl-public/sitemap.xml",
+      "action": "Add the intended canonical URL to the direct sitemap."
+    },
+    {
+      "id": "%2Fnotes.html:crawler.Googlebot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: Googlebot at inferred export URL https://example.com/%252Fnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "%2Fnotes.html:crawler.OAI-SearchBot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/%252Fnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "%2Fnotes.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "%2Fnotes.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "%2Fnotes.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html: JSON-LD parses as an object or array",
+      "action": "Review structured-data semantics separately."
+    },
+    {
+      "id": "?notes.html:title",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: Example Journal — fictional toolkit fixture",
+      "action": "Provide one descriptive title."
+    },
+    {
+      "id": "?notes.html:description",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: Fictional sample: save daily journal entries.",
+      "action": "Provide a meaningful description."
+    },
+    {
+      "id": "?notes.html:open-graph",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: og:title and og:description presence",
+      "action": "Supply truthful social metadata."
+    },
+    {
+      "id": "?notes.html:heading",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: 1 H1 elements",
+      "action": "Use a descriptive page heading."
+    },
+    {
+      "id": "?notes.html:readable-text",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: 124 non-script text characters in HTML",
+      "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+    },
+    {
+      "id": "?notes.html:index-directive",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: no restrictive HTML meta directive observed",
+      "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+    },
+    {
+      "id": "?notes.html:canonical",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: https://example.com/",
+      "action": "Provide one absolute canonical URL on the configured origin."
+    },
+    {
+      "id": "?notes.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: https://example.com/ in /private/tmp/geo-core-clean-ca8sr3uz/crawl-public/sitemap.xml",
+      "action": "Add the intended canonical URL to the direct sitemap."
+    },
+    {
+      "id": "?notes.html:crawler.Googlebot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: Googlebot at inferred export URL https://example.com/%3Fnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "?notes.html:crawler.OAI-SearchBot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/%3Fnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "?notes.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "?notes.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "?notes.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html: JSON-LD parses as an object or array",
+      "action": "Review structured-data semantics separately."
+    },
+    {
+      "id": "blocked\\notes.html:title",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: Example Journal — fictional toolkit fixture",
+      "action": "Provide one descriptive title."
+    },
+    {
+      "id": "blocked\\notes.html:description",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: Fictional sample: save daily journal entries.",
+      "action": "Provide a meaningful description."
+    },
+    {
+      "id": "blocked\\notes.html:open-graph",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: og:title and og:description presence",
+      "action": "Supply truthful social metadata."
+    },
+    {
+      "id": "blocked\\notes.html:heading",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: 1 H1 elements",
+      "action": "Use a descriptive page heading."
+    },
+    {
+      "id": "blocked\\notes.html:readable-text",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: 124 non-script text characters in HTML",
+      "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+    },
+    {
+      "id": "blocked\\notes.html:index-directive",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: no restrictive HTML meta directive observed",
+      "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+    },
+    {
+      "id": "blocked\\notes.html:canonical",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: https://example.com/",
+      "action": "Provide one absolute canonical URL on the configured origin."
+    },
+    {
+      "id": "blocked\\notes.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: https://example.com/ in /private/tmp/geo-core-clean-ca8sr3uz/crawl-public/sitemap.xml",
+      "action": "Add the intended canonical URL to the direct sitemap."
+    },
+    {
+      "id": "blocked\\notes.html:crawler.Googlebot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: Googlebot at inferred export URL https://example.com/blocked%5Cnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "blocked\\notes.html:crawler.OAI-SearchBot",
+      "status": "fail",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/blocked%5Cnotes.html; allowed=false; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "blocked\\notes.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "blocked\\notes.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=false; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "blocked\\notes.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html: JSON-LD parses as an object or array",
+      "action": "Review structured-data semantics separately."
+    },
+    {
+      "id": "index.html:title",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: Example Journal — fictional toolkit fixture",
+      "action": "Provide one descriptive title."
+    },
+    {
+      "id": "index.html:description",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: Fictional sample: save daily journal entries.",
+      "action": "Provide a meaningful description."
+    },
+    {
+      "id": "index.html:open-graph",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: og:title and og:description presence",
+      "action": "Supply truthful social metadata."
+    },
+    {
+      "id": "index.html:heading",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: 1 H1 elements",
+      "action": "Use a descriptive page heading."
+    },
+    {
+      "id": "index.html:readable-text",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: 124 non-script text characters in HTML",
+      "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+    },
+    {
+      "id": "index.html:index-directive",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: no restrictive HTML meta directive observed",
+      "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+    },
+    {
+      "id": "index.html:canonical",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: https://example.com/",
+      "action": "Provide one absolute canonical URL on the configured origin."
+    },
+    {
+      "id": "index.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: https://example.com/ in /private/tmp/geo-core-clean-ca8sr3uz/crawl-public/sitemap.xml",
+      "action": "Add the intended canonical URL to the direct sitemap."
+    },
+    {
+      "id": "index.html:crawler.Googlebot",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "index.html:crawler.OAI-SearchBot",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+      "action": "Review search access separately from training permissions."
+    },
+    {
+      "id": "index.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=true; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "index.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/robots.txt: training policy allowed=true; informational only",
+      "action": "Preserve the owner's training policy; it is not a search eligibility check."
+    },
+    {
+      "id": "index.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html: JSON-LD parses as an object or array",
+      "action": "Review structured-data semantics separately."
+    },
+    {
+      "id": "schema-semantics",
+      "status": "unknown",
+      "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+      "action": "Use the applicable schema and search validation tools."
+    },
+    {
+      "id": "live-indexing",
+      "status": "unknown",
+      "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+      "action": "Inspect deployment and supported search tools separately."
+    },
+    {
+      "id": "llms-txt",
+      "status": "pass",
+      "evidence": "Optional llms.txt absent; no readiness penalty.",
+      "action": "Treat as an optional experiment."
+    }
+  ],
+  "summary": {
+    "pass": 61,
+    "fail": 8,
+    "unknown": 2
+  },
+  "data": {
+    "config": "/private/tmp/geo-core-clean-ca8sr3uz/crawl-config.json",
+    "files": [
+      "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/#notes.html",
+      "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/%2Fnotes.html",
+      "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/?notes.html",
+      "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/blocked\\notes.html",
+      "/private/tmp/geo-core-clean-ca8sr3uz/crawl-public/index.html"
+    ],
+    "sitemap": {
+      "entries": 1,
+      "uniqueUrls": 1,
+      "duplicateEntries": 0,
+      "duplicates": []
+    }
+  }
+}

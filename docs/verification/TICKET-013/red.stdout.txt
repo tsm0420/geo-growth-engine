@@ -1,0 +1,28 @@
+✖ crawler checks encode literal filename segments while preserving index routes and canonical independence (239.711375ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 310.2045
+
+✖ failing tests:
+
+test at tests/safety.test.ts:58:1
+✖ crawler checks encode literal filename segments while preserving index routes and canonical independence (239.711375ms)
+  AssertionError [ERR_ASSERTION]: #notes.html: Googlebot
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/safety.test.ts:75:14)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

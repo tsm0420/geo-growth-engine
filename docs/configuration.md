@@ -64,3 +64,7 @@ Mentions use case-insensitive Unicode letter/number boundaries around configured
 ## Optional collections
 
 Product `aliases`, `competitors`, `listings`, and each listing's `factIds` default to empty only when omitted. Explicit `null` has the wrong list/object type and causes exit 2 before reports are written. Valid empty collections are accepted. A fact's `source: null` remains a supported evidence gap; it is not a malformed collection or a verified claim.
+
+## Inferred crawler paths
+
+Crawler checks infer a URL from the local export filename, encoding each path segment before URL parsing. Literal `#`, `?` and `%` stay filename data, actual platform directory separators remain separators (literal POSIX backslashes encode as filename data), and `index.htm`/`index.html` retain their existing directory-route convention. Canonical coverage is checked separately; a canonical pointing elsewhere does not change the inferred crawler path. Deployment routes, redirects and live bot access remain unverified.

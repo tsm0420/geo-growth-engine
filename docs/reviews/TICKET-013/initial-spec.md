@@ -1,0 +1,11 @@
+# TICKET-013 Spec review
+
+**One actionable in-scope finding.** Reviewed the actual tracked/untracked proposal against fixed base `1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79` (PR #14 head). Scope comprises crawler URL construction in `src/audit.ts`, its safety regression, guidance/changelog and verification receipts; planning/prior-slice bookkeeping is separate.
+
+**[P2] POSIX filename backslashes are changed into directory separators before encoding — `src/audit.ts:136,155`.** Requirement: “Encode filesystem path segments when deriving URLs; retain directory separators and the existing index-file convention.” The new encoding operates on `page` after `replaceAll('\\', '/')` has already destroyed literal backslashes in POSIX filenames. A backslash is filename data on the tested platform, not a directory separator.
+
+Actual real CLI reproduction: create the single file `public/blocked\notes.html`, canonical/sitemap `https://example.com/blocked%5Cnotes.html`, and `Disallow: /blocked%5Cnotes.html`. The candidate exits **0** and reports both search bots **pass** at the invented `https://example.com/blocked/notes.html`. Querying the existing robots dependency at the literal expected `%5C` URL returns **false** for both bots. The report ID also invents a directory that does not exist.
+
+Convert only the host platform's actual filesystem separators, preserving literal backslashes on POSIX before segment encoding. Add a POSIX CLI regression while retaining Windows separator behavior, ordinary/index routes, canonical independence and existing #/?/% cases. This corrects the agreed path-segment inference; it does not require live routing or a new adapter.
+
+Actual verification: `node --test tests/safety.test.ts` passed **6/6**, zero skips; an additional independent CLI probe reproduced the gap. Original fixture, exact argv/timestamps/stdout/stderr/exit/report and encoded-URL oracle are under `/private/tmp/geo-ticket013-spec-probe/`. Read saved typecheck/109-pass full-suite/build receipts, all exit 0; broader checks were not rerun. Dependencies reused the supplied APFS copy; Node v24.18.0, Darwin arm64. No tracked edits/network/other-worktree access. Candidate/package and final-head CI remain pending; other queued defects remain outside scope. Spec axis only.

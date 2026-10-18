@@ -1,0 +1,472 @@
+{
+  "packageVersion": "0.1.0-alpha.3",
+  "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932",
+  "sourceArchiveSha256": "550ec508fdf1fa1ed1db4dc89f3c86507cd858054d1cc70b2bf371c03be910b0",
+  "packagePath": "/Users/tsm0420/geo/reports/candidates/TICKET-013/geo-growth-engine-0.1.0-alpha.3.tgz",
+  "packageSha256": "a07478c2c02f0a84f980b2923e24a1d4ae8e6bedd0274e782db3cba5757ab10d",
+  "packageBytes": 21928,
+  "generatedAt": "2026-10-17T14:54:39.626276+00:00",
+  "runtime": {
+    "node": "v24.18.0",
+    "npm": "11.16.0",
+    "os": "Darwin",
+    "osRelease": "25.5.0",
+    "architecture": "arm64"
+  },
+  "workspace": "/private/tmp/geo-core-clean-ca8sr3uz",
+  "packagedFiles": [
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "sha256": "133f0bd6e74d7476de1ed4db62ef6b63dff91098d93c733aafd6602b066e43ef"
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "sha256": "d8df1497f7a01eb19f3c1a9c3181d47e8bf5831619fdac76080847439b07db67"
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2410041f1183b049a07f38b65836a2247b9c0ce11e05beea454c817c32dccb17"
+    },
+    {
+      "path": "dist/src/aso.js",
+      "sha256": "cf878538416fb46f7a076f2a861375adc72458d01a18e605f74c3cd748fd2ef2"
+    },
+    {
+      "path": "dist/src/audit.js",
+      "sha256": "2bc8dfea13cf899341781ac6aca7a10346fe29384bd868c0d8ac3be8015b403e"
+    },
+    {
+      "path": "dist/src/cli.js",
+      "sha256": "dbed6a26fc2f8631c0f1d395d6197cc8eb8acc7e4ab3a8dd5aa5fada644c716e"
+    },
+    {
+      "path": "dist/src/config.js",
+      "sha256": "abb9852113d4f6e901df1e57477a00575270f32749d60483c16c85494ba8f43a"
+    },
+    {
+      "path": "dist/src/install.js",
+      "sha256": "570f9b6f2447c208bfb1e6b82767cdcd331be7489b95cca3101e70ff3369681e"
+    },
+    {
+      "path": "dist/src/paths.js",
+      "sha256": "457c79c1ba284fbda4c61e788d33acbbe99901d270e20151cb3717277c2c0cb7"
+    },
+    {
+      "path": "dist/src/plan.js",
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb"
+    },
+    {
+      "path": "dist/src/report.js",
+      "sha256": "164fa3be3cdfe8472e0bf00a47ca49ed24d346ebca6cffbe593abc6f80b69b5f"
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "sha256": "2059c58fff82a2b1a269eea17ec01f2ce667a71ed477384b75bfccc2bae1d423"
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "5429571c91d0b47a7f4884b4772172d0db18ede74b32e155b5ebd12974de0f72"
+    },
+    {
+      "path": "docs/sources.md",
+      "sha256": "bbcda0b1061f93911f69f3131c7ef8b93873cfffe3ae846c824d0744c2621ac8"
+    },
+    {
+      "path": "package.json",
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da"
+    },
+    {
+      "path": "templates/config.yaml",
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "templates/product.yaml",
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "templates/queries.yaml",
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "npm",
+        "ci",
+        "--ignore-scripts",
+        "--cache",
+        "/private/tmp/geo-npm-cache",
+        "--no-audit",
+        "--no-fund",
+        "--fetch-retries=0",
+        "--fetch-timeout=30000"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz/source",
+      "startedAt": "2026-10-17T14:54:28.118592+00:00",
+      "endedAt": "2026-10-17T14:54:28.640371+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz/source",
+      "startedAt": "2026-10-17T14:54:28.640608+00:00",
+      "endedAt": "2026-10-17T14:54:29.364116+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz/source",
+      "startedAt": "2026-10-17T14:54:29.364276+00:00",
+      "endedAt": "2026-10-17T14:54:35.995651+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz/source",
+      "startedAt": "2026-10-17T14:54:35.995822+00:00",
+      "endedAt": "2026-10-17T14:54:36.233033+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "npm",
+        "pack",
+        "--json",
+        "--ignore-scripts",
+        "--pack-destination",
+        "/Users/tsm0420/geo/reports/candidates/TICKET-013"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz/source",
+      "startedAt": "2026-10-17T14:54:36.233208+00:00",
+      "endedAt": "2026-10-17T14:54:36.469133+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--ignore-scripts",
+        "--omit=dev",
+        "--cache",
+        "/private/tmp/geo-npm-cache",
+        "--no-audit",
+        "--no-fund",
+        "--fetch-retries=0",
+        "--fetch-timeout=30000"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package",
+      "startedAt": "2026-10-17T14:54:36.477570+00:00",
+      "endedAt": "2026-10-17T14:54:37.659451+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "dist/src/cli.js",
+        "--help"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package",
+      "startedAt": "2026-10-17T14:54:37.659630+00:00",
+      "endedAt": "2026-10-17T14:54:37.776423+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "init",
+        "--target",
+        "/private/tmp/geo-core-clean-ca8sr3uz/product"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:37.776687+00:00",
+      "endedAt": "2026-10-17T14:54:37.889591+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-core-clean-ca8sr3uz/product"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:37.889777+00:00",
+      "endedAt": "2026-10-17T14:54:38.004043+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-audit"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.004476+00:00",
+      "endedAt": "2026-10-17T14:54:38.129086+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "aso",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-aso"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.129411+00:00",
+      "endedAt": "2026-10-17T14:54:38.251622+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "plan",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-plan"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.251818+00:00",
+      "endedAt": "2026-10-17T14:54:38.370184+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "visibility",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/visibility.jsonl",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-visibility"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.370381+00:00",
+      "endedAt": "2026-10-17T14:54:38.496757+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/docs/case-studies/yinthread/config/config.yaml",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-yinthread"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.496955+00:00",
+      "endedAt": "2026-10-17T14:54:38.639307+00:00",
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "plan",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-collision/plan.json",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-collision"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.639797+00:00",
+      "endedAt": "2026-10-17T14:54:38.758228+00:00",
+      "exitCode": 2,
+      "expectedExitCode": 2,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "visibility",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/tmp/geo-core-clean-ca8sr3uz/empty.jsonl",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-visibility"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.758756+00:00",
+      "endedAt": "2026-10-17T14:54:38.877808+00:00",
+      "exitCode": 2,
+      "expectedExitCode": 2,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "aso",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/collection/config.json",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/collection/results"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.878414+00:00",
+      "endedAt": "2026-10-17T14:54:38.994053+00:00",
+      "exitCode": 2,
+      "expectedExitCode": 2,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "aso",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/collection/config.json",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/collection/results"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:38.994381+00:00",
+      "endedAt": "2026-10-17T14:54:39.111175+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "visibility",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/tmp/geo-core-clean-ca8sr3uz/boundary.jsonl",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-boundary"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:39.111486+00:00",
+      "endedAt": "2026-10-17T14:54:39.234327+00:00",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/xml-config.json",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-xml"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:39.235861+00:00",
+      "endedAt": "2026-10-17T14:54:39.359553+00:00",
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/xml-config.json",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-xml"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:39.360045+00:00",
+      "endedAt": "2026-10-17T14:54:39.487984+00:00",
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    },
+    {
+      "command": [
+        "node",
+        "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-core-clean-ca8sr3uz/crawl-config.json",
+        "--output",
+        "/private/tmp/geo-core-clean-ca8sr3uz/reports-crawl"
+      ],
+      "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+      "startedAt": "2026-10-17T14:54:39.489856+00:00",
+      "endedAt": "2026-10-17T14:54:39.622244+00:00",
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+    "visibility",
+    "--config",
+    "/private/tmp/geo-core-clean-ca8sr3uz/source/examples/.geo/config.yaml",
+    "--input",
+    "/private/tmp/geo-core-clean-ca8sr3uz/boundary.jsonl",
+    "--output",
+    "/private/tmp/geo-core-clean-ca8sr3uz/reports-boundary"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+  "startedAt": "2026-10-17T14:54:39.111486+00:00",
+  "endedAt": "2026-10-17T14:54:39.234327+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+}

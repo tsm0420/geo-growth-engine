@@ -1,6 +1,6 @@
 # TICKET-012: Reject malformed sitemap XML references
 
-Status: Implemented and independently reviewed; clean-source/package verified; final PR CI pending
+Status: Completed delivery; PR #14 open and unmerged
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/sitemap-xml-references`
 Blocked by: TICKET-007 investigation (complete); PR #13 open and unmerged (transitive #12/#11/#9)
@@ -35,3 +35,5 @@ Current `npm run typecheck`, `npm test` (108 passes, zero failures/skips), and `
 Immutable candidate/package and final-head PR CI remain pending delivery steps. This is bounded regression evidence, not full XML/schema/namespace/encoding certification. No dependency, live request, private-file, merge, tag or release change occurred.
 
 Immutable alpha.3 source `54c8e908be7a9a0f86e0853f9f17e42888f692c1` passed fresh install/typecheck/108 tests/build and all 21 expected extracted-package outcomes, including all six commands, previous regressions, invalid XML rejection and long-numeric duplicate identity. Frozen YinThread remains 16 pass / 1 fail / 2 unknown and sitemap 146/145/1, duplicate positions 8,12. Tarball SHA-256 `b0dac211c1c8abbcd628e4daf7f024d7de6cbe853f863e71a502ef7e5445f807` (21,708 bytes); original runtime/commands/cwd/times/exits/output and package file hashes are in `docs/verification/TICKET-012/candidate/manifest.json` and adjacent receipts. The tarball is local and ignored. Exact-head PR CI remains pending.
+
+Delivery: PR #14 targets #13's branch and declares unmerged #13/#12/#11/#9. Final head `1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79` has unchanged executable/CI inputs and all package file hashes compared with the verified source. Code Review observed verify job 117423562041 / run 39042126571 completed/success; original untruncated response retained in `docs/verification/TICKET-012/ci-final.json`. An initial transient HTTP 502 log read was retried through the same connector. No merge/tag/release occurred. Next approved slice: TICKET-013.

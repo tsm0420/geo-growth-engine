@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-ca8sr3uz/extracted/package/dist/src/cli.js",
+    "plan",
+    "--config",
+    "/private/tmp/geo-core-clean-ca8sr3uz/reports-collision/plan.json",
+    "--output",
+    "/private/tmp/geo-core-clean-ca8sr3uz/reports-collision"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-ca8sr3uz",
+  "startedAt": "2026-10-17T14:54:38.639797+00:00",
+  "endedAt": "2026-10-17T14:54:38.758228+00:00",
+  "exitCode": 2,
+  "expectedExitCode": 2,
+  "sourceRevision": "6ac457319e85e734407eae1f05cf56805c34f932"
+}

@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/safety.test.ts"
+  ],
+  "exitCode": 0,
+  "time": "2026-10-17T14:51:36.008255+00:00"
+}
