@@ -1,0 +1,14 @@
+{
+  "command": [
+    "npm",
+    "install",
+    "--ignore-scripts",
+    "--offline",
+    "/private/tmp/geo-core018-clean-_za4j6uo/geo-growth-engine-0.1.0-alpha.3.tgz"
+  ],
+  "cwd": "/private/tmp/geo-core018-clean-_za4j6uo/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T10:30:43.314646+00:00",
+  "cacheAccess": "Normal npm cache access outside filesystem sandbox; no ownership or cache-wide changes."
+}

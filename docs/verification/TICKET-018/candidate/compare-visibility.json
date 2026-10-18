@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/private/tmp/geo-core018-clean-_za4j6uo/consumer/node_modules/.bin/geo",
+    "compare",
+    "--before",
+    "/private/tmp/geo-core018-clean-_za4j6uo/after/visibility.json",
+    "--after",
+    "/private/tmp/geo-core018-clean-_za4j6uo/after/visibility.json",
+    "--output",
+    "/private/tmp/geo-core018-clean-_za4j6uo/comparison-visibility"
+  ],
+  "cwd": "/private/tmp/geo-core018-clean-_za4j6uo/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T10:30:59.716299+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/private/tmp/geo-core018-clean-_za4j6uo/consumer/node_modules/.bin/geo",
+    "compare",
+    "--output",
+    "/private/tmp/geo-core018-clean-_za4j6uo/comparison-missing"
+  ],
+  "cwd": "/private/tmp/geo-core018-clean-_za4j6uo/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "recordedAt": "2026-10-18T10:31:00.049970+00:00"
+}

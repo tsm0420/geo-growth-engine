@@ -1,0 +1,1 @@
+Report destination must be a regular file: /private/tmp/geo-core018-clean-_za4j6uo/later-conflict/compare.md

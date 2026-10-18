@@ -1,0 +1,13 @@
+{
+  "sourceRevision": "248adb10c710633269ad4342d1cb5bd14f35e715",
+  "root": "/private/tmp/geo-core018-clean-_za4j6uo",
+  "source": "/private/tmp/geo-core018-clean-_za4j6uo/source",
+  "archiveSha256": "f824eb0c09c8be668316c5d87c3706c0af6d5f6da37f2e8c0d2f600762b848d7",
+  "runtime": {
+    "node": "v24.22.0",
+    "npm": "11.19.1",
+    "os": "macOS-26.5.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "uid": 501
+  }
+}
