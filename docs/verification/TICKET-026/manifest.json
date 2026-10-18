@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 1324,
-      "sha256": "49acd6e3c7215d3fecf4d9e2c7e435274ab2410ac7a2985c9030113bb067bb85"
+      "bytes": 1751,
+      "sha256": "d84bbbafe453af239a57db07c7b160e8618a26962d9c0bdd2f66d91fcaf66a51"
     },
     {
       "path": "branch-preservation.json",
@@ -24,6 +24,11 @@
       "path": "main-ci-response.json",
       "bytes": 40440,
       "sha256": "acf1e98d9b1976f09b3419d0cc3420ea7f2785cb5ec1f61a335f22ba08e7232a"
+    },
+    {
+      "path": "source-ci-response.json",
+      "bytes": 41227,
+      "sha256": "62889e73a2a3fe6a285a8bd568d0dbf04ffcb913b18aacbcbb05bb1a4b8e6bc2"
     }
   ]
 }

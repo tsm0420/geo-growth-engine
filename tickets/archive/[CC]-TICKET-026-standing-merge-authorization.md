@@ -1,6 +1,6 @@
 # TICKET-026: Persist standing PR merge authorization
 
-Status: Reviewed implementation complete; PR CI and merge pending
+Status: Delivered in PR #27; final bookkeeping CI and ordinary merge pending
 Assignee: Codex
 Target Workspace: codex/standing-pr-merge-authorization, main3f70a6c0fb066f8cd4a335be225bc6fdeff20c06
 Blocked by: PR23 and PR25 integration and final main CI (complete)
@@ -17,3 +17,5 @@ Requirements were settled by the maintainer's explicit approval and future-conse
 Implementation checkpoint: the saved goal owns standing reviewed-PR merge consent; current AGENTS/delivery/setup pointers and backlog agree. Follow-up integration records actual identities and source branches remain present. Main run39130501325/job117684505319 completed/success:165 passes,0 failures/skips, typecheck/build and four fictional reports; full38,564-character log retained. All1,343 protected inputs and23 installed package files are unchanged. Existing heartbeat pointer/status/interval/thread/prompt are unchanged and point to the new goal bytes. No new local execution/package or native goal edit/resume is claimed. Independent document reviews remain.
 
 Independent reviews: Standards and Spec each identified the same P3 stale current prerequisite field. Separate exact one-field addenda resolve it, with the other13 original snapshot hashes unchanged. Initial findings and snapshot identities are preserved under docs/reviews/TICKET-026/. Neither axis reports a remaining actionable finding. Delivery bookkeeping below follows the reviewed snapshot and changes no policy or executable input. Next: ticket-linked source/document commit, new PR, exact-head CI and ordinary merge under the standing consent.
+
+Delivery checkpoint: PR27 against main3f70a6c contains reviewed headb5cb14924a231708d61797552dc3b170164c4a23. Code Review run39131225822/job117686643075 completed successfully with165 passes,0 failures/skips, typecheck/build and four fictional reports; the complete untruncated response is retained under docs/verification/TICKET-026/source-ci-response.json. This archival bookkeeping commit receives a separate final-head check; the PR and local checkpoint retain that result and subsequent ordinary merge. Standing maintainer consent already applies; no further merge approval is needed.
