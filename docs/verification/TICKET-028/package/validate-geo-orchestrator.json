@@ -1,0 +1,12 @@
+{
+  "label": "validate-geo-orchestrator",
+  "command": [
+    "python3",
+    "/Users/tsm0420/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/project/.agents/skills/geo-orchestrator"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T13:39:27.807916+00:00"
+}

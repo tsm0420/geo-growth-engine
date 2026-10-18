@@ -1,0 +1,8 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/visibility-comparison.test.ts"
+  ],
+  "exitCode": 1
+}

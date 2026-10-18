@@ -1,0 +1,9 @@
+✔ explicit visibility comparison shows supplied totals and percentage-point differences while retaining sources (472.006291ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 545.149625

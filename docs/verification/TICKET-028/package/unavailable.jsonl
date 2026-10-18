@@ -1,0 +1,1 @@
+{"provider": "fixture", "surface": "API", "model": "fictional", "locale": "en-GB", "query": "Daily journal?", "observedAt": "2026-10-18T10:00:00Z", "example": true, "id": "e1", "status": "error", "error": "Fictional recorded collection error"}

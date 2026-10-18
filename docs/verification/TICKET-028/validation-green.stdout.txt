@@ -1,0 +1,29 @@
+✔ explicit visibility comparison shows supplied totals and percentage-point differences while retaining sources (470.726875ms)
+✔ explicit visibility comparison rejects missing data before changing output (304.406375ms)
+✔ explicit visibility comparison rejects missing totals before changing output (305.542208ms)
+✔ explicit visibility comparison rejects array totals before changing output (297.649583ms)
+✔ explicit visibility comparison rejects invalid attempted 2 before changing output (300.723709ms)
+✔ explicit visibility comparison rejects invalid attempted -1 before changing output (297.299833ms)
+✔ explicit visibility comparison rejects invalid successful 0.5 before changing output (298.846708ms)
+✔ explicit visibility comparison rejects invalid failed 9007199254740992 before changing output (295.039666ms)
+✔ explicit visibility comparison rejects invalid successful 2 before changing output (291.756375ms)
+✔ explicit visibility comparison rejects invalid failed 0 before changing output (303.862416ms)
+✔ explicit visibility comparison rejects invalid coverage 1 before changing output (303.418625ms)
+✔ explicit visibility comparison rejects invalid coverage null before changing output (297.0255ms)
+✔ explicit visibility comparison rejects invalid mentionRate null before changing output (297.061791ms)
+✔ explicit visibility comparison rejects invalid citationRate -0.1 before changing output (305.266125ms)
+✔ explicit visibility comparison rejects invalid mentionRate 1.1 before changing output (300.252458ms)
+✔ explicit visibility comparison rejects invalid citationRate 0 before changing output (296.389959ms)
+✔ explicit visibility comparison rejects invalid mentionRate undefined before changing output (300.521625ms)
+✔ explicit visibility comparison rejects non-null zero-attempt coverage before changing output (296.31275ms)
+✔ explicit visibility comparison rejects non-null zero-success mention before changing output (298.057083ms)
+✔ explicit visibility comparison rejects non-null zero-success citation before changing output (293.94925ms)
+✔ visibility metric flag is rejected on other commands before installation or report writes (1017.489ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7244.168709

@@ -1,0 +1,19 @@
+{
+  "description": "Two documentation clarifications after the unchanged190-test runtime/source proof; no source/test edits.",
+  "originalReadmeSha256": "accac0e5d0b5e8771f462c7ac60a2cc691b51e301bee9ec86cbed089e20d9f30",
+  "finalReadmeSha256": "b78040741474c9f146019d9e661eefabc05f42d27224011912f49897a4a32e98",
+  "files": [
+    {
+      "path": "README-correction.diff",
+      "sha256": "b0117f79a85fc562adedae7f9b069c7e64058b72f44e00abc86cf7b51c425081"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b78040741474c9f146019d9e661eefabc05f42d27224011912f49897a4a32e98"
+    },
+    {
+      "path": "docs/visibility-metric-comparison-spec.md",
+      "sha256": "b05fa1b86dfa98c554473e34cff87eca56f32d8f229fb13190246420dee1abed"
+    }
+  ]
+}

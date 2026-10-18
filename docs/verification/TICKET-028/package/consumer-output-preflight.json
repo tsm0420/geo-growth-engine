@@ -1,0 +1,18 @@
+{
+  "label": "consumer-output-preflight",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/consumer/node_modules/.bin/geo",
+    "compare",
+    "--before",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/before/visibility.json",
+    "--after",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/after/visibility.json",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/conflict",
+    "--visibility-metrics"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "at": "2026-10-18T13:39:29.094007+00:00"
+}

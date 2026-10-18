@@ -1,0 +1,33 @@
+✔ explicit visibility comparison shows supplied totals and percentage-point differences while retaining sources (488.642542ms)
+✔ explicit visibility comparison rejects missing data before changing output (300.871167ms)
+✔ explicit visibility comparison rejects missing totals before changing output (305.195708ms)
+✔ explicit visibility comparison rejects array totals before changing output (302.8235ms)
+✔ explicit visibility comparison rejects invalid attempted 2 before changing output (296.854041ms)
+✔ explicit visibility comparison rejects invalid attempted -1 before changing output (300.973666ms)
+✔ explicit visibility comparison rejects invalid successful 0.5 before changing output (300.337458ms)
+✔ explicit visibility comparison rejects invalid failed 9007199254740992 before changing output (295.385ms)
+✔ explicit visibility comparison rejects invalid successful 2 before changing output (292.441625ms)
+✔ explicit visibility comparison rejects invalid failed 0 before changing output (294.781417ms)
+✔ explicit visibility comparison rejects invalid coverage 1 before changing output (293.788459ms)
+✔ explicit visibility comparison rejects invalid coverage null before changing output (298.997708ms)
+✔ explicit visibility comparison rejects invalid mentionRate null before changing output (296.164709ms)
+✔ explicit visibility comparison rejects invalid citationRate -0.1 before changing output (299.240542ms)
+✔ explicit visibility comparison rejects invalid mentionRate 1.1 before changing output (346.124459ms)
+✔ explicit visibility comparison rejects invalid citationRate 0 before changing output (344.629292ms)
+✔ explicit visibility comparison rejects invalid mentionRate undefined before changing output (384.324458ms)
+✔ explicit visibility comparison rejects non-null zero-attempt coverage before changing output (310.167042ms)
+✔ explicit visibility comparison rejects non-null zero-success mention before changing output (303.325542ms)
+✔ explicit visibility comparison rejects non-null zero-success citation before changing output (298.011625ms)
+✔ visibility metric flag is rejected on other commands before installation or report writes (1032.222708ms)
+✔ empty, all-error and mixed visibility imports preserve nulls, zeros, counts and precision (1214.632208ms)
+✔ default mode keeps opaque data while explicit mode validates report compatibility and nonfinite JSON numbers (895.810583ms)
+✔ explicit mode retains later failure exits, opaque extensions and unavailable-rate reasons (154.553292ms)
+✔ explicit visibility comparison protects direct input paths, hardlinks and later output conflicts (596.691792ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10322.257209

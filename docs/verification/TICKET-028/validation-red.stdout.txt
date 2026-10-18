@@ -1,0 +1,184 @@
+✔ explicit visibility comparison shows supplied totals and percentage-point differences while retaining sources (470.904375ms)
+✔ explicit visibility comparison rejects missing data before changing output (303.641ms)
+✔ explicit visibility comparison rejects missing totals before changing output (301.109625ms)
+✔ explicit visibility comparison rejects array totals before changing output (295.390708ms)
+✔ explicit visibility comparison rejects invalid attempted 2 before changing output (297.101625ms)
+✔ explicit visibility comparison rejects invalid attempted -1 before changing output (296.037875ms)
+✔ explicit visibility comparison rejects invalid successful 0.5 before changing output (299.553708ms)
+✔ explicit visibility comparison rejects invalid failed 9007199254740992 before changing output (295.92425ms)
+✖ explicit visibility comparison rejects invalid successful 2 before changing output (152.063417ms)
+✖ explicit visibility comparison rejects invalid failed 0 before changing output (153.92375ms)
+✖ explicit visibility comparison rejects invalid coverage 1 before changing output (154.362458ms)
+✖ explicit visibility comparison rejects invalid coverage null before changing output (155.236625ms)
+✖ explicit visibility comparison rejects invalid mentionRate null before changing output (154.729959ms)
+✔ explicit visibility comparison rejects invalid citationRate -0.1 before changing output (297.728958ms)
+✔ explicit visibility comparison rejects invalid mentionRate 1.1 before changing output (298.597166ms)
+✔ explicit visibility comparison rejects invalid citationRate 0 before changing output (300.732208ms)
+✔ explicit visibility comparison rejects invalid mentionRate undefined before changing output (299.024083ms)
+✖ explicit visibility comparison rejects non-null zero-attempt coverage before changing output (156.938917ms)
+✖ explicit visibility comparison rejects non-null zero-success mention before changing output (152.1005ms)
+✖ explicit visibility comparison rejects non-null zero-success citation before changing output (154.731667ms)
+✖ visibility metric flag is rejected on other commands before installation or report writes (150.087875ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 12
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5214.708875
+
+✖ failing tests:
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects invalid successful 2 before changing output (152.063417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects invalid failed 0 before changing output (153.92375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects invalid coverage 1 before changing output (154.362458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects invalid coverage null before changing output (155.236625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects invalid mentionRate null before changing output (154.729959ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects non-null zero-attempt coverage before changing output (156.938917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects non-null zero-success mention before changing output (152.1005ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:87:3
+✖ explicit visibility comparison rejects non-null zero-success citation before changing output (154.731667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:98:14)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/visibility-comparison.test.ts:107:1
+✖ visibility metric flag is rejected on other commands before installation or report writes (150.087875ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /--visibility-metrics is only supported by compare/. Input:
+  
+  'File already exists; nothing was overwritten: /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-s7A7G1/.geo/config.yaml\n'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/visibility-comparison.test.ts:112:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'File already exists; nothing was overwritten: /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-s7A7G1/.geo/config.yaml\n',
+    expected: /--visibility-metrics is only supported by compare/,
+    operator: 'match',
+    diff: 'simple'
+  }
