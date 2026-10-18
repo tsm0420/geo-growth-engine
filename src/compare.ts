@@ -62,6 +62,20 @@ function observation(finding: Finding | null): string {
   return finding === null ? 'not observed' : `${finding.status}; evidence=${finding.evidence}; action=${finding.action}`;
 }
 
+function requireFiniteNumbers(report: Report, path: string): void {
+  const pending: unknown[] = [report];
+  while (pending.length > 0) {
+    const value = pending.pop();
+    if (typeof value === 'number' && !Number.isFinite(value)) {
+      throw new Error(`Comparison input ${path} contains a number outside the supported finite range`);
+    }
+    if (typeof value === 'object' && value !== null) {
+      const children: unknown[] = Object.values(value);
+      for (const child of children) pending.push(child);
+    }
+  }
+}
+
 export async function compare(beforePath: string, afterPath: string, options: { visibilityMetrics?: boolean } = {}): Promise<Report> {
   const before = await source(beforePath);
   const after = await source(afterPath);
@@ -69,6 +83,8 @@ export async function compare(beforePath: string, afterPath: string, options: { 
     throw new Error('Comparison requires the same report kind and example flag');
   }
   const metrics = options.visibilityMetrics ? visibilityComparison(before.report, after.report) : null;
+  requireFiniteNumbers(before.report, before.path);
+  requireFiniteNumbers(after.report, after.path);
   const old = new Map(before.report.findings.map((finding) => [finding.id, finding]));
   const current = new Map(after.report.findings.map((finding) => [finding.id, finding]));
   const ids = [...new Set([...old.keys(), ...current.keys()])].sort();

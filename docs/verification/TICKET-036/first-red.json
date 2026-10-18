@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/compare-number-range.test.ts"
+  ],
+  "exitCode": 1,
+  "testSha256": "5f173a06c85fcd0a9c96636354fd781c5fa9660ac0685ce3ec5d2580ce46c852"
+}

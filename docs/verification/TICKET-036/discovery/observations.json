@@ -1,0 +1,67 @@
+{
+  "mainRevision": "7d0ab6ed862b2ee244e88f1539d072544ec0c76a",
+  "runtime": "v24.22.0",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7",
+  "observations": [
+    {
+      "case": "finite",
+      "token": "1e308",
+      "exitCode": 0,
+      "nativeParsedDisplay": "1e+308",
+      "nativeFinite": true,
+      "retainedData": {
+        "nested": [
+          1e+308
+        ]
+      },
+      "retainedFindingExtension": 1e+308,
+      "retainedTopExtension": 1e+308,
+      "rawDigestMatches": true,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 1
+      }
+    },
+    {
+      "case": "positive-overflow",
+      "token": "1e400",
+      "exitCode": 0,
+      "nativeParsedDisplay": "Infinity",
+      "nativeFinite": false,
+      "retainedData": {
+        "nested": [
+          null
+        ]
+      },
+      "retainedFindingExtension": null,
+      "retainedTopExtension": null,
+      "rawDigestMatches": true,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 1
+      }
+    },
+    {
+      "case": "negative-overflow",
+      "token": "-1e400",
+      "exitCode": 0,
+      "nativeParsedDisplay": "-Infinity",
+      "nativeFinite": false,
+      "retainedData": {
+        "nested": [
+          null
+        ]
+      },
+      "retainedFindingExtension": null,
+      "retainedTopExtension": null,
+      "rawDigestMatches": true,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 1
+      }
+    }
+  ]
+}

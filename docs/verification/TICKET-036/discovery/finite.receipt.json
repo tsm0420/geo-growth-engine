@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/Users/tsm0420/geo/dist/src/cli.js",
+    "compare",
+    "--before",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7/finite.json",
+    "--after",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7/finite.json",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7/finite-report"
+  ],
+  "exitCode": 0,
+  "at": "2026-10-18T14:33:47.377114+00:00",
+  "inputSha256": "6258c7074d613f7fbf43a56ecb558d5be9202ae283899b72957434011a1e3832",
+  "inputUnchanged": true
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "--input-type=module",
+    "-e",
+    "import {readFileSync} from \"node:fs\";const x=JSON.parse(readFileSync(process.argv[1],\"utf8\"));const n=x.data.nested[0];console.log(JSON.stringify({parsedType:typeof n,parsedDisplay:String(n),finite:Number.isFinite(n),serialized:JSON.stringify(x)}));",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7/negative-overflow.json"
+  ],
+  "exitCode": 0
+}

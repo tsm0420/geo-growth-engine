@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/Users/tsm0420/geo/dist/src/cli.js",
+    "compare",
+    "--before",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7/negative-overflow.json",
+    "--after",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7/negative-overflow.json",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo035-retention-jjf7tir7/negative-overflow-report"
+  ],
+  "exitCode": 0,
+  "at": "2026-10-18T14:33:47.676084+00:00",
+  "inputSha256": "3362725e501c6358e706a7b659aed3d761e245282df2cdecf1e77f3b4a436e8d",
+  "inputUnchanged": true
+}
