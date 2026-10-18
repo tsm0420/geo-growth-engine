@@ -1,6 +1,6 @@
 # Configuration and import contracts
 
-YAML documents require `version: 1`. Syntax errors, duplicate keys, unknown fact references, invalid URLs, and incompatible types are operational errors. Source URLs are stored, not fetched. `init` creates the editable templates.
+YAML documents use UTF-8 and require `version: 1`. Each consumed config/product/query file is validated before decoding; malformed bytes anywhere, including comments, cause exit 2 naming the YAML path before report/evidence writes. Valid literal or escaped replacement characters, astral/combining text and UTF-8 BOMs retain existing parser behavior. Root config/product are consumed by all four configured report commands; query YAML stays lazy and is consumed by plan only. The toolkit does not add UTF-16/32 decoding or claim full YAML encoding conformance. Syntax errors, duplicate keys, unknown fact references, invalid URLs, and incompatible types are operational errors. Source URLs are stored, not fetched. `init` creates the editable templates.
 
 ## Config
 

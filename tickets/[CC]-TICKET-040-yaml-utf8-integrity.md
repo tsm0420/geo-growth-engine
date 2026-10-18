@@ -1,6 +1,6 @@
 # TICKET-040: Reject malformed UTF-8 YAML before parsing
 
-Status: Accepted; implementation pending
+Status: Source verified and independently reviewed; immutable package pending
 Assignee: Codex
 Target Workspace: codex/yaml-input-discovery at main ea594befaf0827c1b03b264a646abc13df623946
 Blocked by: TICKET-039 actual CLI/native discovery and independent assessment (complete)
@@ -13,3 +13,7 @@ Acceptance Criteria: Actual CLI red/green, three consumed YAML boundaries, malfo
 ## Execution Report
 
 Six actual fictional plan outcomes and native byte validation demonstrate parsed substitution, rather than original-file loss. Independent assessment verifies 61 packet files and 18 source baselines. The accepted specification records raw-buffer validation, one neutral helper owner, existing JSON diagnostic/BOM preservation, valid YAML controls and approved real CLI seams before implementation. Implementation and verification remain pending.
+
+Source checkpoint: raw-buffer YAML validation now uses a neutral utf8-text helper with explicit labels, shared by both existing JSON callers. Actual first-red/green and seven new CLI controls pass; full suite reports 234 passed, zero failed/skipped, with typecheck/build exit 0 on Node 24.22.0. Exact old JSON diagnostics, JSON/YAML BOM differences, legal Unicode and unused-query behavior remain tested. Removed only the exact known obsolete generated helper after matching its T038 hash. Source/test/package bytes are pinned for separate reviews; immutable package and delivery remain pending.
+
+Separate independent Standards and Spec reviews verify all 133 snapshot entries and 48 checked inputs, with no actionable introduced findings. Both distinguish the immutable candidate from their planning worktrees and primary receipts from reviewer execution. Exact current checked bytes remain unchanged after the successful 234-test/typecheck/build checkpoint. Commit this reviewed source before fresh immutable package execution; inventory replacement, consumer, final-head/main CI remain separate gates.

@@ -1,0 +1,7 @@
+{
+  "path": "dist/src/json-text.js",
+  "expectedPreviousGeneratedSha256": "172b0db9aafe9e709645cf461c1f6bc6f5f0a42cc8e0b4bfe0fae1c87fdb8e33",
+  "baseline": "TICKET-038 immutable package",
+  "observedSha256": "172b0db9aafe9e709645cf461c1f6bc6f5f0a42cc8e0b4bfe0fae1c87fdb8e33",
+  "action": "Removed exact known obsolete generated helper after tracked source moved to utf8-text.ts"
+}

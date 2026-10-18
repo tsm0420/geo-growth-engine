@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { parseDocument } from 'yaml';
+import { utf8Text } from './utf8-text.ts';
 
 function isObject(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
@@ -28,7 +29,7 @@ export function webUrl(value: unknown, label: string): URL {
 }
 
 export async function yamlObject(path: string): Promise<Record<string, unknown>> {
-  const document = parseDocument(await readFile(path, 'utf8'), { uniqueKeys: true });
+  const document = parseDocument(utf8Text(await readFile(path), path, 'YAML'), { uniqueKeys: true });
   if (document.errors.length || document.warnings.length) {
     throw new Error(`${path}: ${[...document.errors, ...document.warnings].map((item) => item.message).join('; ')}`);
   }
