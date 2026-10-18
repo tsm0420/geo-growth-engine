@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { object, string } from './config.ts';
 import { report, type Finding, type Report, type Status } from './report.ts';
+import { visibilityComparison } from './visibility-comparison.ts';
 
 type Change = 'added' | 'removed' | 'status-changed' | 'details-changed' | 'unchanged';
 interface Difference { id: string; change: Change; before: Finding | null; after: Finding | null }
@@ -60,12 +61,13 @@ function observation(finding: Finding | null): string {
   return finding === null ? 'not observed' : `${finding.status}; evidence=${finding.evidence}; action=${finding.action}`;
 }
 
-export async function compare(beforePath: string, afterPath: string): Promise<Report> {
+export async function compare(beforePath: string, afterPath: string, options: { visibilityMetrics?: boolean } = {}): Promise<Report> {
   const before = await source(beforePath);
   const after = await source(afterPath);
   if (before.report.kind !== after.report.kind || before.report.example !== after.report.example) {
     throw new Error('Comparison requires the same report kind and example flag');
   }
+  const metrics = options.visibilityMetrics ? visibilityComparison(before.report, after.report) : null;
   const old = new Map(before.report.findings.map((finding) => [finding.id, finding]));
   const current = new Map(after.report.findings.map((finding) => [finding.id, finding]));
   const ids = [...new Set([...old.keys(), ...current.keys()])].sort();
@@ -79,8 +81,9 @@ export async function compare(beforePath: string, afterPath: string): Promise<Re
   }));
   findings.push({
     id: 'comparison-scope', status: 'unknown',
-    evidence: 'Structural finding comparison only. Product identity, collection conditions and growth attribution are unverified.',
+    evidence: `${metrics ? 'Finding and supplied visibility totals comparison.' : 'Structural finding comparison only.'} Product identity, collection conditions and growth attribution are unverified.`,
     action: 'Inspect both source scopes, input data and collection conditions. Removed findings are unknown; literal differences do not establish improvement.',
   });
-  return report('compare', before.report.example, `Local ${before.report.kind} findings: ${before.path} -> ${after.path}; exact IDs and text; no network requests`, findings, { before, after, changes, counts, comparability: 'unknown' });
+  if (metrics) findings.push(...metrics.findings);
+  return report('compare', before.report.example, `Local ${before.report.kind} findings: ${before.path} -> ${after.path}; exact IDs and text; no network requests`, findings, { before, after, changes, counts, comparability: 'unknown', ...(metrics ? { visibilityMetrics: metrics.rows } : {}) });
 }

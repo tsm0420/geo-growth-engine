@@ -9,7 +9,7 @@ import type { Report } from './report.ts';
 interface Context { provider: string; surface: string; model: string; locale: string }
 interface BaseSample extends Context { id: string; query: string; observedAt: string; example: boolean }
 type Sample = (BaseSample & { status: 'success'; answer: string; citations: string[] }) | (BaseSample & { status: 'error'; error: string });
-interface Stats {
+export interface Stats {
   attempted: number; successful: number; failed: number; coverage: number | null;
   mentionRate: number | null; citationRate: number | null; recommendationRate: null; competitors: Record<string, number>;
 }

@@ -69,7 +69,7 @@ On main, installation checks each destination's nearest existing parent for crea
 | `aso` | Check Apple/Google Play text limits and supplied fact references. |
 | `plan` | Link audience questions to sourced facts; keep unsupported queries as research gaps. |
 | `visibility` | Import response JSONL, retain raw evidence, and report mentions, citations, competitors, and coverage. |
-| `compare` | Compare exact finding IDs and observations in two retained local reports. |
+| `compare` | Compare exact finding IDs and observations; optionally show supplied visibility totals and arithmetic differences. |
 
 `audit`, `aso`, `plan` and `visibility` require `--config` and `--output`; `visibility` also requires `--input`. `init` and `install` require an existing `--target` directory. Exit 0 means completion without failed checks; 1 means observed failed checks; 2 means an operational/input error. Unknown findings remain visible with exit 0. Reusing an output directory replaces same-named reports and evidence; use a fresh directory per run to retain history.
 
@@ -92,6 +92,14 @@ node dist/src/cli.js compare --before /absolute/path/to/earlier/audit.json --aft
 ```
 
 No config is required. Inputs must share schema version 1, report kind (`audit`, `aso`, `plan` or `visibility`) and fictional/actual flag. `compare.json` and `compare.md` show added, removed, status-changed, details-changed and unchanged findings, both parsed reports and original-byte digests. Exact IDs and text are compared; even path-only evidence changes stay visible. Removed checks become unknown; remaining or newly failed checks produce exit 1. Exit 0 can still contain unknown or removed findings. Product identity, collection conditions and growth attribution remain unverified. See the [comparison contract](docs/configuration.md#report-comparison).
+
+For two saved visibility reports, explicitly request headline totals:
+
+```sh
+node dist/src/cli.js compare --visibility-metrics --before /absolute/path/to/earlier/visibility.json --after /absolute/path/to/later/visibility.json --output /absolute/path/to/visibility-comparison
+```
+
+This adds attempted/successful/failed counts, coverage, mention rate and citation rate, with count differences or percentage-point differences. Null means unavailable and stays null in a difference; zero remains a supplied zero. All metric findings remain unknown: product/query/cohort/collection comparability, provenance and growth attribution are unverified. Malformed or inconsistent totals fail before writes. The default comparison remains findings-only; group/competitor/recommendation comparison is outside this option. See the [totals contract](docs/configuration.md#optional-visibility-totals).
 
 ## Evidence and limits
 

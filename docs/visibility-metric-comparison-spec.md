@@ -1,6 +1,6 @@
 # Optional visibility totals comparison
 
-Status: Accepted next local-core slice under the continuous development goal; implementation not started.
+Status: Accepted specification; implementation and verification outcomes are tracked in TICKET-028.
 
 ## Problem and solution
 
