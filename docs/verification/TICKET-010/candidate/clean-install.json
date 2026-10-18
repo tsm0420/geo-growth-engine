@@ -1,0 +1,19 @@
+{
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--no-audit",
+    "--no-fund",
+    "--fetch-retries=0",
+    "--fetch-timeout=30000"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-10d6t8ss/source",
+  "startedAt": "2026-10-17T14:26:17.322628+00:00",
+  "endedAt": "2026-10-17T14:26:17.909707+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "8a4be99204fc51aa9d4ff751dc3bdfe6f820a37d"
+}

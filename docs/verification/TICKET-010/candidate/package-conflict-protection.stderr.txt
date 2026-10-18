@@ -1,0 +1,1 @@
+Report destination must be a regular file: /private/tmp/geo-core-clean-10d6t8ss/reports-visibility/visibility.md

@@ -81,7 +81,7 @@ export async function loadConfig(path: string): Promise<Config> {
   const platforms = unique(strings(product.platforms, 'platforms'), 'platforms');
   if (platforms.some((value) => !['web', 'ios', 'android'].includes(value))) throw new Error('platforms must be web, ios, or android');
   const listings: Record<string, Listing> = {};
-  for (const [platform, value] of Object.entries(object(product.listings ?? {}, 'listings'))) {
+  for (const [platform, value] of Object.entries(object(product.listings === undefined ? {} : product.listings, 'listings'))) {
     if (!['ios', 'android'].includes(platform)) throw new Error(`Unsupported listing platform: ${platform}`);
     const listing = object(value, `${platform} listing`);
     const fields: Record<string, string> = {};
@@ -91,7 +91,7 @@ export async function loadConfig(path: string): Promise<Config> {
         fields[key] = field;
       }
     }
-    const factIds = unique(strings(listing.factIds ?? [], 'listing.factIds'), 'listing.factIds');
+    const factIds = unique(strings(listing.factIds === undefined ? [] : listing.factIds, 'listing.factIds'), 'listing.factIds');
     if (factIds.some((id) => !facts.some((fact) => fact.id === id))) throw new Error(`${platform} listing references an unknown fact ID`);
     listings[platform] = { locale: string(listing.locale, 'listing.locale'), factIds, fields };
   }
@@ -101,8 +101,8 @@ export async function loadConfig(path: string): Promise<Config> {
     queriesPath: resolve(base, string(raw.queries, 'queries')),
     product: {
       name: string(product.name, 'product.name'), example: product.example,
-      aliases: unique(strings(product.aliases ?? [], 'aliases'), 'aliases'), ownedOrigins,
-      platforms, competitors: unique(strings(product.competitors ?? [], 'competitors'), 'competitors'), facts, listings,
+      aliases: unique(strings(product.aliases === undefined ? [] : product.aliases, 'aliases'), 'aliases'), ownedOrigins,
+      platforms, competitors: unique(strings(product.competitors === undefined ? [] : product.competitors, 'competitors'), 'competitors'), facts, listings,
     },
   };
 }

@@ -1,6 +1,6 @@
 # TICKET-009: Preserve inputs and report evidence during output preflight
 
-Status: Implemented and independently reviewed; clean-source/package verified; final PR CI pending
+Status: Completed delivery; PR #11 open and unmerged
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, branch `codex/core-hardening-campaign`
 Blocked by: TICKET-007 investigation (complete); PR #9 remains the unmerged delivery prerequisite
@@ -30,3 +30,5 @@ Verification on Darwin 25.5.0 arm64, Node v24.18.0, npm 11.16.0: real CLI red/gr
 Candidate version: 0.1.0-alpha.3. Source commit identity, clean archive/extracted-package commands, PR prerequisite and exact final-head CI will be recorded after committing this reviewed source. Those delivery gates remain pending; no release or overall goal completion is claimed.
 
 Immutable candidate `ec2b23caf57e22f106da7b07bb37f1b344e08981` passed clean-source install/typecheck/48 tests/build and all 16 expected extracted-package command outcomes. `docs/verification/TICKET-009/candidate/manifest.json` records runtime, complete commands/exits, package inventory and SHA-256 `93ed2264bccbc5854f9dc4ed105ca8b3167f84dee43d407bcb76e0a5313761b0`. YinThread historical inputs and 146/145/1 counts remain unchanged. Final-head CI and PR delivery remain pending; this documentation commit changes no executable/package inputs.
+
+Delivery: PR #11 targets `codex/alpha-2-candidate` and explicitly depends on unmerged PR #9. Final head `79a7edbbe201ebd1e63d14d10e126ebdeff051f9` changes documentation/evidence only from the verified source; compared all executable/CI inputs and every packaged file hash unchanged. Code Review observed verify job 117418524995 / run 39040390851 completed successfully on that head (Ubuntu 24.04.5 x64, Node v24.21.0/npm 11.19.0; 48 passes, zero skips). Original job-state and full log responses are retained as `ci-jobs.json` and `ci-log.json`. The log was fetched during final cleanup; the later jobs response establishes completed/success. No merge, tag or release occurred. TICKET-010 is the next approved slice.
