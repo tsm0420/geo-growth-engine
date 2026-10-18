@@ -3,8 +3,9 @@
 Status: Proposed; held until explicit development resume and consented inputs
 Assignee: Codex analysis; maintainer or consenting human supplies/operates real observations
 Target Workspace: A future exclusive pilot workspace using TICKET-044's immutable candidate
-Blocked by: TICKET-044; explicit development resume; participant consent and genuine records
+Blocked by: TICKET-044 / GitHub #43; explicit development resume; participant consent and genuine records
 Specification: docs/next-phase-spec.md, Slice B
+Issue: https://github.com/tsm0420/geo-growth-engine/issues/44
 Objectives: Establish whether people can use existing reports to choose an action and repeat the workflow, before accepting more executable features.
 Hard constraints: Current JSONL/report schema and commands; human-reviewed companion worksheet only. No new validator/flag/provider, paid collection, scraping, outreach, public personal/raw-data disclosure, ranking/statistical/causal claim or fabricated substitute session.
 Acceptance Criteria:

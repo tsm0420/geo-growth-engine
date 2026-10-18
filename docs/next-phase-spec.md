@@ -2,6 +2,8 @@
 
 Status: Proposed roadmap; implementation held by the maintainer's 2026-10-18 stop request. Publishing this specification or its issues is not an instruction to resume. Baseline: main `ea594befaf0827c1b03b264a646abc13df623946`; PR #41 remains separate. [Assessment and receipts](research/project-state-2026-10-18.md).
 
+Tracker: [specification #42](https://github.com/tsm0420/geo-growth-engine/issues/42), [Slice A #43](https://github.com/tsm0420/geo-growth-engine/issues/43), [Slice B #44](https://github.com/tsm0420/geo-growth-engine/issues/44). B's blocker is recorded in issue bodies; no native dependency metadata is claimed. Both slices remain held.
+
 ## 1. Problem statement
 
 The toolkit has executable checks and strong local verification, but the reviewed evidence does not show whether a person can adopt it, choose a useful action and repeat the workflow with genuine visibility evidence. Continuing to add checks would not answer that product question. Current-main capabilities also exceed the single published alpha and the original marketplace ZIPs, so a participant needs an unambiguous version-specific path.

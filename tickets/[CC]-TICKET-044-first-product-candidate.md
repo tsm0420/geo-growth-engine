@@ -5,6 +5,7 @@ Assignee: Codex
 Target Workspace: A future exclusive worktree from reverified main
 Blocked by: Maintainer resumes development; candidate revision selected after reviewing PR #41 disposition
 Specification: docs/next-phase-spec.md, Slice A
+Issue: https://github.com/tsm0420/geo-growth-engine/issues/43
 Objectives: Make the existing core loop reproducible from one identified candidate; close current-main documentation/version gaps without adding product features.
 Hard constraints: Preserve historical alpha/receipts/case and submitted ZIPs. Candidate preparation only; no tag/release, registry publication, new command, provider, production/store edit or participant outreach. Developer execution is not independent adoption.
 Acceptance Criteria:
