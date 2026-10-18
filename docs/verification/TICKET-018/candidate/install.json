@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/private/tmp/geo-core018-clean-_za4j6uo/consumer/node_modules/.bin/geo",
+    "install",
+    "--target",
+    "/private/tmp/geo-core018-clean-_za4j6uo/fresh-product"
+  ],
+  "cwd": "/private/tmp/geo-core018-clean-_za4j6uo/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T10:30:57.771822+00:00"
+}

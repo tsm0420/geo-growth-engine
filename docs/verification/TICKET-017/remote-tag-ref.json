@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "content": "{\"ref\":\"refs/tags/v0.1.0-alpha.1\",\"node_id\":\"REF_kwDOVMrF8rhyZWZzL3RhZ3MvdjAuMS4wLWFscGhhLjE\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/refs/tags/v0.1.0-alpha.1\",\"object\":{\"sha\":\"6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c\",\"type\":\"commit\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c\"}}",
+    "title": "v0.1.0-alpha.1",
+    "modified_date": null,
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/ref/tags/v0.1.0-alpha.1",
+    "display_url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/ref/tags/v0.1.0-alpha.1",
+    "display_title": "v0.1.0-alpha.1",
+    "structuredContent": {
+      "title": "v0.1.0-alpha.1",
+      "content": "{\"ref\":\"refs/tags/v0.1.0-alpha.1\",\"node_id\":\"REF_kwDOVMrF8rhyZWZzL3RhZ3MvdjAuMS4wLWFscGhhLjE\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/refs/tags/v0.1.0-alpha.1\",\"object\":{\"sha\":\"6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c\",\"type\":\"commit\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c\"}}",
+      "display_url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/ref/tags/v0.1.0-alpha.1"
+    }
+  },
+  "isError": false
+}

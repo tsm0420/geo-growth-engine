@@ -1,0 +1,46 @@
+✔ compare retains real audit observations after a local title fix (483.324167ms)
+✔ compare classifies literal categories, preserves removed failures and exact sorted IDs (156.050625ms)
+✔ compare retains complete parsed metadata including summary extensions (158.985084ms)
+✔ compare preserves pass to pass and the after failure exit (163.668209ms)
+✔ compare preserves pass to fail and the after failure exit (160.17325ms)
+✔ compare preserves pass to unknown and the after failure exit (160.059667ms)
+✔ compare preserves fail to pass and the after failure exit (166.603833ms)
+✔ compare preserves fail to fail and the after failure exit (157.425792ms)
+✔ compare preserves fail to unknown and the after failure exit (152.782792ms)
+✔ compare preserves unknown to pass and the after failure exit (151.6865ms)
+✔ compare preserves unknown to fail and the after failure exit (153.85925ms)
+✔ compare preserves unknown to unknown and the after failure exit (153.7445ms)
+✔ compare accepts empty audit observations without configuration and keeps scope unknown (152.946167ms)
+✔ compare accepts empty aso observations without configuration and keeps scope unknown (156.287459ms)
+✔ compare accepts empty plan observations without configuration and keeps scope unknown (157.614458ms)
+✔ compare accepts empty visibility observations without configuration and keeps scope unknown (151.639542ms)
+✔ compare rejects missing arguments and missing files without creating reports (729.334417ms)
+✔ compare rejects null report before output writes (152.061334ms)
+✔ compare rejects array report before output writes (146.526625ms)
+✔ compare rejects schema version before output writes (152.26275ms)
+✔ compare rejects recursive compare before output writes (151.363458ms)
+✔ compare rejects kind mismatch before output writes (153.694708ms)
+✔ compare rejects example type before output writes (152.503625ms)
+✔ compare rejects example mismatch before output writes (151.344792ms)
+✔ compare rejects empty scope before output writes (151.340959ms)
+✔ compare rejects generatedAt type before output writes (154.266833ms)
+✔ compare rejects findings type before output writes (151.511084ms)
+✔ compare rejects null finding before output writes (154.733459ms)
+✔ compare rejects empty ID before output writes (155.876833ms)
+✔ compare rejects duplicate ID before output writes (153.901042ms)
+✔ compare rejects status type before output writes (154.155458ms)
+✔ compare rejects evidence type before output writes (152.1175ms)
+✔ compare rejects action type before output writes (151.396708ms)
+✔ compare rejects summary type before output writes (154.832833ms)
+✔ compare rejects wrong summary before output writes (152.531792ms)
+✔ compare rejects noninteger summary before output writes (146.890542ms)
+✔ compare rejects missing data and validates the before observation too (151.750416ms)
+✔ compare protects both input aliases and preflights a later output conflict (447.9805ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7135.1345

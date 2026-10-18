@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-core018-clean-_za4j6uo/after","pass":0,"fail":0,"unknown":3}

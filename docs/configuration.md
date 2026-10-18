@@ -26,6 +26,14 @@ The hardening candidate validates XML 1.0 character ranges and reference spellin
 
 Canonical coverage uses the same URL serialization for the canonical and each decoded sitemap location. Bare origins/trailing root slashes, hostname case and URL-serialized apostrophes can therefore cover the same canonical. This separate coverage lookup does not change the original decoded strings used for duplicate identity/evidence. Path case, `/a` versus `/a/`, unreserved escapes such as `/%61` versus `/a`, and query order remain distinct; ordinary URL parsing still applies. Malformed locations still fail the sitemap finding with unknown/null duplicates rather than becoming report-generation exceptions.
 
+## Report comparison (candidate)
+
+The unmerged local comparison candidate accepts `compare --before <report.json> --after <report.json> --output <directory>` without a config. Both JSON objects require schemaVersion 1, the same kind (audit/aso/plan/visibility), the same boolean example flag, nonempty generatedAt/scope strings, a findings array and a data field. Finding IDs are nonempty and unique; statuses are pass/fail/unknown; evidence/action are strings, including empty strings. Summary pass/fail/unknown counts must match the findings. Invalid/incompatible inputs cause exit 2 before output writes. Timestamps and importer provenance are supplied, not authenticated.
+
+Exact IDs sort by code-unit order. Each row is added, removed, status-changed, details-changed (different evidence/action), or unchanged, in that precedence. Source paths, case and whitespace are not normalized. `data.changes` retains both observations or null; `data.counts` counts categories. `data.before` and `data.after` retain resolved paths, SHA-256 digests of the original bytes and full parsed reports, including opaque data. Original files remain raw evidence; parsed copies do not preserve JSON formatting. Both input paths/inode aliases are protected by the existing complete output preflight.
+
+Output finding IDs are prefixed with `finding:` and use the later status, or unknown when removed. An additional unknown comparison-scope check makes product identity, collection conditions and growth attribution explicit. Exit 1 means at least one later finding fails; exit 0 can include unknowns/removals and does not certify improvement. The output example flag matches both inputs. This command does not compare data metrics, verify identical products/cohorts or accept its own comparison reports as inputs.
+
 ## Product
 
 Start with `templates/product.yaml`. Required: `version`, boolean `example`, `name`, `ownedOrigins` (including config origin), `platforms` (`web`, `ios`, `android`), and `facts`. Optional `aliases`, `competitors`, and `listings` default to empty collections.

@@ -1,0 +1,13 @@
+{
+  "label": "candidate-init",
+  "command": [
+    "node",
+    "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "init",
+    "--target",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product"
+  ],
+  "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+  "exitCode": 0,
+  "expectedExit": 0
+}

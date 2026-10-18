@@ -1,0 +1,15 @@
+{
+  "label": "candidate-missing-export",
+  "command": [
+    "node",
+    "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "audit",
+    "--config",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/config.yaml",
+    "--output",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/reports/missing"
+  ],
+  "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+  "exitCode": 2,
+  "expectedExit": 2
+}

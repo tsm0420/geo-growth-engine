@@ -1,0 +1,3 @@
+# First-use journey receipts
+
+TICKET-017 inspected source 5fb6baceefa64dc028c5af0c6b13745bee744de3 and the separately remote-ref-verified v0.1.0-alpha.1 Git object. All 13 expected command outcomes passed; seven JSON/Markdown reports remain fictional. See journey-result.json, context.json and each raw command/output/exit. The public quickstart was executed from a matching local Git archive with offline dependencies, not a fresh network clone. The candidate used the verified TICKET-016 npm consumer; 22 packaged files were rechecked identical. Missing user HTML export correctly failed without an output directory. No confirmed first-use defect was established within this bounded journey; no complete usability or live-product claim.

@@ -1,0 +1,11 @@
+✔ compare retains real audit observations after a local title fix (470.186125ms)
+✔ compare classifies literal categories, preserves removed failures and exact sorted IDs (154.120333ms)
+✔ compare retains complete parsed metadata including summary extensions (148.807375ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 841.202125

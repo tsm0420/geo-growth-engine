@@ -1,0 +1,25 @@
+{
+  "fixedPoint": "fbfcbabbff17f1a848e0dee8372b6f975355177e",
+  "files": [
+    {
+      "path": "src/compare.ts",
+      "sha256": "57597bd7efa440dc14ed2f4bfe5a3853bbfe771330e585954ecb00163e701eb5"
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "0ee627f64a6a451613a337edeba54af64dc49977d9a78c39b6ea22e51b3469a6"
+    },
+    {
+      "path": "tests/compare.test.ts",
+      "sha256": "09185d979bf0c514f06b39495618b88db278b8d5f9fe71895f4d31ec4fb0a381"
+    },
+    {
+      "path": "README.md",
+      "sha256": "bb68428d9b8a423ead33e0bb39458e92e572584dd288eab7e8f919dfd0bbddef"
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "c67b62fb8b9d40ce3585fd4f993859f54786b8ca3889aa7db8e7fbcdd6a544e8"
+    }
+  ]
+}

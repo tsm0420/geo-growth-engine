@@ -1,0 +1,20 @@
+{
+  "recordedAt": "2026-10-18T10:24:32.101892+00:00",
+  "runtime": {
+    "node": "v24.22.0",
+    "npm": "11.19.1",
+    "os": "macOS-26.5.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "uid": 501
+  },
+  "root": "/private/tmp/geo-first-use017-j0q7zqh4",
+  "candidateRevision": "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+  "publicTag": "v0.1.0-alpha.1",
+  "tagCommit": "6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c",
+  "limits": [
+    "Trusted local Git archive at the separately verified remote tag; not a fresh network clone.",
+    "Offline dependency cache used.",
+    "Generated product inputs and supplied HTML export are fictional fixtures; no product build or live website was measured.",
+    "Candidate CLI reused from the verified TICKET-016 consumer; equivalence rechecked against current packaged inputs."
+  ]
+}

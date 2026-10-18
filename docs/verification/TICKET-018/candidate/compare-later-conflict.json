@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/private/tmp/geo-core018-clean-_za4j6uo/consumer/node_modules/.bin/geo",
+    "compare",
+    "--before",
+    "/private/tmp/geo-core018-clean-_za4j6uo/before/audit.json",
+    "--after",
+    "/private/tmp/geo-core018-clean-_za4j6uo/after/audit.json",
+    "--output",
+    "/private/tmp/geo-core018-clean-_za4j6uo/later-conflict"
+  ],
+  "cwd": "/private/tmp/geo-core018-clean-_za4j6uo/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "recordedAt": "2026-10-18T10:31:00.667544+00:00"
+}

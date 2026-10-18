@@ -1,0 +1,5 @@
+
+> geo-growth-engine@0.1.0-alpha.1 geo
+> node src/cli.ts visibility --config examples/.geo/config.yaml --output reports/example --input examples/visibility.jsonl
+
+{"output":"reports/example","pass":0,"fail":0,"unknown":3}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "npm",
+    "test"
+  ],
+  "exitCode": 0,
+  "recordedAt": "2026-10-18T10:27:25.575566+00:00",
+  "node": "v24.22.0",
+  "npm": "11.19.1",
+  "os": "macOS-26.5.2-arm64-arm-64bit",
+  "uid": 501
+}

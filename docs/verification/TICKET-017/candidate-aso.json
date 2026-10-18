@@ -1,0 +1,15 @@
+{
+  "label": "candidate-aso",
+  "command": [
+    "node",
+    "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "aso",
+    "--config",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/config.yaml",
+    "--output",
+    "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/reports/aso"
+  ],
+  "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+  "exitCode": 0,
+  "expectedExit": 0
+}

@@ -1,0 +1,11 @@
+{
+  "label": "tag-help",
+  "command": [
+    "node",
+    "dist/src/cli.js",
+    "--help"
+  ],
+  "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+  "exitCode": 0,
+  "expectedExit": 0
+}

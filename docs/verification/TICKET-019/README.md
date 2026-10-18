@@ -1,0 +1,7 @@
+# Retained report and integration-readiness receipts
+
+At source f90869ef0aec8c5f4d65c6dc76aa600e0e9e9a39, independent read-only inspections found no confirmed report/evidence/action defect in this bounded case. Primary executed three comparisons of real retained YinThread reports using the verified TICKET-018 consumer. All expected exit1 results passed; duplicate failure and original unknowns remain visible, with additional unknown comparison scope. result.json records literal category counts, source hashes and runtime. All frozen bodies/historical reports remain unchanged. Added tool checks/path-only evidence changes do not measure product growth or deterioration.
+
+github-readiness.json and ten API bodies/check records retain current main/PR/check snapshots; ancestry.json and integration-tree.json establish current local dependency/tree relationships without moving branches. All40 execution/build/CI/package inputs were verified identical for explicitly scoped proof reuse. No unchanged full suite, audit, website fetch, production fix, branch retarget/merge or release was performed. Later documentation-head CI is checked separately and recorded in PR21/local delivery checkpoint. See ../../merge-readiness.md for the concrete proposed integration action and authorization boundary.
+
+Public comparison JSON is byte-identical to original output. local-receipts.json pins full local tool envelopes and Markdown outputs; public API bodies/check metadata omit duplicate tool envelopes without changing their facts.

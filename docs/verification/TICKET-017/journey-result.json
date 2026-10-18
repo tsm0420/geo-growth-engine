@@ -1,0 +1,276 @@
+{
+  "result": "all expected outcomes passed",
+  "steps": [
+    {
+      "label": "tag-install",
+      "command": [
+        "npm",
+        "ci",
+        "--ignore-scripts",
+        "--offline"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "tag-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "tag-help",
+      "command": [
+        "node",
+        "dist/src/cli.js",
+        "--help"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "tag-audit",
+      "command": [
+        "npm",
+        "run",
+        "geo",
+        "--",
+        "audit",
+        "--config",
+        "examples/.geo/config.yaml",
+        "--output",
+        "reports/example"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "tag-aso",
+      "command": [
+        "npm",
+        "run",
+        "geo",
+        "--",
+        "aso",
+        "--config",
+        "examples/.geo/config.yaml",
+        "--output",
+        "reports/example"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "tag-plan",
+      "command": [
+        "npm",
+        "run",
+        "geo",
+        "--",
+        "plan",
+        "--config",
+        "examples/.geo/config.yaml",
+        "--output",
+        "reports/example"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "tag-visibility",
+      "command": [
+        "npm",
+        "run",
+        "geo",
+        "--",
+        "visibility",
+        "--config",
+        "examples/.geo/config.yaml",
+        "--output",
+        "reports/example",
+        "--input",
+        "examples/visibility.jsonl"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4/tag-source",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "candidate-init",
+      "command": [
+        "node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "init",
+        "--target",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "candidate-install",
+      "command": [
+        "node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "candidate-missing-export",
+      "command": [
+        "node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/reports/missing"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+      "exitCode": 2,
+      "expectedExit": 2
+    },
+    {
+      "label": "candidate-aso",
+      "command": [
+        "node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "aso",
+        "--config",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/reports/aso"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "candidate-plan",
+      "command": [
+        "node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "plan",
+        "--config",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/reports/plan"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+      "exitCode": 0,
+      "expectedExit": 0
+    },
+    {
+      "label": "candidate-audit",
+      "command": [
+        "node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-first-use017-j0q7zqh4/fresh-product/.geo/reports/audit"
+      ],
+      "cwd": "/private/tmp/geo-first-use017-j0q7zqh4",
+      "exitCode": 0,
+      "expectedExit": 0
+    }
+  ],
+  "skills": [
+    ".agents/skills/app-geo-aso/SKILL.md",
+    ".agents/skills/geo-content-engine/SKILL.md",
+    ".agents/skills/geo-orchestrator/SKILL.md",
+    ".agents/skills/geo-visibility-tracker/SKILL.md",
+    ".agents/skills/web-geo/SKILL.md"
+  ],
+  "observations": [
+    {
+      "label": "tag-audit",
+      "kind": "audit",
+      "example": true,
+      "summary": {
+        "pass": 16,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    {
+      "label": "tag-aso",
+      "kind": "aso",
+      "example": true,
+      "summary": {
+        "pass": 9,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    {
+      "label": "tag-plan",
+      "kind": "plan",
+      "example": true,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "label": "tag-visibility",
+      "kind": "visibility",
+      "example": true,
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 3
+      }
+    },
+    {
+      "label": "candidate-audit",
+      "kind": "audit",
+      "example": true,
+      "summary": {
+        "pass": 17,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    {
+      "label": "candidate-aso",
+      "kind": "aso",
+      "example": true,
+      "summary": {
+        "pass": 9,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    {
+      "label": "candidate-plan",
+      "kind": "plan",
+      "example": true,
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      }
+    }
+  ],
+  "candidateMissingExport": "Expected operational error, no report output directory; documented prerequisite, not a confirmed defect.",
+  "publicTagArchive": "Matching local Git object, independently verified official remote ref; network clone not performed."
+}

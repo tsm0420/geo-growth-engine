@@ -1,0 +1,730 @@
+{
+  "schemaVersion": 1,
+  "kind": "compare",
+  "generatedAt": "2026-10-18T10:37:25.863Z",
+  "example": false,
+  "scope": "Local audit findings: /Users/tsm0420/geo/docs/case-studies/yinthread/results/audit.json -> /Users/tsm0420/geo/docs/verification/TICKET-014/candidate/package-yinthread-audit.json; exact IDs and text; no network requests",
+  "findings": [
+    {
+      "id": "finding:index.html:canonical",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: https://yinthread.com; action=Provide one absolute canonical URL on the configured origin.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: https://yinthread.com; action=Provide one absolute canonical URL on the configured origin.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:crawler.Googlebot",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/robots.txt: Googlebot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: Googlebot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:crawler.OAI-SearchBot",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/robots.txt: OAI-SearchBot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: OAI-SearchBot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:description",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: Real compatibility, rooted in 400-year-old Chinese astrology — not just your zodiac sign.; action=Provide a meaningful description.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: Real compatibility, rooted in 400-year-old Chinese astrology — not just your zodiac sign.; action=Provide a meaningful description.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:heading",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: 1 H1 elements; action=Use a descriptive page heading.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: 1 H1 elements; action=Use a descriptive page heading.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:index-directive",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: no restrictive HTML meta directive observed; action=Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: no restrictive HTML meta directive observed; action=Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: JSON-LD parses as an object or array; action=Review structured-data semantics separately.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: JSON-LD parses as an object or array; action=Review structured-data semantics separately.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:open-graph",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: og:title and og:description presence; action=Supply truthful social metadata.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: og:title and og:description presence; action=Supply truthful social metadata.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:readable-text",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: 931 non-script text characters in HTML; action=Include public content in the exported HTML. CSS visibility is not evaluated.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: 931 non-script text characters in HTML; action=Include public content in the exported HTML. CSS visibility is not evaluated.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: https://yinthread.com/ in /workspace/geo/docs/case-studies/yinthread/public/sitemap.xml; action=Add the intended canonical URL to the direct sitemap.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: https://yinthread.com/ in /private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml; action=Add the intended canonical URL to the direct sitemap.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:title",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/index.html: Yinthread — compatibility from classical Chinese astrology; action=Provide one descriptive title.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: Yinthread — compatibility from classical Chinese astrology; action=Provide one descriptive title.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:live-indexing",
+      "status": "unknown",
+      "evidence": "unchanged; before: unknown; evidence=Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.; action=Inspect deployment and supported search tools separately.; after: unknown; evidence=Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.; action=Inspect deployment and supported search tools separately.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:llms-txt",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=Optional llms.txt absent; no readiness penalty.; action=Treat as an optional experiment.; after: pass; evidence=Optional llms.txt absent; no readiness penalty.; action=Treat as an optional experiment.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:robots-file",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/robots.txt; action=Review intentional access policy.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt; action=Review intentional access policy.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:schema-semantics",
+      "status": "unknown",
+      "evidence": "unchanged; before: unknown; evidence=JSON parsing does not establish Schema.org validity or rich-result eligibility.; action=Use the applicable schema and search validation tools.; after: unknown; evidence=JSON parsing does not establish Schema.org validity or rich-result eligibility.; action=Use the applicable schema and search validation tools.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:sitemap",
+      "status": "pass",
+      "evidence": "details-changed; before: pass; evidence=/workspace/geo/docs/case-studies/yinthread/public/sitemap.xml: 146 locations; direct urlset required; action=Supply a direct sitemap urlset for this export; sitemap indexes are not expanded.; after: pass; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml: 146 locations; direct urlset required; action=Supply a direct sitemap urlset for this export; sitemap indexes are not expanded.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:sitemap-duplicates",
+      "status": "fail",
+      "evidence": "added; before: not observed; after: fail; evidence=/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml: 146 entries; 145 unique URLs; 1 duplicate entries; https://yinthread.com/learn/day-master occurs 2 times at positions 8, 12; action=Retain one intended canonical entry per URL and rebuild the export.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "comparison-scope",
+      "status": "unknown",
+      "evidence": "Structural finding comparison only. Product identity, collection conditions and growth attribution are unverified.",
+      "action": "Inspect both source scopes, input data and collection conditions. Removed findings are unknown; literal differences do not establish improvement."
+    }
+  ],
+  "summary": {
+    "pass": 16,
+    "fail": 1,
+    "unknown": 3
+  },
+  "data": {
+    "before": {
+      "path": "/Users/tsm0420/geo/docs/case-studies/yinthread/results/audit.json",
+      "sha256": "bf71d847954fe10f0ae2a85965dad0091ee31551b8595a976844c12312ee4f5d",
+      "report": {
+        "schemaVersion": 1,
+        "kind": "audit",
+        "generatedAt": "2026-10-16T20:09:29.755Z",
+        "example": false,
+        "scope": "local export: /workspace/geo/docs/case-studies/yinthread/public; no network requests or browser execution",
+        "findings": [
+          {
+            "id": "robots-file",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt",
+            "action": "Review intentional access policy."
+          },
+          {
+            "id": "sitemap",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/sitemap.xml: 146 locations; direct urlset required",
+            "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+          },
+          {
+            "id": "index.html:title",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: Yinthread — compatibility from classical Chinese astrology",
+            "action": "Provide one descriptive title."
+          },
+          {
+            "id": "index.html:description",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: Real compatibility, rooted in 400-year-old Chinese astrology — not just your zodiac sign.",
+            "action": "Provide a meaningful description."
+          },
+          {
+            "id": "index.html:open-graph",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: og:title and og:description presence",
+            "action": "Supply truthful social metadata."
+          },
+          {
+            "id": "index.html:heading",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: 1 H1 elements",
+            "action": "Use a descriptive page heading."
+          },
+          {
+            "id": "index.html:readable-text",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: 931 non-script text characters in HTML",
+            "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+          },
+          {
+            "id": "index.html:index-directive",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: no restrictive HTML meta directive observed",
+            "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+          },
+          {
+            "id": "index.html:canonical",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: https://yinthread.com",
+            "action": "Provide one absolute canonical URL on the configured origin."
+          },
+          {
+            "id": "index.html:sitemap-coverage",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: https://yinthread.com/ in /workspace/geo/docs/case-studies/yinthread/public/sitemap.xml",
+            "action": "Add the intended canonical URL to the direct sitemap."
+          },
+          {
+            "id": "index.html:crawler.Googlebot",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: Googlebot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:crawler.OAI-SearchBot",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: OAI-SearchBot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:training.GPTBot",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:training.Google-Extended",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:jsonld-syntax.1",
+            "status": "pass",
+            "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: JSON-LD parses as an object or array",
+            "action": "Review structured-data semantics separately."
+          },
+          {
+            "id": "schema-semantics",
+            "status": "unknown",
+            "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+            "action": "Use the applicable schema and search validation tools."
+          },
+          {
+            "id": "live-indexing",
+            "status": "unknown",
+            "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+            "action": "Inspect deployment and supported search tools separately."
+          },
+          {
+            "id": "llms-txt",
+            "status": "pass",
+            "evidence": "Optional llms.txt absent; no readiness penalty.",
+            "action": "Treat as an optional experiment."
+          }
+        ],
+        "summary": {
+          "pass": 16,
+          "fail": 0,
+          "unknown": 2
+        },
+        "data": {
+          "config": "/workspace/geo/docs/case-studies/yinthread/config/config.yaml",
+          "files": [
+            "/workspace/geo/docs/case-studies/yinthread/public/index.html"
+          ]
+        }
+      }
+    },
+    "after": {
+      "path": "/Users/tsm0420/geo/docs/verification/TICKET-014/candidate/package-yinthread-audit.json",
+      "sha256": "eaee4b9c757101eeda7c4d83c8b977cab3d31ad6b5e2e9628b09be56b25a9199",
+      "report": {
+        "schemaVersion": 1,
+        "kind": "audit",
+        "generatedAt": "2026-10-17T15:01:49.849Z",
+        "example": false,
+        "scope": "local export: /private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public; no network requests or browser execution",
+        "findings": [
+          {
+            "id": "robots-file",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt",
+            "action": "Review intentional access policy."
+          },
+          {
+            "id": "sitemap",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml: 146 locations; direct urlset required",
+            "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+          },
+          {
+            "id": "sitemap-duplicates",
+            "status": "fail",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml: 146 entries; 145 unique URLs; 1 duplicate entries; https://yinthread.com/learn/day-master occurs 2 times at positions 8, 12",
+            "action": "Retain one intended canonical entry per URL and rebuild the export."
+          },
+          {
+            "id": "index.html:title",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: Yinthread — compatibility from classical Chinese astrology",
+            "action": "Provide one descriptive title."
+          },
+          {
+            "id": "index.html:description",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: Real compatibility, rooted in 400-year-old Chinese astrology — not just your zodiac sign.",
+            "action": "Provide a meaningful description."
+          },
+          {
+            "id": "index.html:open-graph",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: og:title and og:description presence",
+            "action": "Supply truthful social metadata."
+          },
+          {
+            "id": "index.html:heading",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: 1 H1 elements",
+            "action": "Use a descriptive page heading."
+          },
+          {
+            "id": "index.html:readable-text",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: 931 non-script text characters in HTML",
+            "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+          },
+          {
+            "id": "index.html:index-directive",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: no restrictive HTML meta directive observed",
+            "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+          },
+          {
+            "id": "index.html:canonical",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: https://yinthread.com",
+            "action": "Provide one absolute canonical URL on the configured origin."
+          },
+          {
+            "id": "index.html:sitemap-coverage",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: https://yinthread.com/ in /private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml",
+            "action": "Add the intended canonical URL to the direct sitemap."
+          },
+          {
+            "id": "index.html:crawler.Googlebot",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: Googlebot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:crawler.OAI-SearchBot",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: OAI-SearchBot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:training.GPTBot",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:training.Google-Extended",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:jsonld-syntax.1",
+            "status": "pass",
+            "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: JSON-LD parses as an object or array",
+            "action": "Review structured-data semantics separately."
+          },
+          {
+            "id": "schema-semantics",
+            "status": "unknown",
+            "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+            "action": "Use the applicable schema and search validation tools."
+          },
+          {
+            "id": "live-indexing",
+            "status": "unknown",
+            "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+            "action": "Inspect deployment and supported search tools separately."
+          },
+          {
+            "id": "llms-txt",
+            "status": "pass",
+            "evidence": "Optional llms.txt absent; no readiness penalty.",
+            "action": "Treat as an optional experiment."
+          }
+        ],
+        "summary": {
+          "pass": 16,
+          "fail": 1,
+          "unknown": 2
+        },
+        "data": {
+          "config": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/config/config.yaml",
+          "files": [
+            "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html"
+          ],
+          "sitemap": {
+            "entries": 146,
+            "uniqueUrls": 145,
+            "duplicateEntries": 1,
+            "duplicates": [
+              {
+                "url": "https://yinthread.com/learn/day-master",
+                "occurrences": 2,
+                "positions": [
+                  8,
+                  12
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "changes": [
+      {
+        "id": "index.html:canonical",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:canonical",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: https://yinthread.com",
+          "action": "Provide one absolute canonical URL on the configured origin."
+        },
+        "after": {
+          "id": "index.html:canonical",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: https://yinthread.com",
+          "action": "Provide one absolute canonical URL on the configured origin."
+        }
+      },
+      {
+        "id": "index.html:crawler.Googlebot",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:crawler.Googlebot",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: Googlebot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        },
+        "after": {
+          "id": "index.html:crawler.Googlebot",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: Googlebot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        }
+      },
+      {
+        "id": "index.html:crawler.OAI-SearchBot",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:crawler.OAI-SearchBot",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: OAI-SearchBot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        },
+        "after": {
+          "id": "index.html:crawler.OAI-SearchBot",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: OAI-SearchBot at inferred export URL https://yinthread.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        }
+      },
+      {
+        "id": "index.html:description",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:description",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: Real compatibility, rooted in 400-year-old Chinese astrology — not just your zodiac sign.",
+          "action": "Provide a meaningful description."
+        },
+        "after": {
+          "id": "index.html:description",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: Real compatibility, rooted in 400-year-old Chinese astrology — not just your zodiac sign.",
+          "action": "Provide a meaningful description."
+        }
+      },
+      {
+        "id": "index.html:heading",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:heading",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: 1 H1 elements",
+          "action": "Use a descriptive page heading."
+        },
+        "after": {
+          "id": "index.html:heading",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: 1 H1 elements",
+          "action": "Use a descriptive page heading."
+        }
+      },
+      {
+        "id": "index.html:index-directive",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:index-directive",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: no restrictive HTML meta directive observed",
+          "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+        },
+        "after": {
+          "id": "index.html:index-directive",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: no restrictive HTML meta directive observed",
+          "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+        }
+      },
+      {
+        "id": "index.html:jsonld-syntax.1",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:jsonld-syntax.1",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: JSON-LD parses as an object or array",
+          "action": "Review structured-data semantics separately."
+        },
+        "after": {
+          "id": "index.html:jsonld-syntax.1",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: JSON-LD parses as an object or array",
+          "action": "Review structured-data semantics separately."
+        }
+      },
+      {
+        "id": "index.html:open-graph",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:open-graph",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: og:title and og:description presence",
+          "action": "Supply truthful social metadata."
+        },
+        "after": {
+          "id": "index.html:open-graph",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: og:title and og:description presence",
+          "action": "Supply truthful social metadata."
+        }
+      },
+      {
+        "id": "index.html:readable-text",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:readable-text",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: 931 non-script text characters in HTML",
+          "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+        },
+        "after": {
+          "id": "index.html:readable-text",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: 931 non-script text characters in HTML",
+          "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+        }
+      },
+      {
+        "id": "index.html:sitemap-coverage",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:sitemap-coverage",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: https://yinthread.com/ in /workspace/geo/docs/case-studies/yinthread/public/sitemap.xml",
+          "action": "Add the intended canonical URL to the direct sitemap."
+        },
+        "after": {
+          "id": "index.html:sitemap-coverage",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: https://yinthread.com/ in /private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml",
+          "action": "Add the intended canonical URL to the direct sitemap."
+        }
+      },
+      {
+        "id": "index.html:title",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:title",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/index.html: Yinthread — compatibility from classical Chinese astrology",
+          "action": "Provide one descriptive title."
+        },
+        "after": {
+          "id": "index.html:title",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/index.html: Yinthread — compatibility from classical Chinese astrology",
+          "action": "Provide one descriptive title."
+        }
+      },
+      {
+        "id": "index.html:training.GPTBot",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:training.GPTBot",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        },
+        "after": {
+          "id": "index.html:training.GPTBot",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        }
+      },
+      {
+        "id": "index.html:training.Google-Extended",
+        "change": "details-changed",
+        "before": {
+          "id": "index.html:training.Google-Extended",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        },
+        "after": {
+          "id": "index.html:training.Google-Extended",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt: training policy allowed=true; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        }
+      },
+      {
+        "id": "live-indexing",
+        "change": "unchanged",
+        "before": {
+          "id": "live-indexing",
+          "status": "unknown",
+          "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+          "action": "Inspect deployment and supported search tools separately."
+        },
+        "after": {
+          "id": "live-indexing",
+          "status": "unknown",
+          "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+          "action": "Inspect deployment and supported search tools separately."
+        }
+      },
+      {
+        "id": "llms-txt",
+        "change": "unchanged",
+        "before": {
+          "id": "llms-txt",
+          "status": "pass",
+          "evidence": "Optional llms.txt absent; no readiness penalty.",
+          "action": "Treat as an optional experiment."
+        },
+        "after": {
+          "id": "llms-txt",
+          "status": "pass",
+          "evidence": "Optional llms.txt absent; no readiness penalty.",
+          "action": "Treat as an optional experiment."
+        }
+      },
+      {
+        "id": "robots-file",
+        "change": "details-changed",
+        "before": {
+          "id": "robots-file",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/robots.txt",
+          "action": "Review intentional access policy."
+        },
+        "after": {
+          "id": "robots-file",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/robots.txt",
+          "action": "Review intentional access policy."
+        }
+      },
+      {
+        "id": "schema-semantics",
+        "change": "unchanged",
+        "before": {
+          "id": "schema-semantics",
+          "status": "unknown",
+          "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+          "action": "Use the applicable schema and search validation tools."
+        },
+        "after": {
+          "id": "schema-semantics",
+          "status": "unknown",
+          "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+          "action": "Use the applicable schema and search validation tools."
+        }
+      },
+      {
+        "id": "sitemap",
+        "change": "details-changed",
+        "before": {
+          "id": "sitemap",
+          "status": "pass",
+          "evidence": "/workspace/geo/docs/case-studies/yinthread/public/sitemap.xml: 146 locations; direct urlset required",
+          "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+        },
+        "after": {
+          "id": "sitemap",
+          "status": "pass",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml: 146 locations; direct urlset required",
+          "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+        }
+      },
+      {
+        "id": "sitemap-duplicates",
+        "change": "added",
+        "before": null,
+        "after": {
+          "id": "sitemap-duplicates",
+          "status": "fail",
+          "evidence": "/private/tmp/geo-core-clean-9dujffle/source/docs/case-studies/yinthread/public/sitemap.xml: 146 entries; 145 unique URLs; 1 duplicate entries; https://yinthread.com/learn/day-master occurs 2 times at positions 8, 12",
+          "action": "Retain one intended canonical entry per URL and rebuild the export."
+        }
+      }
+    ],
+    "counts": {
+      "added": 1,
+      "removed": 0,
+      "status-changed": 0,
+      "details-changed": 15,
+      "unchanged": 3
+    },
+    "comparability": "unknown"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "cwd": "/private/tmp/geo-core018-clean-_za4j6uo/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T10:29:58.750652+00:00"
+}

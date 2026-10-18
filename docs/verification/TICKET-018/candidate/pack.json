@@ -1,0 +1,15 @@
+{
+  "command": [
+    "npm",
+    "pack",
+    "--ignore-scripts",
+    "--offline",
+    "--json",
+    "--cache",
+    "/private/tmp/geo-core018-clean-_za4j6uo/pack-cache"
+  ],
+  "cwd": "/private/tmp/geo-core018-clean-_za4j6uo/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T10:30:33.895899+00:00"
+}
