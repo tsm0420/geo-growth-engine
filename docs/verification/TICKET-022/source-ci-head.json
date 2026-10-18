@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "content": "{\"sha\":\"3d78dd724be07a87d6dd31eadcd7ccc50ecf7184\",\"node_id\":\"C_kwDOVMrF8toAKDNkNzhkZDcyNGJlMDdhODdkNmRkMzFlYWRjZDdjY2M1MGVjZjcxODQ\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/3d78dd724be07a87d6dd31eadcd7ccc50ecf7184\",\"html_url\":\"https://github.com/tsm0420/geo-growth-engine/commit/3d78dd724be07a87d6dd31eadcd7ccc50ecf7184\",\"author\":{\"name\":\"tsm0420\",\"email\":\"tsm0420@gmail.com\",\"date\":\"2026-10-18T11:29:27Z\"},\"committer\":{\"name\":\"tsm0420\",\"email\":\"tsm0420@gmail.com\",\"date\":\"2026-10-18T11:29:27Z\"},\"tree\":{\"sha\":\"8e58bda0e6718a01f59ab67d6a994196e9f2ab28\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/trees/8e58bda0e6718a01f59ab67d6a994196e9f2ab28\"},\"message\":\"TICKET-022 Retain reviewed immutable package and consumer evidence\",\"parents\":[{\"sha\":\"09a317561e2dbd71500f0da07ef2e2788d28bad8\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/09a317561e2dbd71500f0da07ef2e2788d28bad8\",\"html_url\":\"https://github.com/tsm0420/geo-growth-engine/commit/09a317561e2dbd71500f0da07ef2e2788d28bad8\"}],\"verification\":{\"verified\":false,\"reason\":\"unsigned\",\"signature\":null,\"payload\":null,\"verified_at\":null}}",
+    "title": "3d78dd724be07a87d6dd31eadcd7ccc50ecf7184",
+    "modified_date": null,
+    "url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/3d78dd724be07a87d6dd31eadcd7ccc50ecf7184",
+    "display_url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/3d78dd724be07a87d6dd31eadcd7ccc50ecf7184",
+    "display_title": "3d78dd724be07a87d6dd31eadcd7ccc50ecf7184",
+    "structuredContent": {
+      "title": "3d78dd724be07a87d6dd31eadcd7ccc50ecf7184",
+      "content": "{\"sha\":\"3d78dd724be07a87d6dd31eadcd7ccc50ecf7184\",\"node_id\":\"C_kwDOVMrF8toAKDNkNzhkZDcyNGJlMDdhODdkNmRkMzFlYWRjZDdjY2M1MGVjZjcxODQ\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/3d78dd724be07a87d6dd31eadcd7ccc50ecf7184\",\"html_url\":\"https://github.com/tsm0420/geo-growth-engine/commit/3d78dd724be07a87d6dd31eadcd7ccc50ecf7184\",\"author\":{\"name\":\"tsm0420\",\"email\":\"tsm0420@gmail.com\",\"date\":\"2026-10-18T11:29:27Z\"},\"committer\":{\"name\":\"tsm0420\",\"email\":\"tsm0420@gmail.com\",\"date\":\"2026-10-18T11:29:27Z\"},\"tree\":{\"sha\":\"8e58bda0e6718a01f59ab67d6a994196e9f2ab28\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/trees/8e58bda0e6718a01f59ab67d6a994196e9f2ab28\"},\"message\":\"TICKET-022 Retain reviewed immutable package and consumer evidence\",\"parents\":[{\"sha\":\"09a317561e2dbd71500f0da07ef2e2788d28bad8\",\"url\":\"https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/09a317561e2dbd71500f0da07ef2e2788d28bad8\",\"html_url\":\"https://github.com/tsm0420/geo-growth-engine/commit/09a317561e2dbd71500f0da07ef2e2788d28bad8\"}],\"verification\":{\"verified\":false,\"reason\":\"unsigned\",\"signature\":null,\"payload\":null,\"verified_at\":null}}",
+      "display_url": "https://api.github.com/repos/tsm0420/geo-growth-engine/git/commits/3d78dd724be07a87d6dd31eadcd7ccc50ecf7184"
+    }
+  },
+  "isError": false
+}

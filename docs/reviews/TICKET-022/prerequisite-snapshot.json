@@ -1,0 +1,5 @@
+{
+  "path": ".agents/skills/geo-orchestrator/SKILL.md",
+  "sha256": "57e7278720234c1f117a8a65145dec36dece9ef2c70955413035472eeabaf071",
+  "reason": "Resolve Spec finding: first paragraph prerequisites now conditional for configured workflows; public export only for website audit."
+}

@@ -1,0 +1,17 @@
+{
+  "label": "consumer-visibility",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer/node_modules/.bin/geo",
+    "visibility",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/reports",
+    "--input",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/visibility.jsonl"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:24:53.227110+00:00"
+}

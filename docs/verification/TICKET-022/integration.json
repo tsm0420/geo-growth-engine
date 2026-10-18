@@ -1,0 +1,133 @@
+{
+  "scope": "Observed authorized ten-PR integration on2026-10-18; not a release or marketplace outcome",
+  "originalMain": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "finalMain": "5013f87a56286f6ebc768d35440a00e06993275f",
+  "approvedCandidate": "dddf667f8dee72a2521fba4bdc6c2c718a4939f0",
+  "finalTree": "61881ecd3d730723181479d6c9a51bb3092701d4",
+  "merges": [
+    {
+      "number": 9,
+      "previousMain": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+      "head": "1c8c535bcf00739ae705bdb9e2d3a455717a45f4",
+      "merge": "8ffddec24e8251e833a9d60f5bdf1f99321cfc89",
+      "tree": "33ed49fc3f2be3b125b2455fd4f6a54909d5601e",
+      "headCheck": "success"
+    },
+    {
+      "number": 11,
+      "previousMain": "8ffddec24e8251e833a9d60f5bdf1f99321cfc89",
+      "head": "79a7edbbe201ebd1e63d14d10e126ebdeff051f9",
+      "merge": "eb307ab05821bc9a5d77b75d4c14a9aed7bcf114",
+      "tree": "8fa583e54b862a1e3a51c9cebb1bd8fc60f64cac",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 12,
+      "previousMain": "eb307ab05821bc9a5d77b75d4c14a9aed7bcf114",
+      "head": "f33ec8eef40d29dc169f080de50e7d6525a48a61",
+      "merge": "133d883b913fc47dc70fd5bddbcf07ad5e429c9b",
+      "tree": "1b4156326e213f4722f0e5bccc96ba8a7baaf4bb",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 13,
+      "previousMain": "133d883b913fc47dc70fd5bddbcf07ad5e429c9b",
+      "head": "5e2c0a44dc66d2b300cf69384248f1f9a97ee8f7",
+      "merge": "6a1ef0286a6ced44dcddee11a40df9c49b8641ce",
+      "tree": "09e8a673488e8bec7cd1dcc3dbc1563670524cc9",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 14,
+      "previousMain": "6a1ef0286a6ced44dcddee11a40df9c49b8641ce",
+      "head": "1e3fe4377f7a6d5b62be1ffe87a8a21b57292c79",
+      "merge": "9114c7d3d97e52238ca298a8ec71ebd1a5bc64ec",
+      "tree": "ce30b0856b6f73d4ab0cba86bf3ee1206cd5df25",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 15,
+      "previousMain": "9114c7d3d97e52238ca298a8ec71ebd1a5bc64ec",
+      "head": "9f2ea9ca3c07a69fc3ee36093e6322f56b1f686c",
+      "merge": "334e3b033abcb7ab43ce7164d41e3f9ffc25dc9c",
+      "tree": "e090dc0807bff852334dccd1c146dc1ab9dbdb79",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 16,
+      "previousMain": "334e3b033abcb7ab43ce7164d41e3f9ffc25dc9c",
+      "head": "c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031",
+      "merge": "2a88d5a791eff3ccb7aad3289d3e71c8b1e1ffc2",
+      "tree": "a4de34cf1f87b6dec0f5f2eca39621cb293e011e",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 17,
+      "previousMain": "2a88d5a791eff3ccb7aad3289d3e71c8b1e1ffc2",
+      "head": "20e15a80e4db98b37b7781d447cfcabbbe7506c4",
+      "merge": "d5080617536148e238218d01c6c6257c4777fe8d",
+      "tree": "c5c361af3a2badcb7655bef284a9d06433fccb59",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 19,
+      "previousMain": "d5080617536148e238218d01c6c6257c4777fe8d",
+      "head": "5fb6baceefa64dc028c5af0c6b13745bee744de3",
+      "merge": "25476a6793a31073a0c650e97478b229f9f801a4",
+      "tree": "65384b94145fc9d3d7b9e6149d83aeb23e8e78c2",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    },
+    {
+      "number": 21,
+      "previousMain": "25476a6793a31073a0c650e97478b229f9f801a4",
+      "head": "dddf667f8dee72a2521fba4bdc6c2c718a4939f0",
+      "merge": "5013f87a56286f6ebc768d35440a00e06993275f",
+      "tree": "61881ecd3d730723181479d6c9a51bb3092701d4",
+      "headCheck": "success",
+      "originalDiffPreserved": true
+    }
+  ],
+  "finalTreeProof": {
+    "main": {
+      "revision": "5013f87a56286f6ebc768d35440a00e06993275f",
+      "tree": "61881ecd3d730723181479d6c9a51bb3092701d4"
+    },
+    "candidate": {
+      "revision": "dddf667f8dee72a2521fba4bdc6c2c718a4939f0",
+      "tree": "61881ecd3d730723181479d6c9a51bb3092701d4"
+    },
+    "diffExit": 0
+  },
+  "mainCI": {
+    "runId": 39121372339,
+    "job": {
+      "id": 117657498937,
+      "head_sha": "5013f87a56286f6ebc768d35440a00e06993275f",
+      "name": "verify",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "logTruncated": false,
+    "logCharacters": 38576,
+    "rawSha256": "629a02dd1a8f7455d3eb8baad2d754e2da98bf84a243ba280e76c6ffd297d185",
+    "observedOutput": [
+      "2026-10-18T10:58:56.8991446Z ##[group]Run npm run typecheck",
+      "2026-10-18T10:58:57.0145165Z > tsc --noEmit",
+      "2026-10-18T10:59:36.0260025Z \u2139 tests 165",
+      "2026-10-18T10:59:36.0261165Z \u2139 pass 165",
+      "2026-10-18T10:59:36.0261384Z \u2139 fail 0",
+      "2026-10-18T10:59:36.0261885Z \u2139 skipped 0",
+      "2026-10-18T10:59:36.0422854Z ##[group]Run npm run build"
+    ]
+  },
+  "sourceReceiptIndex": "reports/candidates/TICKET-021/README.md (retained locally)",
+  "sourceBranchesVerified": 10
+}

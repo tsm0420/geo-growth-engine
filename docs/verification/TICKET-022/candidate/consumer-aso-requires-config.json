@@ -1,0 +1,13 @@
+{
+  "label": "consumer-aso-requires-config",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer/node_modules/.bin/geo",
+    "aso",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/missing-config-aso"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "recordedAt": "2026-10-18T11:24:52.851920+00:00"
+}

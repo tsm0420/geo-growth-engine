@@ -1,6 +1,6 @@
 # Roadmap
 
-The implemented core covers project-scoped skills, static export audits, store-text limits, fact-linked content opportunities, visibility imports, and CI/report workflows. Technical readiness is not a growth forecast.
+Current main covers project-scoped skills, static export audits, store-text limits, fact-linked content opportunities, visibility imports, report/input protection, installation preflight, retained-report comparison and CI/report workflows. The published alpha 1 tag preserves its original scope; the [later integration](integration-outcome-2026-10-18.md) is unreleased. Technical readiness is not a growth forecast.
 
 | Capability | Status and prerequisite |
 | --- | --- |

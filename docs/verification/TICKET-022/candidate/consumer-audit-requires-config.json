@@ -1,0 +1,13 @@
+{
+  "label": "consumer-audit-requires-config",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer/node_modules/.bin/geo",
+    "audit",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/missing-config-audit"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "recordedAt": "2026-10-18T11:24:52.612501+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "node",
+    "/Users/tsm0420/geo/dist/src/cli.js",
+    "install",
+    "--target",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/project"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:14:29.837799+00:00"
+}

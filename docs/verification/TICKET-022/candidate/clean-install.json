@@ -1,0 +1,14 @@
+{
+  "label": "clean-install",
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:24:49.702690+00:00"
+}

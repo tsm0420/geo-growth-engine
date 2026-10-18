@@ -1,0 +1,12 @@
+{
+  "label": "tag-clone",
+  "command": [
+    "/bin/sh",
+    "-c",
+    "set -eu\ngit clone --branch v0.1.0-alpha.1 --depth 1 https://github.com/tsm0420/geo-growth-engine.git"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/tag",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:18:12.386230+00:00"
+}

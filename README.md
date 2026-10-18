@@ -4,16 +4,27 @@ A reusable GEO (Generative Engine Optimization) toolkit for websites, SaaS, iOS,
 
 **v0.1.0-alpha.1:** an early public preview under [MIT](LICENSE). Checks produce evidence and explicit unknowns; they do not predict rankings or growth. See the [YinThread technical snapshot case](docs/case-studies/yinthread/README.md), [changelog](CHANGELOG.md), and [roadmap](docs/roadmap.md).
 
-**Alpha 2 candidate:** PR #9 adds explicit duplicate sitemap findings and a frozen-snapshot re-audit. It is not a tagged or published release. The installation below uses the published alpha 1; to review that candidate, check out `codex/alpha-2-candidate` and use its [specification](docs/releases/alpha-2-spec.md) and [verification](docs/verification/alpha-2/README.md).
-
-**Core hardening candidate (alpha 3):** `codex/canonical-sitemap-coverage` contains the six hardening slices stacked on unmerged PR #9, improving report safety, configuration validation, mention boundaries and local audit accuracy. It is not a release. See the [hardening specification](docs/core-hardening-spec.md) and [iteration ledger](docs/development-loop.md).
+**Unreleased main:** duplicate sitemap findings, report/input protection, configuration validation, mention boundaries, local audit corrections, installation preflight and retained-report comparison are integrated into main. The [dated integration outcome](docs/integration-outcome-2026-10-18.md) records the merged PRs and actual CI. See the [hardening specification](docs/core-hardening-spec.md) and [iteration ledger](docs/development-loop.md). These capabilities are newer than the published alpha 1 tag.
 
 ## Quick start
 
-Use Node.js 24 (the tested runtime). Install from the tagged GitHub source; no npm registry package is available:
+Use Node.js 24 (the tested runtime). Choose one GitHub source checkout. The command table and hardening/comparison behavior below describe main.
+
+Current main, including the unreleased capabilities above:
+
+```sh
+git clone --branch main --depth 1 https://github.com/tsm0420/geo-growth-engine.git
+```
+
+Published alpha 1 preview, with its original six commands and checks:
 
 ```sh
 git clone --branch v0.1.0-alpha.1 --depth 1 https://github.com/tsm0420/geo-growth-engine.git
+```
+
+Build the chosen checkout:
+
+```sh
 cd geo-growth-engine
 npm ci --ignore-scripts
 npm run build
@@ -48,7 +59,7 @@ node dist/src/cli.js audit --config /absolute/path/to/product/.geo/config.yaml -
 
 Installation preserves existing files and rejects symlink destinations and ancestors. Provide canonical filesystem paths for installation, public exports, and report outputs. CLI path arguments resolve against the current working directory; paths declared in YAML resolve against the config file. Skills install under `.agents/skills/`; keep this toolkit checkout and CLI available for their commands. Installation does not edit application source, install globally, or configure another agent's discovery directories.
 
-The installation hardening candidate checks each destination's nearest existing parent for creation access before writing configuration or skills. Predictable destination conflicts leave no earlier files installed, so correcting permissions allows a clean retry. This preflight does not provide rollback for concurrent changes or later disk/I/O failures.
+On main, installation checks each destination's nearest existing parent for creation access before writing configuration or skills. Predictable destination conflicts leave no earlier files installed, so correcting permissions allows a clean retry. This preflight does not provide rollback for concurrent changes or later disk/I/O failures.
 
 | Command | Behavior |
 | --- | --- |
@@ -58,23 +69,29 @@ The installation hardening candidate checks each destination's nearest existing 
 | `aso` | Check Apple/Google Play text limits and supplied fact references. |
 | `plan` | Link audience questions to sourced facts; keep unsupported queries as research gaps. |
 | `visibility` | Import response JSONL, retain raw evidence, and report mentions, citations, competitors, and coverage. |
-| `compare` (candidate) | Compare exact finding IDs and observations in two retained local reports. |
+| `compare` | Compare exact finding IDs and observations in two retained local reports. |
 
 `audit`, `aso`, `plan` and `visibility` require `--config` and `--output`; `visibility` also requires `--input`. `init` and `install` require an existing `--target` directory. Exit 0 means completion without failed checks; 1 means observed failed checks; 2 means an operational/input error. Unknown findings remain visible with exit 0. Reusing an output directory replaces same-named reports and evidence; use a fresh directory per run to retain history.
 
-The hardening candidate rejects output paths that would overwrite configured inputs or imported records, and checks all destinations before writing. Predictable type, alias, symlink and write-access conflicts leave prior artifact bytes intact. This is preflight rather than transactional recovery from disk or concurrency failures; see the [report contract](docs/configuration.md#audit-report).
+On main, report generation rejects output paths that would overwrite configured inputs or imported records, and checks all destinations before writing. Predictable type, alias, symlink and write-access conflicts leave prior artifact bytes intact. This is preflight rather than transactional recovery from disk or concurrency failures; see the [report contract](docs/configuration.md#audit-report).
 
-In the alpha 2 candidate, repeated sitemap URLs cause exit 1 and a `sitemap-duplicates` finding with counts and entry positions. Identity uses XML-decoded text; URL spellings are not normalized. See the [audit report contract](docs/configuration.md#audit-report).
+On main, repeated sitemap URLs cause exit 1 and a `sitemap-duplicates` finding with counts and entry positions. Identity uses XML-decoded text; URL spellings are not normalized. See the [audit report contract](docs/configuration.md#audit-report).
 
-### Compare retained reports (unmerged candidate)
+### Compare retained reports
 
-The `codex/local-report-comparison` candidate adds the following command; the published alpha 1 quickstart does not include it. Build this candidate checkout before using its compiled CLI:
+Use the main checkout for comparison; the published alpha 1 tag has no `compare` command. To try it with the fictional audit produced above:
+
+```sh
+npm run geo -- compare --before reports/example/audit.json --after reports/example/audit.json --output reports/example-comparison
+```
+
+This compares a fixture with itself to demonstrate the output format and retained unknowns. For two actual observations, supply their saved report paths:
 
 ```sh
 node dist/src/cli.js compare --before /absolute/path/to/earlier/audit.json --after /absolute/path/to/later/audit.json --output /absolute/path/to/comparison
 ```
 
-No config is required. Inputs must share schema version 1, report kind (`audit`, `aso`, `plan` or `visibility`) and fictional/actual flag. `compare.json` and `compare.md` show added, removed, status-changed, details-changed and unchanged findings, both parsed reports and original-byte digests. Exact IDs and text are compared; even path-only evidence changes stay visible. Removed checks become unknown; remaining or newly failed checks produce exit 1. Exit 0 can still contain unknown or removed findings. Product identity, collection conditions and growth attribution remain unverified. See the [comparison contract](docs/configuration.md#report-comparison-candidate).
+No config is required. Inputs must share schema version 1, report kind (`audit`, `aso`, `plan` or `visibility`) and fictional/actual flag. `compare.json` and `compare.md` show added, removed, status-changed, details-changed and unchanged findings, both parsed reports and original-byte digests. Exact IDs and text are compared; even path-only evidence changes stay visible. Removed checks become unknown; remaining or newly failed checks produce exit 1. Exit 0 can still contain unknown or removed findings. Product identity, collection conditions and growth attribution remain unverified. See the [comparison contract](docs/configuration.md#report-comparison).
 
 ## Evidence and limits
 
@@ -86,7 +103,7 @@ Visibility rates describe the supplied sample set. Successful responses form men
 
 ## Automation
 
-PR CI typechecks, tests, builds, and retains fictional reports. Weekly reporting runs Mondays at 08:00 UTC on the default branch, using the fictional example by default. Manual runs accept a checked-in product config and optional visibility records. Workflows do not buy API calls, publish, deploy, or merge. Scheduling begins when the workflow reaches the default branch.
+PR CI typechecks, tests, builds, and retains fictional reports. Weekly reporting is configured for Mondays at 08:00 UTC on the default branch, using the fictional example by default. Manual runs accept a checked-in product config and optional visibility records. Workflows do not buy API calls, publish, deploy, or merge. The configuration is on main; actual dispatch and run status are recorded by GitHub Actions.
 
 See [configuration](docs/configuration.md), [specification](docs/spec.md), [domain glossary](CONTEXT.md), [upstream review](docs/research/upstream-review.md), [verification receipts](docs/verification/README.md), and [roadmap](docs/roadmap.md).
 

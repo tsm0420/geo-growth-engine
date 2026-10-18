@@ -1,0 +1,197 @@
+{
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl",
+  "runtime": {
+    "node": "v24.22.0",
+    "npm": "11.19.1",
+    "os": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "readmeSha256": "1f921bca6e347df03697fd5f13c3781e74334e788462b723921902a0359a98b0",
+  "observations": [
+    {
+      "edition": "main",
+      "head": "5013f87a56286f6ebc768d35440a00e06993275f",
+      "reports": {
+        "audit": {
+          "pass": 17,
+          "fail": 0,
+          "unknown": 2
+        },
+        "aso": {
+          "pass": 9,
+          "fail": 0,
+          "unknown": 2
+        },
+        "plan": {
+          "pass": 1,
+          "fail": 0,
+          "unknown": 0
+        },
+        "visibility": {
+          "pass": 0,
+          "fail": 0,
+          "unknown": 3
+        },
+        "compare": {
+          "pass": 17,
+          "fail": 0,
+          "unknown": 3
+        }
+      }
+    },
+    {
+      "edition": "tag",
+      "head": "6eb7dfe1b98814dafdeb7bc02a94bc9f41a30c4c",
+      "reports": {
+        "audit": {
+          "pass": 16,
+          "fail": 0,
+          "unknown": 2
+        },
+        "aso": {
+          "pass": 9,
+          "fail": 0,
+          "unknown": 2
+        },
+        "plan": {
+          "pass": 1,
+          "fail": 0,
+          "unknown": 0
+        },
+        "visibility": {
+          "pass": 0,
+          "fail": 0,
+          "unknown": 3
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "label": "main-clone",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "set -eu\ngit clone --branch main --depth 1 https://github.com/tsm0420/geo-growth-engine.git"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/main",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:07.504820+00:00"
+    },
+    {
+      "label": "main-build-readme",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "set -eu\ncd geo-growth-engine\nnpm ci --ignore-scripts\nnpm run build\nnode dist/src/cli.js --help"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/main",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:10.043546+00:00"
+    },
+    {
+      "label": "main-help",
+      "command": [
+        "node",
+        "dist/src/cli.js",
+        "--help"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/main/geo-growth-engine",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:10.162444+00:00"
+    },
+    {
+      "label": "main-fixtures-readme",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "set -eu\nnpm run geo -- audit --config examples/.geo/config.yaml --output reports/example\nnpm run geo -- aso --config examples/.geo/config.yaml --output reports/example\nnpm run geo -- plan --config examples/.geo/config.yaml --output reports/example\nnpm run geo -- visibility --config examples/.geo/config.yaml --input examples/visibility.jsonl --output reports/example"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/main/geo-growth-engine",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:11.297240+00:00"
+    },
+    {
+      "label": "main-compare-readme",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "set -eu\nnpm run geo -- compare --before reports/example/audit.json --after reports/example/audit.json --output reports/example-comparison"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/main/geo-growth-engine",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:11.573459+00:00"
+    },
+    {
+      "label": "tag-clone",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "set -eu\ngit clone --branch v0.1.0-alpha.1 --depth 1 https://github.com/tsm0420/geo-growth-engine.git"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/tag",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:12.386230+00:00"
+    },
+    {
+      "label": "tag-build-readme",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "set -eu\ncd geo-growth-engine\nnpm ci --ignore-scripts\nnpm run build\nnode dist/src/cli.js --help"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/tag",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:13.742362+00:00"
+    },
+    {
+      "label": "tag-help",
+      "command": [
+        "node",
+        "dist/src/cli.js",
+        "--help"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/tag/geo-growth-engine",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:13.863232+00:00"
+    },
+    {
+      "label": "tag-fixtures-readme",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "set -eu\nnpm run geo -- audit --config examples/.geo/config.yaml --output reports/example\nnpm run geo -- aso --config examples/.geo/config.yaml --output reports/example\nnpm run geo -- plan --config examples/.geo/config.yaml --output reports/example\nnpm run geo -- visibility --config examples/.geo/config.yaml --input examples/visibility.jsonl --output reports/example"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/tag/geo-growth-engine",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:18:15.007631+00:00"
+    },
+    {
+      "label": "tag-compare-unavailable",
+      "command": [
+        "node",
+        "dist/src/cli.js",
+        "compare",
+        "--before",
+        "reports/example/audit.json",
+        "--after",
+        "reports/example/audit.json",
+        "--output",
+        "reports/tag-compare"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-first-use-n0d_c7jl/tag/geo-growth-engine",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "recordedAt": "2026-10-18T11:18:15.125891+00:00"
+    }
+  ],
+  "scope": "Actual fresh GitHub main/tag clones and builds; fictional fixture reports, not product or AI observations. New documentation/skill bytes require the separate active-source package verification."
+}

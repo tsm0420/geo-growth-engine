@@ -1,0 +1,11 @@
+{
+  "command": [
+    "node",
+    "/Users/tsm0420/geo/dist/src/cli.js",
+    "--help"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:14:30.193739+00:00"
+}

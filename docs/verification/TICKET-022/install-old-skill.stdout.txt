@@ -1,0 +1,9 @@
+{
+  "created": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/project/.agents/skills/geo-orchestrator/SKILL.md",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/project/.agents/skills/web-geo/SKILL.md",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/project/.agents/skills/app-geo-aso/SKILL.md",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/project/.agents/skills/geo-content-engine/SKILL.md",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/project/.agents/skills/geo-visibility-tracker/SKILL.md"
+  ]
+}

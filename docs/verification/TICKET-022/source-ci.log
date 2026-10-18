@@ -1,0 +1,452 @@
+﻿2026-10-18T11:29:48.2910123Z Current runner version: '2.337.0'
+2026-10-18T11:29:48.2936196Z ##[group]Runner Image Provisioner
+2026-10-18T11:29:48.2937083Z Hosted Compute Agent
+2026-10-18T11:29:48.2937801Z Version: 20261012.601
+2026-10-18T11:29:48.2938447Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+2026-10-18T11:29:48.2939158Z Build Date: 2026-10-12T17:48:21Z
+2026-10-18T11:29:48.2939915Z Worker ID: {17116391-fef9-48e7-9e54-c50a49aa21ca}
+2026-10-18T11:29:48.2940649Z Region: westus
+2026-10-18T11:29:48.2941226Z Cloud: Azure
+2026-10-18T11:29:48.2941779Z ##[endgroup]
+2026-10-18T11:29:48.2943497Z ##[group]Operating System
+2026-10-18T11:29:48.2944237Z Ubuntu
+2026-10-18T11:29:48.2944800Z 24.04.5
+2026-10-18T11:29:48.2945413Z LTS
+2026-10-18T11:29:48.2945951Z ##[endgroup]
+2026-10-18T11:29:48.2946498Z ##[group]Runner Image
+2026-10-18T11:29:48.2947158Z Image: ubuntu-24.04
+2026-10-18T11:29:48.2947759Z Version: 20261012.334.1
+2026-10-18T11:29:48.2949052Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-18T11:29:48.2950601Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+2026-10-18T11:29:48.2951619Z ##[endgroup]
+2026-10-18T11:29:48.2952759Z ##[group]GITHUB_TOKEN Permissions
+2026-10-18T11:29:48.2955303Z Contents: read
+2026-10-18T11:29:48.2955924Z Metadata: read
+2026-10-18T11:29:48.2956474Z ##[endgroup]
+2026-10-18T11:29:48.2958695Z Secret source: Actions
+2026-10-18T11:29:48.2959649Z Cache mode: write
+2026-10-18T11:29:48.2960459Z Prepare workflow directory
+2026-10-18T11:29:48.3297894Z Prepare all required actions
+2026-10-18T11:29:48.3348132Z Getting action download info
+2026-10-18T11:29:48.6937571Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-10-18T11:29:48.7850285Z Download action repository 'actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1' (SHA:949feb2413d6458794dcd2491c4babbbce0c15c1)
+2026-10-18T11:29:49.2189230Z Download action repository 'actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9' (SHA:cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+2026-10-18T11:29:49.7898435Z Complete job name: verify
+2026-10-18T11:29:49.8802401Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+2026-10-18T11:29:49.8804206Z with:
+2026-10-18T11:29:49.8804724Z   persist-credentials: false
+2026-10-18T11:29:49.8805419Z   repository: tsm0420/geo-growth-engine
+2026-10-18T11:29:49.8813506Z   token: ***
+2026-10-18T11:29:49.8814029Z   ssh-strict: true
+2026-10-18T11:29:49.8814542Z   ssh-user: git
+2026-10-18T11:29:49.8815027Z   clean: true
+2026-10-18T11:29:49.8815555Z   sparse-checkout-cone-mode: true
+2026-10-18T11:29:49.8816236Z   fetch-depth: 1
+2026-10-18T11:29:49.8816731Z   fetch-tags: false
+2026-10-18T11:29:49.8817249Z   show-progress: true
+2026-10-18T11:29:49.8817782Z   lfs: false
+2026-10-18T11:29:49.8818268Z   submodules: false
+2026-10-18T11:29:49.8818801Z   set-safe-directory: true
+2026-10-18T11:29:49.8819464Z   allow-unsafe-pr-checkout: false
+2026-10-18T11:29:49.8820481Z ##[endgroup]
+2026-10-18T11:29:49.9862653Z Syncing repository: tsm0420/geo-growth-engine
+2026-10-18T11:29:49.9866092Z ##[group]Getting Git version info
+2026-10-18T11:29:49.9867965Z Working directory is '/home/runner/work/geo-growth-engine/geo-growth-engine'
+2026-10-18T11:29:49.9869893Z [command]/usr/bin/git version
+2026-10-18T11:29:49.9927822Z git version 2.55.0
+2026-10-18T11:29:49.9954521Z ##[endgroup]
+2026-10-18T11:29:49.9980326Z Temporarily overriding HOME='/home/runner/work/_temp/7cb9469e-4a5f-4b67-83c3-5740880d536f' before making global git config changes
+2026-10-18T11:29:49.9985442Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-18T11:29:49.9989905Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/geo-growth-engine/geo-growth-engine
+2026-10-18T11:29:50.0038233Z Deleting the contents of '/home/runner/work/geo-growth-engine/geo-growth-engine'
+2026-10-18T11:29:50.0041451Z ##[group]Determining repository object format
+2026-10-18T11:29:50.0044571Z ##[endgroup]
+2026-10-18T11:29:50.0046418Z ##[group]Initializing the repository
+2026-10-18T11:29:50.0048637Z [command]/usr/bin/git init /home/runner/work/geo-growth-engine/geo-growth-engine
+2026-10-18T11:29:50.0160671Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-18T11:29:50.0163607Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-18T11:29:50.0166397Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-18T11:29:50.0168443Z hint: call:
+2026-10-18T11:29:50.0169332Z hint:
+2026-10-18T11:29:50.0170563Z hint: 	git config --global init.defaultBranch <name>
+2026-10-18T11:29:50.0172093Z hint:
+2026-10-18T11:29:50.0173773Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-18T11:29:50.0176337Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-18T11:29:50.0177614Z hint:
+2026-10-18T11:29:50.0178579Z hint: 	git branch -m <name>
+2026-10-18T11:29:50.0179441Z hint:
+2026-10-18T11:29:50.0181462Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-18T11:29:50.0191144Z Initialized empty Git repository in /home/runner/work/geo-growth-engine/geo-growth-engine/.git/
+2026-10-18T11:29:50.0196568Z [command]/usr/bin/git remote add origin https://github.com/tsm0420/geo-growth-engine
+2026-10-18T11:29:50.0230492Z ##[endgroup]
+2026-10-18T11:29:50.0232801Z ##[group]Disabling automatic garbage collection
+2026-10-18T11:29:50.0235254Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-18T11:29:50.0272606Z ##[endgroup]
+2026-10-18T11:29:50.0275402Z ##[group]Setting up auth
+2026-10-18T11:29:50.0276996Z Removing SSH command configuration
+2026-10-18T11:29:50.0280179Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-18T11:29:50.0323746Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-18T11:29:50.0772277Z Removing HTTP extra header
+2026-10-18T11:29:50.0779600Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-18T11:29:50.0819973Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-18T11:29:50.1054954Z Removing includeIf entries pointing to credentials config files
+2026-10-18T11:29:50.1060551Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-18T11:29:50.1101794Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-18T11:29:50.1335835Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-18T11:29:50.1377725Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git.path /home/runner/work/_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.1412718Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.1450813Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.1487707Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.1519388Z ##[endgroup]
+2026-10-18T11:29:50.1520498Z ##[group]Fetching the repository
+2026-10-18T11:29:50.1526170Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f811db1cb6d7df4f322352946a17ec7fca2b5f05:refs/remotes/pull/25/merge
+2026-10-18T11:29:50.7006227Z From https://github.com/tsm0420/geo-growth-engine
+2026-10-18T11:29:50.7008916Z  * [new ref]         f811db1cb6d7df4f322352946a17ec7fca2b5f05 -> pull/25/merge
+2026-10-18T11:29:50.7015311Z ##[endgroup]
+2026-10-18T11:29:50.7016772Z ##[group]Determining the checkout info
+2026-10-18T11:29:50.7019093Z ##[endgroup]
+2026-10-18T11:29:50.7020094Z [command]/usr/bin/git sparse-checkout disable
+2026-10-18T11:29:50.7074830Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-18T11:29:50.7110375Z ##[group]Checking out the ref
+2026-10-18T11:29:50.7114925Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/25/merge
+2026-10-18T11:29:50.7845385Z Note: switching to 'refs/remotes/pull/25/merge'.
+2026-10-18T11:29:50.7846937Z 
+2026-10-18T11:29:50.7848147Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-18T11:29:50.7851397Z changes and commit them, and you can discard any commits you make in this
+2026-10-18T11:29:50.7853786Z state without impacting any branches by switching back to a branch.
+2026-10-18T11:29:50.7855294Z 
+2026-10-18T11:29:50.7856550Z If you want to create a new branch to retain commits you create, you may
+2026-10-18T11:29:50.7859498Z do so (now or later) by using -c with the switch command. Example:
+2026-10-18T11:29:50.7860807Z 
+2026-10-18T11:29:50.7861280Z   git switch -c <new-branch-name>
+2026-10-18T11:29:50.7862095Z 
+2026-10-18T11:29:50.7939200Z Or undo this operation with:
+2026-10-18T11:29:50.7940852Z 
+2026-10-18T11:29:50.7941672Z   git switch -
+2026-10-18T11:29:50.7942725Z 
+2026-10-18T11:29:50.7944269Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-18T11:29:50.7946163Z 
+2026-10-18T11:29:50.7948464Z HEAD is now at f811db1 Merge 3d78dd724be07a87d6dd31eadcd7ccc50ecf7184 into 6f06fdd9f752caabe9a28860d0972b03ddcf3b8a
+2026-10-18T11:29:50.7956009Z ##[endgroup]
+2026-10-18T11:29:50.7960049Z [command]/usr/bin/git log -1 --format=%H
+2026-10-18T11:29:50.7962621Z f811db1cb6d7df4f322352946a17ec7fca2b5f05
+2026-10-18T11:29:50.7967169Z ##[group]Removing auth
+2026-10-18T11:29:50.7968432Z Removing SSH command configuration
+2026-10-18T11:29:50.7970438Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-18T11:29:50.8004263Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-18T11:29:50.8235550Z Removing HTTP extra header
+2026-10-18T11:29:50.8238814Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-18T11:29:50.8278574Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-18T11:29:50.8508180Z Removing includeIf entries pointing to credentials config files
+2026-10-18T11:29:50.8510996Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-18T11:29:50.8542322Z includeif.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git.path
+2026-10-18T11:29:50.8545539Z includeif.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git/worktrees/*.path
+2026-10-18T11:29:50.8547681Z includeif.gitdir:/github/workspace/.git.path
+2026-10-18T11:29:50.8549701Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-18T11:29:50.8554263Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git.path
+2026-10-18T11:29:50.8579280Z /home/runner/work/_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.8593906Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-ba8eb8f7\-2c9a\-4902\-9942\-3b94f9fcf876\.config
+2026-10-18T11:29:50.8634475Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git/worktrees/*.path
+2026-10-18T11:29:50.8663307Z /home/runner/work/_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.8675783Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/geo-growth-engine/geo-growth-engine/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-ba8eb8f7\-2c9a\-4902\-9942\-3b94f9fcf876\.config
+2026-10-18T11:29:50.8714792Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-10-18T11:29:50.8742297Z /github/runner_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.8753306Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-ba8eb8f7\-2c9a\-4902\-9942\-3b94f9fcf876\.config
+2026-10-18T11:29:50.8792257Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-18T11:29:50.8819684Z /github/runner_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config
+2026-10-18T11:29:50.8896197Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-ba8eb8f7\-2c9a\-4902\-9942\-3b94f9fcf876\.config
+2026-10-18T11:29:50.8927383Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-18T11:29:50.9158784Z Removing credentials config '/home/runner/work/_temp/git-credentials-ba8eb8f7-2c9a-4902-9942-3b94f9fcf876.config'
+2026-10-18T11:29:50.9167218Z ##[endgroup]
+2026-10-18T11:29:50.9511093Z ##[group]Run actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+2026-10-18T11:29:50.9512626Z with:
+2026-10-18T11:29:50.9513780Z   node-version: 24
+2026-10-18T11:29:50.9514678Z   cache: npm
+2026-10-18T11:29:50.9515530Z   check-latest: false
+2026-10-18T11:29:50.9524118Z   token: ***
+2026-10-18T11:29:50.9525039Z   package-manager-cache: true
+2026-10-18T11:29:50.9526075Z ##[endgroup]
+2026-10-18T11:29:51.0807847Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+2026-10-18T11:29:51.1610391Z ##[group]Environment details
+2026-10-18T11:29:51.5010371Z node: v24.21.0
+2026-10-18T11:29:51.5011555Z npm: 11.19.0
+2026-10-18T11:29:51.5012410Z yarn: 1.22.22
+2026-10-18T11:29:51.5015201Z ##[endgroup]
+2026-10-18T11:29:51.5030229Z [command]/opt/hostedtoolcache/node/24.21.0/x64/bin/npm config get cache
+2026-10-18T11:29:51.8362998Z /home/runner/.npm
+2026-10-18T11:29:52.0984169Z Cache hit for: node-cache-Linux-x64-npm-f83d15673b53e20273b620e45ffe41e88365b5cd92d601c03a4a3d9cc20a99b3
+2026-10-18T11:29:53.3791694Z Received 0 of 12520482 (0.0%), 0.0 MBs/sec
+2026-10-18T11:29:53.4303161Z Received 12520482 of 12520482 (100.0%), 11.4 MBs/sec
+2026-10-18T11:29:53.4304355Z Cache Size: ~12 MB (12520482 B)
+2026-10-18T11:29:53.4331645Z [command]/usr/bin/tar -xf /home/runner/work/_temp/a0172179-dd5d-4def-ab88-b217baf5d899/cache.tzst -P -C /home/runner/work/geo-growth-engine/geo-growth-engine --use-compress-program unzstd
+2026-10-18T11:29:53.4620347Z Cache restored successfully
+2026-10-18T11:29:53.4631436Z Cache restored from key: node-cache-Linux-x64-npm-f83d15673b53e20273b620e45ffe41e88365b5cd92d601c03a4a3d9cc20a99b3
+2026-10-18T11:29:53.4798096Z ##[group]Run npm ci --ignore-scripts
+2026-10-18T11:29:53.4798505Z [36;1mnpm ci --ignore-scripts[0m
+2026-10-18T11:29:53.5104822Z shell: /usr/bin/bash -e {0}
+2026-10-18T11:29:53.5105180Z ##[endgroup]
+2026-10-18T11:29:55.3282256Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+2026-10-18T11:29:55.8524073Z 
+2026-10-18T11:29:55.8525055Z added 37 packages, and audited 38 packages in 2s
+2026-10-18T11:29:55.8526207Z 
+2026-10-18T11:29:55.8526961Z 26 packages are looking for funding
+2026-10-18T11:29:55.8527639Z   run `npm fund` for details
+2026-10-18T11:29:55.8536541Z 
+2026-10-18T11:29:55.8537147Z found 0 vulnerabilities
+2026-10-18T11:29:55.9005618Z ##[group]Run npm run typecheck
+2026-10-18T11:29:55.9005975Z [36;1mnpm run typecheck[0m
+2026-10-18T11:29:55.9068878Z shell: /usr/bin/bash -e {0}
+2026-10-18T11:29:55.9069166Z ##[endgroup]
+2026-10-18T11:29:56.0111559Z 
+2026-10-18T11:29:56.0112311Z > geo-growth-engine@0.1.0-alpha.3 typecheck
+2026-10-18T11:29:56.0112742Z > tsc --noEmit
+2026-10-18T11:29:56.0112899Z 
+2026-10-18T11:29:56.2252640Z ##[group]Run npm test
+2026-10-18T11:29:56.2253414Z [36;1mnpm test[0m
+2026-10-18T11:29:56.2345974Z shell: /usr/bin/bash -e {0}
+2026-10-18T11:29:56.2346464Z ##[endgroup]
+2026-10-18T11:29:56.3510807Z 
+2026-10-18T11:29:56.3511571Z > geo-growth-engine@0.1.0-alpha.3 test
+2026-10-18T11:29:57.3442746Z > node --test tests/*.test.ts
+2026-10-18T11:29:57.3443734Z 
+2026-10-18T11:29:57.3444719Z ▶ report commands reject explicit null optional collections before writing reports
+2026-10-18T11:29:57.3480450Z   ✔ aso: aliases (629.940228ms)
+2026-10-18T11:29:57.8703905Z   ✔ aso: competitors (528.975613ms)
+2026-10-18T11:29:58.4204981Z   ✔ aso: listings (549.019997ms)
+2026-10-18T11:29:58.9514019Z   ✔ aso: factIds (530.167416ms)
+2026-10-18T11:29:59.4889887Z   ✔ plan: aliases (536.708767ms)
+2026-10-18T11:30:00.0125091Z   ✔ plan: competitors (524.498839ms)
+2026-10-18T11:30:00.5994973Z   ✔ plan: listings (585.150591ms)
+2026-10-18T11:30:01.1366238Z   ✔ plan: factIds (537.957914ms)
+2026-10-18T11:30:01.7162596Z   ✔ visibility: aliases (577.078965ms)
+2026-10-18T11:30:02.2631370Z   ✔ visibility: competitors (548.816889ms)
+2026-10-18T11:30:02.8270433Z   ✔ visibility: listings (562.8583ms)
+2026-10-18T11:30:03.4073789Z   ✔ visibility: factIds (580.582789ms)
+2026-10-18T11:30:03.4105211Z ✔ report commands reject explicit null optional collections before writing reports (6696.942062ms)
+2026-10-18T11:30:04.5074973Z ▶ omitted and empty optional collections remain accepted
+2026-10-18T11:30:04.5098484Z   ✔ omitted: aso (1099.010375ms)
+2026-10-18T11:30:05.5626134Z   ✔ omitted: plan (1056.249002ms)
+2026-10-18T11:30:06.6010966Z   ✔ omitted: visibility (1038.248717ms)
+2026-10-18T11:30:07.7352108Z   ✔ empty: aso (1130.204026ms)
+2026-10-18T11:30:08.8598750Z   ✔ empty: plan (1127.093382ms)
+2026-10-18T11:30:10.4303344Z   ✔ empty: visibility (1570.196871ms)
+2026-10-18T11:30:10.4305001Z ✔ omitted and empty optional collections remain accepted (7023.019315ms)
+2026-10-18T11:30:11.7845556Z ✔ null fact sources remain evidence gaps in aso and plan (1351.309523ms)
+2026-10-18T11:30:11.9450549Z ✔ compare retains real audit observations after a local title fix (1792.171677ms)
+2026-10-18T11:30:11.9452564Z ✔ compare classifies literal categories, preserves removed failures and exact sorted IDs (534.375121ms)
+2026-10-18T11:30:11.9454768Z ✔ compare retains complete parsed metadata including summary extensions (485.053303ms)
+2026-10-18T11:30:11.9456221Z ✔ compare preserves pass to pass and the after failure exit (555.075727ms)
+2026-10-18T11:30:11.9457509Z ✔ compare preserves pass to fail and the after failure exit (510.481898ms)
+2026-10-18T11:30:11.9458852Z ✔ compare preserves pass to unknown and the after failure exit (561.599931ms)
+2026-10-18T11:30:11.9460130Z ✔ compare preserves fail to pass and the after failure exit (546.727542ms)
+2026-10-18T11:30:11.9461371Z ✔ compare preserves fail to fail and the after failure exit (536.070282ms)
+2026-10-18T11:30:11.9462643Z ✔ compare preserves fail to unknown and the after failure exit (527.939924ms)
+2026-10-18T11:30:11.9464229Z ✔ compare preserves unknown to pass and the after failure exit (550.574599ms)
+2026-10-18T11:30:11.9465541Z ✔ compare preserves unknown to fail and the after failure exit (566.565498ms)
+2026-10-18T11:30:11.9466829Z ✔ compare preserves unknown to unknown and the after failure exit (524.78409ms)
+2026-10-18T11:30:11.9468332Z ✔ compare accepts empty audit observations without configuration and keeps scope unknown (537.712038ms)
+2026-10-18T11:30:11.9470456Z ✔ compare accepts empty aso observations without configuration and keeps scope unknown (553.81143ms)
+2026-10-18T11:30:11.9472175Z ✔ compare accepts empty plan observations without configuration and keeps scope unknown (556.092531ms)
+2026-10-18T11:30:11.9474198Z ✔ compare accepts empty visibility observations without configuration and keeps scope unknown (518.133442ms)
+2026-10-18T11:30:11.9476006Z ✔ compare rejects missing arguments and missing files without creating reports (2569.313816ms)
+2026-10-18T11:30:11.9477774Z ✔ compare rejects null report before output writes (551.654412ms)
+2026-10-18T11:30:11.9478982Z ✔ compare rejects array report before output writes (762.422507ms)
+2026-10-18T11:30:11.9480187Z ✔ compare rejects schema version before output writes (442.429097ms)
+2026-10-18T11:30:11.9481425Z ✔ compare rejects recursive compare before output writes (514.989535ms)
+2026-10-18T11:30:11.9482703Z ✔ compare rejects kind mismatch before output writes (557.622886ms)
+2026-10-18T11:30:12.4609873Z ✔ compare rejects example type before output writes (515.129123ms)
+2026-10-18T11:30:13.0096550Z ✔ compare rejects example mismatch before output writes (550.173583ms)
+2026-10-18T11:30:13.5565367Z ✔ compare rejects empty scope before output writes (546.190283ms)
+2026-10-18T11:30:14.0291010Z ✔ compare rejects generatedAt type before output writes (469.257121ms)
+2026-10-18T11:30:14.5825228Z ✔ compare rejects findings type before output writes (555.276716ms)
+2026-10-18T11:30:15.0930115Z ✔ compare rejects null finding before output writes (512.095076ms)
+2026-10-18T11:30:15.5835634Z ✔ compare rejects empty ID before output writes (489.791646ms)
+2026-10-18T11:30:16.1544238Z ✔ compare rejects duplicate ID before output writes (571.578163ms)
+2026-10-18T11:30:16.6148143Z ✔ compare rejects status type before output writes (460.020715ms)
+2026-10-18T11:30:17.2036844Z ✔ compare rejects evidence type before output writes (586.911057ms)
+2026-10-18T11:30:17.7605192Z ✔ compare rejects action type before output writes (556.616176ms)
+2026-10-18T11:30:18.2802824Z ✔ compare rejects summary type before output writes (521.319696ms)
+2026-10-18T11:30:18.8298101Z ✔ compare rejects wrong summary before output writes (548.122517ms)
+2026-10-18T11:30:19.3695141Z ✔ compare rejects noninteger summary before output writes (536.749381ms)
+2026-10-18T11:30:19.9595884Z ✔ compare rejects missing data and validates the before observation too (593.018912ms)
+2026-10-18T11:30:21.4597483Z ✔ compare protects both input aliases and preflights a later output conflict (1500.430677ms)
+2026-10-18T11:30:21.4721162Z ✔ aso checks supplied listing field limits and discloses unverified semantic claims (647.003687ms)
+2026-10-18T11:30:21.4752674Z ✔ aso accepts exact platform boundaries and keeps missing listings unknown (596.786985ms)
+2026-10-18T11:30:21.4754603Z ✔ plan preserves query/fact sources and marks unsupported content as a research gap (553.536522ms)
+2026-10-18T11:30:21.4756318Z ✔ aso measures UTF-8 keyword bytes separately and rejects one-character Apple names (593.519173ms)
+2026-10-18T11:30:21.4757834Z ✔ init creates editable project configuration and marks the example as fictional (607.23847ms)
+2026-10-18T11:30:21.4759222Z ✔ init preflights all conflicts before creating earlier files (533.693479ms)
+2026-10-18T11:30:21.4760843Z ✔ audit reports actual broken metadata, search blocking, and JSON-LD without penalizing training policy (639.363709ms)
+2026-10-18T11:30:21.4762388Z ✔ audit separates malformed configuration from failed site checks (465.654698ms)
+2026-10-18T11:30:21.4764188Z ✔ audit reports malformed sitemap XML as a finding and missing build output as an operational error (1165.61891ms)
+2026-10-18T11:30:21.4766538Z ✔ install copies five independently usable skills and refuses conflicts before writing (1049.455164ms)
+2026-10-18T11:30:21.4768387Z ✔ init refuses symlink destinations and preserves existing project files (547.495869ms)
+2026-10-18T11:30:21.4771151Z ✔ audit checks an exported site from another directory and exposes unmeasured live behavior (648.052002ms)
+2026-10-18T11:30:21.4772853Z ✔ audit decodes standard XML entities before checking canonical sitemap coverage (668.769285ms)
+2026-10-18T11:30:21.4774911Z ✔ audit preserves UTF-8 text and decodes HTML character references in title evidence (612.594041ms)
+2026-10-18T11:30:21.4776545Z ▶ canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries
+2026-10-18T11:30:21.4777574Z   ✔ bare-origin (565.189753ms)
+2026-10-18T11:30:21.4778094Z   ✔ host-case (525.298573ms)
+2026-10-18T11:30:21.4779148Z   ✔ apostrophe (598.631156ms)
+2026-10-18T11:30:21.4884115Z   ✔ encoded-apostrophe (596.022085ms)
+2026-10-18T11:30:21.4884728Z   ✔ path-case (611.700263ms)
+2026-10-18T11:30:21.4885285Z   ✔ trailing-slash (922.781331ms)
+2026-10-18T11:30:21.4885821Z   ✔ query-order (878.340348ms)
+2026-10-18T11:30:21.4886329Z   ✔ encoded-path (656.670113ms)
+2026-10-18T11:30:21.4887591Z ✔ canonical coverage compares consistently serialized URLs without collapsing distinct paths or queries (5358.30652ms)
+2026-10-18T11:30:21.4889409Z ✔ coverage serialization preserves exact decoded duplicate identity and original evidence (621.545308ms)
+2026-10-18T11:30:21.4891066Z ✔ malformed sitemap locations stay failed findings rather than becoming operational exceptions (537.720215ms)
+2026-10-18T11:30:21.4892586Z ✔ install preflights a later unwritable parent without leaving earlier skills and can retry (1067.226033ms)
+2026-10-18T11:30:21.4894311Z ✔ init rejects a nonwritable existing configuration parent and retries after correction (1151.359285ms)
+2026-10-18T11:30:21.4895634Z ✔ install creates missing destination parents and all five skills (530.334606ms)
+2026-10-18T11:30:21.4896997Z ✔ install preflights a later existing file without creating earlier skill paths (541.396233ms)
+2026-10-18T11:30:21.4898431Z ✔ install rejects a later nondirectory parent without creating earlier skill paths (485.172714ms)
+2026-10-18T11:30:21.4899913Z ✔ install rejects a later symlink parent without creating earlier skill paths (518.692649ms)
+2026-10-18T11:30:21.4901302Z ▶ report commands reject a destination that is also their configuration without changing it
+2026-10-18T11:30:21.4902167Z   ✔ audit (568.069249ms)
+2026-10-18T11:30:21.4902603Z   ✔ aso (616.119551ms)
+2026-10-18T11:30:21.4903412Z   ✔ plan (603.927378ms)
+2026-10-18T11:30:21.4903911Z   ✔ visibility (623.421609ms)
+2026-10-18T11:30:21.4905100Z ✔ report commands reject a destination that is also their configuration without changing it (2416.189744ms)
+2026-10-18T11:30:21.4906672Z ✔ a later report destination conflict preserves the previous JSON and raw evidence (1076.281744ms)
+2026-10-18T11:30:21.4908171Z ✔ report preflight rejects a hard-linked input alias without modifying either name (541.348899ms)
+2026-10-18T11:30:21.4909888Z ✔ report preflight rejects two destinations aliasing one file instead of reporting success with invalid JSON (553.769669ms)
+2026-10-18T11:30:21.4911383Z ▶ report preflight protects product, query and raw-response input destinations
+2026-10-18T11:30:21.4912185Z   ✔ product (558.902551ms)
+2026-10-18T11:30:21.4912646Z   ✔ queries (500.004633ms)
+2026-10-18T11:30:21.4913327Z   ✔ input (559.299317ms)
+2026-10-18T11:30:21.4914394Z ✔ report preflight protects product, query and raw-response input destinations (1619.695314ms)
+2026-10-18T11:30:21.4915893Z ✔ report preflight rejects a blocked evidence ancestor before replacing existing reports (540.523991ms)
+2026-10-18T11:30:21.4917277Z ✔ safe report reuse replaces outputs with matching retained evidence (1100.654633ms)
+2026-10-18T11:30:21.4918656Z ✔ a non-writable later destination is detected before replacing earlier outputs (530.161672ms)
+2026-10-18T11:30:21.9586063Z ✔ install and init reject symlink ancestors before resolving the target (1067.396837ms)
+2026-10-18T11:30:21.9630266Z ✔ audit rejects a symlink used as the export root (550.05344ms)
+2026-10-18T11:30:21.9654798Z ✔ reports reject symlink files and directories without overwriting external data (1107.538717ms)
+2026-10-18T11:30:21.9673934Z ✔ crawler checks use the export path even when canonical points to an allowed page (588.355391ms)
+2026-10-18T11:30:21.9697901Z ✔ crawler checks encode literal filename segments while preserving index routes and canonical independence (629.657898ms)
+2026-10-18T11:30:21.9725226Z ✔ crawler checks preserve a literal POSIX backslash filename (583.442069ms)
+2026-10-18T11:30:21.9726973Z ✔ installation uses the same normalized target for checking and writing with dot-dot segments (1017.176833ms)
+2026-10-18T11:30:22.1675360Z ✔ audit fails repeated sitemap URLs with ordered positions and deterministic evidence (578.808617ms)
+2026-10-18T11:30:22.7324677Z ✔ audit compares decoded XML references once and preserves literal escaped references (569.278495ms)
+2026-10-18T11:30:23.3257811Z ✔ audit passes unique sitemap spellings without URL normalization (590.717264ms)
+2026-10-18T11:30:23.9015232Z ▶ audit leaves duplicate status unknown for unavailable or unsupported sitemaps
+2026-10-18T11:30:23.9016723Z   ✔ missing (574.24384ms)
+2026-10-18T11:30:24.4322649Z   ✔ malformed (533.899031ms)
+2026-10-18T11:30:25.0106969Z   ✔ empty (577.145166ms)
+2026-10-18T11:30:25.6082745Z   ✔ index (598.638887ms)
+2026-10-18T11:30:26.1910062Z   ✔ off-origin (582.050365ms)
+2026-10-18T11:30:26.6403775Z   ✔ custom-entity (449.171431ms)
+2026-10-18T11:30:26.6405072Z ✔ audit leaves duplicate status unknown for unavailable or unsupported sitemaps (3317.641743ms)
+2026-10-18T11:30:26.6523857Z ✔ visibility preserves raw evidence and computes rates only from successful answers (577.156367ms)
+2026-10-18T11:30:26.6525373Z ✔ visibility returns null rates for empty or entirely failed sample sets (1175.216188ms)
+2026-10-18T11:30:26.6526779Z ✔ visibility rejects malformed records and duplicate sample IDs before writing evidence (1616.300404ms)
+2026-10-18T11:30:26.6527667Z ✔ visibility rejects impossible calendar timestamps instead of normalizing them (485.69158ms)
+2026-10-18T11:30:26.6528637Z ✔ visibility counts underscore-delimited names and aliases while excluding embedded letters and numbers (599.912556ms)
+2026-10-18T11:30:26.9606433Z ▶ audit rejects invalid XML references and characters before counting sitemap URLs
+2026-10-18T11:30:26.9607292Z   ✔ &unknown; (604.704577ms)
+2026-10-18T11:30:26.9607775Z   ✔ &nbsp; (532.616263ms)
+2026-10-18T11:30:26.9608217Z   ✔ &AMP; (536.538196ms)
+2026-10-18T11:30:26.9608710Z   ✔ &#0; (586.773228ms)
+2026-10-18T11:30:26.9609129Z   ✔ &#x0; (586.233464ms)
+2026-10-18T11:30:26.9609407Z   ✔ &#1; (610.705407ms)
+2026-10-18T11:30:26.9609806Z   ✔ &#xB; (553.193158ms)
+2026-10-18T11:30:26.9610241Z   ✔ &#xD800; (480.039483ms)
+2026-10-18T11:30:26.9610682Z   ✔ &#xDFFF; (334.90003ms)
+2026-10-18T11:30:27.2939295Z   ✔ &#xFFFE; (333.152544ms)
+2026-10-18T11:30:27.6341080Z   ✔ &#xFFFF; (340.170718ms)
+2026-10-18T11:30:27.9597557Z   ✔ &#x110000; (325.467663ms)
+2026-10-18T11:30:28.2957000Z   ✔ &#; (335.769043ms)
+2026-10-18T11:30:28.6132106Z   ✔ &#x; (317.357681ms)
+2026-10-18T11:30:28.9445985Z   ✔ &#X26; (331.271483ms)
+2026-10-18T11:30:29.2767061Z   ✔ attribute-name (331.825509ms)
+2026-10-18T11:30:29.6040632Z   ✔ attribute-empty-number (326.977373ms)
+2026-10-18T11:30:29.9342038Z   ✔ literal-null-in-comment (330.193747ms)
+2026-10-18T11:30:30.2600836Z   ✔ split-reference (325.636142ms)
+2026-10-18T11:30:30.5816069Z   ✔ quoted-<!-- &unknown; --> (321.343455ms)
+2026-10-18T11:30:30.9158505Z   ✔ quoted-<![CDATA[&unknown;]]> (334.078416ms)
+2026-10-18T11:30:31.2395769Z   ✔ quoted-<?fixture &unknown;?> (323.069753ms)
+2026-10-18T11:30:31.2396909Z ✔ audit rejects invalid XML references and characters before counting sitemap URLs (9110.262363ms)
+2026-10-18T11:30:31.5668327Z ▶ audit preserves legal XML numeric boundaries and predefined references
+2026-10-18T11:30:31.5669305Z   ✔ 9 (326.964969ms)
+2026-10-18T11:30:31.8983614Z   ✔ a (331.199614ms)
+2026-10-18T11:30:32.2240046Z   ✔ d (325.751679ms)
+2026-10-18T11:30:32.5561723Z   ✔ 20 (331.754516ms)
+2026-10-18T11:30:32.8838578Z   ✔ d7ff (327.548339ms)
+2026-10-18T11:30:33.2092854Z   ✔ e000 (325.345565ms)
+2026-10-18T11:30:33.5395552Z   ✔ fffd (329.840765ms)
+2026-10-18T11:30:33.8651253Z   ✔ 10000 (325.671453ms)
+2026-10-18T11:30:34.1966747Z   ✔ 10ffff (331.216492ms)
+2026-10-18T11:30:34.5244880Z   ✔ 85 (327.581173ms)
+2026-10-18T11:30:34.8601938Z   ✔ 1fffe (335.226071ms)
+2026-10-18T11:30:34.8603408Z ✔ audit preserves legal XML numeric boundaries and predefined references (3620.476733ms)
+2026-10-18T11:30:35.1875354Z ✔ audit keeps reference-looking CDATA, comments, processing instructions and escaped ampersands literal (327.291578ms)
+2026-10-18T11:30:35.5131737Z ✔ quotes in element text do not hide real literal sections (325.271775ms)
+2026-10-18T11:30:35.8463654Z ✔ audit decodes valid long numeric spellings once without changing escaped or CDATA literals (333.468081ms)
+2026-10-18T11:30:35.8581469Z ℹ tests 165
+2026-10-18T11:30:35.8581874Z ℹ suites 0
+2026-10-18T11:30:35.8582174Z ℹ pass 165
+2026-10-18T11:30:35.8582399Z ℹ fail 0
+2026-10-18T11:30:35.8584108Z ℹ cancelled 0
+2026-10-18T11:30:35.8584540Z ℹ skipped 0
+2026-10-18T11:30:35.8584886Z ℹ todo 0
+2026-10-18T11:30:35.8585148Z ℹ duration_ms 39464.154919
+2026-10-18T11:30:35.8750533Z ##[group]Run npm run build
+2026-10-18T11:30:35.8750845Z [36;1mnpm run build[0m
+2026-10-18T11:30:35.8812922Z shell: /usr/bin/bash -e {0}
+2026-10-18T11:30:35.8813415Z ##[endgroup]
+2026-10-18T11:30:35.9838460Z 
+2026-10-18T11:30:35.9839130Z > geo-growth-engine@0.1.0-alpha.3 build
+2026-10-18T11:30:35.9839614Z > tsc
+2026-10-18T11:30:35.9839736Z 
+2026-10-18T11:30:36.1922373Z ##[group]Run node dist/src/cli.js audit --config examples/.geo/config.yaml --output "$RUNNER_TEMP/geo-example-reports"
+2026-10-18T11:30:36.1923577Z [36;1mnode dist/src/cli.js audit --config examples/.geo/config.yaml --output "$RUNNER_TEMP/geo-example-reports"[0m
+2026-10-18T11:30:36.1924360Z [36;1mnode dist/src/cli.js aso --config examples/.geo/config.yaml --output "$RUNNER_TEMP/geo-example-reports"[0m
+2026-10-18T11:30:36.1925109Z [36;1mnode dist/src/cli.js plan --config examples/.geo/config.yaml --output "$RUNNER_TEMP/geo-example-reports"[0m
+2026-10-18T11:30:36.1926016Z [36;1mnode dist/src/cli.js visibility --config examples/.geo/config.yaml --input examples/visibility.jsonl --output "$RUNNER_TEMP/geo-example-reports"[0m
+2026-10-18T11:30:36.1989794Z shell: /usr/bin/bash -e {0}
+2026-10-18T11:30:36.1990072Z ##[endgroup]
+2026-10-18T11:30:36.4634230Z {"output":"/home/runner/work/_temp/geo-example-reports","pass":17,"fail":0,"unknown":2}
+2026-10-18T11:30:36.7099842Z {"output":"/home/runner/work/_temp/geo-example-reports","pass":9,"fail":0,"unknown":2}
+2026-10-18T11:30:36.9562186Z {"output":"/home/runner/work/_temp/geo-example-reports","pass":1,"fail":0,"unknown":0}
+2026-10-18T11:30:37.1995516Z {"output":"/home/runner/work/_temp/geo-example-reports","pass":0,"fail":0,"unknown":3}
+2026-10-18T11:30:37.2170262Z ##[group]Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+2026-10-18T11:30:37.2170713Z with:
+2026-10-18T11:30:37.2170940Z   name: fictional-geo-example-reports
+2026-10-18T11:30:37.2171288Z   path: /home/runner/work/_temp/geo-example-reports/
+2026-10-18T11:30:37.2171614Z   if-no-files-found: error
+2026-10-18T11:30:37.2171860Z   retention-days: 14
+2026-10-18T11:30:37.2172076Z   compression-level: 6
+2026-10-18T11:30:37.2172311Z   overwrite: false
+2026-10-18T11:30:37.2172539Z   include-hidden-files: false
+2026-10-18T11:30:37.2172794Z   archive: true
+2026-10-18T11:30:37.2173007Z ##[endgroup]
+2026-10-18T11:30:37.3694185Z With the provided path, there will be 9 files uploaded
+2026-10-18T11:30:37.3695928Z Artifact name is valid!
+2026-10-18T11:30:37.3696454Z Root directory input is valid!
+2026-10-18T11:30:37.7575543Z Uploading artifact: fictional-geo-example-reports.zip
+2026-10-18T11:30:37.7621397Z Beginning upload of artifact content to blob storage
+2026-10-18T11:30:38.0900477Z Uploaded bytes 8694
+2026-10-18T11:30:38.1650353Z Finished uploading artifact content to blob storage!
+2026-10-18T11:30:38.1651749Z SHA256 digest of uploaded artifact is 81c191054fe028b09468b0ff3be617b2f7408284c0a47d54789a1d5897e22de5
+2026-10-18T11:30:38.1653612Z Finalizing artifact upload
+2026-10-18T11:30:38.5507668Z Artifact fictional-geo-example-reports successfully finalized. Artifact ID 12134894110
+2026-10-18T11:30:38.5508909Z Artifact fictional-geo-example-reports has been successfully uploaded! Final size is 8694 bytes. Artifact ID is 12134894110
+2026-10-18T11:30:38.5512128Z Artifact download URL: https://github.com/tsm0420/geo-growth-engine/actions/runs/39123454467/artifacts/12134894110
+2026-10-18T11:30:38.5689886Z Post job cleanup.
+2026-10-18T11:30:38.6830131Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-f83d15673b53e20273b620e45ffe41e88365b5cd92d601c03a4a3d9cc20a99b3, not saving cache.
+2026-10-18T11:30:38.6978530Z Post job cleanup.
+2026-10-18T11:30:38.7857283Z [command]/usr/bin/git version
+2026-10-18T11:30:38.7916643Z git version 2.55.0
+2026-10-18T11:30:38.7957502Z Temporarily overriding HOME='/home/runner/work/_temp/a969f51f-117c-4133-a3cd-31c808781af0' before making global git config changes
+2026-10-18T11:30:38.7959022Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-18T11:30:38.7963711Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/geo-growth-engine/geo-growth-engine
+2026-10-18T11:30:38.8001439Z Removing SSH command configuration
+2026-10-18T11:30:38.8009122Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-18T11:30:38.8060417Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-18T11:30:38.8320972Z Removing HTTP extra header
+2026-10-18T11:30:38.8326622Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-18T11:30:38.8373301Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-18T11:30:38.8632322Z Removing includeIf entries pointing to credentials config files
+2026-10-18T11:30:38.8640258Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-18T11:30:38.8726362Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-18T11:30:38.9162735Z Cleaning up orphan processes

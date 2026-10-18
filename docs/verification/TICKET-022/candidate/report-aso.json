@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "aso",
+  "generatedAt": "2026-10-18T11:24:52.727Z",
+  "example": true,
+  "scope": "Local supplied store metadata; no store account access or publishing.",
+  "findings": [
+    {
+      "id": "ios.name",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml; en-GB; 15 Unicode code points; accepted range 2-30; https://developer.apple.com/help/app-store-connect/reference/app-information/app-information/",
+      "action": "Review the field in the store console; the CLI checks length, not policy acceptance."
+    },
+    {
+      "id": "ios.subtitle",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml; en-GB; 11 Unicode code points; accepted range 1-30; https://developer.apple.com/help/app-store-connect/reference/app-information/app-information/",
+      "action": "Review the field in the store console; the CLI checks length, not policy acceptance."
+    },
+    {
+      "id": "ios.keywords",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml; en-GB; 19 UTF-8 bytes; accepted range 1-100; https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+      "action": "Review the field in the store console; the CLI checks length, not policy acceptance."
+    },
+    {
+      "id": "ios.description",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml; en-GB; 27 Unicode code points; accepted range 1-4000; https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+      "action": "Review the field in the store console; the CLI checks length, not policy acceptance."
+    },
+    {
+      "id": "ios.fact-references",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml: supplied references daily-notes -> https://example.com/features/daily-notes; sources not fetched",
+      "action": "Inspect the referenced evidence before approving claims."
+    },
+    {
+      "id": "ios.semantic-claims",
+      "status": "unknown",
+      "evidence": "Text-to-fact consistency, screenshots, localization quality, conversion, and store acceptance were not verified.",
+      "action": "Review every capability, price, and comparison against source evidence; inspect actual console and image artifacts."
+    },
+    {
+      "id": "android.title",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml; en-GB; 15 Unicode code points; accepted range 1-30; https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+      "action": "Review the field in the store console; the CLI checks length, not policy acceptance."
+    },
+    {
+      "id": "android.shortDescription",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml; en-GB; 27 Unicode code points; accepted range 1-80; https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+      "action": "Review the field in the store console; the CLI checks length, not policy acceptance."
+    },
+    {
+      "id": "android.fullDescription",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml; en-GB; 27 Unicode code points; accepted range 1-4000; https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+      "action": "Review the field in the store console; the CLI checks length, not policy acceptance."
+    },
+    {
+      "id": "android.fact-references",
+      "status": "pass",
+      "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/product.yaml: supplied references daily-notes -> https://example.com/features/daily-notes; sources not fetched",
+      "action": "Inspect the referenced evidence before approving claims."
+    },
+    {
+      "id": "android.semantic-claims",
+      "status": "unknown",
+      "evidence": "Text-to-fact consistency, screenshots, localization quality, conversion, and store acceptance were not verified.",
+      "action": "Review every capability, price, and comparison against source evidence; inspect actual console and image artifacts."
+    }
+  ],
+  "summary": {
+    "pass": 9,
+    "fail": 0,
+    "unknown": 2
+  },
+  "data": null
+}

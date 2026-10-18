@@ -1,0 +1,23 @@
+{
+  "pullRequest": 25,
+  "head": "3d78dd724be07a87d6dd31eadcd7ccc50ecf7184",
+  "base": "6f06fdd9f752caabe9a28860d0972b03ddcf3b8a",
+  "runId": 39123454467,
+  "jobId": 117663630008,
+  "testedCheckout": "f811db1cb6d7df4f322352946a17ec7fca2b5f05",
+  "tree": "8e58bda0e6718a01f59ab67d6a994196e9f2ab28",
+  "testedTreeEqualsHeadTree": true,
+  "tests": 165,
+  "passed": 165,
+  "failed": 0,
+  "skipped": 0,
+  "typecheck": "success",
+  "build": "success",
+  "fixtureReports": 4,
+  "logTruncated": false,
+  "limits": [
+    "Synthetic PR merge tree equals the checked head tree; commit metadata is distinct.",
+    "Documentation-only delivery bookkeeping follows this check and requires its own final-head CI.",
+    "No package publication, merge, release or marketplace approval."
+  ]
+}

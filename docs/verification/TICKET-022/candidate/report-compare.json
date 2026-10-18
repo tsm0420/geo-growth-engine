@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "kind": "compare",
+  "generatedAt": "2026-10-18T11:24:53.459Z",
+  "example": true,
+  "scope": "Local audit findings: /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/reports/audit.json -> /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/reports/audit.json; exact IDs and text; no network requests",
+  "findings": [
+    {
+      "id": "finding:index.html:canonical",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/; action=Provide one absolute canonical URL on the configured origin.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/; action=Provide one absolute canonical URL on the configured origin.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:crawler.Googlebot",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:crawler.OAI-SearchBot",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified; action=Review search access separately from training permissions.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:description",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Fictional sample: save daily journal entries.; action=Provide a meaningful description.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Fictional sample: save daily journal entries.; action=Provide a meaningful description.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:heading",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 1 H1 elements; action=Use a descriptive page heading.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 1 H1 elements; action=Use a descriptive page heading.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:index-directive",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: no restrictive HTML meta directive observed; action=Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: no restrictive HTML meta directive observed; action=Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:jsonld-syntax.1",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: JSON-LD parses as an object or array; action=Review structured-data semantics separately.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: JSON-LD parses as an object or array; action=Review structured-data semantics separately.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:open-graph",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: og:title and og:description presence; action=Supply truthful social metadata.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: og:title and og:description presence; action=Supply truthful social metadata.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:readable-text",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 124 non-script text characters in HTML; action=Include public content in the exported HTML. CSS visibility is not evaluated.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 124 non-script text characters in HTML; action=Include public content in the exported HTML. CSS visibility is not evaluated.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:sitemap-coverage",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/ in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml; action=Add the intended canonical URL to the direct sitemap.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/ in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml; action=Add the intended canonical URL to the direct sitemap.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:title",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Example Journal — fictional toolkit fixture; action=Provide one descriptive title.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Example Journal — fictional toolkit fixture; action=Provide one descriptive title.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:training.GPTBot",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:index.html:training.Google-Extended",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only; action=Preserve the owner's training policy; it is not a search eligibility check.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:live-indexing",
+      "status": "unknown",
+      "evidence": "unchanged; before: unknown; evidence=Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.; action=Inspect deployment and supported search tools separately.; after: unknown; evidence=Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.; action=Inspect deployment and supported search tools separately.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:llms-txt",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=Optional llms.txt absent; no readiness penalty.; action=Treat as an optional experiment.; after: pass; evidence=Optional llms.txt absent; no readiness penalty.; action=Treat as an optional experiment.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:robots-file",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt; action=Review intentional access policy.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt; action=Review intentional access policy.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:schema-semantics",
+      "status": "unknown",
+      "evidence": "unchanged; before: unknown; evidence=JSON parsing does not establish Schema.org validity or rich-result eligibility.; action=Use the applicable schema and search validation tools.; after: unknown; evidence=JSON parsing does not establish Schema.org validity or rich-result eligibility.; action=Use the applicable schema and search validation tools.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:sitemap",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 locations; direct urlset required; action=Supply a direct sitemap urlset for this export; sitemap indexes are not expanded.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 locations; direct urlset required; action=Supply a direct sitemap urlset for this export; sitemap indexes are not expanded.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "finding:sitemap-duplicates",
+      "status": "pass",
+      "evidence": "unchanged; before: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries; action=Retain one intended canonical entry per URL and rebuild the export.; after: pass; evidence=/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries; action=Retain one intended canonical entry per URL and rebuild the export.",
+      "action": "Inspect both original observations and the later action before choosing a fix."
+    },
+    {
+      "id": "comparison-scope",
+      "status": "unknown",
+      "evidence": "Structural finding comparison only. Product identity, collection conditions and growth attribution are unverified.",
+      "action": "Inspect both source scopes, input data and collection conditions. Removed findings are unknown; literal differences do not establish improvement."
+    }
+  ],
+  "summary": {
+    "pass": 17,
+    "fail": 0,
+    "unknown": 3
+  },
+  "data": {
+    "before": {
+      "path": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/reports/audit.json",
+      "sha256": "22852bfddc470f4854af6a9c64315b08bbc7cbdd32dea4643c84b2ab55b9abba",
+      "report": {
+        "schemaVersion": 1,
+        "kind": "audit",
+        "generatedAt": "2026-10-18T11:24:52.487Z",
+        "example": true,
+        "scope": "local export: /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public; no network requests or browser execution",
+        "findings": [
+          {
+            "id": "robots-file",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt",
+            "action": "Review intentional access policy."
+          },
+          {
+            "id": "sitemap",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 locations; direct urlset required",
+            "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+          },
+          {
+            "id": "sitemap-duplicates",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries",
+            "action": "Retain one intended canonical entry per URL and rebuild the export."
+          },
+          {
+            "id": "index.html:title",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Example Journal — fictional toolkit fixture",
+            "action": "Provide one descriptive title."
+          },
+          {
+            "id": "index.html:description",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Fictional sample: save daily journal entries.",
+            "action": "Provide a meaningful description."
+          },
+          {
+            "id": "index.html:open-graph",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: og:title and og:description presence",
+            "action": "Supply truthful social metadata."
+          },
+          {
+            "id": "index.html:heading",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 1 H1 elements",
+            "action": "Use a descriptive page heading."
+          },
+          {
+            "id": "index.html:readable-text",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 124 non-script text characters in HTML",
+            "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+          },
+          {
+            "id": "index.html:index-directive",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: no restrictive HTML meta directive observed",
+            "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+          },
+          {
+            "id": "index.html:canonical",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/",
+            "action": "Provide one absolute canonical URL on the configured origin."
+          },
+          {
+            "id": "index.html:sitemap-coverage",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/ in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml",
+            "action": "Add the intended canonical URL to the direct sitemap."
+          },
+          {
+            "id": "index.html:crawler.Googlebot",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:crawler.OAI-SearchBot",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:training.GPTBot",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:training.Google-Extended",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:jsonld-syntax.1",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: JSON-LD parses as an object or array",
+            "action": "Review structured-data semantics separately."
+          },
+          {
+            "id": "schema-semantics",
+            "status": "unknown",
+            "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+            "action": "Use the applicable schema and search validation tools."
+          },
+          {
+            "id": "live-indexing",
+            "status": "unknown",
+            "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+            "action": "Inspect deployment and supported search tools separately."
+          },
+          {
+            "id": "llms-txt",
+            "status": "pass",
+            "evidence": "Optional llms.txt absent; no readiness penalty.",
+            "action": "Treat as an optional experiment."
+          }
+        ],
+        "summary": {
+          "pass": 17,
+          "fail": 0,
+          "unknown": 2
+        },
+        "data": {
+          "config": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/config.yaml",
+          "files": [
+            "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html"
+          ],
+          "sitemap": {
+            "entries": 1,
+            "uniqueUrls": 1,
+            "duplicateEntries": 0,
+            "duplicates": []
+          }
+        }
+      }
+    },
+    "after": {
+      "path": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/reports/audit.json",
+      "sha256": "22852bfddc470f4854af6a9c64315b08bbc7cbdd32dea4643c84b2ab55b9abba",
+      "report": {
+        "schemaVersion": 1,
+        "kind": "audit",
+        "generatedAt": "2026-10-18T11:24:52.487Z",
+        "example": true,
+        "scope": "local export: /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public; no network requests or browser execution",
+        "findings": [
+          {
+            "id": "robots-file",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt",
+            "action": "Review intentional access policy."
+          },
+          {
+            "id": "sitemap",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 locations; direct urlset required",
+            "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+          },
+          {
+            "id": "sitemap-duplicates",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries",
+            "action": "Retain one intended canonical entry per URL and rebuild the export."
+          },
+          {
+            "id": "index.html:title",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Example Journal — fictional toolkit fixture",
+            "action": "Provide one descriptive title."
+          },
+          {
+            "id": "index.html:description",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Fictional sample: save daily journal entries.",
+            "action": "Provide a meaningful description."
+          },
+          {
+            "id": "index.html:open-graph",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: og:title and og:description presence",
+            "action": "Supply truthful social metadata."
+          },
+          {
+            "id": "index.html:heading",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 1 H1 elements",
+            "action": "Use a descriptive page heading."
+          },
+          {
+            "id": "index.html:readable-text",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 124 non-script text characters in HTML",
+            "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+          },
+          {
+            "id": "index.html:index-directive",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: no restrictive HTML meta directive observed",
+            "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+          },
+          {
+            "id": "index.html:canonical",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/",
+            "action": "Provide one absolute canonical URL on the configured origin."
+          },
+          {
+            "id": "index.html:sitemap-coverage",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/ in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml",
+            "action": "Add the intended canonical URL to the direct sitemap."
+          },
+          {
+            "id": "index.html:crawler.Googlebot",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:crawler.OAI-SearchBot",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+            "action": "Review search access separately from training permissions."
+          },
+          {
+            "id": "index.html:training.GPTBot",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:training.Google-Extended",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+            "action": "Preserve the owner's training policy; it is not a search eligibility check."
+          },
+          {
+            "id": "index.html:jsonld-syntax.1",
+            "status": "pass",
+            "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: JSON-LD parses as an object or array",
+            "action": "Review structured-data semantics separately."
+          },
+          {
+            "id": "schema-semantics",
+            "status": "unknown",
+            "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+            "action": "Use the applicable schema and search validation tools."
+          },
+          {
+            "id": "live-indexing",
+            "status": "unknown",
+            "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+            "action": "Inspect deployment and supported search tools separately."
+          },
+          {
+            "id": "llms-txt",
+            "status": "pass",
+            "evidence": "Optional llms.txt absent; no readiness penalty.",
+            "action": "Treat as an optional experiment."
+          }
+        ],
+        "summary": {
+          "pass": 17,
+          "fail": 0,
+          "unknown": 2
+        },
+        "data": {
+          "config": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/.geo/config.yaml",
+          "files": [
+            "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html"
+          ],
+          "sitemap": {
+            "entries": 1,
+            "uniqueUrls": 1,
+            "duplicateEntries": 0,
+            "duplicates": []
+          }
+        }
+      }
+    },
+    "changes": [
+      {
+        "id": "index.html:canonical",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:canonical",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/",
+          "action": "Provide one absolute canonical URL on the configured origin."
+        },
+        "after": {
+          "id": "index.html:canonical",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/",
+          "action": "Provide one absolute canonical URL on the configured origin."
+        }
+      },
+      {
+        "id": "index.html:crawler.Googlebot",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:crawler.Googlebot",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        },
+        "after": {
+          "id": "index.html:crawler.Googlebot",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: Googlebot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        }
+      },
+      {
+        "id": "index.html:crawler.OAI-SearchBot",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:crawler.OAI-SearchBot",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        },
+        "after": {
+          "id": "index.html:crawler.OAI-SearchBot",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: OAI-SearchBot at inferred export URL https://example.com/; allowed=true; deployment routes unverified",
+          "action": "Review search access separately from training permissions."
+        }
+      },
+      {
+        "id": "index.html:description",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:description",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Fictional sample: save daily journal entries.",
+          "action": "Provide a meaningful description."
+        },
+        "after": {
+          "id": "index.html:description",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Fictional sample: save daily journal entries.",
+          "action": "Provide a meaningful description."
+        }
+      },
+      {
+        "id": "index.html:heading",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:heading",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 1 H1 elements",
+          "action": "Use a descriptive page heading."
+        },
+        "after": {
+          "id": "index.html:heading",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 1 H1 elements",
+          "action": "Use a descriptive page heading."
+        }
+      },
+      {
+        "id": "index.html:index-directive",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:index-directive",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: no restrictive HTML meta directive observed",
+          "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+        },
+        "after": {
+          "id": "index.html:index-directive",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: no restrictive HTML meta directive observed",
+          "action": "Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured."
+        }
+      },
+      {
+        "id": "index.html:jsonld-syntax.1",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:jsonld-syntax.1",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: JSON-LD parses as an object or array",
+          "action": "Review structured-data semantics separately."
+        },
+        "after": {
+          "id": "index.html:jsonld-syntax.1",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: JSON-LD parses as an object or array",
+          "action": "Review structured-data semantics separately."
+        }
+      },
+      {
+        "id": "index.html:open-graph",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:open-graph",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: og:title and og:description presence",
+          "action": "Supply truthful social metadata."
+        },
+        "after": {
+          "id": "index.html:open-graph",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: og:title and og:description presence",
+          "action": "Supply truthful social metadata."
+        }
+      },
+      {
+        "id": "index.html:readable-text",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:readable-text",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 124 non-script text characters in HTML",
+          "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+        },
+        "after": {
+          "id": "index.html:readable-text",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: 124 non-script text characters in HTML",
+          "action": "Include public content in the exported HTML. CSS visibility is not evaluated."
+        }
+      },
+      {
+        "id": "index.html:sitemap-coverage",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:sitemap-coverage",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/ in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml",
+          "action": "Add the intended canonical URL to the direct sitemap."
+        },
+        "after": {
+          "id": "index.html:sitemap-coverage",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: https://example.com/ in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml",
+          "action": "Add the intended canonical URL to the direct sitemap."
+        }
+      },
+      {
+        "id": "index.html:title",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:title",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Example Journal — fictional toolkit fixture",
+          "action": "Provide one descriptive title."
+        },
+        "after": {
+          "id": "index.html:title",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/index.html: Example Journal — fictional toolkit fixture",
+          "action": "Provide one descriptive title."
+        }
+      },
+      {
+        "id": "index.html:training.GPTBot",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:training.GPTBot",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        },
+        "after": {
+          "id": "index.html:training.GPTBot",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        }
+      },
+      {
+        "id": "index.html:training.Google-Extended",
+        "change": "unchanged",
+        "before": {
+          "id": "index.html:training.Google-Extended",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        },
+        "after": {
+          "id": "index.html:training.Google-Extended",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt: training policy allowed=false; informational only",
+          "action": "Preserve the owner's training policy; it is not a search eligibility check."
+        }
+      },
+      {
+        "id": "live-indexing",
+        "change": "unchanged",
+        "before": {
+          "id": "live-indexing",
+          "status": "unknown",
+          "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+          "action": "Inspect deployment and supported search tools separately."
+        },
+        "after": {
+          "id": "live-indexing",
+          "status": "unknown",
+          "evidence": "Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.",
+          "action": "Inspect deployment and supported search tools separately."
+        }
+      },
+      {
+        "id": "llms-txt",
+        "change": "unchanged",
+        "before": {
+          "id": "llms-txt",
+          "status": "pass",
+          "evidence": "Optional llms.txt absent; no readiness penalty.",
+          "action": "Treat as an optional experiment."
+        },
+        "after": {
+          "id": "llms-txt",
+          "status": "pass",
+          "evidence": "Optional llms.txt absent; no readiness penalty.",
+          "action": "Treat as an optional experiment."
+        }
+      },
+      {
+        "id": "robots-file",
+        "change": "unchanged",
+        "before": {
+          "id": "robots-file",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt",
+          "action": "Review intentional access policy."
+        },
+        "after": {
+          "id": "robots-file",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/robots.txt",
+          "action": "Review intentional access policy."
+        }
+      },
+      {
+        "id": "schema-semantics",
+        "change": "unchanged",
+        "before": {
+          "id": "schema-semantics",
+          "status": "unknown",
+          "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+          "action": "Use the applicable schema and search validation tools."
+        },
+        "after": {
+          "id": "schema-semantics",
+          "status": "unknown",
+          "evidence": "JSON parsing does not establish Schema.org validity or rich-result eligibility.",
+          "action": "Use the applicable schema and search validation tools."
+        }
+      },
+      {
+        "id": "sitemap",
+        "change": "unchanged",
+        "before": {
+          "id": "sitemap",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 locations; direct urlset required",
+          "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+        },
+        "after": {
+          "id": "sitemap",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 locations; direct urlset required",
+          "action": "Supply a direct sitemap urlset for this export; sitemap indexes are not expanded."
+        }
+      },
+      {
+        "id": "sitemap-duplicates",
+        "change": "unchanged",
+        "before": {
+          "id": "sitemap-duplicates",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries",
+          "action": "Retain one intended canonical entry per URL and rebuild the export."
+        },
+        "after": {
+          "id": "sitemap-duplicates",
+          "status": "pass",
+          "evidence": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-package-8ozk957r/fixtures/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries",
+          "action": "Retain one intended canonical entry per URL and rebuild the export."
+        }
+      }
+    ],
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "status-changed": 0,
+      "details-changed": 0,
+      "unchanged": 19
+    },
+    "comparability": "unknown"
+  }
+}

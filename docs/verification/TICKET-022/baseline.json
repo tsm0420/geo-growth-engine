@@ -1,0 +1,88 @@
+{
+  "source": "faa2999792b3f2cfdc4c024ab4880df1287f19e7",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z",
+  "oldInstalledSkillSha256": "133f0bd6e74d7476de1ed4db62ef6b63dff91098d93c733aafd6602b066e43ef",
+  "steps": [
+    {
+      "label": "audit",
+      "command": [
+        "node",
+        "/Users/tsm0420/geo/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/Users/tsm0420/geo/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/before"
+      ],
+      "cwd": "/Users/tsm0420/geo",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:14:29.709061+00:00"
+    },
+    {
+      "label": "install-old-skill",
+      "command": [
+        "node",
+        "/Users/tsm0420/geo/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/project"
+      ],
+      "cwd": "/Users/tsm0420/geo",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:14:29.837799+00:00"
+    },
+    {
+      "label": "compare-general-config",
+      "command": [
+        "node",
+        "/Users/tsm0420/geo/dist/src/cli.js",
+        "compare",
+        "--config",
+        "/Users/tsm0420/geo/examples/.geo/config.yaml",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/before/audit.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/before/audit.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/with-config"
+      ],
+      "cwd": "/Users/tsm0420/geo",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:14:29.957622+00:00"
+    },
+    {
+      "label": "compare-without-config",
+      "command": [
+        "node",
+        "/Users/tsm0420/geo/dist/src/cli.js",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/before/audit.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/before/audit.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-doc022-baseline-rshsv16z/without-config"
+      ],
+      "cwd": "/Users/tsm0420/geo",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:14:30.077021+00:00"
+    },
+    {
+      "label": "help",
+      "command": [
+        "node",
+        "/Users/tsm0420/geo/dist/src/cli.js",
+        "--help"
+      ],
+      "cwd": "/Users/tsm0420/geo",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "recordedAt": "2026-10-18T11:14:30.193739+00:00"
+    }
+  ],
+  "interpretation": "Compare succeeds without config, contradicting the old generic requirement sentence. An extra config flag is accepted; no runtime defect or source change is established. Reports use fictional fixtures."
+}
