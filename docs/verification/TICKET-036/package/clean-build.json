@@ -1,0 +1,12 @@
+{
+  "label": "clean-build",
+  "command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo036-package-ao5izuk7/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T14:41:06.215446+00:00"
+}

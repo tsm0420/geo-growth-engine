@@ -1,0 +1,1 @@
+after data.totals.citationRate must be null or a finite fraction in [0,1]

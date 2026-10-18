@@ -1,0 +1,1 @@
+before data.totals must be an object
