@@ -1,0 +1,7 @@
+version: 1
+queries:
+  - id: daily-journal
+    query: How can I ÿ keep daily journal entries?
+    intent: use-case
+    priority: 1
+    factIds: [daily-notes]

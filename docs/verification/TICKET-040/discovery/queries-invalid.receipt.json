@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "plan",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/queries-invalid/.geo/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf/queries-invalid/results"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo039-yaml-6_g6z3bf",
+  "exitCode": 0,
+  "runtime": "v24.22.0",
+  "at": "2026-10-18T15:06:42.421859+00:00"
+}

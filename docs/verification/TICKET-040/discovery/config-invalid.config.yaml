@@ -1,0 +1,7 @@
+version: 1
+origin: https://example.com
+publicDir: ../public
+product: product.yaml
+queries: queries.yaml
+
+# Supplied note: ÿ
