@@ -1,0 +1,15 @@
+--- a/public/sitemap.xml
++++ b/public/sitemap.xml
+@@ -66,12 +66,6 @@
+ <changefreq>monthly</changefreq>
+ <priority>0.7</priority>
+ </url>
+-<url>
+-<loc>https://yinthread.com/learn/day-master</loc>
+-<lastmod>2026-10-13T20:07:24.339Z</lastmod>
+-<changefreq>monthly</changefreq>
+-<priority>0.7</priority>
+-</url>
+ <url>
+ <loc>https://yinthread.com/learn/chinese-astrology-vs-zodiac</loc>
+ <lastmod>2026-10-13T20:07:24.339Z</lastmod>

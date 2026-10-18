@@ -1,0 +1,2 @@
+patching file 'public/sitemap.xml'
+1 out of 1 hunks failed while patching 'public/sitemap.xml'

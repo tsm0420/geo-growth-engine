@@ -1,0 +1,21 @@
+{
+  "patchSha256": "1ff3224c7b2358f528e12d546793c0f9e5624cd5c33b4994e1a974f575c84903",
+  "observedDeletionLines": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "requiredDeletionLines": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "meetsWholeNodeAlignment": true,
+  "priorAuthoringReceipt": "initial-diff-alignment/alignment-precheck.json"
+}

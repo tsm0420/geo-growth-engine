@@ -1,0 +1,11 @@
+# Local remediation rehearsal receipts
+
+TICKET-020 uses a disposable copy of the real 2026-10-16 YinThread capture. The copy was edited and audited on 2026-10-18. It is a derived local artifact, with no new capture or deployment. The unchanged product `example: false` identifies the real source corpus; it does not authenticate deployment. Captured rights and NOTICE remain applicable. Full before/after XML copies stay local and are digest-indexed; the small data patch reconstructs the edit from the original frozen sitemap.
+
+All six primary expected outcomes passed: baseline audit 1, patch check 0, patch application 0, after audit 0, comparison 0 and already-applied control check 1. The original duplicate positions 8/12 became one occurrence at 8. The final patch explicitly removes the complete node at original lines 69–74; patch-alignment.json records its deletion markers. Original bodies, config, notices and historical reports remain unchanged. The first authoring patch produced the same edited bytes but aligned its markers across adjacent XML delimiters; its receipts remain local under initial-diff-alignment/. Final receipts here come from fresh executions of the corrected patch.
+
+The exact README fenced block was separately executed through /bin/sh with exit 0; walkthrough-command.json stores its actual arguments and body, and walkthrough-result.json its digest and observations. The comparison retains schema/live-indexing unknowns and adds unknown comparison scope. All 40 execution inputs and 23 installed files match verified source 248adb10c710633269ad4342d1cb5bd14f35e715. Unchanged source/package proof is reused; no new package or unaffected local full-suite execution is claimed.
+
+No site build, network request, source feature, production edit or Agensi edit occurred during this rehearsal. Independent Standards/Spec reviews and exact-head CI remain separate delivery gates.
+
+Documentation commit a078069d1d260e6eabb833402e58e4f879371c7e passed exact-head PR CI run39122032946/job117659401166:165 tests passed, zero failed/skipped; typecheck/build and four fictional reports succeeded. ci-documentation.json retains the complete Code Review log. Later outcome bookkeeping receives its own final-head check, identified in PR #23 and the local delivery checkpoint.

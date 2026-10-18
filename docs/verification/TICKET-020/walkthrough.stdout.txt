@@ -1,0 +1,6 @@
+{"output":"/private/tmp/geo-yinthread-rehearsal.3a2EHJ/before","pass":16,"fail":1,"unknown":2}
+patching file 'public/sitemap.xml'
+patching file 'public/sitemap.xml'
+{"output":"/private/tmp/geo-yinthread-rehearsal.3a2EHJ/after","pass":17,"fail":0,"unknown":2}
+{"output":"/private/tmp/geo-yinthread-rehearsal.3a2EHJ/comparison","pass":17,"fail":0,"unknown":3}
+Rehearsal artifacts: /private/tmp/geo-yinthread-rehearsal.3a2EHJ

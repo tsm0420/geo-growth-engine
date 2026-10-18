@@ -1,0 +1,12 @@
+{
+  "label": "walkthrough",
+  "command": [
+    "/bin/sh",
+    "-c",
+    "(\n  set -eu\n  GEO_TOOLKIT_ROOT=\"$(pwd -P)\"\n  GEO_CLI=\"$GEO_TOOLKIT_ROOT/dist/src/cli.js\"\n  GEO_REHEARSAL_ROOT=\"$(mktemp -d /tmp/geo-yinthread-rehearsal.XXXXXX)\"\n  GEO_REHEARSAL_ROOT=\"$(cd \"$GEO_REHEARSAL_ROOT\" && pwd -P)\"\n  mkdir \"$GEO_REHEARSAL_ROOT/case\"\n  cp -R \"$GEO_TOOLKIT_ROOT/docs/case-studies/yinthread/public\" \"$GEO_REHEARSAL_ROOT/case/public\"\n  cp -R \"$GEO_TOOLKIT_ROOT/docs/case-studies/yinthread/config\" \"$GEO_REHEARSAL_ROOT/case/config\"\n  GEO_SITEMAP_SHA=\"$(shasum -a 256 \"$GEO_REHEARSAL_ROOT/case/public/sitemap.xml\")\"\n  if [ \"${GEO_SITEMAP_SHA%% *}\" != \"8edaa414edeedc46b0152db4f7c0bab7b292400f495e40dd4f7d358865a3ea06\" ]; then\n    echo \"Unexpected snapshot bytes; stop before patching.\" >&2\n    exit 2\n  fi\n  GEO_BEFORE_EXIT=0\n  node \"$GEO_CLI\" audit --config \"$GEO_REHEARSAL_ROOT/case/config/config.yaml\" --output \"$GEO_REHEARSAL_ROOT/before\" || GEO_BEFORE_EXIT=$?\n  if [ \"$GEO_BEFORE_EXIT\" -ne 1 ]; then\n    echo \"Expected baseline exit 1; got $GEO_BEFORE_EXIT.\" >&2\n    exit 2\n  fi\n  patch --dry-run -f -F 0 -p1 -d \"$GEO_REHEARSAL_ROOT/case\" -i \"$GEO_TOOLKIT_ROOT/docs/case-studies/yinthread/remediation/remove-second-day-master.patch\"\n  patch -f -F 0 -p1 -d \"$GEO_REHEARSAL_ROOT/case\" -i \"$GEO_TOOLKIT_ROOT/docs/case-studies/yinthread/remediation/remove-second-day-master.patch\"\n  node \"$GEO_CLI\" audit --config \"$GEO_REHEARSAL_ROOT/case/config/config.yaml\" --output \"$GEO_REHEARSAL_ROOT/after\"\n  node \"$GEO_CLI\" compare --before \"$GEO_REHEARSAL_ROOT/before/audit.json\" --after \"$GEO_REHEARSAL_ROOT/after/audit.json\" --output \"$GEO_REHEARSAL_ROOT/comparison\"\n  echo \"Rehearsal artifacts: $GEO_REHEARSAL_ROOT\"\n)"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:03:23.631426+00:00"
+}

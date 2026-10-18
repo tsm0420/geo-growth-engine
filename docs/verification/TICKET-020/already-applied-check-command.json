@@ -1,0 +1,19 @@
+{
+  "label": "already-applied-check",
+  "command": [
+    "/usr/bin/patch",
+    "--dry-run",
+    "-f",
+    "-F",
+    "0",
+    "-p1",
+    "-d",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg/already-applied-control",
+    "-i",
+    "/Users/tsm0420/geo/docs/case-studies/yinthread/remediation/remove-second-day-master.patch"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg",
+  "exitCode": 1,
+  "expectedExit": 1,
+  "recordedAt": "2026-10-18T11:03:22.919620+00:00"
+}

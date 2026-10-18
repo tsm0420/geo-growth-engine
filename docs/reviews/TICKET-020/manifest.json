@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 931,
+      "sha256": "7bb2f7f8230d5b177422fbad3580e97c40270dc3780f878d8e3ba1d2721c6bb3"
+    },
+    {
+      "path": "addendum-snapshot.json",
+      "bytes": 267,
+      "sha256": "d05d33de2f51a1395898bce44c56d72d68814c67bfe764546bce0ea14bef5af4"
+    },
+    {
+      "path": "snapshot.json",
+      "bytes": 7641,
+      "sha256": "7eca7685edea8f839c5a9f68b71b772661b7c07af0fe7ea08bbcd66e0bcab292"
+    },
+    {
+      "path": "spec-addendum.md",
+      "bytes": 671,
+      "sha256": "0e282b69c357c5a0009791a11add5a64f8cc9febf8958e4bac3f4854d1d0b2f4"
+    },
+    {
+      "path": "spec-initial.md",
+      "bytes": 2310,
+      "sha256": "7b348d10eb51486e71e8d3b63ed6268f78c9b83c9e69cf4d1c65519b5f5c3abb"
+    },
+    {
+      "path": "standards-addendum.md",
+      "bytes": 1102,
+      "sha256": "69412de2a720628fba9740aff481ecc25826ef78489f43ca1ca5f5e2ce1683e1"
+    },
+    {
+      "path": "standards-initial.md",
+      "bytes": 2504,
+      "sha256": "71f38d3adafe0f9c1b6919b4c46dc1353e1269277757c8b12a296b08b7acc178"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "label": "before-audit",
+  "command": [
+    "node",
+    "/private/tmp/geo-core018-clean-_za4j6uo/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "audit",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg/case/config/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg/before"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg",
+  "exitCode": 1,
+  "expectedExit": 1,
+  "recordedAt": "2026-10-18T11:03:22.626507+00:00"
+}
