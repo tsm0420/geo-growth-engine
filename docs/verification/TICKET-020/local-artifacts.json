@@ -1,0 +1,45 @@
+{
+  "description": "Full copied XML bodies and second walkthrough report copies remain local; these hashes identify actual artifacts. The public patch and original frozen sitemap reconstruct the edited bytes. Prior authoring-phase receipts are preserved locally under initial-diff-alignment/.",
+  "files": [
+    {
+      "path": "reports/candidates/TICKET-020/sitemap-after.xml",
+      "bytes": 26753,
+      "sha256": "838e4c7da6e5fe30e7a07b1920a06effd677e89ff5ecb4517dadca864007b155"
+    },
+    {
+      "path": "reports/candidates/TICKET-020/sitemap-before.xml",
+      "bytes": 26918,
+      "sha256": "8edaa414edeedc46b0152db4f7c0bab7b292400f495e40dd4f7d358865a3ea06"
+    },
+    {
+      "path": "reports/candidates/TICKET-020/walkthrough-after-audit.json",
+      "bytes": 6038,
+      "sha256": "c9b9b550541901aa0661a7528b9a7def5b3ee72980291259c96b0301f0f8e5de"
+    },
+    {
+      "path": "reports/candidates/TICKET-020/walkthrough-after-audit.md",
+      "bytes": 4565,
+      "sha256": "8a7482ce410abe546594b314bd9d20670d0c296b3af610ad3da0a280339b71c4"
+    },
+    {
+      "path": "reports/candidates/TICKET-020/walkthrough-before-audit.json",
+      "bytes": 6293,
+      "sha256": "1c7d128f4507e3c48f3ae6ba7046b9fdaeeb731e65c44db0d2f6748520d31550"
+    },
+    {
+      "path": "reports/candidates/TICKET-020/walkthrough-before-audit.md",
+      "bytes": 4802,
+      "sha256": "19e1f82ce343a4b60a0aa5cf3082c02b2ab95e69ea5d5a147c6396d547b20dac"
+    },
+    {
+      "path": "reports/candidates/TICKET-020/walkthrough-comparison-compare.json",
+      "bytes": 40990,
+      "sha256": "1b0da2673c1ec9910f10f7b4b5bd9410ee8f5c2b11c43a34efd5138f8425c98c"
+    },
+    {
+      "path": "reports/candidates/TICKET-020/walkthrough-comparison-compare.md",
+      "bytes": 38242,
+      "sha256": "a36d078fe7ef767340a18b80bb662a6c75cea74a45c87c85cecb85ed0a75e359"
+    }
+  ]
+}

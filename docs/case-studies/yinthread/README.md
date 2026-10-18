@@ -52,6 +52,10 @@ shasum -a 256 docs/case-studies/yinthread/public/index.html docs/case-studies/yi
 
 Compare those hashes with `capture.json`. For a fresh capture, use the bounded commands recorded there with fresh output filenames. Future responses may differ; the observation timestamp and digests identify this snapshot only.
 
+## Local remediation rehearsal
+
+A separate [temporary-copy walkthrough](remediation/README.md) demonstrates the review/fix/compare loop with the comparison command now integrated into main. The walkthrough and patch belong to this separate documentation candidate. On 2026-10-18, removing the second duplicate from a disposable copy changed its local audit from 16 pass/1 fail/2 unknown (exit 1) to 17 pass/0 fail/2 unknown (exit 0). The comparison preserves both original unknowns and adds unknown comparison scope. This is a derived local artifact demonstration, with no production edit, fresh website observation or measured growth. Frozen bodies and historical results above remain unchanged.
+
 ## Snapshot rights
 
 The toolkit code and documentation use MIT. The three captured website bodies are excluded from that license: website, brand, and embedded third-party rights remain with their respective owners. They are included with the maintainer-authorized case scope as audit evidence, not a grant to reuse the website. See [the snapshot notice](public/NOTICE.txt).

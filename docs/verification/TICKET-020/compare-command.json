@@ -1,0 +1,18 @@
+{
+  "label": "compare",
+  "command": [
+    "node",
+    "/private/tmp/geo-core018-clean-_za4j6uo/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "compare",
+    "--before",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg/before/audit.json",
+    "--after",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg/after/audit.json",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg/comparison"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-yinthread-local-rehearsal020-kwbgpddg",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "recordedAt": "2026-10-18T11:03:22.911328+00:00"
+}

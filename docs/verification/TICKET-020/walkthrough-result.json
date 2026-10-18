@@ -1,0 +1,30 @@
+{
+  "root": "/private/tmp/geo-yinthread-rehearsal.3a2EHJ",
+  "scriptSha256": "3d022744d490b47b58dd71e946eecef78483d3804dafcbab5b3cb0e753e79216",
+  "patchSha256": "1ff3224c7b2358f528e12d546793c0f9e5624cd5c33b4994e1a974f575c84903",
+  "before": {
+    "pass": 16,
+    "fail": 1,
+    "unknown": 2
+  },
+  "after": {
+    "pass": 17,
+    "fail": 0,
+    "unknown": 2
+  },
+  "comparison": {
+    "pass": 17,
+    "fail": 0,
+    "unknown": 3
+  },
+  "counts": {
+    "added": 0,
+    "removed": 0,
+    "status-changed": 1,
+    "details-changed": 1,
+    "unchanged": 17
+  },
+  "result": "exact README fenced block executed successfully",
+  "editedCopySha256": "838e4c7da6e5fe30e7a07b1920a06effd677e89ff5ecb4517dadca864007b155",
+  "frozenInputsUnchanged": true
+}

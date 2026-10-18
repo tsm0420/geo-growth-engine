@@ -1,0 +1,11 @@
+# TICKET-020 independent Spec review — original snapshot
+
+One actionable documentation finding in the original snapshot:
+
+- **[P3] Correct the comparison feature's integration status — `docs/case-studies/yinthread/README.md:57`.** The introduced sentence describes the walkthrough as using “the unmerged comparison candidate.” The accepted specification states, “The maintainer subsequently authorized and completed those ten merges” (`docs/local-remediation-spec.md:15`); that integrated comparison command is already in main. Only this new walkthrough/patch remains an unmerged documentation candidate. Update the sentence to distinguish those states; otherwise the overview incorrectly directs readers to an unavailable unmerged-feature status.
+
+Reviewed fixed point `dddf667f8dee72a2521fba4bdc6c2c718a4939f0`, planning head `96beec4971829dbdfbe4a458fe50d32bb166d5c6` and the 41-file snapshot (manifest SHA-256 `7eca7685edea8f839c5a9f68b71b772661b7c07af0fe7ea08bbcd66e0bcab292`). Inspected the original overview before correction; its initial hash was subsequently rechecked by reconstructing that sole line from immutable `full.patch`. All other 40 files match their initial snapshot hashes; all 34 receipt-manifest member hashes/sizes match.
+
+No additional Spec findings. The final data patch, SHA-256 `1ff3224c7b2358f528e12d546793c0f9e5624cd5c33b4994e1a974f575c84903`, literally removes the complete second six-line node at 69–74. In-memory reconstruction matches the recorded edited-copy digest while retaining the first identical node and all other bytes. All 14 frozen-input and 40 execution-input fingerprints match. Primary receipts support six expected outcomes and the exact README shell block/digest. Retained before/after reports show 16/1/2 → 17/0/2; comparison shows 17/0/3 with 1 status/1 details/17 unchanged, full source documents/digests and explicit unknowns.
+
+Rights, `example:false` real-source identity and derived-local labels remain clear. New PR delivery, exact-head CI and any later merge remain separate gates. No source/CLI/test execution, patch application, network/production/API/index mutation, other-worktree/private-data access or Standards-report reading occurred. Installed-file identity is retained primary evidence; no consumer resampling was performed.
