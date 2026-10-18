@@ -1,0 +1,36 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {spawnSync} from 'node:child_process';
+import {createRequire} from 'node:module';
+import {createHash} from 'node:crypto';
+import {load} from '/Users/tsm0420/geo/node_modules/cheerio/dist/esm/index.js';
+const repo='/Users/tsm0420/geo';
+const previous=JSON.parse(await readFile(`${repo}/reports/candidates/TICKET-029/discovery.json`,'utf8'));
+const raw=`${repo}/reports/candidates/TICKET-030/rendered`;
+await mkdir(raw,{recursive:true});
+const require=createRequire('/Users/tsm0420/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json');
+const path=require.resolve('marked');
+const {marked}=await import(path);
+const observations=[];
+for(const name of ['lf','cr','crlf']){
+ const input=`${previous.root}/${name}/.geo/queries.yaml`;
+ const original=await readFile(input);
+ const output=`${previous.root}/fixed-${name}`;
+ const args=[`${repo}/dist/src/cli.js`,'plan','--config',`${previous.root}/${name}/.geo/config.yaml`,'--output',output];
+ const run=spawnSync(process.execPath,args,{encoding:'utf8'});
+ await writeFile(`${raw}/${name}-command.json`,JSON.stringify({command:[process.execPath,...args],exitCode:run.status,stdout:run.stdout,stderr:run.stderr},null,2)+'\n');
+ assert.equal(run.status,0,run.stderr);
+ const jsonBytes=await readFile(`${output}/plan.json`);
+ const doc=JSON.parse(jsonBytes);
+ const old=JSON.parse(await readFile(`${repo}/reports/candidates/TICKET-029/${name}-plan.json`,'utf8'));
+ assert.deepEqual(doc.findings,old.findings);assert.deepEqual(doc.data,old.data);assert.deepEqual(doc.summary,{pass:0,fail:0,unknown:1});
+ const md=await readFile(`${output}/plan.md`,'utf8');assert.ok(!md.includes('\r'));
+ const html=await marked.parse(md,{gfm:true});
+ const $=load(html);const rows=$('table tbody tr').map((_i,row)=>[$(row).find('td').map((_j,cell)=>$(cell).text()).get()]).get();
+ assert.equal(rows.length,1);assert.equal(rows[0][1],'unknown');
+ assert.deepEqual(await readFile(input),original);
+ await writeFile(`${raw}/${name}-plan.json`,jsonBytes);await writeFile(`${raw}/${name}-plan.md`,md);await writeFile(`${raw}/${name}-plan.html`,html);
+ observations.push({case:name,inputSha256:createHash('sha256').update(original).digest('hex'),summary:doc.summary,rows});
+}
+const result={renderer:{path,version:JSON.parse(await readFile(path.replace(/lib\/marked\.esm\.js$/,'package.json'),'utf8')).version,sha256:createHash('sha256').update(await readFile(path)).digest('hex'),options:{gfm:true}},observations,limits:['Actual local parser conversion/DOM inspection, not browser or platform validation.','Original findings/data/statuses and input bytes retained; no fabricated-pass claim.']};
+await writeFile(`${raw}/observations.json`,JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));

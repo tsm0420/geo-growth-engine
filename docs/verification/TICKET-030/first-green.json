@@ -1,0 +1,8 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/markdown-integrity.test.ts"
+  ],
+  "exitCode": 0
+}

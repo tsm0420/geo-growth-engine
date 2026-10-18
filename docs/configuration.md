@@ -14,6 +14,8 @@ queries: queries.yaml
 
 Origins are HTTP(S) origins without paths, credentials, queries, or fragments. Paths declared in YAML resolve against the config file. Explicit CLI arguments (`--config`, `--input`, `--target`, `--output`) resolve against the current working directory; use absolute paths when running elsewhere. `publicDir` is a self-contained local export; symlinks and symlink ancestors are rejected. Installation and report outputs also require canonical filesystem paths without symlinks. A direct `sitemap.xml` urlset is supported; indexes and compressed/multiple sitemaps need a future adapter.
 
+Markdown scope/finding fields display each supplied CRLF, lone CR or LF sequence as one space, preserving one physical table row per finding. Existing HTML/pipe escaping still applies. JSON strings, exact finding IDs, source digests and raw imported evidence are retained literally; display normalization does not change domain inputs or statuses.
+
 ## Audit report
 
 All report commands protect configured config/product/query paths and visibility input from report/evidence destinations, including existing filesystem aliases. Different destinations must not alias the same existing file. Collisions, symlink paths, non-regular destination files, invalid ancestors and applicable write-access failures are operational errors (exit 2), detected across the complete output set before writing. This preserves existing artifacts for these predictable conflicts. Safe output-directory reuse still replaces prior reports/evidence. This preflight is not a multi-file transaction: concurrent path changes, disk exhaustion and power loss can still interrupt later writes; retain separate run directories for history.
