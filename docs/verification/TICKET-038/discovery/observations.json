@@ -1,0 +1,124 @@
+{
+  "main": "7d3655dbcf750ec057998855d743b9d316b4f927",
+  "runtime": "v24.22.0",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8",
+  "execution": "Unchanged immutable T036 installed CLI; all 25 installed identities and all 35 current/main source inputs checked",
+  "inputDigestsBeforeConsumption": {
+    "baseline": "0fe975506bdfb8a8c52172dae0f5cf6c189b77e055d89c7084318b0569b9a302",
+    "swapped": "de2142570cc41be293a203831c90b1ab4d1dc243456c99922b6e2323503b5ed7",
+    "empty": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "commands": [
+    {
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo036-package-ao5izuk7/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/fixture/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/baseline.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/baseline-report"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8",
+      "exitCode": 0,
+      "runtime": "v24.22.0",
+      "at": "2026-10-18T14:50:04.856671+00:00"
+    },
+    {
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo036-package-ao5izuk7/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/fixture/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/swapped.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/swapped-report"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8",
+      "exitCode": 0,
+      "runtime": "v24.22.0",
+      "at": "2026-10-18T14:50:04.985618+00:00"
+    },
+    {
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo036-package-ao5izuk7/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/fixture/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/empty.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8/empty-report"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo037-utility-tdwx0si8",
+      "exitCode": 0,
+      "runtime": "v24.22.0",
+      "at": "2026-10-18T14:50:05.112561+00:00"
+    }
+  ],
+  "baselineTotals": {
+    "attempted": 5,
+    "successful": 3,
+    "failed": 2,
+    "coverage": 0.6,
+    "mentionRate": 0.3333333333333333,
+    "citationRate": 0.3333333333333333,
+    "recommendationRate": null,
+    "competitors": {
+      "Other Journal": 2
+    }
+  },
+  "baselineGroups": [
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-a",
+      "locale": "en-GB",
+      "attempted": 4,
+      "successful": 2,
+      "failed": 2,
+      "coverage": 0.5,
+      "mentionRate": 0.5,
+      "citationRate": 0.5,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 1
+      }
+    },
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-b",
+      "locale": "en-GB",
+      "attempted": 1,
+      "successful": 1,
+      "failed": 0,
+      "coverage": 1,
+      "mentionRate": 0,
+      "citationRate": 0,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 1
+      }
+    }
+  ],
+  "baselineDataKeys": [
+    "totals",
+    "groups",
+    "source",
+    "evidence",
+    "sha256"
+  ],
+  "questionLabelsSwapChangesAggregates": false,
+  "inference": "Current aggregate output is correct. A user must manually inspect raw answers to discover which supplied question has owned-host citations, absent mentions, or only collection errors. A per-question breakdown could reduce that manual work.",
+  "limits": [
+    "Fictional inputs only; no market demand, live collection or growth claim",
+    "Swapped labels do not prove existing behavior is a defect",
+    "Question and collection context identities remain supplied, not independently authenticated"
+  ]
+}

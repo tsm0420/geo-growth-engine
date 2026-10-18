@@ -1,0 +1,90 @@
+{
+  "README.md": {
+    "bytes": 938,
+    "sha256": "b7780506e0368c31a47fec0f541c47be7fffb3e022358143f9ff1145e6070d88"
+  },
+  "baseline.jsonl": {
+    "bytes": 1554,
+    "sha256": "0fe975506bdfb8a8c52172dae0f5cf6c189b77e055d89c7084318b0569b9a302"
+  },
+  "baseline.receipt.json": {
+    "bytes": 810,
+    "sha256": "b68b911af1b2e3a6c28826ba6d97b0c8740ab60898275e3811e4277901a6bc07"
+  },
+  "baseline.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "baseline.stdout.txt": {
+    "bytes": 140,
+    "sha256": "5126e9ddcbca6f0b406de1412cee9162090033d4ad9973a941d47ea6346ca128"
+  },
+  "baseline.visibility.json": {
+    "bytes": 2546,
+    "sha256": "db8a20caa3766b04225b43d909b3c9a17812a2f6293319a45ec071fc4bfbf102"
+  },
+  "baseline.visibility.md": {
+    "bytes": 2232,
+    "sha256": "ccf987b19915faa8ece869df6983e5a66552eef42d3ae088d5d93ec7a04d7b23"
+  },
+  "discovery-harness.py": {
+    "bytes": 5208,
+    "sha256": "e0d52fbe0ea1d507018781e36f2f5095f266cdb761b701f3d7ce690b9023a399"
+  },
+  "empty.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "empty.receipt.json": {
+    "bytes": 804,
+    "sha256": "76d0f0c2c9f8a4cd030ae8db1417b7020d19fc19ad2f7cc1d0b3e01244d795de"
+  },
+  "empty.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "empty.stdout.txt": {
+    "bytes": 137,
+    "sha256": "db2116d28a6adf80c8a0177b68d29bfc5400bf5576e655b7018f1ca0ead5c554"
+  },
+  "empty.visibility.json": {
+    "bytes": 1715,
+    "sha256": "3320d85ec4d1431224d08ea822d589f044e2b115b5a64fc418cb22acc496d343"
+  },
+  "empty.visibility.md": {
+    "bytes": 1467,
+    "sha256": "0f48067b059954245460e95dbfdf70e9a6fff60eab1873b275132640a90282b1"
+  },
+  "independent-assessment.md": {
+    "bytes": 2506,
+    "sha256": "6cb87f4181414eb98c9a7f5b915939d105fc6249881f8f0f68624117ab1e7f7a"
+  },
+  "observations.json": {
+    "bytes": 4943,
+    "sha256": "2cc3e154235029e37ab0a282d2f8323f519f4e56017bc8359f93795bef7ce00e"
+  },
+  "swapped.jsonl": {
+    "bytes": 1542,
+    "sha256": "de2142570cc41be293a203831c90b1ab4d1dc243456c99922b6e2323503b5ed7"
+  },
+  "swapped.receipt.json": {
+    "bytes": 808,
+    "sha256": "5549e81ba8b79192b40f92d6927c401e5171caf9e97b0a79ecac37ccb5a333fc"
+  },
+  "swapped.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "swapped.stdout.txt": {
+    "bytes": 139,
+    "sha256": "b56a72a830ceb914303d5c1269f828604f7068aecafb23dc4ce2fbdd380b63ed"
+  },
+  "swapped.visibility.json": {
+    "bytes": 2545,
+    "sha256": "81ea70f44becf728aa144a96ef71266bb83e027c621b9c12ed030346229dd63d"
+  },
+  "swapped.visibility.md": {
+    "bytes": 2231,
+    "sha256": "2cd86eacdfdbc2a27d39374c49c2fd4200088c0688ac9347de568a604e34c1b7"
+  }
+}
