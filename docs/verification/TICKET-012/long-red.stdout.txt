@@ -1,0 +1,56 @@
+✖ audit decodes valid long numeric spellings once without changing escaped or CDATA literals (233.690625ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 307.119833
+
+✖ failing tests:
+
+test at tests/xml-reference.test.ts:57:1
+✖ audit decodes valid long numeric spellings once without changing escaped or CDATA literals (233.690625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   duplicateEntries: 2,
+  -   duplicateEntries: 3,
+      duplicates: [
+        {
+  +       occurrences: 3,
+  -       occurrences: 2,
+          positions: [
+  +         3,
+            5,
+            6
+          ],
+          url: 'https://example.com/?a=1&#000000000000000000000000000000000000000038;b=2'
+        },
+  -     {
+  -       occurrences: 3,
+  -       positions: [
+  -         2,
+  -         3,
+  -         4
+  -       ],
+  -       url: 'https://example.com/?a=1&b=2'
+  -     }
+      ],
+      entries: 6,
+  +   uniqueUrls: 4
+  -   uniqueUrls: 3
+    }
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:66:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { entries: 6, uniqueUrls: 4, duplicateEntries: 2, duplicates: [ [Object] ] },
+    expected: { entries: 6, uniqueUrls: 3, duplicateEntries: 3, duplicates: [ [Object], [Object] ] },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

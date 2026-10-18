@@ -1,0 +1,125 @@
+{
+  "archiveSha256": "1187ba696d37e2f6bbf19869b0c4a373941695cb361357b4861aff656d450347",
+  "files": [
+    {
+      "path": "attribute-fake-cdata/.geo/config.yaml",
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "attribute-fake-cdata/.geo/product.yaml",
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "attribute-fake-cdata/.geo/queries.yaml",
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "path": "attribute-fake-cdata/public/index.html",
+      "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+    },
+    {
+      "path": "attribute-fake-cdata/public/robots.txt",
+      "sha256": "2412b7ba5c9298ce470c2476f04bc5f6199857cee14853d003b8a3bace1acd7c"
+    },
+    {
+      "path": "attribute-fake-cdata/public/sitemap.xml",
+      "sha256": "353e7fddbf5a45166b5abc191f4f26f3622800e299b4ac5593a57335f005ebdf"
+    },
+    {
+      "path": "attribute-fake-cdata/results/audit.json",
+      "sha256": "f9d37819bfd6d91cffa20a9a72204ffe3baa374ad34ee3815c06aa403a4c43ba"
+    },
+    {
+      "path": "attribute-fake-cdata/results/audit.md",
+      "sha256": "a7e9128e1a88307ff8c60fa1a96e2a27a26efea030b9b9239327897466998e5c"
+    },
+    {
+      "path": "attribute-fake-cdata/visibility.jsonl",
+      "sha256": "60bc8038f38df4a74e958ca67aa61b48a55d3ed563b1d89830b153d58de6f6c5"
+    },
+    {
+      "path": "attribute-fake-cdata.json",
+      "sha256": "401395e1c2559c07ef19961ca9768dbd75411642e06c9f650de05e3b15439465"
+    },
+    {
+      "path": "attribute-fake-comment/.geo/config.yaml",
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "attribute-fake-comment/.geo/product.yaml",
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "attribute-fake-comment/.geo/queries.yaml",
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "path": "attribute-fake-comment/public/index.html",
+      "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+    },
+    {
+      "path": "attribute-fake-comment/public/robots.txt",
+      "sha256": "2412b7ba5c9298ce470c2476f04bc5f6199857cee14853d003b8a3bace1acd7c"
+    },
+    {
+      "path": "attribute-fake-comment/public/sitemap.xml",
+      "sha256": "0a3ef94aae8b4a11e9c5506dd4865b84d6775c44cb037ebca848588421e7d35e"
+    },
+    {
+      "path": "attribute-fake-comment/results/audit.json",
+      "sha256": "e4ad6ae8bdc49d53a34de18cdbc3681142e46af343efddaa7d5c459103ca6bc5"
+    },
+    {
+      "path": "attribute-fake-comment/results/audit.md",
+      "sha256": "e4e683fca2fb95ce042d496d77267d316f110847b6e13925edd6293058f97c68"
+    },
+    {
+      "path": "attribute-fake-comment/visibility.jsonl",
+      "sha256": "60bc8038f38df4a74e958ca67aa61b48a55d3ed563b1d89830b153d58de6f6c5"
+    },
+    {
+      "path": "attribute-fake-comment.json",
+      "sha256": "aa0bf73150e30598e7fedf5a5d21392499cdee66839e4c24b2814babcda5ce22"
+    },
+    {
+      "path": "attribute-fake-pi/.geo/config.yaml",
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "attribute-fake-pi/.geo/product.yaml",
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "attribute-fake-pi/.geo/queries.yaml",
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "path": "attribute-fake-pi/public/index.html",
+      "sha256": "d99ccddec00f7f03245eddf7284210a74a019c2e4b721fb8823730ca326be800"
+    },
+    {
+      "path": "attribute-fake-pi/public/robots.txt",
+      "sha256": "2412b7ba5c9298ce470c2476f04bc5f6199857cee14853d003b8a3bace1acd7c"
+    },
+    {
+      "path": "attribute-fake-pi/public/sitemap.xml",
+      "sha256": "c6e52e5bac9fa1db92a88537cfe92cf95993e3e5c8fea0ccdb89ffa17483905e"
+    },
+    {
+      "path": "attribute-fake-pi/results/audit.json",
+      "sha256": "a3fd69c3b0cdc4179b6af745de267039faf7c1b5fb2b82629a00a5c2f6453d8b"
+    },
+    {
+      "path": "attribute-fake-pi/results/audit.md",
+      "sha256": "ada0143392f3194ca5483eeca71799c7a501f14c6c114f70e41bbaa4c6227027"
+    },
+    {
+      "path": "attribute-fake-pi/visibility.jsonl",
+      "sha256": "60bc8038f38df4a74e958ca67aa61b48a55d3ed563b1d89830b153d58de6f6c5"
+    },
+    {
+      "path": "attribute-fake-pi.json",
+      "sha256": "9417afff4f179adaffdbe59f2b48b8c1cd0e777bf1bf6428b3eeefa6907373ff"
+    }
+  ]
+}

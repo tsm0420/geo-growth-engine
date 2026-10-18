@@ -1,0 +1,43 @@
+▶ audit rejects invalid XML references and characters before counting sitemap URLs
+  ✔ &unknown; (249.333042ms)
+  ✔ &nbsp; (177.764917ms)
+  ✔ &AMP; (179.782667ms)
+  ✔ &#0; (172.761125ms)
+  ✔ &#x0; (184.038334ms)
+  ✔ &#1; (172.866459ms)
+  ✔ &#xB; (175.955125ms)
+  ✔ &#xD800; (169.6325ms)
+  ✔ &#xDFFF; (170.366917ms)
+  ✔ &#xFFFE; (166.282042ms)
+  ✔ &#xFFFF; (186.2525ms)
+  ✔ &#x110000; (176.501916ms)
+  ✔ &#; (161.347584ms)
+  ✔ &#x; (163.563958ms)
+  ✔ &#X26; (167.728042ms)
+  ✔ attribute-name (165.806459ms)
+  ✔ attribute-empty-number (164.198ms)
+  ✔ literal-null-in-comment (163.634708ms)
+  ✔ split-reference (162.662709ms)
+✔ audit rejects invalid XML references and characters before counting sitemap URLs (3332.785708ms)
+▶ audit preserves legal XML numeric boundaries and predefined references
+  ✔ 9 (169.149625ms)
+  ✔ a (165.505792ms)
+  ✔ d (164.745875ms)
+  ✔ 20 (163.381292ms)
+  ✔ d7ff (162.834542ms)
+  ✔ e000 (165.393292ms)
+  ✔ fffd (167.536334ms)
+  ✔ 10000 (164.346084ms)
+  ✔ 10ffff (166.511083ms)
+  ✔ 85 (165.175458ms)
+  ✔ 1fffe (164.794625ms)
+✔ audit preserves legal XML numeric boundaries and predefined references (1820.359916ms)
+✔ audit keeps reference-looking CDATA, comments, processing instructions and escaped ampersands literal (163.175792ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5392.693709

@@ -1,0 +1,368 @@
+▶ audit rejects invalid XML references and characters before counting sitemap URLs
+  ✖ &unknown; (263.5985ms)
+  ✖ &nbsp; (177.101958ms)
+  ✖ &AMP; (197.520709ms)
+  ✖ &#0; (174.8205ms)
+  ✖ &#x0; (182.872708ms)
+  ✖ &#1; (183.717208ms)
+  ✖ &#xB; (190.098208ms)
+  ✖ &#xD800; (179.988833ms)
+  ✖ &#xDFFF; (181.015458ms)
+  ✖ &#xFFFE; (219.913917ms)
+  ✖ &#xFFFF; (181.159667ms)
+  ✖ &#x110000; (198.133ms)
+  ✖ &#; (174.077875ms)
+  ✖ &#x; (177.829916ms)
+  ✔ &#X26; (174.938667ms)
+  ✖ attribute-name (171.608667ms)
+  ✖ attribute-empty-number (172.737667ms)
+  ✖ literal-null-in-comment (173.342292ms)
+  ✔ split-reference (167.477709ms)
+✖ audit rejects invalid XML references and characters before counting sitemap URLs (3544.327458ms)
+▶ audit preserves legal XML numeric boundaries and predefined references
+  ✔ 9 (167.088334ms)
+  ✔ a (177.714ms)
+  ✔ d (172.616083ms)
+  ✔ 20 (167.401583ms)
+  ✔ d7ff (170.06375ms)
+  ✔ e000 (257.284917ms)
+  ✔ fffd (422.844ms)
+  ✔ 10000 (397.766333ms)
+  ✔ 10ffff (459.140625ms)
+  ✔ 85 (524.079375ms)
+  ✔ 1fffe (418.306125ms)
+✔ audit preserves legal XML numeric boundaries and predefined references (3336.28175ms)
+✔ audit keeps reference-looking CDATA, comments, processing instructions and escaped ampersands literal (438.092292ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 15
+ℹ fail 18
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7401.357375
+
+✖ failing tests:
+
+test at tests/xml-reference.test.ts:15:46
+✖ &unknown; (263.5985ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &nbsp; (177.101958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &AMP; (197.520709ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#0; (174.8205ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#x0; (182.872708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#1; (183.717208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#xB; (190.098208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#xD800; (179.988833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#xDFFF; (181.015458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#xFFFE; (219.913917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#xFFFF; (181.159667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#x110000; (198.133ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#; (174.077875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ &#x; (177.829916ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:22:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ attribute-name (171.608667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:20:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ attribute-empty-number (172.737667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:20:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:15:46
+✖ literal-null-in-comment (173.342292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:20:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:15:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

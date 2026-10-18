@@ -34,6 +34,8 @@ Use the documented case-insensitive Unicode letter/number boundaries for brand, 
 
 Reject undeclared named entities and prohibited numeric character references before sitemap evidence/counting. Malformed input produces sitemap fail, duplicates unknown/null, and exit 1. Preserve valid XML named/decimal/hex references and single-pass escaping; DTD/custom entities remain unsupported. This does not add schema or namespace adapters.
 
+XML research addendum before implementation: validate XML 1.0 Char ranges throughout the source, including ignored attributes/sections. Recognize references outside CDATA/comments/processing instructions only, without rescanning escaped output. Preserve valid named/decimal/hex forms and long leading-zero numeric spellings: a recorded CLI positive control found the installed decoder's 32-character scan cap wrongly separates equivalent URLs. Reject invalid input rather than removing/repairing it; retain existing structural validator, DTD exclusion and expansion limits. XML 1.1, encoding certification and schema/namespace expansion remain outside scope.
+
 ### TICKET-013: crawler URL inference (FS-002)
 
 Encode filesystem path segments when deriving URLs; retain directory separators and the existing index-file convention. Literal #/?/% characters remain path characters rather than fragment/query/escape syntax. Matching encoded Disallow rules fail the search checks. Keep canonical coverage and inferred crawl paths separate; deployment routes remain unverified.

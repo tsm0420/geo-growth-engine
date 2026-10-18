@@ -1,0 +1,107 @@
+▶ audit rejects invalid XML references and characters before counting sitemap URLs
+  ✔ &unknown; (206.424083ms)
+  ✔ &nbsp; (157.413666ms)
+  ✔ &AMP; (156.221584ms)
+  ✔ &#0; (159.142041ms)
+  ✔ &#x0; (160.315292ms)
+  ✔ &#1; (158.727708ms)
+  ✔ &#xB; (160.313666ms)
+  ✔ &#xD800; (160.901666ms)
+  ✔ &#xDFFF; (157.665375ms)
+  ✔ &#xFFFE; (155.321833ms)
+  ✔ &#xFFFF; (157.779084ms)
+  ✔ &#x110000; (161.892833ms)
+  ✔ &#; (164.770125ms)
+  ✔ &#x; (156.448208ms)
+  ✔ &#X26; (163.080792ms)
+  ✔ attribute-name (160.68625ms)
+  ✔ attribute-empty-number (156.51775ms)
+  ✔ literal-null-in-comment (162.477125ms)
+  ✔ split-reference (162.274167ms)
+  ✖ quoted-<!-- &unknown; --> (184.192834ms)
+  ✖ quoted-<![CDATA[&unknown;]]> (182.84275ms)
+  ✖ quoted-<?fixture &unknown;?> (163.947834ms)
+✖ audit rejects invalid XML references and characters before counting sitemap URLs (3611.932834ms)
+▶ audit preserves legal XML numeric boundaries and predefined references
+  ✔ 9 (164.2925ms)
+  ✔ a (160.09275ms)
+  ✔ d (178.811875ms)
+  ✔ 20 (163.789041ms)
+  ✔ d7ff (160.071666ms)
+  ✔ e000 (160.539792ms)
+  ✔ fffd (160.862375ms)
+  ✔ 10000 (163.003833ms)
+  ✔ 10ffff (158.240625ms)
+  ✔ 85 (159.912667ms)
+  ✔ 1fffe (163.798542ms)
+✔ audit preserves legal XML numeric boundaries and predefined references (1794.438792ms)
+✔ audit keeps reference-looking CDATA, comments, processing instructions and escaped ampersands literal (161.294042ms)
+✔ quotes in element text do not hide real literal sections (158.663958ms)
+✔ audit decodes valid long numeric spellings once without changing escaped or CDATA literals (159.846208ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 34
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5952.032875
+
+✖ failing tests:
+
+test at tests/xml-reference.test.ts:16:46
+✖ quoted-<!-- &unknown; --> (184.192834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:21:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:16:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:16:46
+✖ quoted-<![CDATA[&unknown;]]> (182.84275ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:21:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:16:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/xml-reference.test.ts:16:46
+✖ quoted-<?fixture &unknown;?> (163.947834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:21:12)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/xml-reference.test.ts:16:38)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

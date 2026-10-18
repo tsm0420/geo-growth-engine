@@ -1,0 +1,9 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "exitCode": 0,
+  "time": "2026-10-17T14:41:21.062537+00:00"
+}
