@@ -1,0 +1,1 @@
+{"output":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/partial-coverage","pass":15,"fail":1,"unknown":3}

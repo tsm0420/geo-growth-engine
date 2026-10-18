@@ -1,0 +1,14 @@
+{
+  "label": "clean-install",
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T14:26:50.719415+00:00"
+}
