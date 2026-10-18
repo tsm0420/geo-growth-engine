@@ -1,0 +1,7 @@
+# Immutable installed-package verification
+
+The retained harness ran unchanged from reviewed source `3b19c0c88bfdc15a33dc2e652c6028a43b9f8f8c`. Its SHA-256 matches the static preflight. All 22 expected outcomes completed: clean dependency install/build/pack/consumer install, init/install, five actual copied-skill validators, four example commands, three question imports, two older/newer report comparisons and two rejections. No validator reuse is claimed in this package run.
+
+Preflight's additional immutable-owner check found three discovery references read from the current root outside the 47 checked-source map. Before executing the unchanged harness, a separate sequential gate required exact Git-object/current-byte equality for those three files and the previous package manifest. Afterward, the four hashes and actual copied baseline/swapped inputs were checked again. Original initial preflight, finding and resolving addendum are preserved separately; reference-inputs.json records the separate four-file gate. Execution ordering/no intervening writes remain primary assertions; artifact authentication checks consumed/copied bytes independently. Reproduction must preserve that reference gate as well as the retained harness.
+
+Source, original input bytes and digests, compare originals, existing collision sentinels and copied skills are separate from temporal/fresh-directory assertions. Final-head CI/actual-main delivery and marketplace results remain separate gates.

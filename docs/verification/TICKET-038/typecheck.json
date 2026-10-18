@@ -1,0 +1,11 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "typecheck"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exitCode": 0,
+  "at": "2026-10-18T14:52:59.579777+00:00",
+  "runtime": "v24.22.0"
+}

@@ -1,0 +1,554 @@
+{
+  "sourceRevision": "3b19c0c88bfdc15a33dc2e652c6028a43b9f8f8c",
+  "runtime": "v24.22.0",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b",
+  "tarball": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/geo-growth-engine-0.1.0-alpha.3.tgz",
+  "tarballBytes": 28817,
+  "tarballSha256": "fd6e59d21e92a82eb00b8070780e80904f72fd9832480e6839043dbccda98d95",
+  "installedFiles": [
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "path": "dist/src/aso.js",
+      "bytes": 3644,
+      "sha256": "cf878538416fb46f7a076f2a861375adc72458d01a18e605f74c3cd748fd2ef2"
+    },
+    {
+      "path": "dist/src/audit.js",
+      "bytes": 13416,
+      "sha256": "e23fecad94cd9a55456b7036511203edbb04873b3c1bf41b0c69e7d32100011c"
+    },
+    {
+      "path": "dist/src/cli.js",
+      "bytes": 3853,
+      "sha256": "eca8898947ccfb25b934bb2d6db34e236a527a5892389d5488e44b8be4eb8246"
+    },
+    {
+      "path": "dist/src/compare.js",
+      "bytes": 6013,
+      "sha256": "4d82cf98304c5f03ee7cd3d73dd257d44eb5237131f8c671deacf42d4781e459"
+    },
+    {
+      "path": "dist/src/config.js",
+      "bytes": 6105,
+      "sha256": "abb9852113d4f6e901df1e57477a00575270f32749d60483c16c85494ba8f43a"
+    },
+    {
+      "path": "dist/src/install.js",
+      "bytes": 2509,
+      "sha256": "558ca8610e83072c8e65eb6611eb2a922947a68524df5ec7ca9ac371b5f959d5"
+    },
+    {
+      "path": "dist/src/json-text.js",
+      "bytes": 207,
+      "sha256": "172b0db9aafe9e709645cf461c1f6bc6f5f0a42cc8e0b4bfe0fae1c87fdb8e33"
+    },
+    {
+      "path": "dist/src/paths.js",
+      "bytes": 730,
+      "sha256": "457c79c1ba284fbda4c61e788d33acbbe99901d270e20151cb3717277c2c0cb7"
+    },
+    {
+      "path": "dist/src/plan.js",
+      "bytes": 1767,
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb"
+    },
+    {
+      "path": "dist/src/report.js",
+      "bytes": 3644,
+      "sha256": "1d6ad889b56ebb468bac42094e340f2c7fcf74ce991b3774451e34422248abda"
+    },
+    {
+      "path": "dist/src/visibility-comparison.js",
+      "bytes": 3293,
+      "sha256": "ceea1b3ceaf56f5c23ceb599209d3bede9a29dc2c682713f97fd95ac7288190f"
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "bytes": 6447,
+      "sha256": "6ee926388b9bdd03b901a565c2ac9063f19b384b93e64ed5e8a45c33b5c570cc"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1083,
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da"
+    },
+    {
+      "path": "docs/configuration.md",
+      "bytes": 15167,
+      "sha256": "8fb37bc90e8381fd436ee311098b779ac267a3ab0f166043a0f900d6fe597c60"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10843,
+      "sha256": "1eea6d6c025cdbfc41c094a1ca24d444860c23b5f535f8ca5ecb5ec738cbcbca"
+    },
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "bytes": 1058,
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "bytes": 909,
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "bytes": 1347,
+      "sha256": "4e5f3552f68df537edd14a68ee27a0d79d82d047b190248ab7374e8a84cea66c"
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "bytes": 2018,
+      "sha256": "f5981e9461db110bf8b9da285f23f67e611c61b4cee3cf837a20d587894e1604"
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "bytes": 1525,
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+    },
+    {
+      "path": "docs/sources.md",
+      "bytes": 3234,
+      "sha256": "8fccb462d7a2f918e8bc90db23401e2a40b937991cd1d083067621863fb08204"
+    },
+    {
+      "path": "templates/config.yaml",
+      "bytes": 104,
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "templates/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "templates/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    }
+  ],
+  "changedPackageInputs": [
+    "dist/src/visibility.js",
+    "docs/configuration.md",
+    "README.md",
+    ".agents/skills/geo-visibility-tracker/SKILL.md"
+  ],
+  "checkedInputCount": 47,
+  "inputDigestsBeforeConsumption": {
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/baseline.jsonl": "0fe975506bdfb8a8c52172dae0f5cf6c189b77e055d89c7084318b0569b9a302",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/swapped.jsonl": "de2142570cc41be293a203831c90b1ab4d1dc243456c99922b6e2323503b5ed7",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/empty.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/duplicate.jsonl": "d2858361c92cd160f4fb2080df6fd21d0894c2daaa16570f3034b76fe221d092",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/collision/evidence/responses.jsonl": "0fe975506bdfb8a8c52172dae0f5cf6c189b77e055d89c7084318b0569b9a302",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/visibility.jsonl": "60bc8038f38df4a74e958ca67aa61b48a55d3ed563b1d89830b153d58de6f6c5",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/older.json": "2f402102e1d2cfabc081a26b106db6b9dcb4b4dffcf5ca584dba7901ac594f53",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/baseline/visibility.json": "d5db60721a98d2f975c48295ccb0314953bbeb90ffcdbac10fac55e948bc61e6"
+  },
+  "steps": [
+    {
+      "label": "clean-install",
+      "command": [
+        "npm",
+        "ci",
+        "--ignore-scripts"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:36.643019+00:00"
+    },
+    {
+      "label": "clean-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:37.361697+00:00"
+    },
+    {
+      "label": "pack",
+      "command": [
+        "npm",
+        "pack",
+        "--json"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:37.612211+00:00"
+    },
+    {
+      "label": "consumer-install",
+      "command": [
+        "npm",
+        "install",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/geo-growth-engine-0.1.0-alpha.3.tgz"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:38.674222+00:00"
+    },
+    {
+      "label": "consumer-init",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "init",
+        "--target",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/project"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.059928+00:00"
+    },
+    {
+      "label": "consumer-skills",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "install",
+        "--target",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/project"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.183271+00:00"
+    },
+    {
+      "label": "validate-app-geo-aso",
+      "command": [
+        "python3",
+        "/Users/tsm0420/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/project/.agents/skills/app-geo-aso"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.217717+00:00"
+    },
+    {
+      "label": "validate-geo-content-engine",
+      "command": [
+        "python3",
+        "/Users/tsm0420/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/project/.agents/skills/geo-content-engine"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.246367+00:00"
+    },
+    {
+      "label": "validate-geo-orchestrator",
+      "command": [
+        "python3",
+        "/Users/tsm0420/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/project/.agents/skills/geo-orchestrator"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.274423+00:00"
+    },
+    {
+      "label": "validate-geo-visibility-tracker",
+      "command": [
+        "python3",
+        "/Users/tsm0420/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/project/.agents/skills/geo-visibility-tracker"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.301941+00:00"
+    },
+    {
+      "label": "validate-web-geo",
+      "command": [
+        "python3",
+        "/Users/tsm0420/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/project/.agents/skills/web-geo"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.328452+00:00"
+    },
+    {
+      "label": "consumer-audit",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/example-audit"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.467182+00:00"
+    },
+    {
+      "label": "consumer-aso",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "aso",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/example-aso"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.593945+00:00"
+    },
+    {
+      "label": "consumer-plan",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/example-plan"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.718704+00:00"
+    },
+    {
+      "label": "consumer-visibility",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/example-visibility",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/visibility.jsonl"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.847871+00:00"
+    },
+    {
+      "label": "question-baseline",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/baseline.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/baseline"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:39.978674+00:00"
+    },
+    {
+      "label": "question-swapped",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/swapped.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/swapped"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:40.107770+00:00"
+    },
+    {
+      "label": "question-empty",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/empty.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/empty"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:40.231559+00:00"
+    },
+    {
+      "label": "compare-False",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/older.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/baseline/visibility.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/compare-False"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:40.351803+00:00"
+    },
+    {
+      "label": "compare-True",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/older.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/baseline/visibility.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/compare-True",
+        "--visibility-metrics"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:56:40.471195+00:00"
+    },
+    {
+      "label": "duplicate-rejection",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/duplicate.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/duplicate-output"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T14:56:40.592166+00:00"
+    },
+    {
+      "label": "input-protection",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/collision/evidence/responses.jsonl",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/collision"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T14:56:40.718894+00:00"
+    }
+  ],
+  "queryRows": [
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-a",
+      "locale": "en-GB",
+      "query": "How can I save daily journal entries?",
+      "attempted": 2,
+      "successful": 1,
+      "failed": 1,
+      "coverage": 0.5,
+      "mentionRate": 1,
+      "citationRate": 1,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 0
+      }
+    },
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-a",
+      "locale": "en-GB",
+      "query": "Which journal supports sharing?",
+      "attempted": 1,
+      "successful": 1,
+      "failed": 0,
+      "coverage": 1,
+      "mentionRate": 0,
+      "citationRate": 0,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 1
+      }
+    },
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-a",
+      "locale": "en-GB",
+      "query": "Does it work offline?",
+      "attempted": 1,
+      "successful": 0,
+      "failed": 1,
+      "coverage": 0,
+      "mentionRate": null,
+      "citationRate": null,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 0
+      }
+    },
+    {
+      "provider": "fictional-provider",
+      "surface": "api",
+      "model": "fictional-model-b",
+      "locale": "en-GB",
+      "query": "How can I save daily journal entries?",
+      "attempted": 1,
+      "successful": 1,
+      "failed": 0,
+      "coverage": 1,
+      "mentionRate": 0,
+      "citationRate": 0,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 1
+      }
+    }
+  ],
+  "sentinels": {
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/collision/visibility.json": "db3a292584b69f99bad48354c7b9e67c97dec5991689fa96e7c5e8c71e59af28",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/collision/visibility.md": "91b2ebe38fc0feeab0137f998f59645e63c57c6f165c3e94e4b5986f6be94c7f"
+  },
+  "harnessSha256": "0f5cb46e68d1739bfb10a699b1b326e7741f84c0d820e602726a2e69b78a3ad6",
+  "limits": [
+    "Fictional local imports, not new live measurements or growth evidence.",
+    "Existing unchanged comparison range/UTF-8 behavior uses prior proof plus current full-suite checks; no separate rerun claim.",
+    "Primary temporal and fresh-directory assertions are separate from independently copied bytes.",
+    "Final-head CI, actual-main verification, release and marketplace decisions are separate."
+  ]
+}

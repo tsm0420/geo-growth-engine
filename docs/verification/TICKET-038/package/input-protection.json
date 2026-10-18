@@ -1,0 +1,17 @@
+{
+  "label": "input-protection",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+    "visibility",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+    "--input",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/collision/evidence/responses.jsonl",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/collision"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+  "exitCode": 2,
+  "expectedExit": 2,
+  "at": "2026-10-18T14:56:40.718894+00:00"
+}

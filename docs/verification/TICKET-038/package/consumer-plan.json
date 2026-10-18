@@ -1,0 +1,15 @@
+{
+  "label": "consumer-plan",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer/node_modules/.bin/geo",
+    "plan",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source/examples/.geo/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/example-plan"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T14:56:39.718704+00:00"
+}

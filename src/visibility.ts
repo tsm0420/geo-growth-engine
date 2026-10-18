@@ -80,19 +80,26 @@ export async function visibility(config: Config, input: string): Promise<{ resul
     samples.push(sample);
   }
   const grouped = new Map<string, { context: Context; samples: Sample[] }>();
+  const queryGrouped = new Map<string, { context: Context & { query: string }; samples: Sample[] }>();
   for (const sample of samples) {
     const context = { provider: sample.provider, surface: sample.surface, model: sample.model, locale: sample.locale };
     const key = JSON.stringify(context);
     const group = grouped.get(key);
     if (group) group.samples.push(sample);
     else grouped.set(key, { context, samples: [sample] });
+    const queryContext = { ...context, query: sample.query };
+    const queryKey = JSON.stringify(queryContext);
+    const queryGroup = queryGrouped.get(queryKey);
+    if (queryGroup) queryGroup.samples.push(sample);
+    else queryGrouped.set(queryKey, { context: queryContext, samples: [sample] });
   }
   const totals = statistics(samples, config);
   const groups = [...grouped.values()].map((group) => ({ ...group.context, ...statistics(group.samples, config) }));
+  const queryGroups = [...queryGrouped.values()].map((group) => ({ ...group.context, ...statistics(group.samples, config) }));
   const result = report('visibility', config.product.example || samples.some((sample) => sample.example), 'Imported user-supplied responses; no API calls or consumer-interface collection. Aggregate rates describe this sample set, not market rankings.', [
     { id: 'collection-coverage', status: totals.failed || !totals.attempted ? 'unknown' : 'pass', evidence: `${totals.successful}/${totals.attempted} successful; ${totals.failed} collection errors; coverage=${String(totals.coverage)}`, action: 'Read groups and coverage before comparing rates. Failed attempts are excluded from mention/citation denominators.' },
     { id: 'recommendations', status: 'unknown', evidence: 'Mentions were matched; explicit recommendations were not classified.', action: 'Inspect raw answers before making recommendation claims.' },
     { id: 'provenance', status: 'unknown', evidence: 'Provider, model, surface, locale, timestamps, and answers are supplied by the importer and were not independently verified.', action: 'Retain collection receipts and repeat comparable queries before drawing conclusions.' },
-  ], { totals, groups, source: resolve(input), evidence: 'evidence/responses.jsonl', sha256: createHash('sha256').update(raw).digest('hex') });
+  ], { totals, groups, queryGroups, source: resolve(input), evidence: 'evidence/responses.jsonl', sha256: createHash('sha256').update(raw).digest('hex') });
   return { result, evidence: raw };
 }

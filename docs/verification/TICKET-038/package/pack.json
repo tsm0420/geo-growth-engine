@@ -1,0 +1,12 @@
+{
+  "label": "pack",
+  "command": [
+    "npm",
+    "pack",
+    "--json"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T14:56:37.612211+00:00"
+}

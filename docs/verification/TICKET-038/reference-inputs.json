@@ -1,0 +1,24 @@
+{
+  "revision": "3b19c0c88bfdc15a33dc2e652c6028a43b9f8f8c",
+  "method": "Actual immutable Git-object bytes equal current pre-consumption reference files; separate from the 47 checked source inputs",
+  "files": {
+    "docs/verification/TICKET-038/discovery/baseline.jsonl": {
+      "bytes": 1554,
+      "sha256": "0fe975506bdfb8a8c52172dae0f5cf6c189b77e055d89c7084318b0569b9a302"
+    },
+    "docs/verification/TICKET-038/discovery/swapped.jsonl": {
+      "bytes": 1542,
+      "sha256": "de2142570cc41be293a203831c90b1ab4d1dc243456c99922b6e2323503b5ed7"
+    },
+    "docs/verification/TICKET-038/discovery/baseline.visibility.json": {
+      "bytes": 2546,
+      "sha256": "db8a20caa3766b04225b43d909b3c9a17812a2f6293319a45ec071fc4bfbf102"
+    },
+    "docs/verification/TICKET-036/package/manifest.json": {
+      "bytes": 24933,
+      "sha256": "022292a1c42b4219479fddcaacaf208238ea752bec999cac3ce297f424403de3"
+    }
+  },
+  "postConsumptionVerifiedAt": "2026-10-18T14:57:16.800883+00:00",
+  "postConsumptionResult": "All four reference files still equal original immutable Git-object bytes; copied actual baseline/swapped inputs also match"
+}

@@ -1,0 +1,1 @@
+{"output":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo038-package-wgwurs3b/example-visibility","pass":0,"fail":0,"unknown":3}
