@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "kind": "visibility",
+  "generatedAt": "2026-10-18T13:39:27.991Z",
+  "example": true,
+  "scope": "Imported user-supplied responses; no API calls or consumer-interface collection. Aggregate rates describe this sample set, not market rankings.",
+  "findings": [
+    {
+      "id": "collection-coverage",
+      "status": "pass",
+      "evidence": "2/2 successful; 0 collection errors; coverage=1",
+      "action": "Read groups and coverage before comparing rates. Failed attempts are excluded from mention/citation denominators."
+    },
+    {
+      "id": "recommendations",
+      "status": "unknown",
+      "evidence": "Mentions were matched; explicit recommendations were not classified.",
+      "action": "Inspect raw answers before making recommendation claims."
+    },
+    {
+      "id": "provenance",
+      "status": "unknown",
+      "evidence": "Provider, model, surface, locale, timestamps, and answers are supplied by the importer and were not independently verified.",
+      "action": "Retain collection receipts and repeat comparable queries before drawing conclusions."
+    }
+  ],
+  "summary": {
+    "pass": 1,
+    "fail": 0,
+    "unknown": 2
+  },
+  "data": {
+    "totals": {
+      "attempted": 2,
+      "successful": 2,
+      "failed": 0,
+      "coverage": 1,
+      "mentionRate": 1,
+      "citationRate": 1,
+      "recommendationRate": null,
+      "competitors": {
+        "Other Journal": 0
+      }
+    },
+    "groups": [
+      {
+        "provider": "fixture",
+        "surface": "API",
+        "model": "fictional",
+        "locale": "en-GB",
+        "attempted": 2,
+        "successful": 2,
+        "failed": 0,
+        "coverage": 1,
+        "mentionRate": 1,
+        "citationRate": 1,
+        "recommendationRate": null,
+        "competitors": {
+          "Other Journal": 0
+        }
+      }
+    ],
+    "source": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/before.jsonl",
+    "evidence": "evidence/responses.jsonl",
+    "sha256": "73ec6989f3f44fd212ca94fb7a521cb9f2ce22fccc71b99cc296a8c6ecc78167"
+  }
+}

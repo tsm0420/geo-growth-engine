@@ -1,0 +1,1 @@
+All six literal null/count/coverage rows and complete default summary/categories/source finding IDs/documents/digests verified against original installed-consumer outputs. No product rerun.

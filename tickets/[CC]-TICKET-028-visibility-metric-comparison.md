@@ -1,6 +1,6 @@
 # TICKET-028: Compare supplied visibility headline totals explicitly
 
-Status: Source checks and both review axes passed; package/CI delivery pending
+Status: Source and immutable package verified; evidence review and CI delivery pending
 Assignee: Codex
 Target Workspace: codex/visibility-metric-comparison, main b5483c3f1b286fae23b9cbe381f94a8639c94d59
 Blocked by: TICKET-027 bounded workflow discovery (three CLI observations complete)
@@ -24,3 +24,5 @@ Required checks now passed: npm run typecheck, npm test (190 passed,0 failed/ski
 Independent Standards and Spec reviews each report no actionable introduced finding. Original reports are preserved under docs/reviews/TICKET-028/. Two documentation-only clarifications distinguish supplied zero from authenticated measurement and direct spec status to this execution ticket; separate addenda follow. All tested runtime/source bytes remain exact matches after those documentation edits, recorded in runtime-proof-reuse.json. The next gate is committing the reviewed source before building the immutable clean-consumer package.
 
 Both separate documentation addenda verify the exact two clarifications with no remaining actionable issue. No product-source/test byte changed after the190-test proof. Reviewed source is ready for immutable package construction; package/CI/merge gates remain outstanding.
+
+Immutable package from reviewed source c8a40d9a964529995ec6ec5963146323cc0901d5 passed all22 expected preparation/installed-consumer outcomes. The new26953-byte tarball SHA-256 is30a1281760c0825c44817237addc4ceef7257b28911b213c4f50c3fdcdbf50bd; all24 built/tar/installed files match, with six changed package inputs versus TICKET-022. Five copied skill frontmatter checks and actual installed comparison positive/null/default/invalid/protection paths passed. Raw receipts/reports and manifest are under docs/verification/TICKET-028/package/. Static artifact review and final-head CI remain separate; no release, agent auto-trigger or marketplace approval is inferred.

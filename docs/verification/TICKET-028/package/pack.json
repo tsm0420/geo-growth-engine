@@ -1,0 +1,15 @@
+{
+  "label": "pack",
+  "command": [
+    "npm",
+    "pack",
+    "--ignore-scripts",
+    "--json",
+    "--pack-destination",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo028-package-yhp6csyb/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T13:39:26.265613+00:00"
+}

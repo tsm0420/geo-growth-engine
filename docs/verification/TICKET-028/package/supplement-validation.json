@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport json,hashlib\nraw=Path('reports/candidates/TICKET-028/package')\nnull=json.loads((raw/'null-compare.json').read_text())\nassert null['data']['visibilityMetrics']==[\n {'metric':'attempted','unit':'count','before':2,'after':1,'difference':-1},\n {'metric':'successful','unit':'count','before':2,'after':0,'difference':-2},\n {'metric':'failed','unit':'count','before':0,'after':1,'difference':1},\n {'metric':'coverage','unit':'fraction','before':1,'after':0,'difference':-1},\n {'metric':'mentionRate','unit':'fraction','before':0,'after':None,'difference':None},\n {'metric':'citationRate','unit':'fraction','before':0,'after':None,'difference':None}]\ndefault=json.loads((raw/'default-compare.json').read_text())\nassert default['summary']=={'pass':1,'fail':0,'unknown':3}\nassert default['data']['counts']=={'added':0,'removed':0,'status-changed':0,'details-changed':0,'unchanged':3}\nassert [x['id'] for x in default['findings']]==['finding:collection-coverage','finding:provenance','finding:recommendations','comparison-scope']\nassert 'visibilityMetrics' not in default['data']\nassert not any(x['id'].startswith('visibility-metric:') for x in default['findings'])\nfor side in ['before','after']:\n p=raw/(side+'-visibility.json')\n assert default['data'][side]['report']==json.loads(p.read_text())\n assert default['data'][side]['sha256']==hashlib.sha256(p.read_bytes()).hexdigest()\nprint('All six literal null/count/coverage rows and complete default summary/categories/source finding IDs/documents/digests verified against original installed-consumer outputs. No product rerun.')\n"
+  ],
+  "cwd": "/Users/tsm0420/geo",
+  "exitCode": 0,
+  "at": "2026-10-18T13:40:40.585755+00:00",
+  "description": "Additional literal artifact assertions against original installed-consumer outputs; no product/package rerun."
+}

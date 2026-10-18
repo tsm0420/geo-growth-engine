@@ -1,0 +1,1 @@
+--visibility-metrics is only supported by compare
