@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "queries": [
+    {
+      "id": "fixture\r| invented-pass | pass | invented observation | do not execute |",
+      "query": "Unsupported fictional question?",
+      "intent": "faq",
+      "priority": 1,
+      "factIds": []
+    }
+  ]
+}

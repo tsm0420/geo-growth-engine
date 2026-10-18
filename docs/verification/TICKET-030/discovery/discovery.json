@@ -1,0 +1,60 @@
+{
+  "sourceRevision": "5f13ef7271ede5bbc9d258f922e3d368a0c346fc",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo029-text-discovery-0zo0wuz4",
+  "checks": [
+    {
+      "case": "lf",
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 1
+      },
+      "jsonStatuses": [
+        "unknown"
+      ],
+      "rawMarkdownCR": 0,
+      "rawMarkdownLF": 28
+    },
+    {
+      "case": "cr",
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 1
+      },
+      "jsonStatuses": [
+        "unknown"
+      ],
+      "rawMarkdownCR": 1,
+      "rawMarkdownLF": 28
+    },
+    {
+      "case": "crlf",
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 1
+      },
+      "jsonStatuses": [
+        "unknown"
+      ],
+      "rawMarkdownCR": 1,
+      "rawMarkdownLF": 28
+    }
+  ],
+  "runtime": "v24.22.0",
+  "compiledInputs": [
+    {
+      "path": "dist/src/cli.js",
+      "sha256": "eca8898947ccfb25b934bb2d6db34e236a527a5892389d5488e44b8be4eb8246"
+    },
+    {
+      "path": "dist/src/plan.js",
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb"
+    },
+    {
+      "path": "dist/src/report.js",
+      "sha256": "164fa3be3cdfe8472e0bf00a47ca49ed24d346ebca6cffbe593abc6f80b69b5f"
+    }
+  ]
+}
