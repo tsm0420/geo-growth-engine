@@ -1,0 +1,42 @@
+✔ visibility separates supplied questions with repeated attempts and retains old aggregates (177.168208ms)
+✔ visibility preserves exact query and collection context identities without separator collisions (175.141125ms)
+✔ visibility distinguishes error-only question rates from successful zero and empty imports (325.470709ms)
+✔ question label changes affect query rows while reordering preserves per-tuple arithmetic (501.129833ms)
+✖ both comparison modes retain query groups and accept older reports without them (307.166375ms)
+✔ sample IDs remain globally unique across different question groups before writes (157.477708ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1716.804333
+
+✖ failing tests:
+
+test at tests/query-visibility.test.ts:108:1
+✖ both comparison modes retain query groups and accept older reports without them (307.166375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   'details-changed': 0,
+  +   'status-changed': 0,
+      added: 0,
+  -   detailsChanged: 0,
+      removed: 0,
+  -   statusChanged: 0,
+      unchanged: 3
+    }
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/query-visibility.test.ts:125:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { added: 0, removed: 0, 'status-changed': 0, 'details-changed': 0, unchanged: 3 },
+    expected: { added: 0, removed: 0, statusChanged: 0, detailsChanged: 0, unchanged: 3 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

@@ -85,6 +85,12 @@ Success requires a nonempty `answer` and an HTTP(S) `citations` array, possibly 
 
 Mentions use case-insensitive Unicode letter/number boundaries around configured names and aliases. Underscores and punctuation are delimiters, so `_Example Journal_` counts. Substring variants embedded next to Unicode letters or numbers do not count; languages without word separators may require explicit aliases or manual review. Citation ownership uses exact hostnames and genuine subdomains. Import structured citation data, not inferred naked links. The CLI preserves input bytes but cannot authenticate the supplied answers. Query-selection bias and changing query sets require researcher judgment.
 
+### Question breakdown
+
+`data.queryGroups` contains the exact `query`, `provider`, `surface`, `model`, and `locale` plus the existing statistics: attempted, successful, failed, coverage, mentionRate, citationRate, recommendationRate and competitors. Rows follow first-observed tuple order. Exact case, whitespace and Unicode are retained; different contexts or question spellings stay separate. Repeated distinct-ID attempts count independently; duplicate IDs remain invalid across all questions. No configured question IDs are joined and no missing configured questions are manufactured.
+
+Use these rows to select raw answers for inspection, with coverage alongside rates. An error-only question has coverage 0 and null mention/citation rates; a successful answer without a match yields numeric zero. Empty imports produce an empty array. Query rows partition the input attempts; they do not replace headline totals or context groups. The same details appear in Markdown, while original JSONL evidence and its digest remain intact. These supplied labels do not establish comparable cohorts, priorities, demand or growth. Both comparison modes retain this data, but only headline totals are compared by the optional metrics flag; older reports without queryGroups remain accepted.
+
 ## Optional collections
 
 Product `aliases`, `competitors`, `listings`, and each listing's `factIds` default to empty only when omitted. Explicit `null` has the wrong list/object type and causes exit 2 before reports are written. Valid empty collections are accepted. A fact's `source: null` remains a supported evidence gap; it is not a malformed collection or a verified claim.

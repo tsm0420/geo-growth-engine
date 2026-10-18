@@ -107,7 +107,7 @@ Audits read local files. Deployment status/headers, WAF access, browser renderin
 
 ASO uses [sourced platform rules](docs/sources.md). Fact references provide traceability, not proof of every sentence. Copy semantics, localization quality, screenshots, store-console approval, and conversion require actual review and measurements.
 
-Visibility rates describe the supplied sample set. Successful responses form mention/citation denominators; collection errors remain in failed counts and coverage. No successful responses means null rates. Results group by provider, surface, model, and locale. Changing query sets are not comparable market rankings. Structured citations count exact owned hosts or genuine subdomains; naked URLs in answer text do not count. A mention is not a recommendation. Raw records and a SHA-256 digest are retained; importer provenance is not independently verified.
+Visibility rates describe the supplied sample set. Successful responses form mention/citation denominators; collection errors remain in failed counts and coverage. No successful responses means null rates. Results group by provider, surface, model, and locale. `data.queryGroups` further separates exact supplied questions within each context, so you can choose raw answers to inspect. Error-only questions have null mention/citation rates; successful answers without a match have numeric zero. Changing query sets are not comparable market rankings. Structured citations count exact owned hosts or genuine subdomains; naked URLs in answer text do not count. A mention is not a recommendation. Raw records and a SHA-256 digest are retained; importer provenance is not independently verified.
 
 ## Automation
 
