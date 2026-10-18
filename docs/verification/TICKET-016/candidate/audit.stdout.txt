@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-core016-clean-3b02lmln/proof/audit-report","pass":17,"fail":0,"unknown":2}

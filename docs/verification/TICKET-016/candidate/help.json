@@ -1,0 +1,11 @@
+{
+  "name": "help",
+  "command": [
+    "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/.bin/geo",
+    "--help"
+  ],
+  "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+  "exit": 0,
+  "expectedExit": 0,
+  "recordedAtUtc": "2026-10-18T10:16:15.760616+00:00"
+}

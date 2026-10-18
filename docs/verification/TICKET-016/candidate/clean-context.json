@@ -1,0 +1,12 @@
+{
+  "sourceCommit": "7c4fa4b96580856d130215daae6c4b7425388951",
+  "root": "/private/tmp/geo-core016-clean-3b02lmln",
+  "source": "/private/tmp/geo-core016-clean-3b02lmln/source",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "uid": 501,
+  "node": "v24.22.0",
+  "npm": "11.19.1",
+  "preparedAtUtc": "2026-10-18T10:15:23.464163+00:00",
+  "archiveExtraction": "Git archive members validated as regular files/directories within new root before extraction; Python3.11.0 lacks extractall filter."
+}

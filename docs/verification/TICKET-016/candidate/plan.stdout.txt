@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-core016-clean-3b02lmln/proof/plan-report","pass":1,"fail":0,"unknown":0}

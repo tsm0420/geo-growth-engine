@@ -1,0 +1,603 @@
+{
+  "sourceCommit": "7c4fa4b96580856d130215daae6c4b7425388951",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "uid": 501,
+  "node": "v24.22.0",
+  "npm": "11.19.1",
+  "tarballSha256": "d6ec7021d6712388fee2d682105771f75190013826a8fa877d9de01cd2c285db",
+  "tarballBytes": 22361,
+  "tarball": "/private/tmp/geo-core016-clean-3b02lmln/geo-growth-engine-0.1.0-alpha.3.tgz",
+  "consumer": "/private/tmp/geo-core016-clean-3b02lmln/consumer",
+  "results": [
+    {
+      "name": "help",
+      "command": [
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/.bin/geo",
+        "--help"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:15.760616+00:00"
+    },
+    {
+      "name": "init",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "init",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fresh"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:15.884081+00:00"
+    },
+    {
+      "name": "install",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fresh"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:16.010809+00:00"
+    },
+    {
+      "name": "existing-conflict",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fresh"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 2,
+      "expectedExit": 2,
+      "recordedAtUtc": "2026-10-18T10:16:16.131996+00:00"
+    },
+    {
+      "name": "blocked-second-parent",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/blocked"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 2,
+      "expectedExit": 2,
+      "recordedAtUtc": "2026-10-18T10:16:16.247010+00:00"
+    },
+    {
+      "name": "restored-install-retry",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/blocked"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:16.371832+00:00"
+    },
+    {
+      "name": "blocked-init",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "init",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/init-blocked"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 2,
+      "expectedExit": 2,
+      "recordedAtUtc": "2026-10-18T10:16:16.490225+00:00"
+    },
+    {
+      "name": "restored-init-retry",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "init",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/init-blocked"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:16.613637+00:00"
+    },
+    {
+      "name": "nondirectory",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/nondirectory"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 2,
+      "expectedExit": 2,
+      "recordedAtUtc": "2026-10-18T10:16:16.735790+00:00"
+    },
+    {
+      "name": "later-symlink",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "install",
+        "--target",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/symlink"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 2,
+      "expectedExit": 2,
+      "recordedAtUtc": "2026-10-18T10:16:16.859038+00:00"
+    },
+    {
+      "name": "audit",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "audit",
+        "--config",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fictional-input/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/audit-report"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:16.996620+00:00"
+    },
+    {
+      "name": "aso",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "aso",
+        "--config",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fictional-input/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/aso-report"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:17.123342+00:00"
+    },
+    {
+      "name": "plan",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "plan",
+        "--config",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fictional-input/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/plan-report"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:17.252599+00:00"
+    },
+    {
+      "name": "visibility",
+      "command": [
+        "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+        "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+        "visibility",
+        "--config",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fictional-input/.geo/config.yaml",
+        "--output",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/visibility-report",
+        "--input",
+        "/private/tmp/geo-core016-clean-3b02lmln/proof/fictional-input/visibility.jsonl"
+      ],
+      "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+      "exit": 0,
+      "expectedExit": 0,
+      "recordedAtUtc": "2026-10-18T10:16:17.381126+00:00"
+    }
+  ],
+  "packageFiles": [
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "size": 1058,
+      "mode": 420
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "size": 909,
+      "mode": 420
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "size": 1091,
+      "mode": 420
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "size": 964,
+      "mode": 420
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "size": 1525,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 1064,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 8192,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/aso.js",
+      "size": 3644,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/audit.js",
+      "size": 13218,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/cli.js",
+      "size": 2787,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/config.js",
+      "size": 6105,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/install.js",
+      "size": 2509,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/paths.js",
+      "size": 730,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/plan.js",
+      "size": 1767,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/report.js",
+      "size": 3640,
+      "mode": 420
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "size": 5873,
+      "mode": 420
+    },
+    {
+      "path": "docs/configuration.md",
+      "size": 8155,
+      "mode": 420
+    },
+    {
+      "path": "docs/sources.md",
+      "size": 2713,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 1083,
+      "mode": 420
+    },
+    {
+      "path": "templates/config.yaml",
+      "size": 104,
+      "mode": 420
+    },
+    {
+      "path": "templates/product.yaml",
+      "size": 649,
+      "mode": 420
+    },
+    {
+      "path": "templates/queries.yaml",
+      "size": 155,
+      "mode": 420
+    }
+  ],
+  "allExpectedOutcomes": 14,
+  "observations": [
+    "Unprivileged POSIX permission probes executed; no root/Windows behavior inferred.",
+    "Source and package commands use fictional fixtures and make no provider requests.",
+    "Read-only install leaves no earlier skill; restoring permissions permits five-skill retry.",
+    "Init owner data, existing conflicts, nondirectory and symlink rejection verified.",
+    "Installed npm bin help and all six commands verified, raw visibility bytes and literal sample totals retained."
+  ],
+  "limits": [
+    "Preflight is not transactional recovery or concurrency safety.",
+    "No Agensi ZIP/upload changes or platform review outcome."
+  ],
+  "verifiedInstalledFiles": [
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e",
+      "bytes": 1058
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a",
+      "bytes": 909
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "sha256": "133f0bd6e74d7476de1ed4db62ef6b63dff91098d93c733aafd6602b066e43ef",
+      "bytes": 1091
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "sha256": "d8df1497f7a01eb19f3c1a9c3181d47e8bf5831619fdac76080847439b07db67",
+      "bytes": 964
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796",
+      "bytes": 1525
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451",
+      "bytes": 1064
+    },
+    {
+      "path": "README.md",
+      "sha256": "61c975788b8b09f455fd2b28677dbd011619b0ba26692a49721623eb6372f50f",
+      "bytes": 8192
+    },
+    {
+      "path": "dist/src/aso.js",
+      "sha256": "cf878538416fb46f7a076f2a861375adc72458d01a18e605f74c3cd748fd2ef2",
+      "bytes": 3644
+    },
+    {
+      "path": "dist/src/audit.js",
+      "sha256": "9be9e41dce9e196d2378cbdd4d5c7d1106d4f1512060f4fd9466f9e6c96b0205",
+      "bytes": 13218
+    },
+    {
+      "path": "dist/src/cli.js",
+      "sha256": "dbed6a26fc2f8631c0f1d395d6197cc8eb8acc7e4ab3a8dd5aa5fada644c716e",
+      "bytes": 2787
+    },
+    {
+      "path": "dist/src/config.js",
+      "sha256": "abb9852113d4f6e901df1e57477a00575270f32749d60483c16c85494ba8f43a",
+      "bytes": 6105
+    },
+    {
+      "path": "dist/src/install.js",
+      "sha256": "558ca8610e83072c8e65eb6611eb2a922947a68524df5ec7ca9ac371b5f959d5",
+      "bytes": 2509
+    },
+    {
+      "path": "dist/src/paths.js",
+      "sha256": "457c79c1ba284fbda4c61e788d33acbbe99901d270e20151cb3717277c2c0cb7",
+      "bytes": 730
+    },
+    {
+      "path": "dist/src/plan.js",
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb",
+      "bytes": 1767
+    },
+    {
+      "path": "dist/src/report.js",
+      "sha256": "164fa3be3cdfe8472e0bf00a47ca49ed24d346ebca6cffbe593abc6f80b69b5f",
+      "bytes": 3640
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "sha256": "2059c58fff82a2b1a269eea17ec01f2ce667a71ed477384b75bfccc2bae1d423",
+      "bytes": 5873
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "a23733cb405756d58412f6f0b48f7a9422e5e15b7b1d6a437ed7cc957168fa12",
+      "bytes": 8155
+    },
+    {
+      "path": "docs/sources.md",
+      "sha256": "bbcda0b1061f93911f69f3131c7ef8b93873cfffe3ae846c824d0744c2621ac8",
+      "bytes": 2713
+    },
+    {
+      "path": "package.json",
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da",
+      "bytes": 1083
+    },
+    {
+      "path": "templates/config.yaml",
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24",
+      "bytes": 104
+    },
+    {
+      "path": "templates/product.yaml",
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9",
+      "bytes": 649
+    },
+    {
+      "path": "templates/queries.yaml",
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52",
+      "bytes": 155
+    }
+  ],
+  "unchangedExecutionInputs": [
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "sha256": "133f0bd6e74d7476de1ed4db62ef6b63dff91098d93c733aafd6602b066e43ef"
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "sha256": "d8df1497f7a01eb19f3c1a9c3181d47e8bf5831619fdac76080847439b07db67"
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+    },
+    {
+      "path": ".github/workflows/geo-ci.yml",
+      "sha256": "184cdc2db906332dad0f0e544ce420d5a050d7a358b8def3e70a3755638777cb"
+    },
+    {
+      "path": ".github/workflows/geo-weekly.yml",
+      "sha256": "a2c5ef11025485495d5f9ddb2f824e145971b19e4f373cf6fdf98e7b38192e67"
+    },
+    {
+      "path": "README.md",
+      "sha256": "61c975788b8b09f455fd2b28677dbd011619b0ba26692a49721623eb6372f50f"
+    },
+    {
+      "path": "docs/configuration.md",
+      "sha256": "a23733cb405756d58412f6f0b48f7a9422e5e15b7b1d6a437ed7cc957168fa12"
+    },
+    {
+      "path": "docs/sources.md",
+      "sha256": "bbcda0b1061f93911f69f3131c7ef8b93873cfffe3ae846c824d0744c2621ac8"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "e43312bae5abe690db7f4cfb9e57a0c983f6e25284865b1979df8710b68bd417"
+    },
+    {
+      "path": "package.json",
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da"
+    },
+    {
+      "path": "src/aso.ts",
+      "sha256": "8f2d74038ec0566eee273498e4c7c845e67e3fb3a52eeb6fbc67824248526190"
+    },
+    {
+      "path": "src/audit.ts",
+      "sha256": "a91eee7fc08dbf038e485c1effb18b7e5db2f5a12bbdd1710d315fbdb20cdb8f"
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "b0536b0fce58e5b6665a3f38626ea7545806a733047db62576980c6ce5a5e80e"
+    },
+    {
+      "path": "src/config.ts",
+      "sha256": "184a79e7277a26f58cf15edcbd96ae95a6739eb19932d451a28cd420bfa0b4dd"
+    },
+    {
+      "path": "src/install.ts",
+      "sha256": "5315c2476fc1837a877c75f675bbdf714d6bd18da831d7d0e2c2e6f199457ed8"
+    },
+    {
+      "path": "src/paths.ts",
+      "sha256": "ab68c42ed88099ffe5737a48d118b5a3b3fa680c2a928c3c67bb5d9cd5cc5fd5"
+    },
+    {
+      "path": "src/plan.ts",
+      "sha256": "16cf8e69b58cd6816e72b240bbf977569f88758e56463329603683ce384c2e50"
+    },
+    {
+      "path": "src/report.ts",
+      "sha256": "6bad5244c8871d9c946dd18610b03026a76f53c307bec7e6dc2083c256792c81"
+    },
+    {
+      "path": "src/robots-parser.d.ts",
+      "sha256": "de95c74de098a99a0c410cc6d3e9b811edf7f973a1483e0dc25fd31ca387494c"
+    },
+    {
+      "path": "src/visibility.ts",
+      "sha256": "6ff5194bb131d6b30b618d87526911d9416dc1235a69389b24f9f647ff6ccdcd"
+    },
+    {
+      "path": "templates/config.yaml",
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "templates/product.yaml",
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "templates/queries.yaml",
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    },
+    {
+      "path": "tests/collection-validation.test.ts",
+      "sha256": "0b4218b430c3d723686a018f2015722e890b9b0acddbb7c572aa204269017b0d"
+    },
+    {
+      "path": "tests/content.test.ts",
+      "sha256": "b5590f2228068f262a27c97b3a84003f25ddc4704e1450682b1a9f3a57ed57b8"
+    },
+    {
+      "path": "tests/core.test.ts",
+      "sha256": "dc5033e6aa62d6178e079b5f6ed321e749a9e81068d006cca21974f083d6e322"
+    },
+    {
+      "path": "tests/coverage.test.ts",
+      "sha256": "b2fb841f3c4ad300bc6d66c6ac228ab4b52dda03c795f036b0409276cee0d9da"
+    },
+    {
+      "path": "tests/helpers.ts",
+      "sha256": "5c7b880070711a68abfbcdf26fd0cb8469e90888749f9772f9588f24022d673c"
+    },
+    {
+      "path": "tests/install-preflight.test.ts",
+      "sha256": "27305027e9051505fc48bd0f786c64a018cb4d5e06aa1b15c9d83cb0c91a828d"
+    },
+    {
+      "path": "tests/report-integrity.test.ts",
+      "sha256": "5324fdb41550e852cbe0ea64253281b1b74fa2615c806010fd8ccc93a0539006"
+    },
+    {
+      "path": "tests/safety.test.ts",
+      "sha256": "a9d9b4f6a7aba81fdb64e7e48e7f46723b850280877d09b8abec23a2ceddb7a7"
+    },
+    {
+      "path": "tests/sitemap.test.ts",
+      "sha256": "73d747f8c79f1507b910087f7178cc3bdfbb8fddc174a4bae786c971f10cbd0c"
+    },
+    {
+      "path": "tests/visibility.test.ts",
+      "sha256": "c93648754dcf48c5608cfd47f03cd2ddf6549067c3f08b699e1568dc144ccc64"
+    },
+    {
+      "path": "tests/xml-reference.test.ts",
+      "sha256": "f5c26a907bf2f9be2badae0a830658a173c985ecf68d7befd9c06f36e6cbc304"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "32a84227d198f61b96dee436dba296438ffea888d4a5d328cb73e542f9ba30bf"
+    }
+  ]
+}

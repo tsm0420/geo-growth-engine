@@ -1,0 +1,18 @@
+{
+  "name": "visibility",
+  "command": [
+    "/Users/tsm0420/.local/state/fnm_multishells/38634_1791897843618/bin/node",
+    "/private/tmp/geo-core016-clean-3b02lmln/consumer/node_modules/geo-growth-engine/dist/src/cli.js",
+    "visibility",
+    "--config",
+    "/private/tmp/geo-core016-clean-3b02lmln/proof/fictional-input/.geo/config.yaml",
+    "--output",
+    "/private/tmp/geo-core016-clean-3b02lmln/proof/visibility-report",
+    "--input",
+    "/private/tmp/geo-core016-clean-3b02lmln/proof/fictional-input/visibility.jsonl"
+  ],
+  "cwd": "/private/tmp/geo-core016-clean-3b02lmln/proof",
+  "exit": 0,
+  "expectedExit": 0,
+  "recordedAtUtc": "2026-10-18T10:16:17.381126+00:00"
+}
