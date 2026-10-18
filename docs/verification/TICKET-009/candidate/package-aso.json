@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-1i77ycrm/extracted/package/dist/src/cli.js",
+    "aso",
+    "--config",
+    "/private/tmp/geo-core-clean-1i77ycrm/source/examples/.geo/config.yaml",
+    "--output",
+    "/private/tmp/geo-core-clean-1i77ycrm/reports-aso"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-1i77ycrm",
+  "startedAt": "2026-10-17T14:20:27.737547+00:00",
+  "endedAt": "2026-10-17T14:20:27.864105+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "ec2b23caf57e22f106da7b07bb37f1b344e08981"
+}

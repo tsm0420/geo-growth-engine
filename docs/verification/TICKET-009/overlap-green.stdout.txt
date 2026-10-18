@@ -1,0 +1,14 @@
+▶ report commands reject a destination that is also their configuration without changing it
+  ✔ audit (166.046333ms)
+  ✔ aso (149.896792ms)
+  ✔ plan (153.648583ms)
+  ✔ visibility (157.798292ms)
+✔ report commands reject a destination that is also their configuration without changing it (628.217041ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 691.695041

@@ -30,7 +30,9 @@ try {
       result = imported.result;
       evidence = imported.evidence;
     } else result = command === 'audit' ? await audit(config) : command === 'aso' ? aso(config) : await contentPlan(config);
-    await saveReport(values.output, result, evidence);
+    const inputs = [config.path, config.productPath, config.queriesPath];
+    if (command === 'visibility' && values.input) inputs.push(values.input);
+    await saveReport(values.output, result, inputs, evidence);
     console.log(JSON.stringify({ output: values.output, ...result.summary }));
     process.exitCode = result.summary.fail > 0 ? 1 : 0;
   } else throw new Error(`Unknown command: ${command}. Use geo --help.`);

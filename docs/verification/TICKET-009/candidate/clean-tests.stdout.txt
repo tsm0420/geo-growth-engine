@@ -1,0 +1,63 @@
+
+> geo-growth-engine@0.1.0-alpha.3 test
+> node --test tests/*.test.ts
+
+✔ aso checks supplied listing field limits and discloses unverified semantic claims (363.369875ms)
+✔ aso accepts exact platform boundaries and keeps missing listings unknown (372.231166ms)
+✔ plan preserves query/fact sources and marks unsupported content as a research gap (358.087292ms)
+✔ aso measures UTF-8 keyword bytes separately and rejects one-character Apple names (303.283125ms)
+✔ init creates editable project configuration and marks the example as fictional (323.43875ms)
+✔ init preflights all conflicts before creating earlier files (298.230333ms)
+✔ audit reports actual broken metadata, search blocking, and JSON-LD without penalizing training policy (396.495208ms)
+✔ audit separates malformed configuration from failed site checks (279.509167ms)
+✔ audit reports malformed sitemap XML as a finding and missing build output as an operational error (564.68975ms)
+✔ install copies five independently usable skills and refuses conflicts before writing (456.518417ms)
+✔ init refuses symlink destinations and preserves existing project files (201.504584ms)
+✔ audit checks an exported site from another directory and exposes unmeasured live behavior (183.510542ms)
+✔ audit decodes standard XML entities before checking canonical sitemap coverage (182.230958ms)
+✔ audit preserves UTF-8 text and decodes HTML character references in title evidence (174.987042ms)
+▶ report commands reject a destination that is also their configuration without changing it
+  ✔ audit (309.591375ms)
+  ✔ aso (320.537625ms)
+  ✔ plan (368.551708ms)
+  ✔ visibility (336.053875ms)
+✔ report commands reject a destination that is also their configuration without changing it (1335.940917ms)
+✔ a later report destination conflict preserves the previous JSON and raw evidence (609.356625ms)
+✔ report preflight rejects a hard-linked input alias without modifying either name (271.261458ms)
+✔ report preflight rejects two destinations aliasing one file instead of reporting success with invalid JSON (230.319375ms)
+▶ report preflight protects product, query and raw-response input destinations
+  ✔ product (199.6185ms)
+  ✔ queries (171.693625ms)
+  ✔ input (172.780083ms)
+✔ report preflight protects product, query and raw-response input destinations (544.584375ms)
+✔ report preflight rejects a blocked evidence ancestor before replacing existing reports (173.205709ms)
+✔ safe report reuse replaces outputs with matching retained evidence (333.205208ms)
+✔ a non-writable later destination is detected before replacing earlier outputs (162.673791ms)
+✔ install and init reject symlink ancestors before resolving the target (552.3185ms)
+✔ audit rejects a symlink used as the export root (389.769041ms)
+✔ reports reject symlink files and directories without overwriting external data (494.956625ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (288.953458ms)
+✔ installation uses the same normalized target for checking and writing with dot-dot segments (485.755375ms)
+✔ audit fails repeated sitemap URLs with ordered positions and deterministic evidence (356.744375ms)
+✔ audit compares decoded XML references once and preserves literal escaped references (337.359542ms)
+✔ audit passes unique sitemap spellings without URL normalization (417.417166ms)
+▶ audit leaves duplicate status unknown for unavailable or unsupported sitemaps
+  ✔ missing (277.515625ms)
+  ✔ malformed (320.53825ms)
+  ✔ empty (307.381708ms)
+  ✔ index (246.738917ms)
+  ✔ off-origin (235.449625ms)
+  ✔ custom-entity (190.593ms)
+✔ audit leaves duplicate status unknown for unavailable or unsupported sitemaps (1579.485459ms)
+✔ visibility preserves raw evidence and computes rates only from successful answers (321.459542ms)
+✔ visibility returns null rates for empty or entirely failed sample sets (717.71475ms)
+✔ visibility rejects malformed records and duplicate sample IDs before writing evidence (758.690625ms)
+✔ visibility rejects impossible calendar timestamps instead of normalizing them (266.19475ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 48
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3762.975625

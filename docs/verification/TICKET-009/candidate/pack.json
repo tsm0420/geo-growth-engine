@@ -1,0 +1,16 @@
+{
+  "command": [
+    "npm",
+    "pack",
+    "--json",
+    "--ignore-scripts",
+    "--pack-destination",
+    "/Users/tsm0420/geo/reports/candidates/TICKET-009"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-1i77ycrm/source",
+  "startedAt": "2026-10-17T14:20:25.522619+00:00",
+  "endedAt": "2026-10-17T14:20:25.778784+00:00",
+  "exitCode": 0,
+  "expectedExitCode": 0,
+  "sourceRevision": "ec2b23caf57e22f106da7b07bb37f1b344e08981"
+}

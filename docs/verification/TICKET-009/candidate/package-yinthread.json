@@ -1,0 +1,17 @@
+{
+  "command": [
+    "node",
+    "/private/tmp/geo-core-clean-1i77ycrm/extracted/package/dist/src/cli.js",
+    "audit",
+    "--config",
+    "/private/tmp/geo-core-clean-1i77ycrm/source/docs/case-studies/yinthread/config/config.yaml",
+    "--output",
+    "/private/tmp/geo-core-clean-1i77ycrm/reports-yinthread"
+  ],
+  "cwd": "/private/tmp/geo-core-clean-1i77ycrm",
+  "startedAt": "2026-10-17T14:20:28.122162+00:00",
+  "endedAt": "2026-10-17T14:20:28.269092+00:00",
+  "exitCode": 1,
+  "expectedExitCode": 1,
+  "sourceRevision": "ec2b23caf57e22f106da7b07bb37f1b344e08981"
+}
