@@ -1,9 +1,9 @@
 # Agensi distribution preparation specification
 
-Status: Active preparation specification; account/terms/submission decision pending
+Status: Preparation verified; maintainer authorized free submission on 2026-10-18; user-completed sign-in pending
 Assignee: Codex
 Target Workspace: `codex/agensi-skill-packages`
-Blocked by: selected core head `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`; maintainer decision for account/terms/submission
+Blocked by: user-completed sign-in and any observed action-time terms/access requirement for submission
 
 ## Outcome and scope
 
@@ -34,3 +34,9 @@ Official research still leaves original-author MIT/free eligibility, external CL
 Selected core head: `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031` (alpha.3 candidate; unmerged PR #16). Reviewed executable/package proof source: `fe885bbf7d90127b8ca230b28283fb2c83d5a2ca`, with every package/executable/CI input compared unchanged at selected head and final-head CI success. Its extracted CLI bytes are suitable for the local demonstrations; retain that provenance rather than claiming a newly built tarball from a different revision.
 
 An independent draft-spec review found the README was incorrectly attributed as marketplace-required. Corrected to a project package README before artifact generation; the platform checklist recommends it, and authenticated dashboard validation remains unobserved. Initial report retained under `docs/reviews/agensi/package-spec-initial.md`; final artifact reviews assess the corrected actual materials.
+
+## Subsequent submission authorization
+
+On 2026-10-18 the maintainer directed the agent to publish the prepared five free candidates. The package contract remains unchanged; this authorization resolves the prior publication disposition, without proving platform fit or live availability. Ordinary authentication still requires a specified account/method, and observed action-time terms/access confirmation requirements remain applicable. No fees, paid packs, payout/KYC/bank setup, unrelated account access or sender contact is included. Current authentication/submission observations belong in `decision.md` and TICKET-008; do not rewrite historical archive-generation provenance as a newer platform result.
+
+The maintainer subsequently selected personal sign-in and will notify the agent when it is complete. Verify authenticated state then continue the agent's listing work; the authentication choice neither proves completion nor transfers publication ownership to the maintainer.

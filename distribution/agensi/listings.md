@@ -1,6 +1,6 @@
 # Agensi listing drafts
 
-Status: prepared locally; no account, upload, review approval or live listing. Proposed price for all five: **Free**, pending the maintainer decision. Category labels below are suggestions, not verified dashboard taxonomy. All capabilities require a separately installed pinned local CLI. The [manifest](manifest.json) records exact ZIP/member hashes; [submission decision](decision.md) records unresolved fit and authorization.
+Status: prepared locally; the maintainer authorized agent-led submission on 2026-10-18. No account creation, upload, review approval or live listing is claimed. Authorized submission price for all five: **Free**. Category labels below are suggestions, not verified dashboard taxonomy. All capabilities require a separately installed pinned local CLI. The [manifest](manifest.json) records exact ZIP/member hashes; [submission decision](decision.md) records unresolved fit and the authentication gate.
 
 ## GEO Review Orchestrator: Local Evidence Baseline
 

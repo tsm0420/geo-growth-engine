@@ -1,6 +1,6 @@
 # Agensi preparation candidate
 
-Status: locally prepared and independently reviewed; final maintainer disposition pending. No account, upload, platform approval or live listing is established. Proposed price is Free, pending the maintainer decision.
+Status: locally prepared and independently reviewed; the maintainer authorized agent-led submission of the five free candidates on 2026-10-18 and chose to complete sign-in personally. Sign-in completion is pending. No account creation, upload, platform approval or live listing is established.
 
 These are instruction packages requiring Node 24+, a local shell/filesystem and a separately installed pinned GEO Growth Engine CLI. They contain the original MIT skill instructions plus disclosed prerequisite guidance and fictional examples. No sibling skills or executable CLI are bundled.
 

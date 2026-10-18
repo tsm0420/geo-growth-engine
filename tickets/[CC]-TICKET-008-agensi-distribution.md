@@ -1,9 +1,9 @@
 # TICKET-008: Prepare and validate Agensi skill distribution
 
-Status: Prepared and independently reviewed; final maintainer disposition pending
+Status: Free submission authorized on 2026-10-18; user-completed sign-in pending
 Assignee: Codex
 Target Workspace: `geo-growth-engine`, distribution preparation workstream
-Blocked by: No blocker for research/drafts; ZIP verification depends on a selected reviewed source revision; submission depends on maintainer account/pricing/terms approval
+Blocked by: User-completed sign-in; any actual action-time terms/access gate
 Origin: Maintainer request on 2026-10-17 to add the supplied Agensi invitation to the iterative development goal
 Specification: `distribution/agensi/spec.md`; `docs/development-loop.md` Agensi amendment and existing `docs/spec.md` contract
 
@@ -13,7 +13,7 @@ Make the existing five project skills discoverable through the requested Agensi 
 
 ## Hard constraints
 
-English docs/listings; pinned reviewed source; preserve MIT notices and source access. Disclose Node/CLI and sibling-skill prerequisites. No private funding details, website capture redistribution, guaranteed rankings, invented metrics, or claim that an alpha candidate is a published release. Do not add paid services or runtime provider integration. No account creation, terms acceptance, upload/publication, pricing commitment, payouts/KYC/bank/wallet setup, or reply to the sender under the present preparation authorization.
+English docs/listings; pinned reviewed source; preserve MIT notices and source access. Disclose Node/CLI and sibling-skill prerequisites. No private funding details, website capture redistribution, guaranteed rankings, invented metrics, or claim that an alpha candidate is a published release. Do not add paid services or runtime provider integration. The 2026-10-18 authorization covers submission of the five prepared free candidates; authentication account/method and any action-time terms/access confirmation remain applicable. No charges, paid packs, payouts/KYC/bank/wallet setup, unrelated account access or sender reply is authorized.
 
 ## Acceptance Criteria
 
@@ -46,4 +46,10 @@ Selected reviewed core is `c1ae2d9c626c93d8bbbe7c9dc93f3bc81cfeb031`. Demonstrat
 
 Delivered open, unmerged [PR #17](https://github.com/tsm0420/geo-growth-engine/pull/17), stacked on unmerged #16 and its chain. Code Review observed initial preparation head `96b9b1bf386fa88da2242e211a48a06ffc0c8073` verify job `117432073515` / run `39045077014` completed successfully: typecheck, 121 tests (121 pass, zero fail/skip), build. Its full untruncated response is `docs/verification/TICKET-008/ci-initial.json`. This later update changes only delivery receipts/status; any final documentation head must separately pass exact-head CI before delivery. See current PR checks and retained local final receipt under `reports/candidates/TICKET-008/` rather than treating the initial head's check as another revision's result.
 
-Official research leaves original-author MIT/free eligibility, external CLI acceptance, supporting-file/notice delivery, actual upload limits and free-account payout requirements unresolved. `distribution/agensi/decision.md` presents retaining/deferment or an explicitly scoped submission plan. The maintainer has not chosen a disposition. No account creation, terms acceptance, price commitment, upload, scan approval, live listing, payout/KYC/bank setup or sender contact occurred. Acceptance criteria 1–4 have local preparation evidence; criterion 5 awaits the concrete final decision and criterion 6 is conditional on later authorization. This ticket and native goal remain incomplete; no publication success is claimed.
+At the prior preparation checkpoint, official research left original-author MIT/free eligibility, external CLI acceptance, supporting-file/notice delivery, actual upload limits and free-account payout requirements unresolved. `distribution/agensi/decision.md` presented retaining/deferment or an explicitly scoped submission plan. The maintainer had not yet chosen a disposition. No account creation, terms acceptance, price commitment, upload, scan approval, live listing, payout/KYC/bank setup or sender contact had occurred. Acceptance criteria 1–4 had local preparation evidence; criterion 5 awaited the final decision and criterion 6 was conditional on later authorization. No publication success was claimed. The subsequent authorization and remaining operational gates are recorded below.
+
+### Authorized submission checkpoint: 2026-10-18
+
+The maintainer subsequently instructed the agent to handle publication, resolving the prior disposition question for the prepared five free candidates. No paid products, charges, payout/KYC/bank setup or sender contact is included. All five actual ZIP sizes/hashes were rechecked against the reviewed manifest and remain unchanged; unchanged workflows/tests were not rerun.
+
+The current official seller page linked to the submission route, which displayed an unauthenticated sign-in form before any listing form. Automatic browser approval review rejected the Google-login action because no Google account/method had been specified. The maintainer then chose to complete login personally and notify the agent. Completion has not been reported or verified; the choice is not an authentication or terms receipt and does not transfer the agent's publication task. No account creation, credentials entry, terms acceptance, upload, platform scan/review or live URL is claimed. Private account details and the login screenshot remain outside public repository files. Current public rules are being rechecked separately; authenticated validation remains unknown. After sign-in is reported complete, verify the authenticated state and continue submission through the real form and any action-time terms/access requirements. The original publication decision itself does not need to be asked again.

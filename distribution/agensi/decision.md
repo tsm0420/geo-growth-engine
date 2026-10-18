@@ -1,8 +1,8 @@
 # Agensi publication decision
 
-Status: Required maintainer decision; no account, terms acceptance, price commitment, upload, scan approval or live listing observed.
+Status: Maintainer authorized agent-led submission of the five free candidates on 2026-10-18 and selected personal sign-in; sign-in completion pending. No upload, scan approval or live listing observed.
 
-Five local candidates and English descriptions are reviewable in [listing drafts](listings.md); [manifest](manifest.json) pins the final core revision, ZIP bytes and member hashes. Each instruction package requires Node 24+, a local shell/filesystem and the separately installed pinned CLI. None requires a sibling skill. Public GitHub MIT source remains available. Proposed initial price: Free.
+Five local candidates and English descriptions are reviewable in [listing drafts](listings.md); [manifest](manifest.json) pins the final core revision, ZIP bytes and member hashes, with its historical preparation status at generation time. Each instruction package requires Node 24+, a local shell/filesystem and the separately installed pinned CLI. None requires a sibling skill. Public GitHub MIT source remains available. Authorized initial submission price: Free.
 
 ## Unresolved platform fit
 
@@ -14,8 +14,14 @@ Five local candidates and English descriptions are reviewable in [listing drafts
 
 Dated primary sources and discrepancies: [format review](../../docs/research/agensi-format.md), [seller page](https://www.agensi.io/sell), [creator workflow](https://www.agensi.io/learn/how-to-sell-skills-on-agensi), and [current terms](https://www.agensi.io/terms). The invitation's traffic and approval-time claims are not repeated as verified results.
 
-## Available disposition
+## Initial options presented
 
-The maintainer can approve retaining these candidates and deferring submission until platform fit is clarified, or explicitly authorize a specified account/free-price/terms/upload plan after reviewing these artifacts and remaining questions. A deferral is recorded as deferred; it is not publication or live availability. Preparation does not authorize a sender reply, account creation, terms acceptance, uploads or financial onboarding. Any later authorized submission must retain actual review receipts and observed URLs/states.
+The initial options were to retain these candidates and defer submission until platform fit was clarified, or explicitly authorize the next submission steps after reviewing these artifacts and remaining questions. A deferral would be recorded as deferred, not publication or live availability. Preparation alone did not authorize a sender reply, account creation, terms acceptance, uploads or financial onboarding. Any authorized submission must retain actual review receipts and observed URLs/states.
 
-No disposition has been chosen yet. Separate [Standards and Spec artifact reviews](../../docs/reviews/agensi/README.md) found no actionable introduced findings, and the [independent local skill evaluation](../../docs/verification/TICKET-008/independent-forward-report.md) completed with raw receipts. The preparation is ready for the final decision; these local results do not resolve the platform questions above.
+## Maintainer decision: 2026-10-18
+
+The maintainer directed the agent to handle publication of the prepared candidates. This resolves the prior submission-disposition question for the five free listings. It does not resolve the platform questions above or authorize fees, paid packs, payout/KYC/bank setup, unrelated account access, sender contact or a false compatibility attestation. Keep the current ZIP bytes and truthful local-CLI prerequisites.
+
+The official seller page led to an unauthenticated sign-in page before the submission form. Automatic browser approval review rejected a Google sign-in attempt because the Google account and authentication method were unspecified. The maintainer then chose to complete sign-in personally and notify the agent. That choice is not a completed sign-in or terms-acceptance receipt; no authentication, account creation or upload is claimed. No account identifiers or credentials are retained in public materials. After the maintainer reports completion, verify the actual authenticated state and continue agent-led submission. Observe real form/terms requirements and retain any authorized submission/review receipts and listing URLs/states. Any action-time terms or access confirmation required by the browser flow remains separate.
+
+Separate [Standards and Spec artifact reviews](../../docs/reviews/agensi/README.md) found no actionable introduced findings, and the [independent local skill evaluation](../../docs/verification/TICKET-008/independent-forward-report.md) completed with raw receipts. These local results do not establish platform approval or live availability.
