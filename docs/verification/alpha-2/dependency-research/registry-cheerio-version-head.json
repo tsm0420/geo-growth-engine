@@ -1,0 +1,21 @@
+{
+  "command": [
+    "npm",
+    "view",
+    "cheerio@1.2.0",
+    "version",
+    "gitHead",
+    "--json",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:58:07.467058+00:00",
+  "endedAt": "2026-10-17T12:58:07.757819+00:00",
+  "exitCode": 0,
+  "stdout": "{\n  \"version\": \"1.2.0\",\n  \"gitHead\": \"e3c7aaf9ed64fe3cb9a181e58a41c0fdd6dbfbfc\"\n}\n",
+  "stderr": "",
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed"
+}

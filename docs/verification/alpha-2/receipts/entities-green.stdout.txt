@@ -1,0 +1,10 @@
+✔ audit fails repeated sitemap URLs with ordered positions and deterministic evidence (1138.869291ms)
+✔ audit compares decoded XML references once and preserves literal escaped references (518.984709ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2246.398083

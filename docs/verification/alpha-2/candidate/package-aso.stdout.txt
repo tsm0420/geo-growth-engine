@@ -1,0 +1,1 @@
+{"output":"/private/tmp/geo-alpha-2-clean-e7jrbv97/reports-aso","pass":9,"fail":0,"unknown":2}

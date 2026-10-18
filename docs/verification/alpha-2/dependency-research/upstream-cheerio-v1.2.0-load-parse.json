@@ -1,0 +1,24 @@
+{
+  "retrievedAt": "2026-10-17T12:57:09.073Z",
+  "request": {
+    "repository_full_name": "cheeriojs/cheerio",
+    "path": "src/load-parse.ts",
+    "ref": "v1.2.0"
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "content": "import { type CheerioAPI, getLoad } from './load.js';\nimport { getParse } from './parse.js';\nimport { renderWithParse5, parseWithParse5 } from './parsers/parse5-adapter.js';\nimport type { CheerioOptions } from './options.js';\nimport renderWithHtmlparser2 from 'dom-serializer';\nimport { parseDocument as parseWithHtmlparser2 } from 'htmlparser2';\nimport type { AnyNode } from 'domhandler';\n\nconst parse = getParse((content, options, isDocument, context) =>\n  options._useHtmlParser2\n    ? parseWithHtmlparser2(content, options)\n    : parseWithParse5(content, options, isDocument, context),\n);\n\n// Duplicate docs due to https://github.com/TypeStrong/typedoc/issues/1616\n/**\n * Create a querying function, bound to a document created from the provided\n * markup.\n *\n * Note that similar to web browser contexts, this operation may introduce\n * `<html>`, `<head>`, and `<body>` elements; set `isDocument` to `false` to\n * switch to fragment mode and disable this.\n *\n * @category Loading\n * @param content - Markup to be loaded.\n * @param options - Options for the created instance.\n * @param isDocument - Allows parser to be switched to fragment mode.\n * @returns The loaded document.\n * @see {@link https://cheerio.js.org/docs/basics/loading#load} for additional usage information.\n */\nexport const load: (\n  content: string | AnyNode | AnyNode[] | Buffer,\n  options?: CheerioOptions | null,\n  isDocument?: boolean,\n) => CheerioAPI = getLoad(parse, (dom, options) =>\n  options._useHtmlParser2\n    ? renderWithHtmlparser2(dom, options)\n    : renderWithParse5(dom),\n);\n",
+      "encoding": "utf-8",
+      "sha": "f169a4a012bcc4996348e37ce96e220fbf6fcf31",
+      "display_url": "https://github.com/cheeriojs/cheerio/blob/v1.2.0/src/load-parse.ts",
+      "display_title": "load-parse.ts"
+    },
+    "isError": false
+  }
+}

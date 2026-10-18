@@ -1,0 +1,22 @@
+{
+  "command": [
+    "npm",
+    "view",
+    "encoding-sniffer@0.2.1",
+    "version",
+    "dependencies",
+    "gitHead",
+    "--json",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:58:04.244849+00:00",
+  "endedAt": "2026-10-17T12:58:07.426047+00:00",
+  "exitCode": 0,
+  "stdout": "{\n  \"version\": \"0.2.1\",\n  \"dependencies\": {\n    \"iconv-lite\": \"^0.6.3\",\n    \"whatwg-encoding\": \"^3.1.1\"\n  },\n  \"gitHead\": \"4485c79b72a30c1f4e84eff6dd5ce4138d4f1b73\"\n}\n",
+  "stderr": "",
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed"
+}

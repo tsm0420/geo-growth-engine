@@ -1,0 +1,19 @@
+{
+  "command": [
+    "npm",
+    "ls",
+    "cheerio",
+    "encoding-sniffer",
+    "whatwg-encoding",
+    "--all",
+    "--json"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:57:35.084787+00:00",
+  "endedAt": "2026-10-17T12:57:35.854717+00:00",
+  "exitCode": 0,
+  "stdout": "{\n  \"version\": \"0.1.0-alpha.1\",\n  \"name\": \"geo-growth-engine\",\n  \"dependencies\": {\n    \"cheerio\": {\n      \"version\": \"1.2.0\",\n      \"resolved\": \"https://registry.npmjs.org/cheerio/-/cheerio-1.2.0.tgz\",\n      \"overridden\": false,\n      \"dependencies\": {\n        \"encoding-sniffer\": {\n          \"version\": \"0.2.1\",\n          \"resolved\": \"https://registry.npmjs.org/encoding-sniffer/-/encoding-sniffer-0.2.1.tgz\",\n          \"overridden\": false,\n          \"dependencies\": {\n            \"whatwg-encoding\": {\n              \"version\": \"3.1.1\",\n              \"resolved\": \"https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz\",\n              \"overridden\": false\n            }\n          }\n        }\n      }\n    }\n  }\n}\n",
+  "stderr": "",
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed",
+  "lockfileSha256": "37a52fc5eb4cc85121f034fa8fdcd57bbd5f1a99486ea27cd0593a3447a8490b"
+}

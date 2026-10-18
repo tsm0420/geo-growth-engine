@@ -1,0 +1,125 @@
+{
+  "description": "Raw dependency research receipts, not candidate verification.",
+  "files": [
+    {
+      "path": "full-and-slim-string-observation.json",
+      "bytes": 2392,
+      "sha256": "62e26fa2c4fec2685519eb1a8e00f4a7e30ee517c2f8c8c5c294e516ef535f03"
+    },
+    {
+      "path": "github-cheerio-4977.json",
+      "bytes": 6840,
+      "sha256": "7edb6a4af1ab7138d74d970661ea4e5df3122c04ee89d35866340ef91764891d"
+    },
+    {
+      "path": "github-cheerio-5157.json",
+      "bytes": 50868,
+      "sha256": "61dd3a6637ca7578defe1ab326d0710f56fb034244bb767f4da382b8eeaaeee2"
+    },
+    {
+      "path": "github-cheerio-main.json",
+      "bytes": 17610,
+      "sha256": "cd7a0cce7ebf593d3b9fa4d7ca94112cdf150085aca3b7b978b1ba363e3de7ca"
+    },
+    {
+      "path": "github-cheerio-releases.json",
+      "bytes": 32618,
+      "sha256": "a3bb93fd4b232ab5bd724ea22773ba268255f1e12e14e45ba3b1278cb532aebb"
+    },
+    {
+      "path": "github-encoding-sniffer-releases.json",
+      "bytes": 21922,
+      "sha256": "a3c8c0bf0a2bd78d1ac5f58b256662e2233ebbdd1f9c12f687d1ba46c55b01d6"
+    },
+    {
+      "path": "install-authorized-retry.json",
+      "bytes": 924,
+      "sha256": "ec37d6f45790348531102b9144e4d7723bde8bc090755244a8898dbcc239e86d"
+    },
+    {
+      "path": "install.json",
+      "bytes": 2855,
+      "sha256": "a6e6871d52a49240c8701f2d1262a2b9d689750a101987e0070b1040e3e87c7f"
+    },
+    {
+      "path": "installed-explain.json",
+      "bytes": 1911,
+      "sha256": "10e69e2d5ccf657d0e604666a455d2c1590995ce089a344b8e047967033ecc2b"
+    },
+    {
+      "path": "installed-tree.json",
+      "bytes": 1303,
+      "sha256": "a6caf979ce1574d45f33ad754e099d70e72862f0dccfb4a13af5f2f7c130a84f"
+    },
+    {
+      "path": "local-inspection.json",
+      "bytes": 2535,
+      "sha256": "6d3824a6f94776bb5fe663302b21161519b2abbfb61dfd03b78e723b6c802be3"
+    },
+    {
+      "path": "post-probe-tree.json",
+      "bytes": 1288,
+      "sha256": "c5d9014c10b298cce14d6b9c03da76ced8cbbba51e1d41a8ccbe7f1af5392724"
+    },
+    {
+      "path": "registry-cheerio-version-head.json",
+      "bytes": 588,
+      "sha256": "64dad14027997b4847194da5700588993ac4b31d699ce8e032189033e566b739"
+    },
+    {
+      "path": "registry-cheerio.json",
+      "bytes": 3269,
+      "sha256": "0f4737f4ed701f3f59c7c9bccc6861859ca8524386b1b3001d750b9ea31bb64a"
+    },
+    {
+      "path": "registry-encoding-sniffer-0.2.1.json",
+      "bytes": 716,
+      "sha256": "dc0f6d312a9bc13867cbb7a5d6487f6ad84d02b5c2ea13fd9bf8942eb70c9bed"
+    },
+    {
+      "path": "registry-encoding-sniffer.json",
+      "bytes": 2024,
+      "sha256": "cec32b94e42b5be753ffe5aaf576b7448705a92afaf349df1c35e3a590d6c17c"
+    },
+    {
+      "path": "registry-whatwg-encoding.json",
+      "bytes": 1522,
+      "sha256": "d9c5dd043c8ee504944842a0ac913847b4fa2be0ea33578256bab3b60a672467"
+    },
+    {
+      "path": "upstream-cheerio-main-package.json",
+      "bytes": 5688,
+      "sha256": "a6df8cf36dc5e0bd9753e7dca54a7f48127936ba1ddcdbd1365614d8da9c9868"
+    },
+    {
+      "path": "upstream-cheerio-v1.2.0-index.json",
+      "bytes": 8853,
+      "sha256": "b8eb0d50b26230a32d70d224377823ad1cbe610af96af717244ace49ee32a2a6"
+    },
+    {
+      "path": "upstream-cheerio-v1.2.0-load-parse.json",
+      "bytes": 2186,
+      "sha256": "e01ae51e2b9c22af3775538c21b2eaa31f23745fe99cfcca3d4984ff445c137d"
+    },
+    {
+      "path": "upstream-cheerio-v1.2.0-package.json",
+      "bytes": 6083,
+      "sha256": "720211d5f50704c3947fbff40bba6e4fe81590b8105a5c5b9e772709a09e4e98"
+    },
+    {
+      "path": "upstream-cheerio-v1.2.0-slim.json",
+      "bytes": 1837,
+      "sha256": "11296b8d1842bcaf72c3312eb25c1b1240d68f7958941d37696288cf3694eb9d"
+    },
+    {
+      "path": "upstream-encoding-sniffer-v1.0.2-package.json",
+      "bytes": 2850,
+      "sha256": "690ec2d4a4d61923ee9415d9f4aa0157645c67dd8b34538b3a13844ca9b89b77"
+    },
+    {
+      "path": "worktree-final-status.json",
+      "bytes": 431,
+      "sha256": "8ba27a59fe1c0771f00fd29641658a206ad0a0e10af2b907fa50d6db351f2942"
+    }
+  ]
+}

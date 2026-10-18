@@ -1,0 +1,30 @@
+{
+  "command": [
+    "npm",
+    "view",
+    "whatwg-encoding@3.1.1",
+    "version",
+    "deprecated",
+    "repository",
+    "dist",
+    "--json",
+    "--cache",
+    "/private/tmp/geo-npm-cache",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ],
+  "cwd": "/Users/tsm0420/.codex/worktrees/geo-alpha-candidate/geo",
+  "startedAt": "2026-10-17T12:56:00.883735+00:00",
+  "endedAt": "2026-10-17T12:56:01.056908+00:00",
+  "exitCode": 0,
+  "stdout": "{\n  \"version\": \"3.1.1\",\n  \"deprecated\": \"Use @exodus/bytes instead for a more spec-conformant and faster implementation\",\n  \"repository\": {\n    \"url\": \"git+https://github.com/jsdom/whatwg-encoding.git\",\n    \"type\": \"git\"\n  },\n  \"dist\": {\n    \"shasum\": \"d0f4ef769905d426e1688f3e34381a99b60b76e5\",\n    \"tarball\": \"https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz\",\n    \"fileCount\": 6,\n    \"integrity\": \"sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==\",\n    \"signatures\": [\n      {\n        \"sig\": \"MEUCIQChcmpvLSWtc9Rwn6hn9VpNM/8paRJ1KE18DjgYFcOF2wIgJJoeYs6ltMh0R4K9WAoOffVsc68hva36Ec2P42c6ccw=\",\n        \"keyid\": \"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"\n      }\n    ],\n    \"unpackedSize\": 13339\n  }\n}\n",
+  "stderr": "",
+  "runtime": {
+    "os": "Darwin",
+    "release": "25.5.0",
+    "architecture": "arm64",
+    "node": "v24.18.0",
+    "npm": "11.16.0"
+  },
+  "sourceRevision": "75d5e6ea48ce4d9a6d020a54cd87f23f925ac7ed"
+}

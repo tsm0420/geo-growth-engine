@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.2 - Unreleased candidate
+
+- Explicit duplicate sitemap findings with XML-decoded URL identity, deterministic counts and entry positions; duplicates cause exit 1.
+- Named and numeric XML character references share one decoding pass.
+- Frozen YinThread re-audit saved separately from alpha 1 evidence.
+- CLI regression coverage for UTF-8 HTML and character-reference decoding.
+
+This is a local candidate, not a tagged release or npm publication. The transitive encoding dependency investigation and remaining constraint are documented in the candidate verification.
+
 ## 0.1.0-alpha.1 - 2026-10-16
 
 Initial public preview under MIT:

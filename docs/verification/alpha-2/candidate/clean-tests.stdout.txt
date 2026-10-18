@@ -1,0 +1,46 @@
+
+> geo-growth-engine@0.1.0-alpha.2 test
+> node --test tests/*.test.ts
+
+✔ aso checks supplied listing field limits and discloses unverified semantic claims (348.954209ms)
+✔ aso accepts exact platform boundaries and keeps missing listings unknown (364.4825ms)
+✔ plan preserves query/fact sources and marks unsupported content as a research gap (230.551333ms)
+✔ aso measures UTF-8 keyword bytes separately and rejects one-character Apple names (252.781917ms)
+✔ init creates editable project configuration and marks the example as fictional (328.154291ms)
+✔ init preflights all conflicts before creating earlier files (307.507625ms)
+✔ audit reports actual broken metadata, search blocking, and JSON-LD without penalizing training policy (320.785167ms)
+✔ audit separates malformed configuration from failed site checks (233.860042ms)
+✔ audit reports malformed sitemap XML as a finding and missing build output as an operational error (625.064042ms)
+✔ install copies five independently usable skills and refuses conflicts before writing (694.255583ms)
+✔ init refuses symlink destinations and preserves existing project files (288.070916ms)
+✔ audit checks an exported site from another directory and exposes unmeasured live behavior (527.540916ms)
+✔ audit decodes standard XML entities before checking canonical sitemap coverage (319.979084ms)
+✔ audit preserves UTF-8 text and decodes HTML character references in title evidence (338.717541ms)
+✔ install and init reject symlink ancestors before resolving the target (601.886917ms)
+✔ audit rejects a symlink used as the export root (323.708833ms)
+✔ reports reject symlink files and directories without overwriting external data (495.16425ms)
+✔ crawler checks use the export path even when canonical points to an allowed page (467.520458ms)
+✔ installation uses the same normalized target for checking and writing with dot-dot segments (676.056708ms)
+✔ audit fails repeated sitemap URLs with ordered positions and deterministic evidence (370.249084ms)
+✔ audit compares decoded XML references once and preserves literal escaped references (368.907041ms)
+✔ audit passes unique sitemap spellings without URL normalization (244.468916ms)
+▶ audit leaves duplicate status unknown for unavailable or unsupported sitemaps
+  ✔ missing (272.932208ms)
+  ✔ malformed (255.628875ms)
+  ✔ empty (497.918625ms)
+  ✔ index (419.040334ms)
+  ✔ off-origin (401.975167ms)
+  ✔ custom-entity (519.580583ms)
+✔ audit leaves duplicate status unknown for unavailable or unsupported sitemaps (2368.419208ms)
+✔ visibility preserves raw evidence and computes rates only from successful answers (341.496292ms)
+✔ visibility returns null rates for empty or entirely failed sample sets (608.845167ms)
+✔ visibility rejects malformed records and duplicate sample IDs before writing evidence (864.380416ms)
+✔ visibility rejects impossible calendar timestamps instead of normalizing them (379.489291ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4117.987958
