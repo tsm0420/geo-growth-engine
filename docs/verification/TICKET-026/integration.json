@@ -1,0 +1,48 @@
+{
+  "observedAtUtc": "2026-10-18T13:14:56.822407+00:00",
+  "previousMain": "5013f87a56286f6ebc768d35440a00e06993275f",
+  "items": [
+    {
+      "pr": 23,
+      "base": "5013f87a56286f6ebc768d35440a00e06993275f",
+      "head": "6f06fdd9f752caabe9a28860d0972b03ddcf3b8a",
+      "binaryDiffSha256": "0f723159af0ffb028ac6eae63a97ddbd1df2fc92c47f0498c39f0bbc6d028981",
+      "binaryDiffBytes": 247146,
+      "tree": "25f14b811a2f8d07def5d3d4e934281c38f07ae3",
+      "mergeCommit": "0eb9d4f612382b981dd32617f230c115d3e2f5c8"
+    },
+    {
+      "pr": 25,
+      "base": "6f06fdd9f752caabe9a28860d0972b03ddcf3b8a",
+      "head": "17ade28868b695535fd630ab9d0dd81b19d2d45a",
+      "binaryDiffSha256": "d4d30f1af42d22499c7e5a8c1c2ae30b0a6b94a11c098cc2445c2549de6c9126",
+      "binaryDiffBytes": 641297,
+      "tree": "93961bd246e9669a23d6d40e98a76ecf8f886946",
+      "actualBase": "0eb9d4f612382b981dd32617f230c115d3e2f5c8",
+      "mergeCommit": "3f70a6c0fb066f8cd4a335be225bc6fdeff20c06"
+    }
+  ],
+  "finalMain": "3f70a6c0fb066f8cd4a335be225bc6fdeff20c06",
+  "finalTree": "93961bd246e9669a23d6d40e98a76ecf8f886946",
+  "approvedTreeEqualsMain": true,
+  "sourceBranchesPreserved": true,
+  "mainCI": {
+    "runId": 39130501325,
+    "jobId": 117684505319,
+    "actualJobHead": "3f70a6c0fb066f8cd4a335be225bc6fdeff20c06",
+    "providerPRContext": "17ade28868b695535fd630ab9d0dd81b19d2d45a",
+    "status": "success",
+    "tests": 165,
+    "passed": 165,
+    "failed": 0,
+    "skipped": 0
+  },
+  "protectedFilesUnchanged": 1343,
+  "packageFilesUnchanged": 23,
+  "packageProof": "TICKET-022 candidate source09a317, SHA b30ca6bf2868c7b8f9b47e5520ce2bb010d7f3a517872f892b1d498bf0e91e33",
+  "limits": [
+    "No new local product execution or tarball.",
+    "Current goal policy is saved in the repo; native objective/status not edited by unavailable tools.",
+    "Ordinary merge enforcement; branch-protection detail read returned403."
+  ]
+}

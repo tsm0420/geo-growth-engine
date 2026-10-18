@@ -24,8 +24,12 @@ This setup changes documentation and app configuration, with no executable sourc
 
 ## Out of scope
 
-Paid services, new external runtime providers, private-data publication, production changes, automatic merges/releases, payout onboarding, unsupported live-listing claims and bypassed terms/access approval.
+Paid services, new external runtime providers, private-data publication, production changes, merges outside the current goal's authorization, releases without explicit scope, payout onboarding, unsupported live-listing claims and bypassed terms/access approval.
 
 ## Completion
 
 The setup slice completes when the replacement native goal matches its file, the existing heartbeat reads that goal, submission status is accurate, independent document reviews have no unresolved findings and delivery is reviewable. This is a milestone within ongoing development, not completion of marketplace review or the continuing goal.
+
+## Maintainer amendment: 2026-10-18
+
+The maintainer subsequently granted standing project PR merge consent. The current authorization contract is owned by [the goal](iterative-goal.md#authorization); this amendment supersedes the original setup-only merge exclusion, while dated setup receipts retain their original scope.

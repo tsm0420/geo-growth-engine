@@ -1,0 +1,11 @@
+{
+  "id": "geo-agensi",
+  "status": "ACTIVE",
+  "intervalHours": 6,
+  "targetThread": "01a14605-6f8e-7f90-8b24-6564ca98a551",
+  "promptSha256": "1d5ccb29862a3e329436abca7981dde80dea2e4ee3a254921b31c27d43e784d6",
+  "goalFile": "docs/iterative-goal.md",
+  "goalFileSha256": "58e60f739b6e3113788bd48012422e294d59a0dc92ec02c4201fc2ae26632d13",
+  "configurationChanged": false,
+  "scope": "Existing pointer reads the updated authorization owner. Future scheduled heartbeat is not a currently live process wait."
+}
