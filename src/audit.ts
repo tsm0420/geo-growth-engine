@@ -132,6 +132,11 @@ export async function audit(config: Config): Promise<Report> {
     const repeated = sitemapData.duplicates.map(({ url, occurrences, positions }) => `${url} occurs ${occurrences} times at positions ${positions.join(', ')}`);
     add('sitemap-duplicates', sitemapData.duplicateEntries > 0 ? 'fail' : 'pass', [`${sitemapPath}: ${sitemapData.entries} entries`, `${sitemapData.uniqueUrls} unique URLs`, `${sitemapData.duplicateEntries} duplicate entries`, ...repeated].join('; '), 'Retain one intended canonical entry per URL and rebuild the export.');
   }
+  const coverageUrls = new Set<string>();
+  for (const location of locations) {
+    try { coverageUrls.add(new URL(location).href); }
+    catch { /* Malformed locations already fail the sitemap finding. */ }
+  }
   for (const file of files) {
     const page = relative(config.publicDir, file).split(sep).join('/');
     const $ = load(await readFile(file, 'utf8'));
@@ -154,7 +159,7 @@ export async function audit(config: Config): Promise<Report> {
     check('canonical', validCanonical, href || 'missing canonical', 'Provide one absolute canonical URL on the configured origin.');
     const fallback = new URL(page.replace(/(^|\/)index\.html?$/i, '$1').split('/').map(encodeURIComponent).join('/'), `${config.origin}/`).href;
     const pageUrl = validCanonical && canonicalUrl ? canonicalUrl.href : fallback;
-    check('sitemap-coverage', locations.includes(pageUrl), `${pageUrl} in ${sitemapPath}`, 'Add the intended canonical URL to the direct sitemap.');
+    check('sitemap-coverage', coverageUrls.has(pageUrl), `${pageUrl} in ${sitemapPath}`, 'Add the intended canonical URL to the direct sitemap.');
     for (const bot of ['Googlebot', 'OAI-SearchBot']) {
       const allowed = robots?.isAllowed(fallback, bot);
       add(`${page}:crawler.${bot}`, robots === null || allowed === undefined ? 'unknown' : allowed ? 'pass' : 'fail', `${robotsPath}: ${bot} at inferred export URL ${fallback}; allowed=${String(allowed)}; deployment routes unverified`, 'Review search access separately from training permissions.');
