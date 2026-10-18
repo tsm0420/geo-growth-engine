@@ -29,9 +29,14 @@ async function htmlFiles(directory: string): Promise<string[]> {
 }
 
 function xmlLocations(value: unknown): string[] {
-  if (Array.isArray(value)) return value.flatMap((item: unknown) => xmlLocations(item));
-  if (typeof value !== 'object' || value === null) return [];
-  return Object.entries(value).flatMap(([key, child]: [string, unknown]) => key === 'loc' && typeof child === 'string' ? [child.trim()] : xmlLocations(child));
+  if (typeof value !== 'object' || value === null || !('urlset' in value)) return [];
+  const root = value.urlset;
+  if (typeof root !== 'object' || root === null || !('url' in root)) return [];
+  const entries: unknown[] = Array.isArray(root.url) ? root.url : [root.url];
+  return entries.flatMap((entry: unknown) => {
+    if (typeof entry !== 'object' || entry === null || !('loc' in entry) || typeof entry.loc !== 'string') return [];
+    return [entry.loc.trim()];
+  });
 }
 
 function summarizeSitemap(locations: string[]) {

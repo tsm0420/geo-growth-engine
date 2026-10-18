@@ -1,0 +1,15 @@
+{
+  "command": [
+    "node",
+    "/Users/tsm0420/geo/dist/src/cli.js",
+    "audit",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo033-sitemap-discovery-4qspzywm/fixture/.geo/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo033-sitemap-discovery-4qspzywm/nested-url"
+  ],
+  "exitCode": 0,
+  "at": "2026-10-18T14:21:40.499849+00:00",
+  "inputSha256": "0fa1742601073da73ac69bb719b2cb36692dfc207d9973e8eec5cd789ad67c80",
+  "inputUnchanged": true
+}

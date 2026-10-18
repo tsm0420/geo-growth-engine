@@ -1,0 +1,603 @@
+{
+  "sourceRevision": "47cf5c11e7501861f08abeeebbb7324b90f5b75b",
+  "runtime": "v24.22.0",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy",
+  "tarball": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/geo-growth-engine-0.1.0-alpha.3.tgz",
+  "tarballBytes": 27738,
+  "tarballSha256": "f36f56bca96e5aab7fa9f0a531cd674ba442fdb0d530b8ff873c947df0ef1530",
+  "installedFiles": [
+    {
+      "path": ".agents/skills/app-geo-aso/SKILL.md",
+      "bytes": 1058,
+      "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+    },
+    {
+      "path": ".agents/skills/geo-content-engine/SKILL.md",
+      "bytes": 909,
+      "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+    },
+    {
+      "path": ".agents/skills/geo-orchestrator/SKILL.md",
+      "bytes": 1347,
+      "sha256": "4e5f3552f68df537edd14a68ee27a0d79d82d047b190248ab7374e8a84cea66c"
+    },
+    {
+      "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+      "bytes": 1616,
+      "sha256": "8e41b128bf0fda74b4992ae1756da9e383c1d9edd5007e6c8f9848bdfcaa24da"
+    },
+    {
+      "path": ".agents/skills/web-geo/SKILL.md",
+      "bytes": 1525,
+      "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "30d7e9edcffe5656f875a64f453a342c389ab51e40fd922f33a9939bf4001451"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10609,
+      "sha256": "b78040741474c9f146019d9e661eefabc05f42d27224011912f49897a4a32e98"
+    },
+    {
+      "path": "dist/src/aso.js",
+      "bytes": 3644,
+      "sha256": "cf878538416fb46f7a076f2a861375adc72458d01a18e605f74c3cd748fd2ef2"
+    },
+    {
+      "path": "dist/src/audit.js",
+      "bytes": 13416,
+      "sha256": "e23fecad94cd9a55456b7036511203edbb04873b3c1bf41b0c69e7d32100011c"
+    },
+    {
+      "path": "dist/src/cli.js",
+      "bytes": 3853,
+      "sha256": "eca8898947ccfb25b934bb2d6db34e236a527a5892389d5488e44b8be4eb8246"
+    },
+    {
+      "path": "dist/src/compare.js",
+      "bytes": 5366,
+      "sha256": "2d3412d00dc76ae64405dc90a3385968a89eb8e470d8323a4f7f1459ed054167"
+    },
+    {
+      "path": "dist/src/config.js",
+      "bytes": 6105,
+      "sha256": "abb9852113d4f6e901df1e57477a00575270f32749d60483c16c85494ba8f43a"
+    },
+    {
+      "path": "dist/src/install.js",
+      "bytes": 2509,
+      "sha256": "558ca8610e83072c8e65eb6611eb2a922947a68524df5ec7ca9ac371b5f959d5"
+    },
+    {
+      "path": "dist/src/json-text.js",
+      "bytes": 207,
+      "sha256": "172b0db9aafe9e709645cf461c1f6bc6f5f0a42cc8e0b4bfe0fae1c87fdb8e33"
+    },
+    {
+      "path": "dist/src/paths.js",
+      "bytes": 730,
+      "sha256": "457c79c1ba284fbda4c61e788d33acbbe99901d270e20151cb3717277c2c0cb7"
+    },
+    {
+      "path": "dist/src/plan.js",
+      "bytes": 1767,
+      "sha256": "dea2e7b18c3e599bd4d10396e6dd0a4e1857a6e5f189c4d1300ab28c34be3ccb"
+    },
+    {
+      "path": "dist/src/report.js",
+      "bytes": 3644,
+      "sha256": "1d6ad889b56ebb468bac42094e340f2c7fcf74ce991b3774451e34422248abda"
+    },
+    {
+      "path": "dist/src/visibility-comparison.js",
+      "bytes": 3293,
+      "sha256": "ceea1b3ceaf56f5c23ceb599209d3bede9a29dc2c682713f97fd95ac7288190f"
+    },
+    {
+      "path": "dist/src/visibility.js",
+      "bytes": 5925,
+      "sha256": "6700f6b45dd11c7fdc37c660db0218223c2bbc7d0cea8c9e48c38e9589834408"
+    },
+    {
+      "path": "docs/configuration.md",
+      "bytes": 13241,
+      "sha256": "bd17d75ac5c128bc34760c283e52306d2fbeec81aff71201d64b2dfe1d95b9c4"
+    },
+    {
+      "path": "docs/sources.md",
+      "bytes": 3234,
+      "sha256": "8fccb462d7a2f918e8bc90db23401e2a40b937991cd1d083067621863fb08204"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1083,
+      "sha256": "f4715f0a33cc64c8bc8007d2b5acc503bf63f666bde8446ef5c0dd35bf26a7da"
+    },
+    {
+      "path": "templates/config.yaml",
+      "bytes": 104,
+      "sha256": "bd51c0ec9eaa9e765351ad656ee19854e17e1d08da0a1e8f64d1a5347e303e24"
+    },
+    {
+      "path": "templates/product.yaml",
+      "bytes": 649,
+      "sha256": "70f02b83306ae424b1079a0f1d9deff9f8f642a2885153d22da73275eb3459f9"
+    },
+    {
+      "path": "templates/queries.yaml",
+      "bytes": 155,
+      "sha256": "e5844c192914024c190544867791fe3ba95401d8f086204d1a829f17bb5dff52"
+    }
+  ],
+  "changedPackageInputs": [
+    "dist/src/audit.js",
+    "docs/configuration.md",
+    "docs/sources.md"
+  ],
+  "steps": [
+    {
+      "label": "clean-install",
+      "command": [
+        "npm",
+        "ci",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:50.719415+00:00"
+    },
+    {
+      "label": "clean-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:51.420256+00:00"
+    },
+    {
+      "label": "pack",
+      "command": [
+        "npm",
+        "pack",
+        "--ignore-scripts",
+        "--json",
+        "--pack-destination",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/source",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:51.685985+00:00"
+    },
+    {
+      "label": "consumer-install",
+      "command": [
+        "npm",
+        "install",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/geo-growth-engine-0.1.0-alpha.3.tgz"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:52.857909+00:00"
+    },
+    {
+      "label": "consumer-audit",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/audit"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:53.301560+00:00"
+    },
+    {
+      "label": "consumer-aso",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "aso",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/aso"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:53.438282+00:00"
+    },
+    {
+      "label": "consumer-plan",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "plan",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/plan"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:53.570464+00:00"
+    },
+    {
+      "label": "consumer-visibility",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "visibility",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/visibility",
+        "--input",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/visibility.jsonl"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:53.703612+00:00"
+    },
+    {
+      "label": "consumer-compare",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "compare",
+        "--before",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/audit/audit.json",
+        "--after",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/audit/audit.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/compare"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:53.831659+00:00"
+    },
+    {
+      "label": "consumer-direct",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/direct"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:53.970084+00:00"
+    },
+    {
+      "label": "consumer-root-loc",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/root-loc"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 1,
+      "expectedExit": 1,
+      "at": "2026-10-18T14:26:54.105006+00:00"
+    },
+    {
+      "label": "consumer-metadata-loc",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/metadata-loc"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 1,
+      "expectedExit": 1,
+      "at": "2026-10-18T14:26:54.242327+00:00"
+    },
+    {
+      "label": "consumer-nested-url",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/nested-url"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 1,
+      "expectedExit": 1,
+      "at": "2026-10-18T14:26:54.381965+00:00"
+    },
+    {
+      "label": "consumer-unrelated-sibling",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/unrelated-sibling"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:54.523124+00:00"
+    },
+    {
+      "label": "consumer-extension",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/extension"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 0,
+      "expectedExit": 0,
+      "at": "2026-10-18T14:26:54.660958+00:00"
+    },
+    {
+      "label": "consumer-direct-duplicates",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/direct-duplicates"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 1,
+      "expectedExit": 1,
+      "at": "2026-10-18T14:26:54.797087+00:00"
+    },
+    {
+      "label": "consumer-partial-coverage",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/partial-coverage"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 1,
+      "expectedExit": 1,
+      "at": "2026-10-18T14:26:54.930515+00:00"
+    },
+    {
+      "label": "consumer-input-protection",
+      "command": [
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+        "audit",
+        "--config",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/audit.json",
+        "--output",
+        "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo"
+      ],
+      "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+      "exitCode": 2,
+      "expectedExit": 2,
+      "at": "2026-10-18T14:26:55.067425+00:00"
+    }
+  ],
+  "outputs": {
+    "audit": {
+      "directory": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/audit",
+      "summary": {
+        "pass": 17,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    "aso": {
+      "directory": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/aso",
+      "summary": {
+        "pass": 9,
+        "fail": 0,
+        "unknown": 2
+      }
+    },
+    "plan": {
+      "directory": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/plan",
+      "summary": {
+        "pass": 1,
+        "fail": 0,
+        "unknown": 0
+      }
+    },
+    "visibility": {
+      "directory": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/visibility",
+      "summary": {
+        "pass": 0,
+        "fail": 0,
+        "unknown": 3
+      }
+    }
+  },
+  "observations": [
+    {
+      "case": "direct",
+      "inputSha256": "5759f360b95713c1d681d28f0c58c7cd659c4b1d04807aae2f800e0cbaef30ca",
+      "expectedExit": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    },
+    {
+      "case": "root-loc",
+      "inputSha256": "6da582950f9e536c476fcb27225e422401ddd4355836a87f7ba7d61f716e1aff",
+      "expectedExit": 1,
+      "checks": {
+        "sitemap": "fail",
+        "sitemap-duplicates": "unknown",
+        "index.html:sitemap-coverage": "fail"
+      },
+      "sitemap": null
+    },
+    {
+      "case": "metadata-loc",
+      "inputSha256": "610137df4bf344025ca1db809532079716d131f759eadaa646ef258f74c2af94",
+      "expectedExit": 1,
+      "checks": {
+        "sitemap": "fail",
+        "sitemap-duplicates": "unknown",
+        "index.html:sitemap-coverage": "fail"
+      },
+      "sitemap": null
+    },
+    {
+      "case": "nested-url",
+      "inputSha256": "0fa1742601073da73ac69bb719b2cb36692dfc207d9973e8eec5cd789ad67c80",
+      "expectedExit": 1,
+      "checks": {
+        "sitemap": "fail",
+        "sitemap-duplicates": "unknown",
+        "index.html:sitemap-coverage": "fail"
+      },
+      "sitemap": null
+    },
+    {
+      "case": "unrelated-sibling",
+      "inputSha256": "5cfd423360a57fe04c94d2a6d45685e126aa1dd390db8915977d1712de841ce3",
+      "expectedExit": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    },
+    {
+      "case": "extension",
+      "inputSha256": "313debb1e836b4ea4c229112dd8e585ae46239430837d0a0367257a41fd7ea74",
+      "expectedExit": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    },
+    {
+      "case": "direct-duplicates",
+      "inputSha256": "7ff35d76c3b5736f111a0c7093529d8744bfefee8ab4d393d7f66f1c25dbad89",
+      "expectedExit": 1,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "fail",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 3,
+        "uniqueUrls": 2,
+        "duplicateEntries": 1,
+        "duplicates": [
+          {
+            "url": "https://example.com/",
+            "occurrences": 2,
+            "positions": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "partial-coverage",
+      "inputSha256": "b75cda69a49c66cff70f23aa97d3a54420ee8c079c948d2ba9675cc0ac1e207e",
+      "expectedExit": 1,
+      "checks": {
+        "sitemap": "fail",
+        "sitemap-duplicates": "unknown",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": null
+    }
+  ],
+  "checkedInputCount": 34,
+  "skillValidationReuse": {
+    "reason": "Five exact unchanged skill byte identities; validators not rerun",
+    "priorProof": "docs/verification/TICKET-028/package/manifest.json",
+    "files": [
+      {
+        "path": ".agents/skills/app-geo-aso/SKILL.md",
+        "bytes": 1058,
+        "sha256": "2a3a14c804bf871d1e90e655548eabbb71ab97874aeecb9f0d5ec9b847bd314e"
+      },
+      {
+        "path": ".agents/skills/geo-content-engine/SKILL.md",
+        "bytes": 909,
+        "sha256": "03e208695b885f8f4977122fdb81b06868716f8a35153973563f8e203675e42a"
+      },
+      {
+        "path": ".agents/skills/geo-orchestrator/SKILL.md",
+        "bytes": 1347,
+        "sha256": "4e5f3552f68df537edd14a68ee27a0d79d82d047b190248ab7374e8a84cea66c"
+      },
+      {
+        "path": ".agents/skills/geo-visibility-tracker/SKILL.md",
+        "bytes": 1616,
+        "sha256": "8e41b128bf0fda74b4992ae1756da9e383c1d9edd5007e6c8f9848bdfcaa24da"
+      },
+      {
+        "path": ".agents/skills/web-geo/SKILL.md",
+        "bytes": 1525,
+        "sha256": "266083cef3b95b7a46fa26316bea6bc1e1af6ceb941f19e6f691d31718a84796"
+      }
+    ]
+  },
+  "harnessSha256": "12e60a860cc0de837aa710fa5629eb8b4504c5296ad0ecb7174984893cef5c86",
+  "limits": [
+    "Bounded direct-location extraction, not full Sitemaps XSD/namespace/deployment validity.",
+    "Primary full-source suite proof is separate; consumer does not rerun full tests.",
+    "Final-head and actual-main CI remain separate gates."
+  ]
+}

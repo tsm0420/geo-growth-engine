@@ -1,0 +1,17 @@
+{
+  "label": "consumer-visibility",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer/node_modules/.bin/geo",
+    "visibility",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/.geo/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/visibility",
+    "--input",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/fixture/visibility.jsonl"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo034-package-q44ehhmy/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T14:26:53.703612+00:00"
+}

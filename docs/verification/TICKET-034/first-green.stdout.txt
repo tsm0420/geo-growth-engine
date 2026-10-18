@@ -1,0 +1,15 @@
+✔ audit excludes root loc from sitemap page evidence (170.109584ms)
+✔ audit excludes metadata loc from sitemap page evidence (169.257834ms)
+✔ audit excludes nested url from sitemap page evidence (168.855792ms)
+✔ audit excludes nested loc from sitemap page evidence (168.909958ms)
+✔ audit excludes wrapped urlset from sitemap page evidence (165.048083ms)
+✔ audit excludes sitemap index from sitemap page evidence (164.269458ms)
+✔ audit retains a scalar direct sitemap entry without namespace enforcement (162.776875ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1239.483625
