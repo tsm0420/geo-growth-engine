@@ -1,0 +1,23 @@
+# TICKET-030: Preserve Markdown rows across supplied line endings
+
+Status: Reviewed implementation milestone verified; final delivery tracked in issue #30 and its PR
+Assignee: Codex
+Target Workspace: codex/markdown-line-ending-integrity, main5f13ef7271ede5bbc9d258f922e3d368a0c346fc
+Blocked by: TICKET-029 actual CLI/parser discovery (complete)
+Issue: https://github.com/tsm0420/geo-growth-engine/issues/30
+Specification: docs/markdown-line-ending-spec.md
+Objectives: Correct the shared Markdown formatter's observed CR/CRLF row split while preserving original JSON and evidence.
+Hard constraints: Strict TypeScript/English docs, no new dependency/CLI/sanitization policy, no domain-string normalization, no fabricated pass or browser claim; preserve exits/file protections, historical receipts, frozen case data and submitted ZIPs. Existing standing merge consent applies.
+Acceptance Criteria: Retained real CLI red/green and LF/CR/CRLF literal controls; unchanged JSON/source/digest/evidence and existing escapes; actual local rendered rows match one finding; required typecheck/tests/build, separate independent review axes, fresh immutable installed-package proof and exact-head CI/ordinary merge/main verification.
+
+## Execution Report
+
+The previous goal turn was progress: PR29 merged with final-main190-test CI and exact reviewed tree. Current state was confirmed at main5f13ef7 with a clean identical working tree. Bounded TICKET-029 discovery observed a serialization gap and then reproduced its actual GFM HTML row impact using the already installed bundled marked17.0.5 and Cheerio. Independent assessment and separate render addendum verify the retained artifacts and explicitly reject the unsupported fabricated-pass hypothesis. This specification fixes the concrete row-layout defect, not a speculative larger sanitization feature. No source correction or new test result is claimed yet.
+
+Implementation checkpoint: the shared formatter changes only CRLF/CR/LF display normalization. First-red retained one LF pass and two CR/CRLF failures; first-green all3 pass. Added compare preservation/escaping control. npm run typecheck, npm test (194 passed,0 failed/skipped) and npm run build succeed with raw receipts/runtime/working-input hashes retained under docs/verification/TICKET-030/. Three actual post-fix CLI/parser conversions now produce one unknown row each, with original findings/data/statuses/input bytes unchanged. All1595 prior artifact sizes/hashes remain unchanged. Separate source reviews, immutable package and final CI/merge remain pending.
+
+Separate Standards and Spec reviews both report no actionable introduced finding; originals are retained under docs/reviews/TICKET-030/. They verify pinned working bytes and inspect the retained primary194-test/parser evidence without claiming execution. Package preflight identified two narrow planned-proof gaps (renderer identity and visibility metadata digest); primary corrected the unexecuted harness, preserving its original and report for a separate addendum. Product source/tests remain unchanged. Commit reviewed source before the fresh package execution.
+
+Immutable package execution from reviewed92e5377 passed all11 expected preparation/installed-consumer outcomes. Actual27085-byte tarball SHA-256197d3ceaae91762be485160b47f485c3fc90e3c0214844dc39ac2bd3cdc93a4f; all24 tar/built/installed files match with exactly two changed inputs versus TICKET-028. Five actual report commands, exact row/status checks, actual CRLF literals, original JSON/source/raw evidence/visibility digest and expected collision exit2 passed. Renderer identity/options/entry hashes are retained. Five unchanged skill validations are scoped reuse by exact hashes/revision. Both preflight gaps were corrected before execution with original harness/report and static correction addendum preserved. Artifact authentication and final CI/merge remain pending.
+
+Independent package authentication reports no actionable discrepancy: all107 snapshot files,24 tar/built/installed bytes, two changed inputs,11 expected outcomes, actual CR/LF codepoints/retained query/JSON/source/raw visibility digests, all five HTML row/status sequences and renderer identities match. Five skill-validation identities match the scoped prior proof. Original preflight/correction/artifact reports are preserved separately. This ticket is archived as a verified implementation checkpoint; actual final-head PR CI, ordinary merge and final-main outcomes are recorded in the PR linked to issue30 and reports/candidates/TICKET-030/delivery-checkpoint.json. Those delivery gates are not claimed complete by this pre-PR commit. The ongoing goal remains active.

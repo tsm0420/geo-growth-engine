@@ -1,0 +1,143 @@
+<h1>audit report</h1>
+<p><strong>FICTIONAL EXAMPLE — not a product measurement.</strong></p>
+<p>Generated: 2026-10-18T13:58:18.171Z</p>
+<p>local export: /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public; no network requests or browser execution</p>
+<p>Pass: 17; fail: 0; unknown: 2.</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Status</th>
+<th>Evidence</th>
+<th>Next action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>robots-file</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt</td>
+<td>Review intentional access policy.</td>
+</tr>
+<tr>
+<td>sitemap</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/sitemap.xml: 1 locations; direct urlset required</td>
+<td>Supply a direct sitemap urlset for this export; sitemap indexes are not expanded.</td>
+</tr>
+<tr>
+<td>sitemap-duplicates</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/sitemap.xml: 1 entries; 1 unique URLs; 0 duplicate entries</td>
+<td>Retain one intended canonical entry per URL and rebuild the export.</td>
+</tr>
+<tr>
+<td>index.html:title</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: Example Journal — fictional toolkit fixture</td>
+<td>Provide one descriptive title.</td>
+</tr>
+<tr>
+<td>index.html:description</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: Fictional sample: save daily journal entries.</td>
+<td>Provide a meaningful description.</td>
+</tr>
+<tr>
+<td>index.html:open-graph</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: og:title and og:description presence</td>
+<td>Supply truthful social metadata.</td>
+</tr>
+<tr>
+<td>index.html:heading</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: 1 H1 elements</td>
+<td>Use a descriptive page heading.</td>
+</tr>
+<tr>
+<td>index.html:readable-text</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: 124 non-script text characters in HTML</td>
+<td>Include public content in the exported HTML. CSS visibility is not evaluated.</td>
+</tr>
+<tr>
+<td>index.html:index-directive</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: no restrictive HTML meta directive observed</td>
+<td>Remove noindex only if this page is intended for indexing. HTTP headers are unmeasured.</td>
+</tr>
+<tr>
+<td>index.html:canonical</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: <a href="https://example.com/">https://example.com/</a></td>
+<td>Provide one absolute canonical URL on the configured origin.</td>
+</tr>
+<tr>
+<td>index.html:sitemap-coverage</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: <a href="https://example.com/">https://example.com/</a> in /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/sitemap.xml</td>
+<td>Add the intended canonical URL to the direct sitemap.</td>
+</tr>
+<tr>
+<td>index.html:crawler.Googlebot</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: Googlebot at inferred export URL <a href="https://example.com/">https://example.com/</a>; allowed=true; deployment routes unverified</td>
+<td>Review search access separately from training permissions.</td>
+</tr>
+<tr>
+<td>index.html:crawler.OAI-SearchBot</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: OAI-SearchBot at inferred export URL <a href="https://example.com/">https://example.com/</a>; allowed=true; deployment routes unverified</td>
+<td>Review search access separately from training permissions.</td>
+</tr>
+<tr>
+<td>index.html:training.GPTBot</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: training policy allowed=false; informational only</td>
+<td>Preserve the owner&#39;s training policy; it is not a search eligibility check.</td>
+</tr>
+<tr>
+<td>index.html:training.Google-Extended</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/robots.txt: training policy allowed=false; informational only</td>
+<td>Preserve the owner&#39;s training policy; it is not a search eligibility check.</td>
+</tr>
+<tr>
+<td>index.html:jsonld-syntax.1</td>
+<td>pass</td>
+<td>/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html: JSON-LD parses as an object or array</td>
+<td>Review structured-data semantics separately.</td>
+</tr>
+<tr>
+<td>schema-semantics</td>
+<td>unknown</td>
+<td>JSON parsing does not establish Schema.org validity or rich-result eligibility.</td>
+<td>Use the applicable schema and search validation tools.</td>
+</tr>
+<tr>
+<td>live-indexing</td>
+<td>unknown</td>
+<td>Only local HTML/crawler files were read. HTTP status, headers, WAF, JavaScript rendering, indexing, rankings, and citations were not measured.</td>
+<td>Inspect deployment and supported search tools separately.</td>
+</tr>
+<tr>
+<td>llms-txt</td>
+<td>pass</td>
+<td>Optional llms.txt absent; no readiness penalty.</td>
+<td>Treat as an optional experiment.</td>
+</tr>
+</tbody></table>
+<h2>Details</h2>
+<pre><code class="language-json">{
+  &quot;config&quot;: &quot;/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/config.yaml&quot;,
+  &quot;files&quot;: [
+    &quot;/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/public/index.html&quot;
+  ],
+  &quot;sitemap&quot;: {
+    &quot;entries&quot;: 1,
+    &quot;uniqueUrls&quot;: 1,
+    &quot;duplicateEntries&quot;: 0,
+    &quot;duplicates&quot;: []
+  }
+}
+</code></pre>

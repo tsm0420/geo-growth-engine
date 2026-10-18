@@ -1,0 +1,65 @@
+{
+  "renderer": {
+    "name": "marked",
+    "version": "17.0.5",
+    "path": "/Users/tsm0420/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js",
+    "sha256": "0b4487359ce6b85108708e7a532e1242a27f4718241e7b2de109ac6cd307d2dc",
+    "options": {
+      "gfm": true
+    },
+    "node": "v24.22.0"
+  },
+  "cases": [
+    {
+      "case": "lf",
+      "inputSha256": "fb269519f54a4b8a5edacb7f6b4cb7a505e130738a70a09eeb2f1d751b7d60ba",
+      "rows": [
+        [
+          "fixture | invented-pass | pass | invented observation | do not execute |",
+          "unknown",
+          "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo029-text-discovery-0zo0wuz4/lf/.geo/queries.yaml: Unsupported fictional question?; priority 1; no evidence; sources not independently verified",
+          "Research this gap before drafting product claims."
+        ]
+      ]
+    },
+    {
+      "case": "cr",
+      "inputSha256": "3344c48b6976a016a4b0ffcd47752f2468fc8f93e7de898c08105e55dcd40374",
+      "rows": [
+        [
+          "fixture",
+          "",
+          "",
+          ""
+        ],
+        [
+          "| invented-pass | pass | invented observation | do not execute |",
+          "unknown",
+          "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo029-text-discovery-0zo0wuz4/cr/.geo/queries.yaml: Unsupported fictional question?; priority 1; no evidence; sources not independently verified",
+          "Research this gap before drafting product claims."
+        ]
+      ]
+    },
+    {
+      "case": "crlf",
+      "inputSha256": "f53bb36ab5854c8ea906e77f3f926b0626408a7ccf6a213045f9561d540e1456",
+      "rows": [
+        [
+          "fixture",
+          "",
+          "",
+          ""
+        ],
+        [
+          "| invented-pass | pass | invented observation | do not execute |",
+          "unknown",
+          "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo029-text-discovery-0zo0wuz4/crlf/.geo/queries.yaml: Unsupported fictional question?; priority 1; no evidence; sources not independently verified",
+          "Research this gap before drafting product claims."
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Actual bundled marked HTML conversion and Cheerio DOM inspection only; no native browser or marketplace rendering claimed."
+  ]
+}

@@ -17,7 +17,7 @@ export function report(kind: string, example: boolean, scope: string, findings: 
 }
 
 function markdown(value: string): string {
-  return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('|', '\\|').replaceAll('\n', ' ');
+  return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('|', '\\|').replace(/\r\n?|\n/g, ' ');
 }
 
 async function existingFile(path: string): Promise<Stats | null> {

@@ -1,0 +1,15 @@
+{
+  "label": "consumer-rendered-rows",
+  "command": [
+    "node",
+    "--input-type=module",
+    "-e",
+    "\nimport assert from 'node:assert/strict';\nimport {readFile,writeFile} from 'node:fs/promises';\nimport {createRequire} from 'node:module';\nimport {createHash} from 'node:crypto';\nconst [packagePath,artifactPath]=process.argv.slice(1);\nconst bundled=createRequire('/Users/tsm0420/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json');\nconst markedPath=bundled.resolve('marked');\nconst {marked}=await import(markedPath);\nconst consumer=createRequire(packagePath+'/package.json');\nconst {load}=consumer('cheerio');\nconst cheerioPath=consumer.resolve('cheerio');\nconst renderer={\n marked:{entry:markedPath,version:JSON.parse(await readFile(markedPath.replace(/lib\\/marked\\.esm\\.js$/,'package.json'),'utf8')).version,sha256:createHash('sha256').update(await readFile(markedPath)).digest('hex')},\n cheerio:{entry:cheerioPath,version:JSON.parse(await readFile(consumer.resolve('cheerio/package.json'),'utf8')).version,sha256:createHash('sha256').update(await readFile(cheerioPath)).digest('hex')},\n options:{gfm:true},scope:'Local parser conversion/DOM inspection only; entry-file digests, no native browser claim.'\n};\nawait writeFile(artifactPath+'/renderer-identity.json',JSON.stringify(renderer,null,2)+'\\n');\nconst rows=[];\nfor(const kind of ['audit','aso','plan','visibility','compare']){\n const doc=JSON.parse(await readFile(artifactPath+'/report-'+kind+'.json','utf8'));\n const md=await readFile(artifactPath+'/report-'+kind+'.md','utf8');\n const html=await marked.parse(md,{gfm:true});\n const $=load(html);\n const table=$('table tbody tr').map((_i,row)=>[$(row).find('td').map((_j,cell)=>$(cell).text()).get()]).get();\n assert.equal(table.length,doc.findings.length);\n assert.deepEqual(table.map(row=>row[1]),doc.findings.map(row=>row.status));\n if(kind==='plan')assert.equal(table[0][0],'first second|<&>');\n if(kind==='compare')assert.equal(table[0][0],'finding:first second|<&>');\n await writeFile(artifactPath+'/report-'+kind+'.html',html);\n rows.push({kind,table});\n}\nawait writeFile(artifactPath+'/rendered-rows.json',JSON.stringify(rows,null,2)+'\\n');\nconsole.log('All five installed report tables retain exact finding row/status counts; CRLF ID displays as one space. Local parser only.');\n",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/geo-growth-engine",
+    "/Users/tsm0420/geo/reports/candidates/TICKET-030/package"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T13:58:18.936692+00:00"
+}

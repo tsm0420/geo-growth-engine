@@ -1,0 +1,101 @@
+✔ plan keeps LF supplied text in one Markdown finding row and preserves JSON (157.634417ms)
+✖ plan keeps CR supplied text in one Markdown finding row and preserves JSON (156.683708ms)
+✖ plan keeps CRLF supplied text in one Markdown finding row and preserves JSON (164.081834ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 1
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 545.585958
+
+✖ failing tests:
+
+test at tests/markdown-integrity.test.ts:16:3
+✖ plan keeps CR supplied text in one Markdown finding row and preserves JSON (156.683708ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /\r/. Input:
+  
+  '# plan report\n' +
+    '\n' +
+    '**FICTIONAL EXAMPLE — not a product measurement.**\n' +
+    '\n' +
+    'Generated: 2026-10-18T13:52:40.939Z\n' +
+    '\n' +
+    'Supplied questions and fact references only; no traffic estimates or automatic publication.\n' +
+    '\n' +
+    'Pass: 0; fail: 0; unknown: 1.\n' +
+    '\n' +
+    '| Check | Status | Evidence | Next action |\n' +
+    '| --- | --- | --- | --- |\n' +
+    '| first\rsecond\\|&lt;&amp;&gt; | unknown | /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-3nVBUC/.geo/queries.yaml: question\rcontinued?; priority 1; no evidence; sources not independently verified | Research this gap before drafting product claims. |\n' +
+    '\n' +
+    '## Details\n' +
+    '\n' +
+    '```json\n' +
+    '{\n' +
+    '  "opportunities": [],\n' +
+    '  "researchGaps": [\n' +
+    '    {\n' +
+    '      "queryId": "first\\rsecond|<&>",\n' +
+    '      "query": "question\\rcontinued?",\n' +
+    '      "reason": "No supporting product fact linked."\n' +
+    '    }\n' +
+    '  ]\n' +
+    '}\n' +
+    '```\n'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/markdown-integrity.test.ts:33:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '# plan report\n\n**FICTIONAL EXAMPLE — not a product measurement.**\n\nGenerated: 2026-10-18T13:52:40.939Z\n\nSupplied questions and fact references only; no traffic estimates or automatic publication.\n\nPass: 0; fail: 0; unknown: 1.\n\n| Check | Status | Evidence | Next action |\n| --- | --- | --- | --- |\n| first\rsecond\\|&lt;&amp;&gt; | unknown | /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-3nVBUC/.geo/queries.yaml: question\rcontinued?; priority 1; no evidence; sources not independently verified | Research this gap before drafting product claims. |\n\n## Details\n\n```json\n{\n  "opportunities": [],\n  "researchGaps": [\n    {\n      "queryId": "first\\rsecond|<&>",\n      "query": "question\\rcontinued?",\n      "reason": "No supporting product fact linked."\n    }\n  ]\n}\n```\n',
+    expected: /\r/,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }
+
+test at tests/markdown-integrity.test.ts:16:3
+✖ plan keeps CRLF supplied text in one Markdown finding row and preserves JSON (164.081834ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /\r/. Input:
+  
+  '# plan report\n' +
+    '\n' +
+    '**FICTIONAL EXAMPLE — not a product measurement.**\n' +
+    '\n' +
+    'Generated: 2026-10-18T13:52:41.103Z\n' +
+    '\n' +
+    'Supplied questions and fact references only; no traffic estimates or automatic publication.\n' +
+    '\n' +
+    'Pass: 0; fail: 0; unknown: 1.\n' +
+    '\n' +
+    '| Check | Status | Evidence | Next action |\n' +
+    '| --- | --- | --- | --- |\n' +
+    '| first\r second\\|&lt;&amp;&gt; | unknown | /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-TElkaL/.geo/queries.yaml: question\r continued?; priority 1; no evidence; sources not independently verified | Research this gap before drafting product claims. |\n' +
+    '\n' +
+    '## Details\n' +
+    '\n' +
+    '```json\n' +
+    '{\n' +
+    '  "opportunities": [],\n' +
+    '  "researchGaps": [\n' +
+    '    {\n' +
+    '      "queryId": "first\\r\\nsecond|<&>",\n' +
+    '      "query": "question\\r\\ncontinued?",\n' +
+    '      "reason": "No supporting product fact linked."\n' +
+    '    }\n' +
+    '  ]\n' +
+    '}\n' +
+    '```\n'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/markdown-integrity.test.ts:33:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '# plan report\n\n**FICTIONAL EXAMPLE — not a product measurement.**\n\nGenerated: 2026-10-18T13:52:41.103Z\n\nSupplied questions and fact references only; no traffic estimates or automatic publication.\n\nPass: 0; fail: 0; unknown: 1.\n\n| Check | Status | Evidence | Next action |\n| --- | --- | --- | --- |\n| first\r second\\|&lt;&amp;&gt; | unknown | /private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo-test-TElkaL/.geo/queries.yaml: question\r continued?; priority 1; no evidence; sources not independently verified | Research this gap before drafting product claims. |\n\n## Details\n\n```json\n{\n  "opportunities": [],\n  "researchGaps": [\n    {\n      "queryId": "first\\r\\nsecond|<&>",\n      "query": "question\\r\\ncontinued?",\n      "reason": "No supporting product fact linked."\n    }\n  ]\n}\n```\n',
+    expected: /\r/,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }

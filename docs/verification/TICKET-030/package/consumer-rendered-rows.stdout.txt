@@ -1,0 +1,1 @@
+All five installed report tables retain exact finding row/status counts; CRLF ID displays as one space. Local parser only.

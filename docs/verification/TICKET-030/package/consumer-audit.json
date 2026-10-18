@@ -1,0 +1,15 @@
+{
+  "label": "consumer-audit",
+  "command": [
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer/node_modules/.bin/geo",
+    "audit",
+    "--config",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/fixture/.geo/config.yaml",
+    "--output",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/audit"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/consumer",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T13:58:18.178902+00:00"
+}

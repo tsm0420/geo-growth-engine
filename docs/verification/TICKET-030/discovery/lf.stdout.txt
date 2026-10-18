@@ -1,0 +1,1 @@
+{"output":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo029-text-discovery-0zo0wuz4/lf-output","pass":0,"fail":0,"unknown":1}

@@ -1,0 +1,15 @@
+{
+  "label": "pack",
+  "command": [
+    "npm",
+    "pack",
+    "--ignore-scripts",
+    "--json",
+    "--pack-destination",
+    "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6"
+  ],
+  "cwd": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo030-package-qrmdnlm6/source",
+  "exitCode": 0,
+  "expectedExit": 0,
+  "at": "2026-10-18T13:58:16.926444+00:00"
+}
