@@ -1,0 +1,94 @@
+{
+  "mainRevision": "52233767e6b5fc1c04ab95567c8ab0def7c5da42",
+  "runtime": "v24.22.0",
+  "root": "/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo033-sitemap-discovery-4qspzywm",
+  "auditSourceSha256": "a91eee7fc08dbf038e485c1effb18b7e5db2f5a12bbdd1710d315fbdb20cdb8f",
+  "builtAuditSha256": "9be9e41dce9e196d2378cbdd4d5c7d1106d4f1512060f4fd9466f9e6c96b0205",
+  "observations": [
+    {
+      "case": "direct",
+      "exitCode": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    },
+    {
+      "case": "root-loc",
+      "exitCode": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    },
+    {
+      "case": "metadata-loc",
+      "exitCode": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    },
+    {
+      "case": "nested-url",
+      "exitCode": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    },
+    {
+      "case": "unrelated-sibling",
+      "exitCode": 1,
+      "checks": {
+        "sitemap": "fail",
+        "sitemap-duplicates": "unknown",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": null
+    },
+    {
+      "case": "extension",
+      "exitCode": 0,
+      "checks": {
+        "sitemap": "pass",
+        "sitemap-duplicates": "pass",
+        "index.html:sitemap-coverage": "pass"
+      },
+      "sitemap": {
+        "entries": 1,
+        "uniqueUrls": 1,
+        "duplicateEntries": 0,
+        "duplicates": []
+      }
+    }
+  ]
+}

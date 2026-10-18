@@ -1,0 +1,1 @@
+{"output":"/private/var/folders/gx/cmmmfvr17c7dkpfhny0xklnh0000gn/T/geo033-sitemap-discovery-4qspzywm/metadata-loc","pass":17,"fail":0,"unknown":2}

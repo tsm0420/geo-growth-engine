@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "--test",
+    "tests/sitemap-scope.test.ts"
+  ],
+  "exitCode": 1,
+  "testSha256": "36f069ce68afeec66e8cf854e9817ab21bade32b2be63c50634aaa4c85f9a341"
+}

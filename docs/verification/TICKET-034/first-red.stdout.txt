@@ -1,0 +1,119 @@
+✖ audit excludes root loc from sitemap page evidence (175.956583ms)
+✖ audit excludes metadata loc from sitemap page evidence (160.690291ms)
+✖ audit excludes nested url from sitemap page evidence (165.375167ms)
+✖ audit excludes nested loc from sitemap page evidence (164.624875ms)
+✖ audit excludes wrapped urlset from sitemap page evidence (165.686542ms)
+✖ audit excludes sitemap index from sitemap page evidence (167.080333ms)
+✔ audit retains a scalar direct sitemap entry without namespace enforcement (168.75025ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 1
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1235.638041
+
+✖ failing tests:
+
+test at tests/sitemap-scope.test.ts:25:3
+✖ audit excludes root loc from sitemap page evidence (175.956583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/sitemap-scope.test.ts:27:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/sitemap-scope.test.ts:25:3
+✖ audit excludes metadata loc from sitemap page evidence (160.690291ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/sitemap-scope.test.ts:27:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/sitemap-scope.test.ts:25:3
+✖ audit excludes nested url from sitemap page evidence (165.375167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/sitemap-scope.test.ts:27:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/sitemap-scope.test.ts:25:3
+✖ audit excludes nested loc from sitemap page evidence (164.624875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/sitemap-scope.test.ts:27:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/sitemap-scope.test.ts:25:3
+✖ audit excludes wrapped urlset from sitemap page evidence (165.686542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/sitemap-scope.test.ts:31:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/sitemap-scope.test.ts:25:3
+✖ audit excludes sitemap index from sitemap page evidence (167.080333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'pass' !== 'fail'
+  
+      at TestContext.<anonymous> (file:///Users/tsm0420/geo/tests/sitemap-scope.test.ts:31:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'pass',
+    expected: 'fail',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
